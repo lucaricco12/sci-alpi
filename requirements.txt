@@ -1,0 +1,17 @@
+pandas
+numpy
+requests
+eurostat
+matplotlib
+seaborn
+beautifulsoup4
+lxml
+folium
+geopy
+scikit-learn
+statsmodels
+scipy
+sqlalchemy
+psycopg2-binary
+jupyter
+ipykernel
