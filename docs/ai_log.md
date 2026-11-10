@@ -15,3 +15,9 @@ Required for the final project: which AI tools we used, for which tasks, advanta
 - **Main advantages:**
 - **Main disadvantages:**
 - **Where AI did not work:**
+
+## 2026-11-10 – Lorenzo: Pilot Web Scraper Implementation
+* **Tool Used:** Gemini Notebook
+* **Task:** Implement an ethical BeautifulSoup scraper for 10 pilot ski resorts on skiresort.info to extract elevations, slope lengths, lifts, ticket prices, ratings, and snowmaking variables.
+* **What worked:** Strict robots.txt compliance (`Allow: /`), raw HTML caching in `data/raw/html_resorts/`, request throttling (2.5 s delay), and unicode normalization (`NFKD`).
+* **Limitations solved:** Fixed regex failure on 3-digit valley altitudes (e.g., Kitzbühel at 800m) and non-standard en-dashes (`–`); eliminated terminal display truncation by configuring pandas display options; prevented `<NA>` values by deploying a verified schema fallback.

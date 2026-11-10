@@ -1,0 +1,11 @@
+resort_name,country,elevation_base_m,elevation_top_m,slope_km,lifts_count,price_day_raw,currency,rating_stars,snow_cannons,snow_making_pct
+Zermatt-Matterhorn,CH,1562,3899,322.0,51,116.0,CHF,4.9,1250,80
+St. Moritz - Corviglia,CH,1772,3057,155.0,23,89.0,CHF,4.7,380,90
+Andermatt-Sedrun,CH,1444,2961,180.0,21,89.0,CHF,4.9,350,75
+Cervinia-Valtournenche,IT,1562,3899,322.0,51,59.0,EUR,4.9,980,70
+Livigno,IT,1816,2798,115.0,32,63.5,EUR,4.4,450,70
+Aprica,IT,1162,2270,50.0,16,49.0,EUR,3.7,210,85
+Kitzbuehel,AT,800,2000,188.0,58,72.0,EUR,4.9,1100,92
+Soelden,AT,1350,3340,143.4,31,75.5,EUR,4.7,800,77
+Chamonix,FR,1000,1900,55.0,17,53.0,EUR,4.9,175,65
+Les 2 Alpes,FR,1280,3523,200.0,40,60.0,EUR,4.3,250,40
