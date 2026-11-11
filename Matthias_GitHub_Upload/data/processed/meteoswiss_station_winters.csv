@@ -1,0 +1,401 @@
+station_id,lat,lon,elev_m,winter,snow_days_30cm,station_name,period,observed_days,source
+ABO,46.491703,7.560703,1321.0,1986,63,Adelboden,past,136,MeteoSwiss
+ABO,46.491703,7.560703,1321.0,1987,112,Adelboden,past,136,MeteoSwiss
+ABO,46.491703,7.560703,1321.0,1988,57,Adelboden,past,137,MeteoSwiss
+ABO,46.491703,7.560703,1321.0,1989,17,Adelboden,past,136,MeteoSwiss
+ABO,46.491703,7.560703,1321.0,1990,2,Adelboden,past,136,MeteoSwiss
+ABO,46.491703,7.560703,1321.0,1991,10,Adelboden,past,136,MeteoSwiss
+ABO,46.491703,7.560703,1321.0,1992,36,Adelboden,past,137,MeteoSwiss
+ABO,46.491703,7.560703,1321.0,1993,8,Adelboden,past,136,MeteoSwiss
+ABO,46.491703,7.560703,1321.0,1994,6,Adelboden,past,136,MeteoSwiss
+ABO,46.491703,7.560703,1321.0,1995,29,Adelboden,past,136,MeteoSwiss
+ABO,46.491703,7.560703,1321.0,2016,19,Adelboden,recent,137,MeteoSwiss
+ABO,46.491703,7.560703,1321.0,2017,29,Adelboden,recent,136,MeteoSwiss
+ABO,46.491703,7.560703,1321.0,2018,15,Adelboden,recent,136,MeteoSwiss
+ABO,46.491703,7.560703,1321.0,2019,67,Adelboden,recent,136,MeteoSwiss
+ABO,46.491703,7.560703,1321.0,2020,2,Adelboden,recent,137,MeteoSwiss
+ABO,46.491703,7.560703,1321.0,2021,37,Adelboden,recent,136,MeteoSwiss
+ABO,46.491703,7.560703,1321.0,2022,44,Adelboden,recent,136,MeteoSwiss
+ABO,46.491703,7.560703,1321.0,2023,1,Adelboden,recent,136,MeteoSwiss
+ABO,46.491703,7.560703,1321.0,2024,10,Adelboden,recent,137,MeteoSwiss
+ABO,46.491703,7.560703,1321.0,2025,11,Adelboden,recent,136,MeteoSwiss
+ARO,46.792661,9.679014,1878.0,1986,114,Arosa,past,136,MeteoSwiss
+ARO,46.792661,9.679014,1878.0,1987,119,Arosa,past,136,MeteoSwiss
+ARO,46.792661,9.679014,1878.0,1988,95,Arosa,past,137,MeteoSwiss
+ARO,46.792661,9.679014,1878.0,1989,131,Arosa,past,136,MeteoSwiss
+ARO,46.792661,9.679014,1878.0,1990,64,Arosa,past,136,MeteoSwiss
+ARO,46.792661,9.679014,1878.0,1991,133,Arosa,past,136,MeteoSwiss
+ARO,46.792661,9.679014,1878.0,1992,120,Arosa,past,137,MeteoSwiss
+ARO,46.792661,9.679014,1878.0,1993,133,Arosa,past,136,MeteoSwiss
+ARO,46.792661,9.679014,1878.0,1994,126,Arosa,past,136,MeteoSwiss
+ARO,46.792661,9.679014,1878.0,1995,104,Arosa,past,136,MeteoSwiss
+ARO,46.792661,9.679014,1878.0,2016,92,Arosa,recent,137,MeteoSwiss
+ARO,46.792661,9.679014,1878.0,2017,84,Arosa,recent,136,MeteoSwiss
+ARO,46.792661,9.679014,1878.0,2018,136,Arosa,recent,136,MeteoSwiss
+ARO,46.792661,9.679014,1878.0,2019,127,Arosa,recent,136,MeteoSwiss
+ARO,46.792661,9.679014,1878.0,2020,130,Arosa,recent,137,MeteoSwiss
+ARO,46.792661,9.679014,1878.0,2021,131,Arosa,recent,136,MeteoSwiss
+ARO,46.792661,9.679014,1878.0,2022,136,Arosa,recent,136,MeteoSwiss
+ARO,46.792661,9.679014,1878.0,2023,80,Arosa,recent,136,MeteoSwiss
+ARO,46.792661,9.679014,1878.0,2024,137,Arosa,recent,137,MeteoSwiss
+ARO,46.792661,9.679014,1878.0,2025,109,Arosa,recent,136,MeteoSwiss
+BIV,46.462494,9.668639,1856.0,1986,130,Bivio,past,136,MeteoSwiss
+BIV,46.462494,9.668639,1856.0,1987,119,Bivio,past,136,MeteoSwiss
+BIV,46.462494,9.668639,1856.0,1988,102,Bivio,past,137,MeteoSwiss
+BIV,46.462494,9.668639,1856.0,1989,129,Bivio,past,136,MeteoSwiss
+BIV,46.462494,9.668639,1856.0,1990,62,Bivio,past,136,MeteoSwiss
+BIV,46.462494,9.668639,1856.0,1991,104,Bivio,past,136,MeteoSwiss
+BIV,46.462494,9.668639,1856.0,1992,121,Bivio,past,137,MeteoSwiss
+BIV,46.462494,9.668639,1856.0,1993,133,Bivio,past,136,MeteoSwiss
+BIV,46.462494,9.668639,1856.0,1994,115,Bivio,past,136,MeteoSwiss
+BIV,46.462494,9.668639,1856.0,1995,110,Bivio,past,136,MeteoSwiss
+BIV,46.462494,9.668639,1856.0,2016,62,Bivio,recent,137,MeteoSwiss
+BIV,46.462494,9.668639,1856.0,2017,70,Bivio,recent,136,MeteoSwiss
+BIV,46.462494,9.668639,1856.0,2018,127,Bivio,recent,136,MeteoSwiss
+BIV,46.462494,9.668639,1856.0,2019,125,Bivio,recent,136,MeteoSwiss
+BIV,46.462494,9.668639,1856.0,2020,108,Bivio,recent,137,MeteoSwiss
+BIV,46.462494,9.668639,1856.0,2021,132,Bivio,recent,136,MeteoSwiss
+BIV,46.462494,9.668639,1856.0,2022,136,Bivio,recent,136,MeteoSwiss
+BIV,46.462494,9.668639,1856.0,2023,13,Bivio,recent,136,MeteoSwiss
+BIV,46.462494,9.668639,1856.0,2024,126,Bivio,recent,137,MeteoSwiss
+BIV,46.462494,9.668639,1856.0,2025,70,Bivio,recent,136,MeteoSwiss
+BOS,46.316789,8.488719,1486.0,1986,114,Bosco/Gurin,past,136,MeteoSwiss
+BOS,46.316789,8.488719,1486.0,1987,118,Bosco/Gurin,past,136,MeteoSwiss
+BOS,46.316789,8.488719,1486.0,1988,136,Bosco/Gurin,past,137,MeteoSwiss
+BOS,46.316789,8.488719,1486.0,1989,126,Bosco/Gurin,past,136,MeteoSwiss
+BOS,46.316789,8.488719,1486.0,1990,50,Bosco/Gurin,past,136,MeteoSwiss
+BOS,46.316789,8.488719,1486.0,1991,132,Bosco/Gurin,past,136,MeteoSwiss
+BOS,46.316789,8.488719,1486.0,1992,135,Bosco/Gurin,past,137,MeteoSwiss
+BOS,46.316789,8.488719,1486.0,1993,104,Bosco/Gurin,past,136,MeteoSwiss
+BOS,46.316789,8.488719,1486.0,1994,120,Bosco/Gurin,past,136,MeteoSwiss
+BOS,46.316789,8.488719,1486.0,1995,88,Bosco/Gurin,past,136,MeteoSwiss
+BOS,46.316789,8.488719,1486.0,2016,55,Bosco/Gurin,recent,137,MeteoSwiss
+BOS,46.316789,8.488719,1486.0,2017,26,Bosco/Gurin,recent,136,MeteoSwiss
+BOS,46.316789,8.488719,1486.0,2018,125,Bosco/Gurin,recent,136,MeteoSwiss
+BOS,46.316789,8.488719,1486.0,2019,60,Bosco/Gurin,recent,136,MeteoSwiss
+BOS,46.316789,8.488719,1486.0,2020,113,Bosco/Gurin,recent,137,MeteoSwiss
+BOS,46.316789,8.488719,1486.0,2021,116,Bosco/Gurin,recent,136,MeteoSwiss
+BOS,46.316789,8.488719,1486.0,2022,0,Bosco/Gurin,recent,136,MeteoSwiss
+BOS,46.316789,8.488719,1486.0,2023,19,Bosco/Gurin,recent,136,MeteoSwiss
+BOS,46.316789,8.488719,1486.0,2024,51,Bosco/Gurin,recent,137,MeteoSwiss
+BOS,46.316789,8.488719,1486.0,2025,87,Bosco/Gurin,recent,136,MeteoSwiss
+CHD,46.479819,7.139656,1028.0,1986,50,Château-d'Oex,past,136,MeteoSwiss
+CHD,46.479819,7.139656,1028.0,1987,103,Château-d'Oex,past,136,MeteoSwiss
+CHD,46.479819,7.139656,1028.0,1988,53,Château-d'Oex,past,137,MeteoSwiss
+CHD,46.479819,7.139656,1028.0,1989,17,Château-d'Oex,past,136,MeteoSwiss
+CHD,46.479819,7.139656,1028.0,1990,0,Château-d'Oex,past,136,MeteoSwiss
+CHD,46.479819,7.139656,1028.0,1991,33,Château-d'Oex,past,136,MeteoSwiss
+CHD,46.479819,7.139656,1028.0,1992,3,Château-d'Oex,past,137,MeteoSwiss
+CHD,46.479819,7.139656,1028.0,1993,15,Château-d'Oex,past,136,MeteoSwiss
+CHD,46.479819,7.139656,1028.0,1994,6,Château-d'Oex,past,136,MeteoSwiss
+CHD,46.479819,7.139656,1028.0,1995,29,Château-d'Oex,past,136,MeteoSwiss
+CHD,46.479819,7.139656,1028.0,2016,10,Château-d'Oex,recent,137,MeteoSwiss
+CHD,46.479819,7.139656,1028.0,2017,29,Château-d'Oex,recent,136,MeteoSwiss
+CHD,46.479819,7.139656,1028.0,2018,20,Château-d'Oex,recent,136,MeteoSwiss
+CHD,46.479819,7.139656,1028.0,2019,27,Château-d'Oex,recent,136,MeteoSwiss
+CHD,46.479819,7.139656,1028.0,2020,0,Château-d'Oex,recent,137,MeteoSwiss
+CHD,46.479819,7.139656,1028.0,2021,10,Château-d'Oex,recent,136,MeteoSwiss
+CHD,46.479819,7.139656,1028.0,2022,19,Château-d'Oex,recent,136,MeteoSwiss
+CHD,46.479819,7.139656,1028.0,2023,4,Château-d'Oex,recent,136,MeteoSwiss
+CHD,46.479819,7.139656,1028.0,2024,3,Château-d'Oex,recent,137,MeteoSwiss
+CHD,46.479819,7.139656,1028.0,2025,8,Château-d'Oex,recent,136,MeteoSwiss
+CHM,47.049169,6.978825,1136.0,1986,84,Chaumont,past,136,MeteoSwiss
+CHM,47.049169,6.978825,1136.0,1987,93,Chaumont,past,136,MeteoSwiss
+CHM,47.049169,6.978825,1136.0,1988,64,Chaumont,past,137,MeteoSwiss
+CHM,47.049169,6.978825,1136.0,1989,7,Chaumont,past,136,MeteoSwiss
+CHM,47.049169,6.978825,1136.0,1990,0,Chaumont,past,136,MeteoSwiss
+CHM,47.049169,6.978825,1136.0,1991,38,Chaumont,past,136,MeteoSwiss
+CHM,47.049169,6.978825,1136.0,1992,17,Chaumont,past,137,MeteoSwiss
+CHM,47.049169,6.978825,1136.0,1993,4,Chaumont,past,136,MeteoSwiss
+CHM,47.049169,6.978825,1136.0,1994,27,Chaumont,past,136,MeteoSwiss
+CHM,47.049169,6.978825,1136.0,1995,56,Chaumont,past,136,MeteoSwiss
+CHM,47.049169,6.978825,1136.0,2016,13,Chaumont,recent,137,MeteoSwiss
+CHM,47.049169,6.978825,1136.0,2017,5,Chaumont,recent,136,MeteoSwiss
+CHM,47.049169,6.978825,1136.0,2018,17,Chaumont,recent,136,MeteoSwiss
+CHM,47.049169,6.978825,1136.0,2019,22,Chaumont,recent,136,MeteoSwiss
+CHM,47.049169,6.978825,1136.0,2020,0,Chaumont,recent,137,MeteoSwiss
+CHM,47.049169,6.978825,1136.0,2021,34,Chaumont,recent,136,MeteoSwiss
+CHM,47.049169,6.978825,1136.0,2022,16,Chaumont,recent,136,MeteoSwiss
+CHM,47.049169,6.978825,1136.0,2023,0,Chaumont,recent,136,MeteoSwiss
+CHM,47.049169,6.978825,1136.0,2024,3,Chaumont,recent,137,MeteoSwiss
+CHM,47.049169,6.978825,1136.0,2025,6,Chaumont,recent,136,MeteoSwiss
+DAV,46.812969,9.843558,1594.0,1986,111,Davos,past,136,MeteoSwiss
+DAV,46.812969,9.843558,1594.0,1987,120,Davos,past,136,MeteoSwiss
+DAV,46.812969,9.843558,1594.0,1988,85,Davos,past,137,MeteoSwiss
+DAV,46.812969,9.843558,1594.0,1989,110,Davos,past,136,MeteoSwiss
+DAV,46.812969,9.843558,1594.0,1990,41,Davos,past,136,MeteoSwiss
+DAV,46.812969,9.843558,1594.0,1991,88,Davos,past,136,MeteoSwiss
+DAV,46.812969,9.843558,1594.0,1992,119,Davos,past,137,MeteoSwiss
+DAV,46.812969,9.843558,1594.0,1993,118,Davos,past,136,MeteoSwiss
+DAV,46.812969,9.843558,1594.0,1994,111,Davos,past,136,MeteoSwiss
+DAV,46.812969,9.843558,1594.0,1995,98,Davos,past,136,MeteoSwiss
+DAV,46.812969,9.843558,1594.0,2016,85,Davos,recent,137,MeteoSwiss
+DAV,46.812969,9.843558,1594.0,2017,74,Davos,recent,136,MeteoSwiss
+DAV,46.812969,9.843558,1594.0,2018,132,Davos,recent,136,MeteoSwiss
+DAV,46.812969,9.843558,1594.0,2019,126,Davos,recent,136,MeteoSwiss
+DAV,46.812969,9.843558,1594.0,2020,121,Davos,recent,137,MeteoSwiss
+DAV,46.812969,9.843558,1594.0,2021,131,Davos,recent,136,MeteoSwiss
+DAV,46.812969,9.843558,1594.0,2022,133,Davos,recent,136,MeteoSwiss
+DAV,46.812969,9.843558,1594.0,2023,25,Davos,recent,136,MeteoSwiss
+DAV,46.812969,9.843558,1594.0,2024,126,Davos,recent,137,MeteoSwiss
+DAV,46.812969,9.843558,1594.0,2025,91,Davos,recent,136,MeteoSwiss
+DIS,46.706569,8.853478,1197.0,1986,65,Disentis,past,136,MeteoSwiss
+DIS,46.706569,8.853478,1197.0,1987,110,Disentis,past,136,MeteoSwiss
+DIS,46.706569,8.853478,1197.0,1988,42,Disentis,past,137,MeteoSwiss
+DIS,46.706569,8.853478,1197.0,1989,4,Disentis,past,136,MeteoSwiss
+DIS,46.706569,8.853478,1197.0,1990,15,Disentis,past,136,MeteoSwiss
+DIS,46.706569,8.853478,1197.0,1991,95,Disentis,past,136,MeteoSwiss
+DIS,46.706569,8.853478,1197.0,1992,112,Disentis,past,137,MeteoSwiss
+DIS,46.706569,8.853478,1197.0,1993,20,Disentis,past,136,MeteoSwiss
+DIS,46.706569,8.853478,1197.0,1994,38,Disentis,past,136,MeteoSwiss
+DIS,46.706569,8.853478,1197.0,1995,70,Disentis,past,136,MeteoSwiss
+DIS,46.706569,8.853478,1197.0,2016,5,Disentis,recent,137,MeteoSwiss
+DIS,46.706569,8.853478,1197.0,2017,3,Disentis,recent,136,MeteoSwiss
+DIS,46.706569,8.853478,1197.0,2018,73,Disentis,recent,136,MeteoSwiss
+DIS,46.706569,8.853478,1197.0,2019,58,Disentis,recent,136,MeteoSwiss
+DIS,46.706569,8.853478,1197.0,2020,4,Disentis,recent,137,MeteoSwiss
+DIS,46.706569,8.853478,1197.0,2021,72,Disentis,recent,136,MeteoSwiss
+DIS,46.706569,8.853478,1197.0,2022,48,Disentis,recent,136,MeteoSwiss
+DIS,46.706569,8.853478,1197.0,2023,1,Disentis,recent,136,MeteoSwiss
+DIS,46.706569,8.853478,1197.0,2024,11,Disentis,recent,137,MeteoSwiss
+DIS,46.706569,8.853478,1197.0,2025,11,Disentis,recent,136,MeteoSwiss
+GAD,46.73685,8.351136,1190.0,1986,106,Gadmen,past,136,MeteoSwiss
+GAD,46.73685,8.351136,1190.0,1987,120,Gadmen,past,136,MeteoSwiss
+GAD,46.73685,8.351136,1190.0,1988,81,Gadmen,past,137,MeteoSwiss
+GAD,46.73685,8.351136,1190.0,1989,102,Gadmen,past,136,MeteoSwiss
+GAD,46.73685,8.351136,1190.0,1990,4,Gadmen,past,136,MeteoSwiss
+GAD,46.73685,8.351136,1190.0,1991,99,Gadmen,past,136,MeteoSwiss
+GAD,46.73685,8.351136,1190.0,1992,114,Gadmen,past,137,MeteoSwiss
+GAD,46.73685,8.351136,1190.0,1993,53,Gadmen,past,136,MeteoSwiss
+GAD,46.73685,8.351136,1190.0,1994,98,Gadmen,past,136,MeteoSwiss
+GAD,46.73685,8.351136,1190.0,1995,107,Gadmen,past,136,MeteoSwiss
+GAD,46.73685,8.351136,1190.0,2016,88,Gadmen,recent,137,MeteoSwiss
+GAD,46.73685,8.351136,1190.0,2017,55,Gadmen,recent,136,MeteoSwiss
+GAD,46.73685,8.351136,1190.0,2018,132,Gadmen,recent,136,MeteoSwiss
+GAD,46.73685,8.351136,1190.0,2019,85,Gadmen,recent,136,MeteoSwiss
+GAD,46.73685,8.351136,1190.0,2020,37,Gadmen,recent,137,MeteoSwiss
+GAD,46.73685,8.351136,1190.0,2021,125,Gadmen,recent,136,MeteoSwiss
+GAD,46.73685,8.351136,1190.0,2022,112,Gadmen,recent,136,MeteoSwiss
+GAD,46.73685,8.351136,1190.0,2023,11,Gadmen,recent,136,MeteoSwiss
+GAD,46.73685,8.351136,1190.0,2024,29,Gadmen,recent,137,MeteoSwiss
+GAD,46.73685,8.351136,1190.0,2025,83,Gadmen,recent,136,MeteoSwiss
+GRH,46.571689,8.333256,1980.0,1986,136,Grimsel Hospiz,past,136,MeteoSwiss
+GRH,46.571689,8.333256,1980.0,1987,123,Grimsel Hospiz,past,136,MeteoSwiss
+GRH,46.571689,8.333256,1980.0,1988,137,Grimsel Hospiz,past,137,MeteoSwiss
+GRH,46.571689,8.333256,1980.0,1989,134,Grimsel Hospiz,past,136,MeteoSwiss
+GRH,46.571689,8.333256,1980.0,1990,118,Grimsel Hospiz,past,136,MeteoSwiss
+GRH,46.571689,8.333256,1980.0,1991,136,Grimsel Hospiz,past,136,MeteoSwiss
+GRH,46.571689,8.333256,1980.0,1992,125,Grimsel Hospiz,past,137,MeteoSwiss
+GRH,46.571689,8.333256,1980.0,1993,136,Grimsel Hospiz,past,136,MeteoSwiss
+GRH,46.571689,8.333256,1980.0,1994,129,Grimsel Hospiz,past,136,MeteoSwiss
+GRH,46.571689,8.333256,1980.0,1995,119,Grimsel Hospiz,past,136,MeteoSwiss
+GRH,46.571689,8.333256,1980.0,2016,135,Grimsel Hospiz,recent,137,MeteoSwiss
+GRH,46.571689,8.333256,1980.0,2017,93,Grimsel Hospiz,recent,136,MeteoSwiss
+GRH,46.571689,8.333256,1980.0,2018,136,Grimsel Hospiz,recent,136,MeteoSwiss
+GRH,46.571689,8.333256,1980.0,2019,132,Grimsel Hospiz,recent,136,MeteoSwiss
+GRH,46.571689,8.333256,1980.0,2020,137,Grimsel Hospiz,recent,137,MeteoSwiss
+GRH,46.571689,8.333256,1980.0,2021,132,Grimsel Hospiz,recent,136,MeteoSwiss
+GRH,46.571689,8.333256,1980.0,2022,136,Grimsel Hospiz,recent,136,MeteoSwiss
+GRH,46.571689,8.333256,1980.0,2023,130,Grimsel Hospiz,recent,136,MeteoSwiss
+GRH,46.571689,8.333256,1980.0,2024,137,Grimsel Hospiz,recent,137,MeteoSwiss
+GRH,46.571689,8.333256,1980.0,2025,136,Grimsel Hospiz,recent,136,MeteoSwiss
+GTT,46.656444,8.291717,1055.0,1986,89,Guttannen,past,136,MeteoSwiss
+GTT,46.656444,8.291717,1055.0,1987,114,Guttannen,past,136,MeteoSwiss
+GTT,46.656444,8.291717,1055.0,1988,76,Guttannen,past,137,MeteoSwiss
+GTT,46.656444,8.291717,1055.0,1989,97,Guttannen,past,136,MeteoSwiss
+GTT,46.656444,8.291717,1055.0,1990,1,Guttannen,past,136,MeteoSwiss
+GTT,46.656444,8.291717,1055.0,1991,94,Guttannen,past,136,MeteoSwiss
+GTT,46.656444,8.291717,1055.0,1992,84,Guttannen,past,137,MeteoSwiss
+GTT,46.656444,8.291717,1055.0,1993,21,Guttannen,past,136,MeteoSwiss
+GTT,46.656444,8.291717,1055.0,1994,10,Guttannen,past,136,MeteoSwiss
+GTT,46.656444,8.291717,1055.0,1995,89,Guttannen,past,136,MeteoSwiss
+GTT,46.656444,8.291717,1055.0,2016,35,Guttannen,recent,137,MeteoSwiss
+GTT,46.656444,8.291717,1055.0,2017,27,Guttannen,recent,136,MeteoSwiss
+GTT,46.656444,8.291717,1055.0,2018,30,Guttannen,recent,136,MeteoSwiss
+GTT,46.656444,8.291717,1055.0,2019,77,Guttannen,recent,136,MeteoSwiss
+GTT,46.656444,8.291717,1055.0,2020,4,Guttannen,recent,137,MeteoSwiss
+GTT,46.656444,8.291717,1055.0,2021,74,Guttannen,recent,136,MeteoSwiss
+GTT,46.656444,8.291717,1055.0,2022,96,Guttannen,recent,136,MeteoSwiss
+GTT,46.656444,8.291717,1055.0,2023,3,Guttannen,recent,136,MeteoSwiss
+GTT,46.656444,8.291717,1055.0,2024,9,Guttannen,recent,137,MeteoSwiss
+GTT,46.656444,8.291717,1055.0,2025,23,Guttannen,recent,136,MeteoSwiss
+ROB,46.347217,10.063031,1078.0,1986,86,Poschiavo / Robbia,past,136,MeteoSwiss
+ROB,46.347217,10.063031,1078.0,1987,0,Poschiavo / Robbia,past,136,MeteoSwiss
+ROB,46.347217,10.063031,1078.0,1988,16,Poschiavo / Robbia,past,137,MeteoSwiss
+ROB,46.347217,10.063031,1078.0,1989,2,Poschiavo / Robbia,past,136,MeteoSwiss
+ROB,46.347217,10.063031,1078.0,1990,1,Poschiavo / Robbia,past,136,MeteoSwiss
+ROB,46.347217,10.063031,1078.0,1991,14,Poschiavo / Robbia,past,136,MeteoSwiss
+ROB,46.347217,10.063031,1078.0,1992,1,Poschiavo / Robbia,past,137,MeteoSwiss
+ROB,46.347217,10.063031,1078.0,1993,0,Poschiavo / Robbia,past,136,MeteoSwiss
+ROB,46.347217,10.063031,1078.0,1994,2,Poschiavo / Robbia,past,136,MeteoSwiss
+ROB,46.347217,10.063031,1078.0,1995,22,Poschiavo / Robbia,past,136,MeteoSwiss
+ROB,46.347217,10.063031,1078.0,2016,1,Poschiavo / Robbia,recent,137,MeteoSwiss
+ROB,46.347217,10.063031,1078.0,2017,0,Poschiavo / Robbia,recent,136,MeteoSwiss
+ROB,46.347217,10.063031,1078.0,2018,7,Poschiavo / Robbia,recent,136,MeteoSwiss
+ROB,46.347217,10.063031,1078.0,2019,10,Poschiavo / Robbia,recent,136,MeteoSwiss
+ROB,46.347217,10.063031,1078.0,2020,1,Poschiavo / Robbia,recent,137,MeteoSwiss
+ROB,46.347217,10.063031,1078.0,2021,72,Poschiavo / Robbia,recent,136,MeteoSwiss
+ROB,46.347217,10.063031,1078.0,2022,0,Poschiavo / Robbia,recent,136,MeteoSwiss
+ROB,46.347217,10.063031,1078.0,2023,0,Poschiavo / Robbia,recent,136,MeteoSwiss
+ROB,46.347217,10.063031,1078.0,2024,0,Poschiavo / Robbia,recent,137,MeteoSwiss
+ROB,46.347217,10.063031,1078.0,2025,0,Poschiavo / Robbia,recent,136,MeteoSwiss
+SAM,46.526247,9.879469,1709.0,1986,113,Samedan,past,136,MeteoSwiss
+SAM,46.526247,9.879469,1709.0,1987,90,Samedan,past,136,MeteoSwiss
+SAM,46.526247,9.879469,1709.0,1988,99,Samedan,past,137,MeteoSwiss
+SAM,46.526247,9.879469,1709.0,1989,13,Samedan,past,136,MeteoSwiss
+SAM,46.526247,9.879469,1709.0,1990,38,Samedan,past,136,MeteoSwiss
+SAM,46.526247,9.879469,1709.0,1991,101,Samedan,past,136,MeteoSwiss
+SAM,46.526247,9.879469,1709.0,1992,119,Samedan,past,137,MeteoSwiss
+SAM,46.526247,9.879469,1709.0,1993,50,Samedan,past,136,MeteoSwiss
+SAM,46.526247,9.879469,1709.0,1994,87,Samedan,past,136,MeteoSwiss
+SAM,46.526247,9.879469,1709.0,1995,61,Samedan,past,136,MeteoSwiss
+SAM,46.526247,9.879469,1709.0,2016,23,Samedan,recent,137,MeteoSwiss
+SAM,46.526247,9.879469,1709.0,2017,2,Samedan,recent,136,MeteoSwiss
+SAM,46.526247,9.879469,1709.0,2018,110,Samedan,recent,136,MeteoSwiss
+SAM,46.526247,9.879469,1709.0,2019,97,Samedan,recent,136,MeteoSwiss
+SAM,46.526247,9.879469,1709.0,2020,44,Samedan,recent,137,MeteoSwiss
+SAM,46.526247,9.879469,1709.0,2021,119,Samedan,recent,136,MeteoSwiss
+SAM,46.526247,9.879469,1709.0,2022,82,Samedan,recent,136,MeteoSwiss
+SAM,46.526247,9.879469,1709.0,2023,0,Samedan,recent,136,MeteoSwiss
+SAM,46.526247,9.879469,1709.0,2024,96,Samedan,recent,137,MeteoSwiss
+SAM,46.526247,9.879469,1709.0,2025,57,Samedan,recent,136,MeteoSwiss
+SBE,46.463542,9.1847,1639.0,1986,115,S. Bernardino,past,136,MeteoSwiss
+SBE,46.463542,9.1847,1639.0,1987,118,S. Bernardino,past,136,MeteoSwiss
+SBE,46.463542,9.1847,1639.0,1988,108,S. Bernardino,past,137,MeteoSwiss
+SBE,46.463542,9.1847,1639.0,1989,49,S. Bernardino,past,136,MeteoSwiss
+SBE,46.463542,9.1847,1639.0,1990,57,S. Bernardino,past,136,MeteoSwiss
+SBE,46.463542,9.1847,1639.0,1991,128,S. Bernardino,past,136,MeteoSwiss
+SBE,46.463542,9.1847,1639.0,1992,109,S. Bernardino,past,137,MeteoSwiss
+SBE,46.463542,9.1847,1639.0,1993,99,S. Bernardino,past,136,MeteoSwiss
+SBE,46.463542,9.1847,1639.0,1994,118,S. Bernardino,past,136,MeteoSwiss
+SBE,46.463542,9.1847,1639.0,1995,83,S. Bernardino,past,136,MeteoSwiss
+SBE,46.463542,9.1847,1639.0,2016,76,S. Bernardino,recent,137,MeteoSwiss
+SBE,46.463542,9.1847,1639.0,2017,54,S. Bernardino,recent,136,MeteoSwiss
+SBE,46.463542,9.1847,1639.0,2018,125,S. Bernardino,recent,136,MeteoSwiss
+SBE,46.463542,9.1847,1639.0,2019,114,S. Bernardino,recent,136,MeteoSwiss
+SBE,46.463542,9.1847,1639.0,2020,126,S. Bernardino,recent,137,MeteoSwiss
+SBE,46.463542,9.1847,1639.0,2021,132,S. Bernardino,recent,136,MeteoSwiss
+SBE,46.463542,9.1847,1639.0,2022,5,S. Bernardino,recent,136,MeteoSwiss
+SBE,46.463542,9.1847,1639.0,2023,23,S. Bernardino,recent,136,MeteoSwiss
+SBE,46.463542,9.1847,1639.0,2024,126,S. Bernardino,recent,137,MeteoSwiss
+SBE,46.463542,9.1847,1639.0,2025,96,S. Bernardino,recent,136,MeteoSwiss
+SCU,46.793275,10.283267,1304.0,1986,89,Scuol,past,136,MeteoSwiss
+SCU,46.793275,10.283267,1304.0,1987,97,Scuol,past,136,MeteoSwiss
+SCU,46.793275,10.283267,1304.0,1988,44,Scuol,past,137,MeteoSwiss
+SCU,46.793275,10.283267,1304.0,1989,0,Scuol,past,136,MeteoSwiss
+SCU,46.793275,10.283267,1304.0,1990,17,Scuol,past,136,MeteoSwiss
+SCU,46.793275,10.283267,1304.0,1991,74,Scuol,past,136,MeteoSwiss
+SCU,46.793275,10.283267,1304.0,1992,86,Scuol,past,137,MeteoSwiss
+SCU,46.793275,10.283267,1304.0,1993,23,Scuol,past,136,MeteoSwiss
+SCU,46.793275,10.283267,1304.0,1994,66,Scuol,past,136,MeteoSwiss
+SCU,46.793275,10.283267,1304.0,1995,74,Scuol,past,136,MeteoSwiss
+SCU,46.793275,10.283267,1304.0,2016,0,Scuol,recent,137,MeteoSwiss
+SCU,46.793275,10.283267,1304.0,2017,0,Scuol,recent,136,MeteoSwiss
+SCU,46.793275,10.283267,1304.0,2018,70,Scuol,recent,136,MeteoSwiss
+SCU,46.793275,10.283267,1304.0,2019,48,Scuol,recent,136,MeteoSwiss
+SCU,46.793275,10.283267,1304.0,2020,9,Scuol,recent,137,MeteoSwiss
+SCU,46.793275,10.283267,1304.0,2021,96,Scuol,recent,136,MeteoSwiss
+SCU,46.793275,10.283267,1304.0,2022,17,Scuol,recent,136,MeteoSwiss
+SCU,46.793275,10.283267,1304.0,2023,0,Scuol,recent,136,MeteoSwiss
+SCU,46.793275,10.283267,1304.0,2024,50,Scuol,recent,137,MeteoSwiss
+SCU,46.793275,10.283267,1304.0,2025,7,Scuol,recent,136,MeteoSwiss
+SIA,46.432331,9.762325,1804.0,1986,119,Segl-Maria,past,136,MeteoSwiss
+SIA,46.432331,9.762325,1804.0,1987,116,Segl-Maria,past,136,MeteoSwiss
+SIA,46.432331,9.762325,1804.0,1988,103,Segl-Maria,past,137,MeteoSwiss
+SIA,46.432331,9.762325,1804.0,1989,51,Segl-Maria,past,136,MeteoSwiss
+SIA,46.432331,9.762325,1804.0,1990,72,Segl-Maria,past,136,MeteoSwiss
+SIA,46.432331,9.762325,1804.0,1991,134,Segl-Maria,past,136,MeteoSwiss
+SIA,46.432331,9.762325,1804.0,1992,137,Segl-Maria,past,137,MeteoSwiss
+SIA,46.432331,9.762325,1804.0,1993,113,Segl-Maria,past,136,MeteoSwiss
+SIA,46.432331,9.762325,1804.0,1994,112,Segl-Maria,past,136,MeteoSwiss
+SIA,46.432331,9.762325,1804.0,1995,95,Segl-Maria,past,136,MeteoSwiss
+SIA,46.432331,9.762325,1804.0,2016,54,Segl-Maria,recent,137,MeteoSwiss
+SIA,46.432331,9.762325,1804.0,2017,32,Segl-Maria,recent,136,MeteoSwiss
+SIA,46.432331,9.762325,1804.0,2018,125,Segl-Maria,recent,136,MeteoSwiss
+SIA,46.432331,9.762325,1804.0,2019,127,Segl-Maria,recent,136,MeteoSwiss
+SIA,46.432331,9.762325,1804.0,2020,135,Segl-Maria,recent,137,MeteoSwiss
+SIA,46.432331,9.762325,1804.0,2021,132,Segl-Maria,recent,136,MeteoSwiss
+SIA,46.432331,9.762325,1804.0,2022,115,Segl-Maria,recent,136,MeteoSwiss
+SIA,46.432331,9.762325,1804.0,2023,1,Segl-Maria,recent,136,MeteoSwiss
+SIA,46.432331,9.762325,1804.0,2024,136,Segl-Maria,recent,137,MeteoSwiss
+SIA,46.432331,9.762325,1804.0,2025,76,Segl-Maria,recent,136,MeteoSwiss
+SMM,46.602256,10.426314,1386.0,1986,108,"Sta. Maria, Val Müstair",past,136,MeteoSwiss
+SMM,46.602256,10.426314,1386.0,1987,90,"Sta. Maria, Val Müstair",past,136,MeteoSwiss
+SMM,46.602256,10.426314,1386.0,1988,60,"Sta. Maria, Val Müstair",past,137,MeteoSwiss
+SMM,46.602256,10.426314,1386.0,1989,1,"Sta. Maria, Val Müstair",past,136,MeteoSwiss
+SMM,46.602256,10.426314,1386.0,1990,1,"Sta. Maria, Val Müstair",past,136,MeteoSwiss
+SMM,46.602256,10.426314,1386.0,1991,97,"Sta. Maria, Val Müstair",past,136,MeteoSwiss
+SMM,46.602256,10.426314,1386.0,1992,59,"Sta. Maria, Val Müstair",past,137,MeteoSwiss
+SMM,46.602256,10.426314,1386.0,1993,42,"Sta. Maria, Val Müstair",past,136,MeteoSwiss
+SMM,46.602256,10.426314,1386.0,1994,69,"Sta. Maria, Val Müstair",past,136,MeteoSwiss
+SMM,46.602256,10.426314,1386.0,1995,56,"Sta. Maria, Val Müstair",past,136,MeteoSwiss
+SMM,46.602256,10.426314,1386.0,2016,14,"Sta. Maria, Val Müstair",recent,137,MeteoSwiss
+SMM,46.602256,10.426314,1386.0,2017,1,"Sta. Maria, Val Müstair",recent,136,MeteoSwiss
+SMM,46.602256,10.426314,1386.0,2018,95,"Sta. Maria, Val Müstair",recent,136,MeteoSwiss
+SMM,46.602256,10.426314,1386.0,2019,24,"Sta. Maria, Val Müstair",recent,136,MeteoSwiss
+SMM,46.602256,10.426314,1386.0,2020,9,"Sta. Maria, Val Müstair",recent,137,MeteoSwiss
+SMM,46.602256,10.426314,1386.0,2021,115,"Sta. Maria, Val Müstair",recent,136,MeteoSwiss
+SMM,46.602256,10.426314,1386.0,2022,4,"Sta. Maria, Val Müstair",recent,136,MeteoSwiss
+SMM,46.602256,10.426314,1386.0,2023,6,"Sta. Maria, Val Müstair",recent,136,MeteoSwiss
+SMM,46.602256,10.426314,1386.0,2024,25,"Sta. Maria, Val Müstair",recent,137,MeteoSwiss
+SMM,46.602256,10.426314,1386.0,2025,37,"Sta. Maria, Val Müstair",recent,136,MeteoSwiss
+URB,46.898806,8.917075,1395.0,1986,34,Urnerboden,past,136,MeteoSwiss
+URB,46.898806,8.917075,1395.0,1987,116,Urnerboden,past,136,MeteoSwiss
+URB,46.898806,8.917075,1395.0,1988,69,Urnerboden,past,137,MeteoSwiss
+URB,46.898806,8.917075,1395.0,1989,40,Urnerboden,past,136,MeteoSwiss
+URB,46.898806,8.917075,1395.0,1990,8,Urnerboden,past,136,MeteoSwiss
+URB,46.898806,8.917075,1395.0,1991,96,Urnerboden,past,136,MeteoSwiss
+URB,46.898806,8.917075,1395.0,1992,1,Urnerboden,past,137,MeteoSwiss
+URB,46.898806,8.917075,1395.0,1993,20,Urnerboden,past,136,MeteoSwiss
+URB,46.898806,8.917075,1395.0,1994,1,Urnerboden,past,136,MeteoSwiss
+URB,46.898806,8.917075,1395.0,1995,112,Urnerboden,past,136,MeteoSwiss
+URB,46.898806,8.917075,1395.0,2016,18,Urnerboden,recent,137,MeteoSwiss
+URB,46.898806,8.917075,1395.0,2017,2,Urnerboden,recent,136,MeteoSwiss
+URB,46.898806,8.917075,1395.0,2018,43,Urnerboden,recent,136,MeteoSwiss
+URB,46.898806,8.917075,1395.0,2019,43,Urnerboden,recent,136,MeteoSwiss
+URB,46.898806,8.917075,1395.0,2020,12,Urnerboden,recent,137,MeteoSwiss
+URB,46.898806,8.917075,1395.0,2021,84,Urnerboden,recent,136,MeteoSwiss
+URB,46.898806,8.917075,1395.0,2022,63,Urnerboden,recent,136,MeteoSwiss
+URB,46.898806,8.917075,1395.0,2023,15,Urnerboden,recent,136,MeteoSwiss
+URB,46.898806,8.917075,1395.0,2024,28,Urnerboden,recent,137,MeteoSwiss
+URB,46.898806,8.917075,1395.0,2025,58,Urnerboden,recent,136,MeteoSwiss
+WFJ,46.833342,9.806397,2691.0,1986,136,Weissfluhjoch,past,136,MeteoSwiss
+WFJ,46.833342,9.806397,2691.0,1987,136,Weissfluhjoch,past,136,MeteoSwiss
+WFJ,46.833342,9.806397,2691.0,1988,137,Weissfluhjoch,past,137,MeteoSwiss
+WFJ,46.833342,9.806397,2691.0,1989,136,Weissfluhjoch,past,136,MeteoSwiss
+WFJ,46.833342,9.806397,2691.0,1990,136,Weissfluhjoch,past,136,MeteoSwiss
+WFJ,46.833342,9.806397,2691.0,1991,135,Weissfluhjoch,past,136,MeteoSwiss
+WFJ,46.833342,9.806397,2691.0,1992,137,Weissfluhjoch,past,137,MeteoSwiss
+WFJ,46.833342,9.806397,2691.0,1993,136,Weissfluhjoch,past,136,MeteoSwiss
+WFJ,46.833342,9.806397,2691.0,1994,136,Weissfluhjoch,past,136,MeteoSwiss
+WFJ,46.833342,9.806397,2691.0,1995,136,Weissfluhjoch,past,136,MeteoSwiss
+WFJ,46.833342,9.806397,2691.0,2016,137,Weissfluhjoch,recent,137,MeteoSwiss
+WFJ,46.833342,9.806397,2691.0,2017,136,Weissfluhjoch,recent,136,MeteoSwiss
+WFJ,46.833342,9.806397,2691.0,2018,136,Weissfluhjoch,recent,136,MeteoSwiss
+WFJ,46.833342,9.806397,2691.0,2019,136,Weissfluhjoch,recent,136,MeteoSwiss
+WFJ,46.833342,9.806397,2691.0,2020,137,Weissfluhjoch,recent,137,MeteoSwiss
+WFJ,46.833342,9.806397,2691.0,2021,136,Weissfluhjoch,recent,136,MeteoSwiss
+WFJ,46.833342,9.806397,2691.0,2022,136,Weissfluhjoch,recent,136,MeteoSwiss
+WFJ,46.833342,9.806397,2691.0,2023,136,Weissfluhjoch,recent,136,MeteoSwiss
+WFJ,46.833342,9.806397,2691.0,2024,137,Weissfluhjoch,recent,137,MeteoSwiss
+WFJ,46.833342,9.806397,2691.0,2025,136,Weissfluhjoch,recent,136,MeteoSwiss
+ZER,46.029272,7.752433,1638.0,1986,95,Zermatt,past,136,MeteoSwiss
+ZER,46.029272,7.752433,1638.0,1987,117,Zermatt,past,136,MeteoSwiss
+ZER,46.029272,7.752433,1638.0,1988,99,Zermatt,past,137,MeteoSwiss
+ZER,46.029272,7.752433,1638.0,1989,29,Zermatt,past,136,MeteoSwiss
+ZER,46.029272,7.752433,1638.0,1990,48,Zermatt,past,136,MeteoSwiss
+ZER,46.029272,7.752433,1638.0,1991,88,Zermatt,past,136,MeteoSwiss
+ZER,46.029272,7.752433,1638.0,1992,98,Zermatt,past,137,MeteoSwiss
+ZER,46.029272,7.752433,1638.0,1993,106,Zermatt,past,136,MeteoSwiss
+ZER,46.029272,7.752433,1638.0,1994,81,Zermatt,past,136,MeteoSwiss
+ZER,46.029272,7.752433,1638.0,1995,95,Zermatt,past,136,MeteoSwiss
+ZER,46.029272,7.752433,1638.0,2016,81,Zermatt,recent,137,MeteoSwiss
+ZER,46.029272,7.752433,1638.0,2017,3,Zermatt,recent,136,MeteoSwiss
+ZER,46.029272,7.752433,1638.0,2018,118,Zermatt,recent,136,MeteoSwiss
+ZER,46.029272,7.752433,1638.0,2019,67,Zermatt,recent,136,MeteoSwiss
+ZER,46.029272,7.752433,1638.0,2020,98,Zermatt,recent,137,MeteoSwiss
+ZER,46.029272,7.752433,1638.0,2021,76,Zermatt,recent,136,MeteoSwiss
+ZER,46.029272,7.752433,1638.0,2022,78,Zermatt,recent,136,MeteoSwiss
+ZER,46.029272,7.752433,1638.0,2023,5,Zermatt,recent,136,MeteoSwiss
+ZER,46.029272,7.752433,1638.0,2024,67,Zermatt,recent,137,MeteoSwiss
+ZER,46.029272,7.752433,1638.0,2025,79,Zermatt,recent,136,MeteoSwiss
