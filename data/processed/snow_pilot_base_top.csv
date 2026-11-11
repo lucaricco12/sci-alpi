@@ -1,0 +1,21 @@
+resort_id,name,country,winter,lat,lon,base_elev_m,top_elev_m,base_days_30cm,top_days_30cm,top_minus_base_days,same_grid_cell,same_hourly_series,base_grid_lat,base_grid_lon,top_grid_lat,top_grid_lon
+zermatt-matterhorn,Zermatt-Matterhorn,CH,1995,46.0212076,7.749254,1562,3899,136,136,0,False,False,45.90001,7.699997,46.0,7.699997
+zermatt-matterhorn,Zermatt-Matterhorn,CH,2025,46.0212076,7.749254,1562,3899,136,136,0,False,False,45.90001,7.699997,46.0,7.699997
+st-moritz-corviglia,St. Moritz - Corviglia,CH,1995,46.4978958,9.8392428,1772,3057,136,136,0,True,True,46.5,9.800003,46.5,9.800003
+st-moritz-corviglia,St. Moritz - Corviglia,CH,2025,46.4978958,9.8392428,1772,3057,131,131,0,True,True,46.5,9.800003,46.5,9.800003
+andermatt-sedrun-disentis,Andermatt-Sedrun,CH,1995,46.6340499,8.5948148,1444,2961,136,136,0,True,True,46.600006,8.600006,46.600006,8.600006
+andermatt-sedrun-disentis,Andermatt-Sedrun,CH,2025,46.6340499,8.5948148,1444,2961,136,136,0,True,True,46.600006,8.600006,46.600006,8.600006
+breuil-cervinia-valtournenche-zermatt,Cervinia-Valtournenche,IT,1995,45.8769793,7.622792,1562,3899,136,136,0,False,False,45.800003,7.600006,46.0,7.600006
+breuil-cervinia-valtournenche-zermatt,Cervinia-Valtournenche,IT,2025,45.8769793,7.622792,1562,3899,136,136,0,False,False,45.800003,7.600006,46.0,7.600006
+livigno,Livigno,IT,1995,46.5381734,10.1359928,1816,2798,136,136,0,True,True,46.5,10.100006,46.5,10.100006
+livigno,Livigno,IT,2025,46.5381734,10.1359928,1816,2798,129,129,0,True,True,46.5,10.100006,46.5,10.100006
+aprica,Aprica,IT,1995,46.1540136,10.152581,1162,2270,95,95,0,True,True,46.199997,10.199997,46.199997,10.199997
+aprica,Aprica,IT,2025,46.1540136,10.152581,1162,2270,102,102,0,True,True,46.199997,10.199997,46.199997,10.199997
+kitzbuehel-kirchberg,Kitzbuehel,AT,1995,47.4463585,12.3911473,800,2000,105,105,0,True,True,47.40001,12.400009,47.40001,12.400009
+kitzbuehel-kirchberg,Kitzbuehel,AT,2025,47.4463585,12.3911473,800,2000,128,128,0,True,True,47.40001,12.400009,47.40001,12.400009
+soelden,Soelden,AT,1995,46.9666319,11.0072845,1350,3340,136,136,0,True,True,47.0,11.0,47.0,11.0
+soelden,Soelden,AT,2025,46.9666319,11.0072845,1350,3340,134,134,0,True,True,47.0,11.0,47.0,11.0
+les-houches-saint-gervais-chamonix,Chamonix,FR,1995,45.891508,6.799138,1000,1900,117,136,19,False,False,46.0,6.699997,45.90001,6.800003
+les-houches-saint-gervais-chamonix,Chamonix,FR,2025,45.891508,6.799138,1000,1900,136,136,0,False,False,46.0,6.699997,45.90001,6.800003
+les-2-alpes,Les 2 Alpes,FR,1995,45.0352956,6.1296543,1280,3523,106,128,22,False,False,45.0,6.100006,45.0,6.199997
+les-2-alpes,Les 2 Alpes,FR,2025,45.0352956,6.1296543,1280,3523,136,136,0,False,False,45.0,6.100006,45.0,6.199997
