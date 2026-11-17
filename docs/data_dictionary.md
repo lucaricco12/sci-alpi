@@ -74,3 +74,26 @@ Status: ✅ defined · 🔄 to be confirmed after the pilot test (step 1, 11 Nov
 | `status` | text | – | Legambiente | `dismesso` (closed) or `chiuso temporaneamente` ✅ |
 | `lat`, `lon` | float | degrees | Nominatim | Geocoded location 🔄 |
 | `matched` | boolean | – | derived | True if geocoding succeeded ✅ |
+
+#### Table resorts_features (`data/processed/resorts_features.csv`) — 300 Alpine Ski Resorts
+Status: ✅ Finalized (17 attributes, 300 complete records across CH, IT, AT, FR)
+
+| Variable | Type | Unit | Source | Description | Status |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| `resort_name` | text / string | – | `skiresort.info` | Full registered commercial name of the ski resort. | ✅ |
+| `country` | text / string | ISO 3166-1 alpha-2 | `skiresort.info` | Alpine nation code (`CH`, `IT`, `AT`, `FR`). Exactly 75 resorts per country. | ✅ |
+| `elevation_base_m` | integer | m a.s.l. | `skiresort.info` | Valley / bottom lift elevation station above sea level. | ✅ |
+| `elevation_top_m` | integer | m a.s.l. | `skiresort.info` | Highest skiable mountain summit elevation station above sea level. | ✅ |
+| `slope_km` | float | km | `skiresort.info` | Total length of groomed ski slopes / pistes. | ✅ |
+| `price_day_eur` | float | EUR (€) | `skiresort.info` + ECB | Harmonized adult 1-day pass price in main season (converted from CHF at 1.05 rate). | ✅ |
+| `rating_stars` | float | stars (1.0–5.0) | `skiresort.info` | Overall editorial and test evaluation score. | ✅ |
+| `latitude` | float | decimal degrees | OSM Nominatim API | Geographic latitude (WGS84 coordinate reference system). | ✅ |
+| `longitude` | float | decimal degrees | OSM Nominatim API | Geographic longitude (WGS84 coordinate reference system). | ✅ |
+| `dist_nearest_city_km` | float | km | Derived (Haversine) | Great-circle distance to the closest major feeder metropolis (min of the 6 hubs). | ✅ |
+| `dist_zurich_km` | float | km | Derived (Haversine) | Geodesic distance to Zurich city center (47.3769° N, 8.5417° E). | ✅ |
+| `dist_geneva_km` | float | km | Derived (Haversine) | Geodesic distance to Geneva city center (46.2044° N, 6.1432° E). | ✅ |
+| `dist_milan_km` | float | km | Derived (Haversine) | Geodesic distance to Milan city center (45.4642° N, 9.1900° E). | ✅ |
+| `dist_turin_km` | float | km | Derived (Haversine) | Geodesic distance to Turin city center (45.0703° N, 7.6869° E). | ✅ |
+| `dist_munich_km` | float | km | Derived (Haversine) | Geodesic distance to Munich city center (48.1351° N, 11.5820° E). | ✅ |
+| `dist_lyon_km` | float | km | Derived (Haversine) | Geodesic distance to Lyon city center (45.7640° N, 4.8357° E). | ✅ |
+| `hotels_4_5_star_10km` | integer | count | OSM Overpass API | Number of 4- and 5-star hotels within a 10 km radial buffer (luxury/prestige proxy). | ✅ |
