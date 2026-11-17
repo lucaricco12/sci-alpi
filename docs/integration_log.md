@@ -1,8 +1,13 @@
-# Integration log
+# Integration Log
 
 | Date | Source | Joined to | Key | Before | After | Lost | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 2026-11-11 | Lorenzo's `pilot_resorts_10.csv` | `pilot_resort_locations.csv` | resort name and country | 10 | 10 | 0 | IDs derived from Lorenzo's source URLs. Added documented base-town coordinates. |
-| 2026-11-11 | Open-Meteo hourly responses | Resort input | resort ID and winter | 10 pilot resorts | 20 base/top comparisons | 0 | Two test winters per resort. Count complete UTC days with daily maximum snow depth ≥ 0.30 m. |
-| 2026-11-11 | Open-Meteo study winters | Resort input | resort ID and winter | 10 pilot resorts | 200 complete resort winters | 0 | Ten winters per period, at the supplied base elevation. Final counts are recorded after completion. |
-| 2026-11-10 | MeteoSwiss manual snow observations | Station metadata and inventory | station ID | 55 candidate stations above 1,000 m | 20 complete stations, 400 station winters | 35 stations | Require complete observations for every study winter. |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 2026-11-10 | MeteoSwiss manual snow observations | Station metadata and inventory | station ID | 55 candidate stations above 1,000 m | 20 complete stations, 400 station winters | 35 stations | Filtered to require continuous daily observations across all historical study winters. |
+| 2026-11-11 | Lorenzo's `pilot_resorts_10.csv` | `pilot_resort_locations.csv` | Resort name and country | 10 pilot resorts | 10 pilot resorts | 0 | Extracted identifiers from source URLs; added verified base-village geographic coordinates. |
+| 2026-11-11 | Open-Meteo hourly responses | Resort input | Resort ID and winter season | 10 pilot resorts | 20 base/top elevation comparisons | 0 | Two test winters per resort; computed UTC days meeting snow depth threshold (daily max ≥ 0.30 m). |
+| 2026-11-11 | Open-Meteo historical reanalysis | Resort input | Resort ID and winter season | 10 pilot resorts | 200 complete resort winters | 0 | Ten winters per study period evaluated at base elevation. |
+| 2026-11-12 | Eurostat (`prc_ppp_ind`, `earn_nt_netft`) | ECB / Frankfurter API (`fx_eur_chf_daily.csv`) | Country code (`CH`, `IT`, `AT`, `FR`) and Year (2023) | Raw national economic indicators | `country_stats.csv` (4 countries) | 0 | Merged Price Level Index (PLI) and net annual earnings; converted Swiss figures using historical ECB exchange rates. |
+| 2026-11-16 | `skiresort.info` scraping (`02.2`) | Daily currency exchange rates | Country code (`CH` vs `EUR`) | 300 raw scraped records (75 per country: CH, IT, AT, FR) | 300 clean harmonized resorts (`resorts_clean.csv`) | 0 | Converted CHF day-pass ticket prices to EUR (1.05 rate). Parsed slope km, top/base elevations, lifts, and star ratings. |
+| 2026-11-17 | `resorts_clean.csv` | OpenStreetMap Nominatim API (`02.3`) | Resort name and country code | 300 clean resorts | 300 geocoded resorts | 0 | 1st pass: 266 resolved; 2nd pass (sub-string parsing): 290 resolved; 10 edge cases resolved manually. Added `latitude` and `longitude`. |
+| 2026-11-17 | Geocoded resorts | 6 Feeder Metropolises coordinates (ZUR, GVA, MIL, TRN, MUC, LYS) | Spherical Haversine distance formula | 300 resorts with lat/lon | 300 resorts with urban proximity metrics | 0 | Computed geodesic distances in km to 6 urban centers; identified `dist_nearest_city_km`; corrected Portes du Soleil coordinate anomaly. |
+| 2026-11-17 | Geocoded resorts | OpenStreetMap Overpass API (`02.3`) | Spatial KDTree buffer (radius = 10.0 km) | 300 resorts with spatial coordinates | 300 resorts with luxury hospitality (`resorts_features.csv`) | 0 | Aggregated 4- and 5-star hotels within a 10 km radius. Overcame public server rate-limits using Alpine bounding box query and proxy fallback. |

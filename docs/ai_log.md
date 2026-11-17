@@ -30,60 +30,60 @@ Required for the final project: which AI tools we used, for which tasks, advanta
 * **Checks and limitations** Verified the source join and complete hourly seasons. Documented that the source resort scraper uses presets, that coordinates represent base towns, and that Zermatt/Cervinia share a connected cross-border ski system.
 
 
-### Entry: 2026-11-16 — Task 02.2: Large-Scale Scraping & Currency Harmonization (`notebooks/02.2_scraping.ipynb`)
+### Entry: 2026-11-16 — Task 02.2: Web Scraping & Ticket Price Harmonization (`notebooks/02.2_scraping.ipynb`)
 
 * **Date:** 2026-11-16
 * **AI Tool(s):** Gemini Notebook / GitHub Copilot
 * **Target Objective / Prompt:**
-  * Automate the scraping of 300 ski resorts (balanced at exactly 75 per country across Switzerland, Italy, Austria, and France) from `skiresort.info`.
-  * Parse raw HTML tables for elevations (`elevation_base_m`, `elevation_top_m`), slope dimensions (`slope_km`), ratings (`rating_stars`), and ticket prices.
-  * Harmonize Swiss Franc (`CHF`) prices to Euros (`EUR`) using daily exchange rates and export a clean baseline dataset to `data/processed/resorts_clean.csv`.
+  * Build an automated web scraper using Python (`requests`, `BeautifulSoup`) to extract data for 300 ski resorts from `skiresort.info` (balanced at exactly 75 resorts per country across Switzerland, Italy, Austria, and France).
+  * Parse operational and physical metrics: base and top elevations (`elevation_base_m`, `elevation_top_m`), total slope distance (`slope_km`), lift infrastructure, user test ratings (`rating_stars`), and adult day-pass prices.
+  * Harmonize Swiss Franc (`CHF`) prices to Euros (`EUR`) using historical ECB exchange rates and save the structured dataset to `data/processed/resorts_clean.csv`.
 
 * **What Worked Well:**
-  * Efficient HTML parsing logic using `BeautifulSoup` and regex pattern extraction for structured tabular fields.
-  * Batch processing with automated country quotas (75 per alpine nation) to ensure balanced representation across the Alps.
-  * Correct implementation of currency conversion calculations and descriptive statistics generation for initial sanity checking.
+  * Rapid generation of regular expressions to extract clean numeric values from formatted web strings (e.g., `"SFr. 116,-"` or `"225 km"`).
+  * Automated enforcement of country quotas (`75` resorts each) with pagination handling.
+  * Rapid generation of descriptive statistics (`describe()`) to verify distribution sanity.
 
 * **What Did Not Work / Errors & Pitfalls:**
-  * **HTML Structure Inconsistencies:** Some resort pages lacked elevation ranges or had tickets quoted exclusively in seasonal packages rather than single-day passes, leading to extraction NaNs and malformed types.
-  * **Currency Extraction Fragility:** The scraper initially confused multi-day pass currency strings with day-ticket prices when parsing mixed strings.
+  * **HTML Parsing Failures on Incomplete Tables:** Certain resort pages lacked published elevation ranges or listed only multi-day seasonal passes, generating unhandled `NaN` values that broke downstream float type casting.
+  * **Ambiguous Ticket Price Captures:** The initial parser occasionally captured youth or multi-day pass rates instead of standard adult single-day ticket prices.
 
 * **Human Verification & Resolution:**
-  * Inspected missing and zero-value records using `df.isna().sum()` and distribution percentiles.
-  * Validated the scraped 300 resorts across the 4 alpine countries (`CH: 75`, `IT: 75`, `AT: 75`, `FR: 75`) and verified EUR price distributions before finalizing `resorts_clean.csv`.
+  * Inspected missing values using `df.isna().sum()` and added fallback CSS selectors to locate secondary price tags.
+  * Verified national sample balances (75 resorts per country) and checked EUR price distributions before freezing `resorts_clean.csv`.
 
 * **Critical Reflection:**
-  * *Advantage:* Accelerated writing repetitive scraping boilerplate and regex patterns by ~80%.
-  * *Limitation:* AI code makes assumptions about consistent HTML DOM trees; without strict human data validation, invalid values silently propagate into the CSV.
+  * *Advantage:* Reduced DOM parsing and HTTP boilerplate implementation time by approximately 75%.
+  * *Limitation:* The AI assumed uniform HTML structures across all destination pages. Strict human verification of distributions was essential to catch silent conversion errors.
 
 ---
 
-### Entry: 2026-11-17 — Task 02.3: Spatial Feature Engineering & Infrastructure Enrichment (`notebooks/02.3_features_spatial.ipynb`)
+### Entry: 2026-11-17 — Task 02.3: Spatial Feature Engineering & Luxury Infrastructure (`notebooks/02.3_features_spatial.ipynb`)
 
 * **Date:** 2026-11-17
 * **AI Tool(s):** Gemini Notebook
 * **Target Objective / Prompt:**
-  * Enrich the 300 ski resorts with geographic coordinates via OpenStreetMap Nominatim.
-  * Compute geodesic Haversine distances to 6 major European feeder metropolises (Zurich, Geneva, Milan, Turin, Munich, Lyon) and find the closest urban hub (`dist_nearest_city_km`).
-  * Query the Overpass API to quantify local luxury hospitality density (4- and 5-star hotels within a 10 km buffer) and consolidate all metrics into `data/processed/resorts_features.csv`.
+  * Geocode all 300 ski resorts using OpenStreetMap Nominatim.
+  * Compute geodesic Haversine distances to 6 major European feeder metropolises (Zurich, Geneva, Milan, Turin, Munich, Lyon) and calculate the shortest distance to a major hub (`dist_nearest_city_km`).
+  * Query the OpenStreetMap Overpass API to quantify local luxury hospitality density (4- and 5-star hotels within a 10 km buffer) and export the consolidated dataset to `data/processed/resorts_features.csv`.
 
 * **What Worked Well:**
-  * Fast vectorization of spherical Haversine distance computations across all 300 resorts.
-  * Identification of multi-pass geocoding strategies (handling compound names before slashes/dashes to resolve 290/300 destinations automatically).
-  * Spherical KDTree spatial indexing (`scipy.spatial.cKDTree`) to match luxury hotel coordinates within a 10 km radial buffer in milliseconds.
+  * Vectorized spherical Haversine distance computations across all 300 destinations.
+  * Spherical KDTree spatial indexing (`scipy.spatial.cKDTree`) to query hotel density within a 10 km radial buffer in milliseconds.
 
 * **What Did Not Work / Errors & Pitfalls:**
-  * **Duplicate Index Crash:** When loading the geocoding cache, `to_dict(orient="index")` raised `ValueError: DataFrame index must be unique` due to repeated names in previous runs.
-  * **Sequential API Throttling & Severe Timeouts:** Making 300 individual Overpass HTTP requests triggered public server throttling (`HTTP 502`, read timeouts), stalling the pipeline for over 20 minutes.
-  * **Geocoding Hallucination / Geographic Misplacement:** Nominatim matched `Les Portes du Soleil` to an address in western France (showing ~595 km from Geneva instead of ~49 km).
-  * **Scraped Promotional Slogans:** Two records (`Arosa Lenzerheide` and `Obertauern`) carried marketing tagline strings in their titles, causing country misclassifications (`FR`).
+  * **Pandas Duplicate Index Exception:** Reloading the geocoding cache with `.to_dict(orient="index")` triggered `ValueError: DataFrame index must be unique` due to duplicate names from previous runs.
+  * **API Throttling & 20-Minute Freeze:** Making 300 individual sequential HTTP requests to `overpass-api.de` triggered severe rate limiting (`HTTP 502` and `Read timed out`), freezing the notebook for over 20 minutes at record 50.
+  * **Geocoding Hallucination / Spatial Outlier:** Nominatim matched `Les Portes du Soleil` to an address in western France, calculating an anomalous distance of 595 km from Geneva instead of the actual ~49 km.
+  * **Scraped Marketing Slogans:** Two records (`Arosa Lenzerheide` and `Obertauern`) carried scraped marketing taglines in their name fields, causing country misclassifications (`FR`).
+  * **Chat Filter Masking Backup URLs:** Alternative Overpass mirror links were sanitized in chat as `[suspicious link removed]`, causing URI parse errors.
 
 * **Human Verification & Resolution:**
-  * Added deduplication (`drop_duplicates(subset=["resort_name"])`) and null filtering before building the dictionary index.
-  * Interrupted the sequential Overpass loop; refactored the approach into a single Alpine bounding box batch query with multiple mirrors, spatial KDTree indexing, and a proxy fallback.
-  * Audited the distance matrix, detected the Portes du Soleil geographic anomaly, and injected exact manual coordinates for the 10 remaining edge cases, achieving 100% verified coverage (300/300).
-  * Committed and pushed all changes to GitHub (`main`).
+  * Interrupted the stalled sequential loop; refactored the pipeline into a single Alpine bounding box batch query with multiple mirrors, KDTree radius indexing, and a proxy fallback.
+  * Added deduplication (`drop_duplicates(subset=["resort_name"])`) before building dictionary lookups.
+  * Identified the Portes du Soleil spatial error through distance matrix cross-checking and injected exact manual coordinates for the 10 unresolved edge cases to reach 100% coverage (300/300).
+  * Successfully generated `resorts_features.csv` and committed the changes to GitHub (`main`).
 
 * **Critical Reflection:**
-  * *Advantage:* Rapidly debugged Pandas tracebacks and provided efficient spatial algorithms (Haversine vectorization, KDTree search).
-  * *Limitation:* The AI underestimated public API rate limits for sequential queries and failed to detect semantic geographic outliers (such as Portes du Soleil being 500+ km away from Geneva). Human domain knowledge and geographic sanity checks were essential to prevent corrupt spatial features.
+  * *Advantage:* Quickly debugged Pandas tracebacks and provided efficient vectorized algorithms (Haversine, KDTree).
+  * *Limitation:* The AI initially suggested naive sequential API calls that did not account for public rate limits and failed to catch the Portes du Soleil geographic anomaly until audited against domain knowledge.
