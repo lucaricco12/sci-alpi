@@ -87,3 +87,10 @@ Required for the final project: which AI tools we used, for which tasks, advanta
 * **Critical Reflection:**
   * *Advantage:* Quickly debugged Pandas tracebacks and provided efficient vectorized algorithms (Haversine, KDTree).
   * *Limitation:* The AI initially suggested naive sequential API calls that did not account for public rate limits and failed to catch the Portes du Soleil geographic anomaly until audited against domain knowledge.
+
+  ## 2026-11-18 – Luca: Repository review against the project requirements
+
+* **Tool used:** Claude
+* **Task:** Review the repository against the project requirements and fix documentation errors.
+* **What worked:** Found duplicated cross-border resorts, a snow indicator with almost no variation, imputed snow_cannons values and documentation inconsistencies; fixed the Eurostat table name in README and integration log.
+* **What did not work:** Claude could not push to GitHub (account not linked), so all changes were made by hand.

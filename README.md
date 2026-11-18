@@ -34,7 +34,7 @@ To what extent has natural snow reliability in Swiss, Italian, Austrian and Fren
 | Nominatim (OpenStreetMap) | Web API | Coordinates of resorts, closed facilities and large cities |
 | Open-Meteo Historical (ERA5-Land) | Web API | Hourly snow depth, 1985–2025 winters |
 | MeteoSwiss Open Data | CSV download | Measured daily snow depth at Swiss stations |
-| Eurostat (`prc_ppp_ind`, `earn_nt_netft`) | Web API | Price level index, average net earnings |
+| Eurostat (`prc_ppp_ind`, `earn_nt_net`) | Web API | Price level index, average net earnings |
 | Frankfurter (ECB rates) | Web API | EUR/CHF exchange rate |
 | OSM Overpass | Web API | 4–5 star hotels near each resort |
 | Legambiente, Nevediversa 2026 | PDF report | Closed ski facilities in Italy |
