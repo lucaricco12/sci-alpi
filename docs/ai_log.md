@@ -94,3 +94,11 @@ Required for the final project: which AI tools we used, for which tasks, advanta
 * **Task:** Review the repository against the project requirements and fix documentation errors.
 * **What worked:** Found duplicated cross-border resorts, a snow indicator with almost no variation, imputed snow_cannons values and documentation inconsistencies; fixed the Eurostat table name in README and integration log.
 * **What did not work:** Claude could not push to GitHub (account not linked), so all changes were made by hand.
+
+## 2026-11-18 – Luca: Legambiente PDF to table (`notebooks/04_legambiente_closures.ipynb`)
+
+* **Tool used:** Claude
+* **Task:** Extract the lists of dismissed and temporarily closed ski facilities from the Legambiente report Nevediversa 2026 (359-page PDF) into `data/processed/legambiente_closures.csv`.
+* **What worked:** Cutting each page into its three text columns and reading them in order; one row per site, using the `Comune` label as the start of each entry; checking the row count against the PDF and checking that each municipality appears on the cited page (181 of 184 found directly).
+* **What did not work:** The page text mixed the three columns, so a first simple extraction scrambled the entries. The word "Comune" also appears inside descriptions, so a plain count of the word was too high (149 instead of 147 for dismissed). Claude could not download the PDF itself (the website blocked the download), so the PDF was downloaded by hand and provided.
+* **Human verification:** The report counts lifts (273 dismissed) while our table counts sites (147 + 37); this difference was checked and documented in the integration log.

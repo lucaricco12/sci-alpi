@@ -69,11 +69,15 @@ Status: ✅ defined · 🔄 to be confirmed after the pilot test (step 1, 11 Nov
 
 | Variable | Type | Unit | Source | Description |
 | --- | --- | --- | --- | --- |
-| `facility_name` | text | – | Legambiente | Name of closed facility / locality ✅ |
+| `facility_name` | text | – | Legambiente | Name of the facility or locality, as written in the report ✅ |
+| `comune` | text | – | Legambiente | Municipality of the facility ✅ |
+| `province` | text | – | Legambiente | Province code (e.g. `TO`, `VCO`); empty for 2 rows ✅ |
 | `region` | text | – | Legambiente | Italian region ✅ |
-| `status` | text | – | Legambiente | `dismesso` (closed) or `chiuso temporaneamente` ✅ |
-| `lat`, `lon` | float | degrees | Nominatim | Geocoded location 🔄 |
-| `matched` | boolean | – | derived | True if geocoding succeeded ✅ |
+| `status` | text | – | Legambiente | `dismesso` (dismissed) or `chiuso temporaneamente` (temporarily closed) ✅ |
+| `altitude_text`, `facility_type`, `year_built`, `year_closed` | text | – | Legambiente | Free text as written in the report; not cleaned yet ✅ |
+| `source_page` | integer | page | Legambiente | PDF page where the entry appears ✅ |
+| `lat`, `lon` | float | degrees | Nominatim | Geocoded location 🔄 (next step) |
+| `matched` | boolean | – | derived | True if geocoding succeeded 🔄 (next step) |
 
 #### Table resorts_features (`data/processed/resorts_features.csv`) — 300 Alpine Ski Resorts
 Status: ✅ Finalized (17 attributes, 300 complete records across CH, IT, AT, FR)
