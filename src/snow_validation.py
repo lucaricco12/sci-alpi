@@ -70,14 +70,16 @@ def load_observations(root):
     return data.sort_values(["station_id", "winter"]).reset_index(drop=True)
 
 
-def request_spec(station, winter, cell_selection="land"):
+def request_spec(station, winter, cell_selection="land", model="era5_land"):
     if cell_selection not in {"land", "nearest"}:
         raise ValueError("Use land or nearest for the snow-method comparison.")
+    if model not in {"era5_land", "era5", "cerra"}:
+        raise ValueError("Unknown snow-model candidate.")
     params = {
         "latitude": float(station.lat), "longitude": float(station.lon),
         "elevation": int(station.elev_m), "start_date": f"{winter-1}-12-01",
         "end_date": f"{winter}-04-15", "hourly": "snow_depth",
-        "models": "era5_land", "timezone": "GMT", "cell_selection": cell_selection,
+        "models": model, "timezone": "GMT", "cell_selection": cell_selection,
     }
     query = urlencode(params)
     return f"{API}?{query}", hashlib.sha256(query.encode()).hexdigest()[:16]
@@ -125,8 +127,8 @@ class RateLimiter:
             raise RuntimeError("Download stopped after an API rate-limit response.")
 
 
-def get_model_row(root, station, winter, limiter, cell_selection="land"):
-    url, cache_id = request_spec(station, winter, cell_selection=cell_selection)
+def get_model_row(root, station, winter, limiter, cell_selection="land", model="era5_land"):
+    url, cache_id = request_spec(station, winter, cell_selection=cell_selection, model=model)
     cache = Path(root) / "data/raw/open_meteo_validation" / f"{cache_id}.json"
     if cache.is_file():
         body = cache.read_bytes()
@@ -155,7 +157,7 @@ def get_model_row(root, station, winter, limiter, cell_selection="land"):
         temporary = cache.with_suffix(".tmp")
         temporary.write_bytes(body)
         temporary.replace(cache)
-    return {"station_id": station.station_id, "winter": winter, "cell_selection": cell_selection,
+    return {"station_id": station.station_id, "winter": winter, "cell_selection": cell_selection, "model": model,
             "period": "past" if winter <= 1995 else "recent", "query_elev_m": int(station.elev_m),
             **summary, "grid_distance_km": float(distance_km(station.lat, station.lon, summary["grid_lat"], summary["grid_lon"])),
             "request_url": url, "response_sha256": hashlib.sha256(body).hexdigest()}
@@ -193,11 +195,15 @@ def download_models(root, workers=3):
     return models
 
 
-def pair_sources(observations, models, cell_selection="land"):
+def pair_sources(observations, models, cell_selection="land", model="era5_land"):
     if cell_selection not in {"land", "nearest"}:
         raise ValueError("Unknown snow validation cell selection.")
     if "cell_selection" in models and not models.cell_selection.eq(cell_selection).all():
         raise ValueError("Do not mix different weather-grid selections in one validation table.")
+    if model not in {"era5_land", "era5", "cerra"}:
+        raise ValueError("Unknown snow-model candidate.")
+    if "model" in models and not models.model.eq(model).all():
+        raise ValueError("Do not mix different snow models in one validation table.")
     keys = ["station_id", "winter", "period"]
     if models.duplicated(["station_id", "winter"]).any():
         raise ValueError("Duplicate model station-winter keys.")
@@ -208,7 +214,7 @@ def pair_sources(observations, models, cell_selection="land"):
     if "request_url" in joined:
         for row in joined.itertuples(index=False):
             request = parse_qs(urlparse(row.request_url).query)
-            expected = {"models": "era5_land", "hourly": "snow_depth", "timezone": "GMT",
+            expected = {"models": model, "hourly": "snow_depth", "timezone": "GMT",
                         "cell_selection": cell_selection, "start_date": f"{row.winter-1}-12-01", "end_date": f"{row.winter}-04-15"}
             if any(request.get(key) != [value] for key, value in expected.items()):
                 raise ValueError("Model request settings or dates do not match the validation definition.")

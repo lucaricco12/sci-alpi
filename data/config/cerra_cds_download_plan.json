@@ -1,0 +1,5869 @@
+{
+  "dataset": "reanalysis-cerra-single-levels",
+  "dataset_url": "https://cds.climate.copernicus.eu/datasets/reanalysis-cerra-single-levels?tab=download",
+  "purpose": "06:00 UTC station validation; not an hourly/daily-maximum resort indicator",
+  "spatial_download": "Full European CERRA grid; this form does not support area subsetting",
+  "format_note": "NetCDF4 is labelled experimental in the provider form; inspect units and coordinates before counting",
+  "current_status": "Prepared only; authenticated CDS retrieval has not been tested",
+  "pilot_requests": [
+    {
+      "winter": 1995,
+      "calendar_month": "1994-12",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "1994"
+        ],
+        "month": [
+          "12"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 1995,
+      "calendar_month": "1995-01",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "1995"
+        ],
+        "month": [
+          "01"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 1995,
+      "calendar_month": "1995-02",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "1995"
+        ],
+        "month": [
+          "02"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 1995,
+      "calendar_month": "1995-03",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "1995"
+        ],
+        "month": [
+          "03"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 1995,
+      "calendar_month": "1995-04",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "1995"
+        ],
+        "month": [
+          "04"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 2025,
+      "calendar_month": "2024-12",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "2024"
+        ],
+        "month": [
+          "12"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 2025,
+      "calendar_month": "2025-01",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "2025"
+        ],
+        "month": [
+          "01"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 2025,
+      "calendar_month": "2025-02",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "2025"
+        ],
+        "month": [
+          "02"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 2025,
+      "calendar_month": "2025-03",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "2025"
+        ],
+        "month": [
+          "03"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 2025,
+      "calendar_month": "2025-04",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "2025"
+        ],
+        "month": [
+          "04"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    }
+  ],
+  "full_validation_requests": [
+    {
+      "winter": 1986,
+      "calendar_month": "1985-12",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "1985"
+        ],
+        "month": [
+          "12"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 1986,
+      "calendar_month": "1986-01",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "1986"
+        ],
+        "month": [
+          "01"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 1986,
+      "calendar_month": "1986-02",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "1986"
+        ],
+        "month": [
+          "02"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 1986,
+      "calendar_month": "1986-03",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "1986"
+        ],
+        "month": [
+          "03"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 1986,
+      "calendar_month": "1986-04",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "1986"
+        ],
+        "month": [
+          "04"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 1987,
+      "calendar_month": "1986-12",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "1986"
+        ],
+        "month": [
+          "12"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 1987,
+      "calendar_month": "1987-01",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "1987"
+        ],
+        "month": [
+          "01"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 1987,
+      "calendar_month": "1987-02",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "1987"
+        ],
+        "month": [
+          "02"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 1987,
+      "calendar_month": "1987-03",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "1987"
+        ],
+        "month": [
+          "03"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 1987,
+      "calendar_month": "1987-04",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "1987"
+        ],
+        "month": [
+          "04"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 1988,
+      "calendar_month": "1987-12",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "1987"
+        ],
+        "month": [
+          "12"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 1988,
+      "calendar_month": "1988-01",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "1988"
+        ],
+        "month": [
+          "01"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 1988,
+      "calendar_month": "1988-02",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "1988"
+        ],
+        "month": [
+          "02"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 1988,
+      "calendar_month": "1988-03",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "1988"
+        ],
+        "month": [
+          "03"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 1988,
+      "calendar_month": "1988-04",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "1988"
+        ],
+        "month": [
+          "04"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 1989,
+      "calendar_month": "1988-12",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "1988"
+        ],
+        "month": [
+          "12"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 1989,
+      "calendar_month": "1989-01",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "1989"
+        ],
+        "month": [
+          "01"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 1989,
+      "calendar_month": "1989-02",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "1989"
+        ],
+        "month": [
+          "02"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 1989,
+      "calendar_month": "1989-03",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "1989"
+        ],
+        "month": [
+          "03"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 1989,
+      "calendar_month": "1989-04",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "1989"
+        ],
+        "month": [
+          "04"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 1990,
+      "calendar_month": "1989-12",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "1989"
+        ],
+        "month": [
+          "12"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 1990,
+      "calendar_month": "1990-01",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "1990"
+        ],
+        "month": [
+          "01"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 1990,
+      "calendar_month": "1990-02",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "1990"
+        ],
+        "month": [
+          "02"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 1990,
+      "calendar_month": "1990-03",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "1990"
+        ],
+        "month": [
+          "03"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 1990,
+      "calendar_month": "1990-04",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "1990"
+        ],
+        "month": [
+          "04"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 1991,
+      "calendar_month": "1990-12",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "1990"
+        ],
+        "month": [
+          "12"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 1991,
+      "calendar_month": "1991-01",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "1991"
+        ],
+        "month": [
+          "01"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 1991,
+      "calendar_month": "1991-02",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "1991"
+        ],
+        "month": [
+          "02"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 1991,
+      "calendar_month": "1991-03",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "1991"
+        ],
+        "month": [
+          "03"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 1991,
+      "calendar_month": "1991-04",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "1991"
+        ],
+        "month": [
+          "04"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 1992,
+      "calendar_month": "1991-12",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "1991"
+        ],
+        "month": [
+          "12"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 1992,
+      "calendar_month": "1992-01",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "1992"
+        ],
+        "month": [
+          "01"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 1992,
+      "calendar_month": "1992-02",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "1992"
+        ],
+        "month": [
+          "02"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 1992,
+      "calendar_month": "1992-03",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "1992"
+        ],
+        "month": [
+          "03"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 1992,
+      "calendar_month": "1992-04",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "1992"
+        ],
+        "month": [
+          "04"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 1993,
+      "calendar_month": "1992-12",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "1992"
+        ],
+        "month": [
+          "12"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 1993,
+      "calendar_month": "1993-01",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "1993"
+        ],
+        "month": [
+          "01"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 1993,
+      "calendar_month": "1993-02",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "1993"
+        ],
+        "month": [
+          "02"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 1993,
+      "calendar_month": "1993-03",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "1993"
+        ],
+        "month": [
+          "03"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 1993,
+      "calendar_month": "1993-04",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "1993"
+        ],
+        "month": [
+          "04"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 1994,
+      "calendar_month": "1993-12",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "1993"
+        ],
+        "month": [
+          "12"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 1994,
+      "calendar_month": "1994-01",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "1994"
+        ],
+        "month": [
+          "01"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 1994,
+      "calendar_month": "1994-02",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "1994"
+        ],
+        "month": [
+          "02"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 1994,
+      "calendar_month": "1994-03",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "1994"
+        ],
+        "month": [
+          "03"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 1994,
+      "calendar_month": "1994-04",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "1994"
+        ],
+        "month": [
+          "04"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 1995,
+      "calendar_month": "1994-12",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "1994"
+        ],
+        "month": [
+          "12"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 1995,
+      "calendar_month": "1995-01",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "1995"
+        ],
+        "month": [
+          "01"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 1995,
+      "calendar_month": "1995-02",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "1995"
+        ],
+        "month": [
+          "02"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 1995,
+      "calendar_month": "1995-03",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "1995"
+        ],
+        "month": [
+          "03"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 1995,
+      "calendar_month": "1995-04",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "1995"
+        ],
+        "month": [
+          "04"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 2016,
+      "calendar_month": "2015-12",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "2015"
+        ],
+        "month": [
+          "12"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 2016,
+      "calendar_month": "2016-01",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "2016"
+        ],
+        "month": [
+          "01"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 2016,
+      "calendar_month": "2016-02",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "2016"
+        ],
+        "month": [
+          "02"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 2016,
+      "calendar_month": "2016-03",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "2016"
+        ],
+        "month": [
+          "03"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 2016,
+      "calendar_month": "2016-04",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "2016"
+        ],
+        "month": [
+          "04"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 2017,
+      "calendar_month": "2016-12",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "2016"
+        ],
+        "month": [
+          "12"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 2017,
+      "calendar_month": "2017-01",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "2017"
+        ],
+        "month": [
+          "01"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 2017,
+      "calendar_month": "2017-02",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "2017"
+        ],
+        "month": [
+          "02"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 2017,
+      "calendar_month": "2017-03",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "2017"
+        ],
+        "month": [
+          "03"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 2017,
+      "calendar_month": "2017-04",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "2017"
+        ],
+        "month": [
+          "04"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 2018,
+      "calendar_month": "2017-12",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "2017"
+        ],
+        "month": [
+          "12"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 2018,
+      "calendar_month": "2018-01",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "2018"
+        ],
+        "month": [
+          "01"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 2018,
+      "calendar_month": "2018-02",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "2018"
+        ],
+        "month": [
+          "02"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 2018,
+      "calendar_month": "2018-03",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "2018"
+        ],
+        "month": [
+          "03"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 2018,
+      "calendar_month": "2018-04",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "2018"
+        ],
+        "month": [
+          "04"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 2019,
+      "calendar_month": "2018-12",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "2018"
+        ],
+        "month": [
+          "12"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 2019,
+      "calendar_month": "2019-01",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "2019"
+        ],
+        "month": [
+          "01"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 2019,
+      "calendar_month": "2019-02",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "2019"
+        ],
+        "month": [
+          "02"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 2019,
+      "calendar_month": "2019-03",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "2019"
+        ],
+        "month": [
+          "03"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 2019,
+      "calendar_month": "2019-04",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "2019"
+        ],
+        "month": [
+          "04"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 2020,
+      "calendar_month": "2019-12",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "2019"
+        ],
+        "month": [
+          "12"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 2020,
+      "calendar_month": "2020-01",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "2020"
+        ],
+        "month": [
+          "01"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 2020,
+      "calendar_month": "2020-02",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "2020"
+        ],
+        "month": [
+          "02"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 2020,
+      "calendar_month": "2020-03",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "2020"
+        ],
+        "month": [
+          "03"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 2020,
+      "calendar_month": "2020-04",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "2020"
+        ],
+        "month": [
+          "04"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 2021,
+      "calendar_month": "2020-12",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "2020"
+        ],
+        "month": [
+          "12"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 2021,
+      "calendar_month": "2021-01",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "2021"
+        ],
+        "month": [
+          "01"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 2021,
+      "calendar_month": "2021-02",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "2021"
+        ],
+        "month": [
+          "02"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 2021,
+      "calendar_month": "2021-03",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "2021"
+        ],
+        "month": [
+          "03"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 2021,
+      "calendar_month": "2021-04",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "2021"
+        ],
+        "month": [
+          "04"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 2022,
+      "calendar_month": "2021-12",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "2021"
+        ],
+        "month": [
+          "12"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 2022,
+      "calendar_month": "2022-01",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "2022"
+        ],
+        "month": [
+          "01"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 2022,
+      "calendar_month": "2022-02",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "2022"
+        ],
+        "month": [
+          "02"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 2022,
+      "calendar_month": "2022-03",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "2022"
+        ],
+        "month": [
+          "03"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 2022,
+      "calendar_month": "2022-04",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "2022"
+        ],
+        "month": [
+          "04"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 2023,
+      "calendar_month": "2022-12",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "2022"
+        ],
+        "month": [
+          "12"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 2023,
+      "calendar_month": "2023-01",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "2023"
+        ],
+        "month": [
+          "01"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 2023,
+      "calendar_month": "2023-02",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "2023"
+        ],
+        "month": [
+          "02"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 2023,
+      "calendar_month": "2023-03",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "2023"
+        ],
+        "month": [
+          "03"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 2023,
+      "calendar_month": "2023-04",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "2023"
+        ],
+        "month": [
+          "04"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 2024,
+      "calendar_month": "2023-12",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "2023"
+        ],
+        "month": [
+          "12"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 2024,
+      "calendar_month": "2024-01",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "2024"
+        ],
+        "month": [
+          "01"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 2024,
+      "calendar_month": "2024-02",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "2024"
+        ],
+        "month": [
+          "02"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 2024,
+      "calendar_month": "2024-03",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "2024"
+        ],
+        "month": [
+          "03"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 2024,
+      "calendar_month": "2024-04",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "2024"
+        ],
+        "month": [
+          "04"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 2025,
+      "calendar_month": "2024-12",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "2024"
+        ],
+        "month": [
+          "12"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 2025,
+      "calendar_month": "2025-01",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "2025"
+        ],
+        "month": [
+          "01"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 2025,
+      "calendar_month": "2025-02",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "2025"
+        ],
+        "month": [
+          "02"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 2025,
+      "calendar_month": "2025-03",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "2025"
+        ],
+        "month": [
+          "03"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    {
+      "winter": 2025,
+      "calendar_month": "2025-04",
+      "request": {
+        "variable": [
+          "snow_depth"
+        ],
+        "level_type": "surface_or_atmosphere",
+        "data_type": [
+          "reanalysis"
+        ],
+        "product_type": "analysis",
+        "year": [
+          "2025"
+        ],
+        "month": [
+          "04"
+        ],
+        "day": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15"
+        ],
+        "time": [
+          "06:00"
+        ],
+        "data_format": "netcdf"
+      }
+    }
+  ]
+}

@@ -23,6 +23,6 @@ The model counts much more snow than the stations measure, and it shows little o
 
 ## What comes next
 
-The original project covers four countries. We still need a suitable snow method for that comparison and a reviewed set of resort locations. The current measured result covers **20 selected Swiss stations above 1,000 m**, not all Alpine resorts. Station-history changes remain a limitation; these are not certified homogenised climate records.
+The original project covers four countries. We have cleaned up the flagged resort identities and prepared a separate candidate roster. We still need a suitable snow method for the full comparison and further location checks. A small CERRA test improves on ERA5-Land but still has substantial errors; its public API is missing the recent years we need. The [expansion status](snow_expansion_status.md) explains the next data step. The current measured result covers **20 selected Swiss stations above 1,000 m**, not all Alpine resorts. Station-history changes remain a limitation; these are not certified homogenised climate records.
 
-The code, tables and charts are prepared. Open `notebooks/03.2_snow_analysis.ipynb` on the pull-request branch and choose Run All to view the saved results. The details and source links are in [the method check](snow_method_check.md) and [the full validation](matthias_next_steps.md).
+The code, tables and charts are prepared. Open `notebooks/03.2_snow_analysis.ipynb` on the main branch and choose Run All to view the saved results. The details and source links are in [the method check](snow_method_check.md) and [the full validation](matthias_next_steps.md).

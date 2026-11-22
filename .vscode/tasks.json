@@ -1,0 +1,13 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Snow: reproduce saved results",
+      "type": "process",
+      "command": "python",
+      "args": ["src/run_snow_analysis.py"],
+      "options": {"cwd": "${workspaceFolder}"},
+      "problemMatcher": []
+    }
+  ]
+}
