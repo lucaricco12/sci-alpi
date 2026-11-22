@@ -55,12 +55,29 @@ sci-alpi/
 └── README.md
 ```
 
-## How to run
+## How to run Matthias's results
 
-1. Open the repository in GitHub Codespaces.
-2. In the terminal: `pip install -r requirements.txt`
-3. Open the notebooks in `notebooks/` in numerical order and run all cells.
+**Open [the snow notebook](notebooks/03.2_snow_analysis.ipynb) and choose Run All.** It uses saved data and shows the results under its cells. You do not need to run the scraping notebooks first.
 
-### View the snow validation directly
+For an existing Codespace, run these commands once in its terminal:
 
-Open `notebooks/03.2_snow_analysis.ipynb` and Run All to compare the saved ERA5-Land and MeteoSwiss station data, inspect the expanded resort inputs and reproduce the figures. This notebook defaults to the committed results and does not require running the earlier scraping/download notebooks. Read `docs/matthias_next_steps.md` for the findings and remaining snow-data decisions.
+```bash
+git pull --ff-only origin main
+python -m pip install -r requirements.txt
+```
+
+Then open `notebooks/03.2_snow_analysis.ipynb`, choose a Python kernel and **Run All**. The charts also appear in [the short explanation](docs/matthias_simple_explanation.md).
+
+New Codespaces install the requirements and Python/Jupyter extensions automatically. The notebook is selected as the opening file. The container configuration can also be applied to an existing Codespace with **Codespaces: Rebuild Container**.
+
+To rebuild the saved snow tables and figures from the terminal:
+
+```bash
+python src/run_snow_analysis.py
+```
+
+The VS Code task **Snow: reproduce saved results** runs the same command. No API download is needed. Other team notebooks remain separate workflows; some make live downloads.
+
+### Current expansion status
+
+The follow-up includes a source review of all flagged resort identities, a deduplicated climate roster, a matched CERRA screening and a direct Copernicus download plan. The full four-country snow analysis remains pending a suitable full-period snow method and further location checks. See [the expansion status](docs/snow_expansion_status.md) and [Matthias's plain-English explanation](docs/matthias_simple_explanation.md).

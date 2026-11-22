@@ -130,6 +130,21 @@ All winter counts use 1 December–15 April inclusive. Winter is named by its en
 
 The measured manual series are not certified homogenised climate series. Check site histories and representativeness before long-term attribution or extrapolation beyond this Swiss >1,000 m subset. Methods and source URLs are in `docs/matthias_next_steps.md`.
 
+## Snow expansion follow-up (22 November 2026)
+
+| File | Row unit and key | Meaning |
+| --- | --- | --- |
+| `resort_location_evidence.csv` | Resort ID × access-point index (211 points, 33 areas) | Listed lift-access coordinates in decimal degrees, source URL, UTC retrieval time, SHA-256 hash, destination and own-region breadcrumb. |
+| `resorts_snow_roster.csv` | Canonical source URL (293 areas) | Original/selected coordinates, movement in km, country memberships and cross-border category. Eighteen reviewed non-Alpine areas are excluded from the 275-area candidate set; 260 identities have not been individually reviewed. |
+| `station_model_candidates.csv` | Model × station × winter (80 rows) | Complete ERA5-Land/CERRA responses for 20 stations in winters 1995 and 2021, with counts, grid, URL and response hash. |
+| `snow_candidate_validation.csv` | Model × station × winter (80 rows) | Candidates matched to measured counts; error is model minus observation, in days. |
+| `snow_candidate_metrics.csv` | Model (2 rows) | Matched screening bias, MAE, RMSE and descriptive correlation; not a validation of the 20-winter trend. |
+| `snow_model_availability.csv` | Model × probe station × winter (4 probes) | Expected/returned/non-null hours, response unit, URL and hash. `missing_not_zero` means unavailable data. |
+| `data/config/resort_scope_decisions.csv` | Resort ID (33 reviewed identities) | Explicit `in_alps` / `outside_alps` decisions and reasons for every originally flagged identity. |
+| `data/config/cerra_cds_download_plan.json` | Monthly request | Prepared physical snow-depth requests at 06:00 UTC for pilot and target winters; authenticated download remains untested. |
+
+Roster coordinates marked `source_first_listed_lift_access` are representative source-page points; other coordinates retain `original_geocode_not_rechecked`. The five multi-country systems use `country_for_analysis=cross_border`. `base_elevation_at_point_verified` and `snow_method_validated` remain false. The original feature/price files are preserved.
+
 ## Follow-up method check and measured elevation summary
 
 | Output / variable | Unit | Meaning |

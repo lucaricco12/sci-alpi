@@ -121,3 +121,10 @@ Required for the final project: which AI tools we used, for which tasks, advanta
 * **Additional diagnostic:** Four fixed-grid API requests with downscaling disabled recorded the API's reported elevations. Independently compared the retained raw Davos and Weissfluhjoch responses: their complete hourly model snow-depth sequences are identical in all 20 study winters, despite station elevations of 1,594 m and 2,691 m. This illustrates the height-resolution limitation, without identifying every physical cause of the model's errors.
 * **Measured result:** In the selected station records, the below-1,500 m group averaged a 22.25-day loss and the ≥1,500 m group a 6.98-day loss. These are descriptive subgroup means for 11 and 9 Swiss stations, not a four-country result or a causal elevation effect.
 * **Limitations:** The small location test does not identify every physical cause of model error or replace the full 20-winter benchmark. The four-country research question remains open; it was not silently narrowed to Switzerland. The original model/observation panels and resort-feature inputs are preserved.
+
+## 2026-11-22 — Matthias: implement on main and prepare expansion
+
+* **User request:** Implement the prepared work directly in the GitHub project.
+* **AI assistance:** Merged PR #1, configured new Codespaces, added a saved-data runner and notebook follow-up cells, reviewed flagged source locations and resort identities, screened CERRA against ERA5-Land on matched cases, and prepared direct CDS requests.
+* **Evidence and checks:** 33 source pages / 211 access points; 293 unique areas with 18 outside-Alps exclusions; 40 matched cases per candidate; 20 tests, fresh dependency installation and nine offline notebook cells passed. Original team source/price data were preserved.
+* **Limits:** 260 resort identities remain individually unreviewed; access points are not certified base elevations; CERRA screening does not validate full-period trends; authenticated CDS retrieval and four-country snow conclusions remain unfinished. Detailed provenance and reproduction are in docs/snow_expansion_status.md.

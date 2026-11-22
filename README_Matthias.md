@@ -2,11 +2,13 @@
 
 **New to this project? Start with [the plain-English explanation](docs/matthias_simple_explanation.md).** It explains the question, the result from real measurements, why the weather estimates need care, and what is still needed for the four-country study.
 
-## Start here: model–station validation
+## Start here: view your results
 
 Open `notebooks/03.2_snow_analysis.ipynb`, select the Python kernel and **Run All**. It uses the committed station-model tables, so no API download is needed by default. Results appear below the code cells. The notebook rebuilds the validation tables, input audit, figures and findings report.
 
-Read `docs/matthias_next_steps.md` for the findings and remaining tasks. Figures are in `docs/figures/`; numerical outputs are in `data/processed/` (`snow_station_validation.csv`, `snow_validation_metrics.csv`, `snow_station_changes.csv`, `snow_validation_trend_metrics.csv`). The full-resort review is `snow_resort_input_review.csv`.
+For an existing Codespace, first run `git pull --ff-only origin main` and `python -m pip install -r requirements.txt` in its terminal. New Codespaces install the tools automatically. You can also rebuild all saved results with `python src/run_snow_analysis.py`.
+
+Read [the expansion status](docs/snow_expansion_status.md) for the new resort roster, alternative-model check and next download step. Read `docs/matthias_next_steps.md` for the full validation. Figures are in `docs/figures/`; numerical outputs are in `data/processed/` (`snow_station_validation.csv`, `snow_validation_metrics.csv`, `snow_station_changes.csv`, `snow_validation_trend_metrics.csv`). The full-resort review is `snow_resort_input_review.csv`.
 
 The comparison uses ERA5-Land at each of the 20 measured station coordinates and requested elevations, with snow depth at **06:00 UTC** to match MeteoSwiss. The original resort pilot below uses the **daily maximum**, so it is a separate indicator. The returned model grid point is retained and shown on the station map.
 

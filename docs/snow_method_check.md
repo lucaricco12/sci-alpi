@@ -47,13 +47,13 @@ We have not identified every physical cause of the model errors. These checks ru
 
 ## What remains for the original four-country study?
 
-The group needs a snow method that works well enough for the four-country comparison, plus a reviewed set of unique resort locations. The 300-row resort file has 293 distinct source URLs and 40 rows flagged for location or identity review. Some sites are valid resorts outside the Alps; other coordinates are clearly suspect. Duplicate ski areas and cross-border areas need an explicit counting rule.
+The follow-up now has a separate 293-area climate roster, with one row per source URL. All 33 flagged identities (40 original rows) were checked against source access pages. Eighteen areas are outside the Alps and are excluded from the 275-area candidate set. Five cross-border areas have their own category. The other 260 identities have not been individually rechecked, and the listed access points are not certified minimum-elevation snow sites. Lorenzo's original rows are preserved. See [the expansion status](snow_expansion_status.md).
 
 After the snow method and locations are agreed, the remaining work is to expand the download, compare countries and elevations, and connect the snow results to the price and closure analyses. The original four-country conclusions remain open; we have not silently changed the research question to Switzerland alone.
 
 ## Where to look
 
-Open `notebooks/03.2_snow_analysis.ipynb` on the pull-request branch and choose Run All. The saved results are already included, so it does not need to download the weather data again. Start with `docs/matthias_simple_explanation.md` for the short explanation. `docs/matthias_next_steps.md` contains the full-panel diagnostics.
+Open `notebooks/03.2_snow_analysis.ipynb` on the main branch and choose Run All. The saved results are already included, so it does not need to download the weather data again. Start with `docs/matthias_simple_explanation.md` for the short explanation. `docs/matthias_next_steps.md` contains the full-panel diagnostics.
 
 ## Sources and reproduction
 
