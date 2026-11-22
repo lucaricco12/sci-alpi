@@ -1,5 +1,7 @@
 # Matthias's snow-data pipeline
 
+**New to this project? Start with [the plain-English explanation](docs/matthias_simple_explanation.md).** It explains the question, the result from real measurements, why the weather estimates need care, and what is still needed for the four-country study.
+
 ## Start here: model–station validation
 
 Open `notebooks/03.2_snow_analysis.ipynb`, select the Python kernel and **Run All**. It uses the committed station-model tables, so no API download is needed by default. Results appear below the code cells. The notebook rebuilds the validation tables, input audit, figures and findings report.

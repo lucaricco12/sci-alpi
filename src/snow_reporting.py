@@ -144,6 +144,8 @@ def write_findings(root, pairs, audit):
 
 The next notebook is `notebooks/03.2_snow_analysis.ipynb`. Run All reads committed results, recalculates the comparison and recreates the figures without downloading data. The optional download switch refreshes model seasons with a cache.
 
+For the short explanation and the measurements-only before/after chart, start with `docs/matthias_simple_explanation.md`. A follow-up location-selection test and its sources are in `docs/snow_method_check.md`. That 40-case sensitivity check is separate from the full 400-case benchmark reported below.
+
 ### SQ2: compare like with like
 
 We queried ERA5-Land at each of the {pairs.station_id.nunique()} MeteoSwiss station coordinates, requesting the station elevation. Both sources use the same {len(pairs)} station–winter keys, the same dates (1 December–15 April), and the same observation time (06:00 UTC). The threshold is 0.30 m in the model and 30 cm in the measurements. All model hourly seasons were checked for exact timestamps, finite non-negative depth and complete coverage before counting. Returned grid coordinates and response hashes are retained.

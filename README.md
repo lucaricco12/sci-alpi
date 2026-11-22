@@ -20,11 +20,13 @@ To what extent has natural snow reliability in Swiss, Italian, Austrian and Fren
 
 ## Definitions
 
-- **Snow reliability**: number of days per winter with at least 30 cm of natural snow depth between 1 December and 15 April, at the resort's base elevation. A resort is "snow-reliable" with at least 100 days (100-day rule, Witmer 1986).
+- **Target snow reliability**: number of days per winter with at least 30 cm of natural snow depth between 1 December and 15 April, at the resort's base elevation. A resort is "snow-reliable" with at least 100 days (100-day rule, Witmer 1986).
 - **Periods**: winters 1985/86–1994/95 vs 2015/16–2024/25 (10 winters each). A winter is named after the year in which it ends.
 - **Risk class** (recent period): reliable (≥ 100 days), at risk (60–99), critical (< 60). The 60/99 thresholds are our own choice.
 - **Price**: adult one-day pass, main season, same source and same collection date for all resorts.
 - **Design**: prices are cross-sectional (one season). We assume today's prices reflect the climate risk accumulated over time; without historical prices this cannot be tested. Results are associations, not causal effects.
+
+**Current snow-data limitation:** the API's raw snow depth is a grid estimate. Requesting the base elevation does not establish snow depth at that exact height; the provider does not mark snow depth for elevation correction. The matched Swiss validation found substantial error and weak reproduction of observed changes. Raw pilot classifications have not been validated as resort risk labels. See [Matthias's plain-English explanation](docs/matthias_simple_explanation.md) for the measured findings and the unresolved four-country snow method.
 
 ## Data sources
 

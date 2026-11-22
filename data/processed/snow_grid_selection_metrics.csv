@@ -1,0 +1,3 @@
+selection,n_station_winters,n_stations,pilot_winters,mean_observed_snow_days,mean_model_snow_days,bias_days,mae_days,rmse_days,mean_grid_distance_km,same_grid_point_cases
+land,40,20,1995;2025,70.35,119.775,49.425,52.325,64.65775282207076,6.644282474107622,24
+nearest,40,20,1995;2025,70.35,123.6,53.25,56.15,66.91711290843323,3.7278468132811455,24

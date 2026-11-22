@@ -129,3 +129,17 @@ All winter counts use 1 December–15 April inclusive. Winter is named by its en
 | `outside_alpine_screening_box` | boolean | Outside 43–49° N, 4–17° E. Screening flag only; not a validated Alpine polygon or proof of a wrong location. |
 
 The measured manual series are not certified homogenised climate series. Check site histories and representativeness before long-term attribution or extrapolation beyond this Swiss >1,000 m subset. Methods and source URLs are in `docs/matthias_next_steps.md`.
+
+## Follow-up method check and measured elevation summary
+
+| Output / variable | Unit | Meaning |
+| --- | --- | --- |
+| `station_model_nearest_pilot.csv` | one row per station × pilot winter | 40 fresh requests using `cell_selection=nearest` for all 20 stations in winters 1995 and 2025. Source URLs and raw-response hashes are retained. |
+| `snow_grid_selection_pilot.csv` | one row per station × pilot winter | Identical 40 measured cases joined to the original land-setting and nearest-setting model counts. The two model settings have explicit suffixes. |
+| `snow_grid_selection_metrics.csv` | one row per selection option | Descriptive count-error and grid-distance metrics for the 40 pilot cases. These are not ten-winter period means or a replacement for the full validation. |
+| `same_grid_point` | boolean | Both settings return the same latitude and longitude, within 1e-6 degree. |
+| `absolute_error_change_nearest_minus_land` | days/winter | Absolute count error under nearest minus absolute error under land. Positive means the nearest option is worse for that case. |
+| `snow_measured_elevation_summary.csv` | one row per all-station/elevation grouping | Each station's ten-winter measured means are averaged equally across stations. The below-1,500 m group has 11 stations; the ≥1,500 m group has 9. These are descriptive measured results for this Swiss subset. |
+| `snow_grid_elevation_examples.csv` | one row per illustrative station | Four fixed-grid diagnostic requests for 1 Jan 2025, using `elevation=nan` to disable downscaling. Contains station elevation, API-reported elevation, their difference, grid coordinates, URL and response hash. These are diagnostic examples, not another climate panel. |
+
+The provider's `isElevationCorrectable` definition excludes snow depth. Changing query elevation therefore does not establish snow at the requested physical height. The base/top pilot is a sensitivity check of requests and returned grid points. The evidence and pinned source revision are in `docs/snow_method_check.md`.
