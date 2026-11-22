@@ -58,3 +58,7 @@ sci-alpi/
 1. Open the repository in GitHub Codespaces.
 2. In the terminal: `pip install -r requirements.txt`
 3. Open the notebooks in `notebooks/` in numerical order and run all cells.
+
+### View the snow validation directly
+
+Open `notebooks/03.2_snow_analysis.ipynb` and Run All to compare the saved ERA5-Land and MeteoSwiss station data, inspect the expanded resort inputs and reproduce the figures. This notebook defaults to the committed results and does not require running the earlier scraping/download notebooks. Read `docs/matthias_next_steps.md` for the findings and remaining snow-data decisions.

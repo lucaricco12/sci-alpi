@@ -16,4 +16,3 @@ psycopg2-binary
 jupyter
 ipykernel
 pdfplumber
-| 2026-11-18 | Legambiente, Nevediversa 2026 (PDF, 359 pages; notebook `04`) | – (table built from the report; geocoding and join with snow data come later) | – | Report totals: 273 dismissed and 106 temporarily closed lifts | 184 site rows (147 dismesso + 37 chiuso temporaneamente) in `legambiente_closures.csv` | 0 sites; 2 rows without province | One row per site, not per lift (one site can have several lifts). Extracted column by column from the 3-column layout; row count checked against the `Comune` labels in the PDF. |

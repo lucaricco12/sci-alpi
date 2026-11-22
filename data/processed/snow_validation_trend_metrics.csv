@@ -1,0 +1,2 @@
+n_stations,mean_observed_lost_days,mean_model_lost_days,mean_loss_error_days,loss_rmse_days,loss_pearson_r,loss_pearson_p_nominal,same_direction_stations
+20,15.38,0.5849999999999979,-14.794999999999998,20.02289939044793,-0.186310311378953,0.4315870295266567,7
