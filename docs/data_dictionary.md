@@ -63,7 +63,7 @@ Status: ✅ defined · 🔄 to be confirmed after the pilot test (step 1, 11 Nov
 | --- | --- | --- | --- | --- |
 | `station_id` | text | – | MeteoSwiss | Station abbreviation 🔄 |
 | `lat`, `lon`, `elev_m` | float | degrees / m | MeteoSwiss | Station location ✅ |
-| `winter`, `snow_days_30cm` | integer | year / days | MeteoSwiss | Same definition as `snow_winters` ✅ |
+| `winter`, `snow_days_30cm` | integer | year / days | MeteoSwiss | Winter ending year; days 1 Dec–15 Apr with the 06:00 UTC measurement ≥30 cm. This is a morning reading, whereas the original resort pilot uses a daily maximum. ✅ |
 
 ## Table `closures` (Legambiente, Italy) — owner: Luca
 
@@ -80,7 +80,9 @@ Status: ✅ defined · 🔄 to be confirmed after the pilot test (step 1, 11 Nov
 | `matched` | boolean | – | derived | True if geocoding succeeded 🔄 (next step) |
 
 #### Table resorts_features (`data/processed/resorts_features.csv`) — 300 Alpine Ski Resorts
-Status: ✅ Finalized (17 attributes, 300 complete records across CH, IT, AT, FR)
+Status: source feature table contains 300 rows and 22 columns, with 293 distinct source URLs. Lift counts are missing and the coordinate/identity review is pending. See `data/processed/snow_resort_input_review.csv`; this table is not yet an approved unique-area climate sample.
+
+The listed fields below describe the intended feature meanings. The current source data include duplicate/cross-border records, filled prices and suspect coordinates; a populated field does not establish verified provenance.
 
 | Variable | Type | Unit | Source | Description | Status |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -101,3 +103,43 @@ Status: ✅ Finalized (17 attributes, 300 complete records across CH, IT, AT, FR
 | `dist_munich_km` | float | km | Derived (Haversine) | Geodesic distance to Munich city center (48.1351° N, 11.5820° E). | ✅ |
 | `dist_lyon_km` | float | km | Derived (Haversine) | Geodesic distance to Lyon city center (45.7640° N, 4.8357° E). | ✅ |
 | `hotels_4_5_star_10km` | integer | count | OSM Overpass API | Number of 4- and 5-star hotels within a 10 km radial buffer (luxury/prestige proxy). | ✅ |
+
+## Matched snow validation — owner: Matthias
+
+All winter counts use 1 December–15 April inclusive. Winter is named by its ending year. Each of 20 stations has ten past and ten recent winters (400 unique station–winter keys). No measured input rows are removed in the model join.
+
+| Output / variable | Unit | Meaning |
+| --- | --- | --- |
+| `station_model_winters.csv` | one row per station × winter | Validated model seasons, with request URLs and SHA-256 hashes of raw responses. |
+| `model_days_06utc` | days/winter | ERA5-Land days with the 06:00 UTC snow-depth reading ≥0.30 m. Primary validation indicator. |
+| `model_days_daily_max` | days/winter | Same model season counted using the maximum of all 24 UTC hours each day. Sensitivity indicator; matches the original resort aggregation rule. |
+| `model_observed_days`, `model_hours` | days, hours | Complete season length and hourly coverage. |
+| `query_elev_m` | m above sea level | Station elevation sent to the API. It is not evidence of snow-depth downscaling to exact point elevation. |
+| `grid_lat`, `grid_lon`, `grid_distance_km` | degrees, km | Returned model grid point and its distance from the requested station. |
+| `snow_station_validation.csv` | one row per station × winter | One-to-one matched station and model tables. |
+| `observed_days_06utc` | snow days/winter | MeteoSwiss `hto000d0` morning readings ≥30 cm. |
+| `observed_days` | observed calendar days | Total number of measurement days in the complete season, not a snow-day count. |
+| `error_days` | days/winter | `model_days_06utc` minus `observed_days_06utc`. Positive means model overcounting. |
+| `daily_max_extra_days` | days/winter | `model_days_daily_max` minus `model_days_06utc`. |
+| `snow_validation_metrics.csv` | one row per all/past/recent grouping | Bias, MAE, RMSE (days/winter), descriptive count correlation and model saturation. No pooled p-value treating the 400 records as independent stations. |
+| `snow_station_changes.csv` | one row per station | Observed/model period means and losses. Loss = past minus recent; positive means fewer recent snow days. |
+| `loss_error_days` | days/winter | Modelled loss minus measured loss. |
+| `snow_validation_trend_metrics.csv` | one row for the station panel | Change diagnostics. The Pearson p-value uses 20 station changes and is nominal; spatial dependence is not adjusted. |
+| `snow_resort_input_review.csv` | one row per original feature row | Canonical URL slug, original source row and review flags. No automatic deletion or coordinate correction. |
+| `outside_alpine_screening_box` | boolean | Outside 43–49° N, 4–17° E. Screening flag only; not a validated Alpine polygon or proof of a wrong location. |
+
+The measured manual series are not certified homogenised climate series. Check site histories and representativeness before long-term attribution or extrapolation beyond this Swiss >1,000 m subset. Methods and source URLs are in `docs/matthias_next_steps.md`.
+
+## Follow-up method check and measured elevation summary
+
+| Output / variable | Unit | Meaning |
+| --- | --- | --- |
+| `station_model_nearest_pilot.csv` | one row per station × pilot winter | 40 fresh requests using `cell_selection=nearest` for all 20 stations in winters 1995 and 2025. Source URLs and raw-response hashes are retained. |
+| `snow_grid_selection_pilot.csv` | one row per station × pilot winter | Identical 40 measured cases joined to the original land-setting and nearest-setting model counts. The two model settings have explicit suffixes. |
+| `snow_grid_selection_metrics.csv` | one row per selection option | Descriptive count-error and grid-distance metrics for the 40 pilot cases. These are not ten-winter period means or a replacement for the full validation. |
+| `same_grid_point` | boolean | Both settings return the same latitude and longitude, within 1e-6 degree. |
+| `absolute_error_change_nearest_minus_land` | days/winter | Absolute count error under nearest minus absolute error under land. Positive means the nearest option is worse for that case. |
+| `snow_measured_elevation_summary.csv` | one row per all-station/elevation grouping | Each station's ten-winter measured means are averaged equally across stations. The below-1,500 m group has 11 stations; the ≥1,500 m group has 9. These are descriptive measured results for this Swiss subset. |
+| `snow_grid_elevation_examples.csv` | one row per illustrative station | Four fixed-grid diagnostic requests for 1 Jan 2025, using `elevation=nan` to disable downscaling. Contains station elevation, API-reported elevation, their difference, grid coordinates, URL and response hash. These are diagnostic examples, not another climate panel. |
+
+The provider's `isElevationCorrectable` definition excludes snow depth. Changing query elevation therefore does not establish snow at the requested physical height. The base/top pilot is a sensitivity check of requests and returned grid points. The evidence and pinned source revision are in `docs/snow_method_check.md`.

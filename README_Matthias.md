@@ -1,5 +1,19 @@
 # Matthias's snow-data pipeline
 
+**New to this project? Start with [the plain-English explanation](docs/matthias_simple_explanation.md).** It explains the question, the result from real measurements, why the weather estimates need care, and what is still needed for the four-country study.
+
+## Start here: model–station validation
+
+Open `notebooks/03.2_snow_analysis.ipynb`, select the Python kernel and **Run All**. It uses the committed station-model tables, so no API download is needed by default. Results appear below the code cells. The notebook rebuilds the validation tables, input audit, figures and findings report.
+
+Read `docs/matthias_next_steps.md` for the findings and remaining tasks. Figures are in `docs/figures/`; numerical outputs are in `data/processed/` (`snow_station_validation.csv`, `snow_validation_metrics.csv`, `snow_station_changes.csv`, `snow_validation_trend_metrics.csv`). The full-resort review is `snow_resort_input_review.csv`.
+
+The comparison uses ERA5-Land at each of the 20 measured station coordinates and requested elevations, with snow depth at **06:00 UTC** to match MeteoSwiss. The original resort pilot below uses the **daily maximum**, so it is a separate indicator. The returned model grid point is retained and shown on the station map.
+
+To refresh missing raw station-model seasons from the terminal: `python src/snow_validation.py --download`. Completed API responses are cached locally. A failed or rate-limited batch preserves the published model table. To run the checks: `python -m unittest discover -s tests -v`.
+
+## Original 10-location resort pilot
+
 The notebook reads Lorenzo's ten-resort pilot from data/processed/pilot_resorts_10.csv and adds the location mapping in data/processed/pilot_resort_locations.csv.
 
 From the repository root, install requirements.txt, open notebooks/03_snow_pilot.ipynb, select the Python 3 kernel, and run all cells. A first run downloads the historical snow data. Later runs reuse responses saved in data/raw/. The completed output CSVs are already available in data/processed/.
