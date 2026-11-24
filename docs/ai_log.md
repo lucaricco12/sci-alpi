@@ -144,3 +144,11 @@ Required for the final project: which AI tools we used, for which tasks, advanta
 * **What worked:** Testing the notebook on a real PostgreSQL 16 server in the AI workspace; adapting the SQL syntax (`STRING_AGG`, `FILTER`, `::numeric` for `ROUND`); the results are identical to SQLite and the row counts match in all 8 tables; two PostgreSQL-only queries (window function `RANK() OVER`, median with `percentile_cont`).
 * **What did not work:** The first run failed with an encoding error, because the test server used ASCII and the resort names contain long dashes. Fixed by creating the database with UTF-8 and setting `client_encoding` in the connection. The `apt-get install` part of the setup script could not be tested in the AI workspace, only in the Codespace.
 * **Human verification:** To be completed by Luca: run the setup script in the Codespace, run the notebook with Run All, check that "All checks passed." is printed.
+
+## 2026-11-24 – Luca: Affordability matrix, ANOVA and correlations (`notebooks/05.3_affordability_and_tests.ipynb`)
+
+* **Tool used:** Claude (connected to the GitHub repository)
+* **Task:** Step 4 of the plan, the part that does not depend on the snow data: hours of work per day pass for every origin and destination country (SQ4), one-way ANOVA of day-pass prices by country, and correlations of the price with resort features, each test with a p-value.
+* **What worked:** The data come from the SQLite database with SQL (`CROSS JOIN`, `WITH`, the view `v_latest_earnings`); the F statistic and eta squared were recomputed by hand; the diagonal of the matrix equals the result of notebook 05; the matrix was checked with the median price instead of the mean.
+* **What did not work / limits:** The variances of the countries are unequal (Levene p < 0.001), so the Welch ANOVA and Kruskal-Wallis were added; the earnings are nominal and not corrected for price levels. The chi-squared test (SQ5) and the ANOVA of snow loss were not done, because there is no valid snow-risk class for all resorts and the Legambiente sites are not geocoded yet.
+* **Human verification:** To be completed by Luca: run the notebook with Run All, check that "All checks passed." is printed, and read the interpretation under the matrix, the ANOVA and the correlation table.
