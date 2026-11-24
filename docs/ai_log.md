@@ -128,3 +128,11 @@ Required for the final project: which AI tools we used, for which tasks, advanta
 * **AI assistance:** Merged PR #1, configured new Codespaces, added a saved-data runner and notebook follow-up cells, reviewed flagged source locations and resort identities, screened CERRA against ERA5-Land on matched cases, and prepared direct CDS requests.
 * **Evidence and checks:** 33 source pages / 211 access points; 293 unique areas with 18 outside-Alps exclusions; 40 matched cases per candidate; 20 tests, fresh dependency installation and nine offline notebook cells passed. Original team source/price data were preserved.
 * **Limits:** 260 resort identities remain individually unreviewed; access points are not certified base elevations; CERRA screening does not validate full-period trends; authenticated CDS retrieval and four-country snow conclusions remain unfinished. Detailed provenance and reproduction are in docs/snow_expansion_status.md.
+
+## 2026-11-24 – Luca: SQLite database and SQL queries (`notebooks/05_sqlite_database.ipynb`)
+
+* **Tool used:** Claude (connected to the GitHub repository)
+* **Task:** Build the SQLite database `db/sci_alpi.db` from the existing CSV files and answer project questions with SQL queries run from Python (`JOIN`, `LEFT JOIN`, `GROUP BY`, `HAVING`, `WITH`, a view).
+* **What worked:** Creating the tables with primary keys, foreign keys and `CHECK` rules before loading; comparing the row count of each CSV file with its table; recomputing SQL results with pandas; the SQL snow result reproduced Matthias's published values (55.3 to 33.1 and 106.5 to 99.5 days).
+* **What did not work:** The pair (`resort_id`, `country`) is not unique in `resorts` (two repeats within one country), so a surrogate key `row_id` was used. Five of the ten pilot snow resorts do not match any roster ID, so no foreign key is possible for the pilot tables. PostgreSQL was not tested, because there is no PostgreSQL server in the AI workspace.
+* **Human verification:** To be completed by Luca: run the notebook in the Codespace (Run All), check that the last check cell prints "All checks passed." and read the interpretation under each query.

@@ -47,7 +47,7 @@ Status: ✅ defined · 🔄 to be confirmed after the pilot test (step 1, 11 Nov
 | `country` | text | ISO code | Eurostat | CH, IT, AT, FR ✅ |
 | `year` | integer | year | Eurostat | Reference year ✅ |
 | `pli_eu27` | float | index, EU27 = 100 | Eurostat `prc_ppp_ind` | Price level index, actual individual consumption (A01) ✅ |
-| `net_earnings_year_eur` | float | EUR per year | Eurostat `earn_nt_netft` | Net earnings, single person without children, 100 % of average wage ✅ |
+| `net_earnings_year_eur` | float | EUR per year | Eurostat `earn_nt_net` | Net earnings, single person without children, 100 % of average wage ✅ |
 | `net_earnings_hour_eur` | float | EUR per hour | derived | Annual net earnings / 1,760 hours (assumption: 220 days × 8 h) ✅ |
 
 ## Table `fx_rates` (one row per day) — owner: Luca
@@ -158,3 +158,17 @@ Roster coordinates marked `source_first_listed_lift_access` are representative s
 | `snow_grid_elevation_examples.csv` | one row per illustrative station | Four fixed-grid diagnostic requests for 1 Jan 2025, using `elevation=nan` to disable downscaling. Contains station elevation, API-reported elevation, their difference, grid coordinates, URL and response hash. These are diagnostic examples, not another climate panel. |
 
 The provider's `isElevationCorrectable` definition excludes snow depth. Changing query elevation therefore does not establish snow at the requested physical height. The base/top pilot is a sensitivity check of requests and returned grid points. The evidence and pinned source revision are in `docs/snow_method_check.md`.
+
+## SQLite database `db/sci_alpi.db` (built by `notebooks/05_sqlite_database.ipynb`) — owner: Luca
+
+| Table | Rows | Primary key | Foreign key | Content |
+| --- | ---: | --- | --- | --- |
+| `resort_roster` | 293 | `resort_id` | – | One row per ski area (Matthias's roster); cross-border systems have `country_for_analysis = 'cross_border'` ✅ |
+| `resorts` | 300 | `row_id` | `resort_id` → `resort_roster` | Scraped resort features and prices (same columns as `resorts_features.csv`, plus `row_id`, `resort_id`) ✅ |
+| `closures` | 184 | `closure_id` | – | Legambiente closed facilities (see table `closures` above) ✅ |
+| `country_stats` | 123 | `country`, `year` | – | Price level index and net earnings ✅ |
+| `fx_eur_chf_daily` | 4,098 | `date` | – | CHF per 1 EUR ✅ |
+| `station_winters` | 400 | `station_id`, `winter` | – | MeteoSwiss measured snow days, 20 stations ✅ |
+| `snow_summary_pilot`, `snow_winters_pilot` | 10 / 20 | `resort_id` / `resort_id`, `winter` | none | Pilot snow results for 10 resorts (5 do not match the roster IDs) ✅ |
+| `v_latest_earnings` (view) | 4 | – | – | Latest year with net hourly earnings per country ✅ |
+| Snow table for all resorts | – | – | – | 🔄 Added when the snow indicator is agreed |
