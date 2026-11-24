@@ -172,3 +172,5 @@ The provider's `isElevationCorrectable` definition excludes snow depth. Changing
 | `snow_summary_pilot`, `snow_winters_pilot` | 10 / 20 | `resort_id` / `resort_id`, `winter` | none | Pilot snow results for 10 resorts (5 do not match the roster IDs) ✅ |
 | `v_latest_earnings` (view) | 4 | – | – | Latest year with net hourly earnings per country ✅ |
 | Snow table for all resorts | – | – | – | 🔄 Added when the snow indicator is agreed |
+
+The same schema exists in **PostgreSQL** (database `sci_alpi`, user `sci`, local development only), built by `notebooks/05.2_postgresql_database.ipynb`. Differences to SQLite: `BOOLEAN` flags in `resort_roster`, `DATE` in `fx_eur_chf_daily`, `DOUBLE PRECISION` instead of `REAL`, and two indexes on `resorts` (`resort_id`, `country`). Row counts are identical in both databases. Server setup: `bash src/setup_postgres_codespace.sh` ✅

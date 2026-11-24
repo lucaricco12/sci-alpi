@@ -136,3 +136,11 @@ Required for the final project: which AI tools we used, for which tasks, advanta
 * **What worked:** Creating the tables with primary keys, foreign keys and `CHECK` rules before loading; comparing the row count of each CSV file with its table; recomputing SQL results with pandas; the SQL snow result reproduced Matthias's published values (55.3 to 33.1 and 106.5 to 99.5 days).
 * **What did not work:** The pair (`resort_id`, `country`) is not unique in `resorts` (two repeats within one country), so a surrogate key `row_id` was used. Five of the ten pilot snow resorts do not match any roster ID, so no foreign key is possible for the pilot tables. PostgreSQL was not tested, because there is no PostgreSQL server in the AI workspace.
 * **Human verification:** Luca ran the notebook with Run All in his own Codespace on 2026-11-24 (Python 3.14.2). All cells ran, the check cell printed "All checks passed.", and no rows were lost in any table.
+
+## 2026-11-24 – Luca: PostgreSQL database and SQL queries (`notebooks/05.2_postgresql_database.ipynb`)
+
+* **Tool used:** Claude (connected to the GitHub repository)
+* **Task:** Repeat the database of notebook 05 in PostgreSQL (extra points: PostgreSQL with joins and aggregations from Python) and write the setup script `src/setup_postgres_codespace.sh` for the Codespace.
+* **What worked:** Testing the notebook on a real PostgreSQL 16 server in the AI workspace; adapting the SQL syntax (`STRING_AGG`, `FILTER`, `::numeric` for `ROUND`); the results are identical to SQLite and the row counts match in all 8 tables; two PostgreSQL-only queries (window function `RANK() OVER`, median with `percentile_cont`).
+* **What did not work:** The first run failed with an encoding error, because the test server used ASCII and the resort names contain long dashes. Fixed by creating the database with UTF-8 and setting `client_encoding` in the connection. The `apt-get install` part of the setup script could not be tested in the AI workspace, only in the Codespace.
+* **Human verification:** To be completed by Luca: run the setup script in the Codespace, run the notebook with Run All, check that "All checks passed." is printed.

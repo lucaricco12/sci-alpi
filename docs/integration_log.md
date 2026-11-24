@@ -21,6 +21,7 @@
 | 2026-11-24 | `snow_summary_pilot` (10 resorts) | `resort_roster` | `resort_id` | 10 pilot resorts | 5 matched | 5 not matched | The other 5 pilot IDs differ from the URL slugs (for example `zermatt-matterhorn`). A mapping table is needed before the snow data can be joined to prices. |
 | 2026-11-24 | `resorts` (75 CHF prices) | `fx_eur_chf_daily`, average for 2025 | Currency `CHF` | 75 prices converted with a fixed factor of 1.05 | 75 prices recomputed (check only) | 0 | The 2025 average (0.937 CHF per EUR, i.e. 1.067 EUR per CHF) gives prices about 1.6 % higher. `resorts_features.csv` was not changed; the group should decide on one rate. |
 | 2026-11-24 | `resorts` | `country_stats` (view `v_latest_earnings`) | Country code | 300 resort rows | 300 rows with net hourly earnings | 0 | Latest year with data: 2023 for CH, 2025 for AT, FR, IT. Result: working hours per day pass (SQ4), query in notebook `05`. |
+| 2026-11-24 | Same eight CSV files (notebook `05.2`) | PostgreSQL 16 database `sci_alpi` | Table schemas with primary and foreign keys, `BOOLEAN` and `DATE` types | 5,428 rows in 8 CSV files | 5,428 rows in 8 tables | 0 | Row counts equal to the SQLite database in every table; the same queries give the same results. Extra queries: window function (`RANK() OVER`) and median (`percentile_cont`). Setup of the server: `src/setup_postgres_codespace.sh`. |
 
 ## 2026-11-22 — Main integration and snow expansion preparation
 
