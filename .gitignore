@@ -219,3 +219,7 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 data/raw/
+
+# Private Copernicus credentials belong outside the repository.
+.cdsapirc
+.cdsapirc.*

@@ -1,0 +1,4 @@
+# Optional direct CERRA-Land download and streaming GRIB inspection.
+# Install requirements.txt first. Linux pip wheels include ecCodes binaries.
+cdsapi>=0.7.7
+eccodes>=2.43

@@ -1,0 +1,26 @@
+{
+  "retrieved_utc": "2026-11-25T10:22:34.669589+00:00",
+  "note": "Public metadata snapshots, not authenticated snow observations. Used to validate request keys and each date combination.",
+  "sources": [
+    {
+      "file": "catalogue.json",
+      "source_url": "https://cds.climate.copernicus.eu/api/catalogue/v1/collections/reanalysis-cerra-land",
+      "sha256": "99ee7428dfca228499280ea123e100aacb1cf918a6347a9ec46b4c099c6eead8"
+    },
+    {
+      "file": "form.json",
+      "source_url": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/reanalysis-cerra-land/form_28bda6733b560486304988931c84d4dcf6c44cd364a8588659850735a802429a.json",
+      "sha256": "28bda6733b560486304988931c84d4dcf6c44cd364a8588659850735a802429a"
+    },
+    {
+      "file": "constraints.json",
+      "source_url": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/reanalysis-cerra-land/constraints_e2e1ad11dd5269e17c979c8c0f801588092182b7588c9bec07952bf5112a58e7.json",
+      "sha256": "1420ad3943f2e494b2d3a30f250510af30b3e05a6e027491396be44d4dc9a6bb"
+    },
+    {
+      "file": "messages.json",
+      "source_url": "https://cds.climate.copernicus.eu/api/catalogue/v1/collections/reanalysis-cerra-land/messages",
+      "sha256": "5d423b282234f81726a1559119ad2d8037635e5dfd6b8f29e0d448762b75d35d"
+    }
+  ]
+}
