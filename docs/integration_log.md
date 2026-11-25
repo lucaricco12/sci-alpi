@@ -55,6 +55,12 @@ Added explicit private key replacement (`python src/setup_cds.py --replace`) and
 
 All 58 tests passed, including nine new recovery/diagnostic tests. No published data, notebook or database was changed. Actual licence acceptance and authenticated CERRA-Land retrieval remain account-side steps, not completed scientific results.
 
+## 2026-11-25 — CDS configuration compatibility fix
+
+Fixed the setup writer to store an unquoted key value, matching the official client's simple key/value parser. The previous JSON-quoted representation was read literally and could cause HTTP 401 with an otherwise correct token. Added an offline `--repair` command that fixes older private files without redisplaying or re-entering the key, preserves other settings and refuses unsafe or ambiguous input. Optional environment overrides can be cleared in the current shell so the repaired file is used.
+
+Validation: 65 tests passed, including seven new format/repair checks using the actual provider parser and credential resolver. The original misread is reproduced before verifying repair. No published snow table, notebook or database was changed. Live authenticated retrieval and snow validation remain pending the subsequent Codespace probe.
+
 # Integration Log
 
 | Date | Source | Joined to | Key | Before | After | Lost | Notes |

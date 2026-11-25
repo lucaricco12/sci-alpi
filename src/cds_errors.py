@@ -37,8 +37,9 @@ def retrieval_error(error):
             "missing license", "accept the licence", "accept the license", "accept these terms"))
     label = f"CDS request failed (HTTP {status})." if status else "CDS request did not finish."
     if status == 401:
-        hint = ("The service rejected the credentials. Copy the current API key from your CDS profile, "
-                "then run: python src/setup_cds.py --replace")
+        hint = ("The service rejected the credentials. First check older quoted configurations with: "
+                "python src/setup_cds.py --repair. If the error persists, copy the current API key from your CDS profile "
+                "and run: python src/setup_cds.py --replace")
     elif status == 403 and licence_required:
         hint = ("The provider reports a licence/terms requirement. Sign into the same CDS account, "
                 "open CERRA-Land's Download page, scroll to Terms of use and accept the licence, then retry --probe.")

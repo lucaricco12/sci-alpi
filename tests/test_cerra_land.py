@@ -89,7 +89,7 @@ class CredentialTests(unittest.TestCase):
             save_token("test-only-token", path)
             before = path.read_bytes()
             self.assertEqual(stat.S_IMODE(path.stat().st_mode), 0o600)
-            self.assertIn('key: "test-only-token"', path.read_text())
+            self.assertIn('key: test-only-token\n', path.read_text())
             with self.assertRaises(FileExistsError):
                 save_token("another-test-only-token", path)
             self.assertEqual(path.read_bytes(), before)

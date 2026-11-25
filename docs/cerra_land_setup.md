@@ -2,6 +2,21 @@
 
 Checked on **25 November 2026**. The existing checkpoint results still use the original measured/model inputs. **No authenticated CERRA-Land snow file has been downloaded or validated by us yet.**
 
+## Repair HTTP 401 after using the earlier setup
+
+The earlier version of our setup script incorrectly surrounded the saved key with JSON quotation marks. The CDS client uses a simple `key: value` reader and retains those quote marks as part of the credential. This can reject a correct key with HTTP 401. The updated setup writes the unquoted value and checks compatibility with the real CDS parser and credential resolver.
+
+To fix the older private file without copying or displaying your key again, run:
+
+```bash
+git pull --ff-only origin main
+unset CDSAPI_KEY CDSAPI_RC
+python src/setup_cds.py --repair
+python src/cerra_land.py --probe
+```
+
+`--repair` removes the older script's JSON quotes, keeps other settings and uses an atomic owner-only replacement. Already-unquoted files stay unchanged; ambiguous, malformed or linked files are preserved and rejected. Clearing the two optional environment settings makes this shell use the private file just repaired. No token is displayed or submitted by the repair command. This fixes local storage format; the subsequent probe still needs a current key and accepted licence. If HTTP 401 persists after repair, use `--replace` below with the current key from your profile.
+
 ## What we already did
 
 | Work | Status |

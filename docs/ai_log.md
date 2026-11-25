@@ -180,6 +180,14 @@ Required for the final project: which AI tools we used, for which tasks, advanta
 * **Validation:** All 58 tests passed. New tests cover replacement permissions/preservation, symlink handling, HTTP 401/403 distinction, rate/service/transport failures, secret-free diagnostics and preservation of published files after a simulated failed download.
 * **Limits:** The user must complete licence acceptance in the browser and enter their current key privately. No live account diagnosis, authenticated download or CERRA-Land snow result is claimed by these tests.
 
+## 2026-11-25 — Matthias: correct CDS credential-file quoting
+
+* **Tool used:** ChatGPT Codex and the installed official CDS API parser/credential resolver.
+* **Bug found:** The earlier setup wrote `json.dumps(token)` into the key field. CDS uses a simple key/value reader and retains those literal quotes, so even a correct token can be sent with extra characters and rejected with HTTP 401. Previous local tests mistakenly expected that quoted representation instead of checking compatibility with the provider reader.
+* **Correction:** Fresh and replacement configurations now write the unquoted value. Added non-interactive `--repair` for old private files, preserving other settings and rejecting malformed, ambiguous or linked configurations. New input cannot silently save literal surrounding quotes. No private key is displayed or included in the repository.
+* **Validation:** All 65 tests passed. New tests reproduce the original misread and verify fresh setup, replacement and legacy repair with the real `cdsapi.api.read_config` and `get_url_key_verify` functions, with HTTP blocked. Repair also preserves other fields, is idempotent and keeps owner-only permissions.
+* **Limits:** The format defect is reproduced and fixed. A live download still needs a retry in the account owner's Codespace; token validity, licence acceptance and CERRA-Land accuracy are not established by local configuration tests.
+
 
 # AI Usage Log
 
