@@ -37,6 +37,10 @@ python src/setup_cds.py
 
 The last command prompts for the token with input hidden and saves it to `~/.cdsapirc`, outside the repository, with owner-only permissions. An existing configuration is preserved. No token is passed as a command argument or printed.
 
+**If you changed your API key:** use `python src/setup_cds.py --replace`. This asks for the replacement privately and replaces the old configuration only after the new input is valid. It preserves the file if you submit an empty or invalid value. The setup now explains that its hidden prompt takes a key, while the normal shell prompt ending in `$` takes a command. Paste the key once at `(hidden):`, press Enter and wait for the saved confirmation.
+
+**If a key appears in a screenshot or as a shell command:** generate a new one from the API-key section of your [CDS profile](https://cds.climate.copernicus.eu/profile), then use `--replace` above. Generating a new key invalidates the old one. Do not send the replacement key in chat or screenshots.
+
 Then run:
 
 ```bash
@@ -45,6 +49,8 @@ python src/cerra_land.py --probe
 ```
 
 **What you should see:** a small table with the 20 station IDs, the depth in metres at noon on 15 April 2025, and the distance to each nearest grid point. A successful run ends with `File checks passed`. A failure does not mean zero snow; it means stop and inspect the account/licence, service status or file problem. Requests can queue; do not promise completion within one hour.
+
+The command now identifies HTTP authentication, licence, selection, rate-limit and service failures using fixed messages. HTTP 401 means the service did not accept the credentials; HTTP 403 with a provider licence requirement directs you to accept the terms on the CERRA-Land Download page. A generic 403 does not establish that the licence is missing. Provider exception text and response bodies are not echoed because they can contain private values or signed URLs. A failed request does not prove that the selected date is unavailable.
 
 The installed GRIB reader is ECMWF's **ecCodes** Python package. Its Linux pip wheel installed successfully in our test environment, so this workflow does not require xarray/cfgrib. The default checkpoint notebook does not require these optional packages.
 

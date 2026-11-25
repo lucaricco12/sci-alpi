@@ -20,6 +20,7 @@ import numpy as np
 import pandas as pd
 from scipy.spatial import cKDTree
 
+from cds_errors import retrieval_error
 from snow_validation import WINTERS, load_observations, project_root, season_dates
 
 DATASET = "reanalysis-cerra-land"
@@ -120,9 +121,8 @@ def download_request(root, request):
     partial = target.with_suffix(".part")
     try:
         cdsapi.Client(**options).retrieve(DATASET, request, str(partial))
-    except Exception:
-        # Provider exceptions can include signed URLs; keep them out of public logs.
-        raise RuntimeError("CDS retrieval did not finish. Check your account, the CERRA-Land licence and provider request status. Completed caches are retained.") from None
+    except Exception as error:
+        raise RuntimeError(retrieval_error(error)) from None
     if not partial.is_file() or partial.stat().st_size == 0:
         raise ValueError("CDS returned no non-empty file.")
     partial.replace(target)

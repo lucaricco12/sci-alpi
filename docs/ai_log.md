@@ -172,6 +172,14 @@ Required for the final project: which AI tools we used, for which tasks, advanta
 * **What needed correction:** Python file buffering initially left the descriptor beyond the GRIB header read by ecCodes. Unbuffered reading fixed this; real GRIB round-trip tests verify it.
 * **Still pending:** The account owner must create/sign into CDS, accept the CERRA-Land licence and configure the token privately. No authenticated CERRA-Land snow file was retrieved here. No CERRA-Land accuracy or resort risk is claimed, and published results/database tables were preserved.
 
+## 2026-11-25 — Matthias: make CDS setup and failures actionable
+
+* **Tool used:** ChatGPT Codex; official CDS account/licence instructions and installed ECMWF client source.
+* **Issue:** The single generic download error did not distinguish rejected credentials, an unaccepted dataset licence, an invalid selection or a service failure. The setup also needed a supported way to replace a changed key and clearer guidance about hidden input versus the shell prompt.
+* **Changes:** Added `setup_cds.py --replace` with atomic owner-only replacement, preservation on invalid input, and symlink protection. Added fixed error messages based on HTTP status and licence indicators. Provider exception strings and response bodies are not echoed; only allowlisted selection-field names can appear. Clarified key-entry and recovery instructions.
+* **Validation:** All 58 tests passed. New tests cover replacement permissions/preservation, symlink handling, HTTP 401/403 distinction, rate/service/transport failures, secret-free diagnostics and preservation of published files after a simulated failed download.
+* **Limits:** The user must complete licence acceptance in the browser and enter their current key privately. No live account diagnosis, authenticated download or CERRA-Land snow result is claimed by these tests.
+
 
 # AI Usage Log
 

@@ -49,6 +49,12 @@ The opt-in recent-file probe checks one field valid at noon on 15 April 2025. Th
 
 Validation: 49 tests passed, including 16 CERRA-Land/setup tests and synthetic GRIB decoding on regular and Lambert grids. Optional ecCodes installed successfully (Python package 2.50.1, native library 2.50.0). Default request preparation/status ran with HTTP blocked and no raw caches. Authenticated retrieval, the provider's correction provenance for recent snow precision and full-period station accuracy remain unverified because account setup is pending.
 
+## 2026-11-25 — CDS setup recovery and safe failure reasons
+
+Added explicit private key replacement (`python src/setup_cds.py --replace`) and clear hidden-input/shell-prompt guidance. Replaced the single opaque retrieval failure with fixed, secret-free instructions for HTTP authentication, licence, selection, rate-limit, service and connection failures. Unclassified 403 responses do not assert a missing licence. Original provider bodies and exception strings stay out of returned messages.
+
+All 58 tests passed, including nine new recovery/diagnostic tests. No published data, notebook or database was changed. Actual licence acceptance and authenticated CERRA-Land retrieval remain account-side steps, not completed scientific results.
+
 # Integration Log
 
 | Date | Source | Joined to | Key | Before | After | Lost | Notes |
