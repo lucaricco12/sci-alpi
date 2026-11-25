@@ -171,3 +171,28 @@ Required for the final project: which AI tools we used, for which tasks, advanta
 * **Checks:** 49 tests passed, including synthetic regular-grid and Lambert-grid GRIB round trips, actual low-precision/missing/duplicate-field rejection, calendar/UTC rules and private credential permissions. Default plan and status ran with HTTP blocked. These synthetic files are tests, not snow observations.
 * **What needed correction:** Python file buffering initially left the descriptor beyond the GRIB header read by ecCodes. Unbuffered reading fixed this; real GRIB round-trip tests verify it.
 * **Still pending:** The account owner must create/sign into CDS, accept the CERRA-Land licence and configure the token privately. No authenticated CERRA-Land snow file was retrieved here. No CERRA-Land accuracy or resort risk is claimed, and published results/database tables were preserved.
+
+
+# AI Usage Log
+
+---
+
+### Entry: 2026-11-16 — Task 02.2: Data Harmonization & Quota Enforcement (`notebooks/02.2_scraping.ipynb`)
+
+* **Date:** 2026-11-16
+* **AI Tool(s):** Gemini Notebook
+* **Target Objective:** Clean scraped ski resort data, harmonize currencies to EUR, impute missing adult ticket prices, and resolve cross-border resort overlap while strictly maintaining 75 resorts per country.
+* **What Worked Well:** Automated parsing of structural slope metrics and country sample balancing.
+* **Errors & Pitfalls:** Cross-border resort overlap (`La Thuile / La Rosière` and `Ischgl / Samnaun`) caused national quota imbalances.
+* **Human Verification & Resolution:** Implemented 1:1 resort replacements (`Pila – Aosta` for IT, `Scuol – Motta Naluns` for CH) to lock national sample sizes at 75 resorts each (300 total). Imputed verified official 1-day adult pass prices for Alta Badia (€74.00) and Galtür (€56.50).
+
+---
+
+### Entry: 2026-11-17 — Task 02.3: Geocoding & Spatial Proximity (`notebooks/02.3_features_spatial.ipynb`)
+
+* **Date:** 2026-11-17
+* **AI Tool(s):** Gemini Notebook
+* **Target Objective:** Geocode 300 resorts, compute geodesic distance matrices to 6 urban centers, and aggregate luxury hospitality density within 10 km.
+* **What Worked Well:** Vectorized Haversine spherical distance calculations for urban proximity metrics.
+* **Errors & Pitfalls:** Automated OSM Nominatim geocoding misplaced La Rosière near southwestern France.
+* **Human Verification & Resolution:** Manually overridden La Rosière coordinates to Savoy, French Alps (45.6267° N, 6.8489° E) and verified all distance calculations.

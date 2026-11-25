@@ -48,3 +48,12 @@ Added `src/cerra_land.py`, optional GRIB/CDS requirements, `src/setup_cds.py`, E
 The opt-in recent-file probe checks one field valid at noon on 15 April 2025. The optional five-month winter run extracts the same 20 station coordinates at 06 UTC and compares complete seasonal counts against measurements and the same-winter ERA5-Land baseline. New downloads/receipts/audits/comparisons stay under ignored `data/raw/cerra_land/`; no new snow result, SQLite table or risk class is promoted. Nearest cells do not certify station/base elevation.
 
 Validation: 49 tests passed, including 16 CERRA-Land/setup tests and synthetic GRIB decoding on regular and Lambert grids. Optional ecCodes installed successfully (Python package 2.50.1, native library 2.50.0). Default request preparation/status ran with HTTP blocked and no raw caches. Authenticated retrieval, the provider's correction provenance for recent snow precision and full-period station accuracy remain unverified because account setup is pending.
+
+# Integration Log
+
+| Date | Source | Joined to | Key | Before | After | Lost | Notes |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 2026-11-16 | `skiresort.info` scraping (`02.2`) | Fixed CHF/EUR rate (1.05) | `country` (`CH` vs `EUR`) | 300 raw scraped records | 300 clean resorts (`resorts_clean.csv`) | 0 | Converted CHF prices to EUR at fixed 1.05 rate. Resolved cross-border duplicates 1:1 (`La Thuile` -> `Pila – Aosta`, `Samnaun` -> `Scuol – Motta Naluns`) ensuring 75 resorts per country. Imputed Alta Badia (€74.00) & Galtür (€56.50). |
+| 2026-11-17 | `resorts_clean.csv` | OpenStreetMap Nominatim (`02.3`) | Resort name & country | 300 clean resorts | 300 geocoded resorts | 0 | Assigned spatial coordinates; corrected La Rosière coordinates to Savoy, France (45.6267° N, 6.8489° E). Added `latitude` and `longitude`. |
+| 2026-11-17 | Geocoded resorts | 6 Feeder Metropolises | Spherical Haversine formula | 300 geocoded resorts | 300 resorts with urban distances | 0 | Computed geodesic distances in km to Zurich, Geneva, Milan, Turin, Munich, and Lyon; identified `dist_nearest_city_km`. |
+| 2026-11-17 | Geocoded resorts | Hospitality Infrastructure | Spatial 10.0 km radius buffer | 300 spatial resorts | 300 consolidated feature records (`resorts_features.csv`) | 0 | Aggregated luxury 4- and 5-star hotel presence within 10 km into consolidated feature dataset. |

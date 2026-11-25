@@ -1,301 +1,301 @@
-resort_name,country,url,elevation_base_m,elevation_top_m,slope_km,lifts_count,price_day_raw,currency,rating_stars,snow_cannons,price_day_eur,latitude,longitude,dist_zurich_km,dist_geneva_km,dist_milan_km,dist_turin_km,dist_munich_km,dist_lyon_km,dist_nearest_city_km,hotels_4_5_star_10km
-Les Portes du Soleil – Morzine/​Avoriaz/​Les Gets/​Châtel/​Morgins/​Champéry,CH,https://www.skiresort.com/en/ski-resort/les-portes-du-soleil-morzine-avoriaz-les-gets-chatel-morgins-champery/,985,2254,580.0,,73.0,CHF,4.3,0,76.65,46.1792,6.7731,189.4,48.6,203.5,142.3,423.6,156.7,48.6,20
-Zermatt/​Breuil-Cervinia/​Valtournenche – Matterhorn,CH,https://www.skiresort.com/en/ski-resort/zermatt-breuil-cervinia-valtournenche-matterhorn/,1562,3899,38.0,,116.0,CHF,4.5,0,121.8,45.9609858,7.7163465,169.6,124.3,127.1,99.1,379.7,224.1,99.1,4
-ski resort Stoos – Fronalpstock/​Klingenstock,CH,https://www.skiresort.com/en/ski-resort/stoos-fronalpstock-klingenstock/,1300,1935,35.0,,58.0,CHF,3.8,0,60.9,46.9773638,8.6666433,45.4,211.1,173.0,225.1,253.8,323.4,45.4,2
-Aletsch Arena – Riederalp/​Bettmeralp/​Fiesch Eggishorn,CH,https://www.skiresort.com/en/ski-resort/aletsch-arena-riederalp-bettmeralp-fiesch-eggishorn/,1845,2869,15.0,,89.0,CHF,4.4,0,93.45,46.4021759,8.0727454,114.1,149.8,135.4,151.1,327.4,259.5,114.1,2
-Arosa Lenzerheide,CH,https://www.skiresort.com/en/ski-resort/arosa-lenzerheide/,1229,2865,225.0,,89.0,CHF,4.7,0,93.45,46.7548885,9.5660244,103.9,269.1,146.4,237.1,215.7,379.9,103.9,9
-Ischgl/​Samnaun – Silvretta Arena,CH,https://www.skiresort.com/en/ski-resort/ischgl-samnaun-silvretta-arena/,1360,2872,15.0,,83.0,CHF,4.9,0,87.15,46.9693738,10.3395811,143.3,331.7,189.3,294.2,159.7,443.0,143.3,2
-Scuol – Motta Naluns,CH,https://www.skiresort.com/en/ski-resort/scuol-motta-naluns/,1250,2785,70.0,,69.0,CHF,4.3,0,72.45,46.7976371,10.2996234,147.9,324.9,171.2,278.7,177.2,435.2,147.9,3
-Pizol – Bad Ragaz/​Wangs,CH,https://www.skiresort.com/en/ski-resort/pizol-bad-ragaz-wangs/,509,2250,6.4,,62.0,CHF,4.0,0,65.1,46.9591511,9.3867223,79.0,261.7,166.9,247.7,210.3,373.6,79.0,1
-Flumserberg,CH,https://www.skiresort.com/en/ski-resort/flumserberg/,665,2222,6.0,,76.0,CHF,4.2,0,79.8,47.0828502,9.2765899,64.4,258.4,180.1,255.2,208.7,370.6,64.4,1
-Bellwald,CH,https://www.skiresort.com/en/ski-resort/bellwald/,1600,2558,20.0,,77.0,CHF,3.8,0,80.85,46.4237017,8.1599477,109.9,156.8,133.1,154.9,320.7,266.6,109.9,2
-Elm im Sernftal,CH,https://www.skiresort.com/en/ski-resort/elm-im-sernftal/,1020,2105,2.0,,59.0,CHF,3.7,0,61.95,46.9183,9.1744,69.9,244.9,161.7,235.4,225.8,356.9,69.9,1
-Hohsaas – Saas-Grund,CH,https://www.skiresort.com/en/ski-resort/hohsaas-saas-grund/,1559,3200,5.0,,62.0,CHF,3.8,0,65.1,46.1397353,7.9910352,143.8,142.5,119.5,121.2,350.7,247.5,119.5,1
-Wildhaus – Gamserrugg (Toggenburg),CH,https://www.skiresort.com/en/ski-resort/wildhaus-gamserrugg-toggenburg/,1020,2076,12.0,,63.0,CHF,3.9,0,66.15,47.2033184,9.3507024,64.0,268.6,193.8,269.6,196.6,380.9,64.0,1
-St. Moritz – Corviglia,CH,https://www.skiresort.com/en/ski-resort/st-moritz-corviglia/,1772,3057,4.8,,50.0,CHF,4.7,0,52.5,46.4978958,9.8392428,138.8,285.5,125.4,230.3,224.5,394.0,125.4,0
-Laax/​Flims/​Falera,CH,https://www.skiresort.com/en/ski-resort/laax-flims-falera/,1100,3018,40.0,,65.0,CHF,4.5,0,68.25,46.849618,9.2171807,77.8,245.9,154.1,230.5,228.0,357.5,77.8,2
-Adelboden/​Lenk – Chuenisbärgli/​Silleren/​Hahnenmoos/​Metsch,CH,https://www.skiresort.com/en/ski-resort/adelboden-lenk-chuenisbaergli-silleren-hahnenmoos-metsch/,1260,2200,86.0,,73.0,CHF,4.4,0,76.65,46.462958,7.5161584,128.0,109.3,170.5,155.4,358.5,220.7,109.3,4
-Andermatt/​Oberalp/​Sedrun,CH,https://www.skiresort.com/en/ski-resort/andermatt-oberalp-sedrun/,1444,2600,70.0,,92.0,CHF,4.4,0,96.6,46.6340499,8.5948148,82.7,193.9,138.0,187.6,280.0,305.0,82.7,4
-4 Vallées – Verbier/​La Tzoumaz/​Nendaz/​Veysonnaz/​Thyon,CH,https://www.skiresort.com/en/ski-resort/4-vallees-verbier-la-tzoumaz-nendaz-veysonnaz-thyon/,1350,3330,412.0,,94.0,CHF,4.3,0,98.7,47.513685,2.997351,417.1,280.0,525.8,451.1,644.3,239.9,239.9,16
-Titlis – Engelberg,CH,https://www.skiresort.com/en/ski-resort/titlis-engelberg/,1003,3020,70.0,,62.0,CHF,4.3,0,65.1,46.772034,8.437814,67.7,186.7,156.6,197.9,280.8,298.7,67.7,3
-Kleine Scheidegg/​Männlichen – Grindelwald/​Wengen,CH,https://www.skiresort.com/en/ski-resort/kleine-scheidegg-maennlichen-grindelwald-wengen/,944,2400,102.0,,83.0,CHF,4.2,0,87.15,46.5852463,7.9613132,98.4,145.7,156.6,169.8,322.6,257.4,98.4,5
-Parsenn (Davos Klosters),CH,https://www.skiresort.com/en/ski-resort/parsenn-davos-klosters/,810,2844,6.3,,87.0,CHF,4.2,0,91.35,46.842102,9.8353422,114.5,291.2,161.1,257.7,194.7,402.3,114.5,2
-Crans-Montana,CH,https://www.skiresort.com/en/ski-resort/crans-montana/,1510,2927,140.0,,94.0,CHF,4.2,0,98.7,46.3069171,7.469015,144.3,102.6,162.9,138.5,371.1,212.0,102.6,7
-Grimentz/​Zinal,CH,https://www.skiresort.com/en/ski-resort/grimentz-zinal/,1570,2900,115.0,,73.0,CHF,4.2,0,76.65,46.1606579,7.5961043,153.2,112.0,145.8,121.4,372.8,217.9,112.0,5
-Jakobshorn (Davos Klosters),CH,https://www.skiresort.com/en/ski-resort/jakobshorn-davos-klosters/,1535,2568,13.0,,87.0,CHF,4.2,0,91.35,46.772399,9.8493406,119.7,290.6,154.1,252.6,199.8,401.3,119.7,2
-Obersaxen/​Mundaun/​Val Lumnezia,CH,https://www.skiresort.com/en/ski-resort/obersaxen-mundaun-val-lumnezia/,1201,2310,120.0,,67.0,CHF,4.2,0,70.35,46.7235762,9.0691602,82.9,231.4,140.3,212.7,245.7,342.5,82.9,5
-Belalp – Blatten,CH,https://www.skiresort.com/en/ski-resort/belalp-blatten/,1322,3118,6.7,,77.0,CHF,4.1,0,80.85,46.3714358,7.9724714,119.9,141.8,138.0,146.4,335.6,251.2,119.9,1
-Villars/​Gryon/​Les Diablerets,CH,https://www.skiresort.com/en/ski-resort/villars-gryon-les-diablerets/,1224,2120,16.0,,69.0,CHF,4.1,0,72.45,46.3289335,7.1096087,159.5,75.6,187.5,147.0,392.8,186.4,75.6,1
-Corvatsch/​Furtschellas,CH,https://www.skiresort.com/en/ski-resort/corvatsch-furtschellas/,1797,3303,2.0,,70.0,CHF,4.1,0,73.5,46.4450516,9.8195118,142.0,283.5,119.4,225.2,230.2,391.6,119.4,1
-Rinderberg/​Saanersloch/​Horneggli – Zweisimmen/​Saanenmöser/​Schönried/​St. Stephan,CH,https://www.skiresort.com/en/ski-resort/rinderberg-saanersloch-horneggli-zweisimmen-saanenmoeser-schoenried-st-stephan/,948,2011,105.0,,94.0,CHF,4.0,0,98.7,46.5091592,7.3568272,131.9,99.1,183.2,162.0,366.1,211.2,99.1,5
-First – Grindelwald,CH,https://www.skiresort.com/en/ski-resort/first-grindelwald/,1034,2500,4.0,,83.0,CHF,4.0,0,87.15,46.5047914,7.6429546,118.6,119.8,166.4,159.5,347.8,231.4,118.6,2
-Brigels/​Waltensburg/​Andiast,CH,https://www.skiresort.com/en/ski-resort/brigels-waltensburg-andiast/,1102,2418,40.0,,65.0,CHF,4.0,0,68.25,46.7900669,9.0757561,76.8,233.7,147.7,219.3,240.5,345.2,76.8,2
-Saas-Fee,CH,https://www.skiresort.com/en/ski-resort/saas-fee/,1800,3573,5.0,,86.0,CHF,4.0,0,90.3,46.9108567,9.8085204,108.9,291.0,167.8,262.2,190.4,402.4,108.9,2
-Hoch-Ybrig – Unteriberg/​Oberiberg,CH,https://www.skiresort.com/en/ski-resort/hoch-ybrig-unteriberg-oberiberg/,1040,1831,5.0,,62.0,CHF,3.8,0,65.1,46.8952541,8.247182,58.0,178.3,174.9,207.5,285.8,290.5,58.0,1
-Lauchernalp – Lötschental,CH,https://www.skiresort.com/en/ski-resort/lauchernalp-loetschental/,1403,3100,40.0,,70.0,CHF,3.8,0,73.5,46.4131389,7.7764321,121.9,127.6,151.9,149.5,345.0,238.0,121.9,2
-Madrisa (Davos Klosters),CH,https://www.skiresort.com/en/ski-resort/madrisa-davos-klosters/,1142,2602,4.0,,73.0,CHF,3.8,0,76.65,46.9097225,9.8774507,113.6,296.1,169.2,265.4,186.9,407.4,113.6,1
-Meiringen-Hasliberg,CH,https://www.skiresort.com/en/ski-resort/meiringen-hasliberg/,1065,2433,60.0,,65.0,CHF,3.8,0,68.25,46.7285518,8.1870934,76.9,167.0,160.5,188.4,299.4,279.1,76.9,3
-Schilthorn – Mürren/​Lauterbrunnen,CH,https://www.skiresort.com/en/ski-resort/schilthorn-muerren-lauterbrunnen/,796,2970,3.0,,83.0,CHF,3.7,0,87.15,46.5572822,7.8351745,105.7,135.6,160.4,165.7,332.3,247.3,105.7,2
-Disentis,CH,https://www.skiresort.com/en/ski-resort/disentis/,1227,2833,60.0,,64.0,CHF,3.7,0,67.2,46.7051061,8.8552112,78.4,215.1,140.4,203.0,259.5,326.3,78.4,3
-Gemsstock – Andermatt,CH,https://www.skiresort.com/en/ski-resort/gemsstock-andermatt/,1444,2961,6.0,,92.0,CHF,3.6,0,96.6,46.6019794,8.6115218,86.3,194.4,134.2,184.8,281.2,305.2,86.3,2
-Grüsch Danusa,CH,https://www.skiresort.com/en/ski-resort/gruesch-danusa/,600,1800,30.6,,63.0,CHF,3.6,0,66.15,46.9581853,9.6314559,94.6,279.4,169.6,258.1,196.4,391.2,94.6,2
-Savognin,CH,https://www.skiresort.com/en/ski-resort/savognin/,1168,2713,73.5,,76.0,CHF,3.6,0,79.8,46.5969026,9.5980124,118.1,268.5,129.8,225.2,227.1,378.1,118.1,4
-Diavolezza/​Lagalb,CH,https://www.skiresort.com/en/ski-resort/diavolezza-lagalb/,2093,3006,10.0,,62.0,CHF,3.6,0,65.1,46.429214,9.9773451,151.7,295.5,123.4,233.3,225.0,403.2,123.4,1
-Zuoz – Pizzet/​Albanas,CH,https://www.skiresort.com/en/ski-resort/zuoz-pizzet-albanas/,1720,2465,1.0,,73.0,CHF,3.6,0,76.65,46.6012885,9.9608039,137.9,296.0,139.7,245.0,209.7,405.3,137.9,1
-Splügen – Tambo,CH,https://www.skiresort.com/en/ski-resort/spluegen-tambo/,1484,2215,30.0,,61.0,CHF,3.5,0,64.05,46.5417177,9.322624,110.2,246.8,120.3,207.0,245.7,356.2,110.2,2
-Grächen,CH,https://www.skiresort.com/en/ski-resort/graechen/,1619,2864,44.0,,67.0,CHF,3.5,0,70.35,46.1960178,7.8421612,141.7,130.8,132.4,125.8,355.5,237.2,125.8,2
-Rinerhorn (Davos Klosters),CH,https://www.skiresort.com/en/ski-resort/rinerhorn-davos-klosters/,1459,2490,6.0,,69.0,CHF,3.5,0,72.45,46.7393763,9.8142419,119.7,287.3,149.7,248.1,204.4,397.8,119.7,1
-Eggli/​La Videmanette – Gstaad/​Saanen/​Rougemont,CH,https://www.skiresort.com/en/ski-resort/eggli-la-videmanette-gstaad-saanen-rougemont/,992,2151,53.0,,94.0,CHF,3.5,0,98.7,46.9106593,8.9759642,61.4,230.4,161.7,227.6,238.4,342.4,61.4,4
-Anzère,CH,https://www.skiresort.com/en/ski-resort/anzere/,1516,2420,6.0,,72.0,CHF,3.4,0,75.6,46.2970711,7.3989488,148.2,97.1,166.7,138.2,376.2,206.6,97.1,1
-Minschuns – Val Müstair-Tschierv,CH,https://www.skiresort.com/en/ski-resort/minschuns-val-muestair-tschierv/,2126,2673,7.0,,42.0,CHF,3.3,0,44.1,46.6448207,10.3381272,158.7,325.2,158.4,269.8,190.3,434.5,158.4,0
-Chäserrugg – Unterwasser/​Alt St. Johann (Toggenburg),CH,https://www.skiresort.com/en/ski-resort/chaeserrugg-unterwasser-alt-st-johann-toggenburg/,900,2262,2.0,,82.0,CHF,3.3,0,86.1,47.154808,9.3127749,63.2,263.9,188.2,263.5,201.9,376.1,63.2,2
-Bürchen/​Törbel – Moosalp,CH,https://www.skiresort.com/en/ski-resort/buerchen-toerbel-moosalp/,1476,2532,25.0,,53.0,CHF,3.3,0,55.65,46.2805676,7.8163191,133.8,128.9,139.8,135.0,351.3,237.2,128.9,1
-Saint Luc/​Chandolin (Anniviers),CH,https://www.skiresort.com/en/ski-resort/saint-luc-chandolin-anniviers/,1680,2980,60.0,,68.0,CHF,3.3,0,71.4,46.2348615,7.5944719,146.0,111.7,150.4,129.7,368.0,219.4,111.7,3
-Betelberg – Lenk,CH,https://www.skiresort.com/en/ski-resort/betelberg-lenk/,1083,2001,42.0,,63.0,CHF,3.3,0,66.15,46.4432752,7.4204162,134.3,101.6,174.8,154.1,365.9,213.1,101.6,2
-Leysin,CH,https://www.skiresort.com/en/ski-resort/leysin/,1250,2198,60.0,,68.0,CHF,3.3,0,71.4,46.3438701,7.0148403,163.3,68.8,194.7,150.9,398.1,180.1,68.8,3
-Melchsee-Frutt (Kerns),CH,https://www.skiresort.com/en/ski-resort/melchsee-frutt-kerns/,1080,2255,36.0,,69.0,CHF,3.3,0,72.45,46.7704488,8.2719695,70.5,174.7,161.6,194.4,291.5,286.8,70.5,2
-Charmey,CH,https://www.skiresort.com/en/ski-resort/charmey/,875,1626,30.0,,49.0,CHF,3.3,0,51.45,46.5962366,7.179257,135.0,90.6,199.8,174.2,373.1,202.8,90.6,1
-Vercorin,CH,https://www.skiresort.com/en/ski-resort/vercorin/,1340,2374,35.0,,65.0,CHF,3.2,0,68.25,46.2571655,7.530704,146.4,106.9,155.8,132.5,370.5,215.2,106.9,2
-Vals – Dachberg,CH,https://www.skiresort.com/en/ski-resort/vals-dachberg/,1286,2851,25.0,,39.0,CHF,3.2,0,40.95,46.6165853,9.1805169,97.4,237.3,128.1,207.2,247.4,347.6,97.4,0
-Sörenberg – Rothorn/​Dorf,CH,https://www.skiresort.com/en/ski-resort/soerenberg-rothorn-dorf/,1110,2298,42.0,,64.0,CHF,3.2,0,67.2,46.8221657,8.0349311,72.6,160.2,175.3,196.6,303.9,272.5,72.6,2
-Mythenregion,CH,https://www.skiresort.com/en/ski-resort/mythenregion/,1070,1593,50.0,,49.0,CHF,3.2,0,51.45,47.020869,8.7032342,41.4,215.6,177.1,230.6,248.9,327.8,41.4,2
-Ovronnaz,CH,https://www.skiresort.com/en/ski-resort/ovronnaz/,1400,2427,30.0,,65.0,CHF,3.2,0,68.25,46.1989846,7.1723377,167.4,79.2,176.4,131.7,396.7,186.9,79.2,2
-Nara – Leontica,CH,https://www.skiresort.com/en/ski-resort/nara-leontica/,925,2123,30.0,,47.0,CHF,3.2,0,49.35,47.3769859,8.5283951,1.0,223.5,218.7,264.5,243.3,334.4,1.0,1
-La Berra – La Roche,CH,https://www.skiresort.com/en/ski-resort/la-berra-la-roche/,1040,1636,25.0,,49.0,CHF,3.1,0,51.45,46.6760352,7.1839627,129.1,95.4,205.2,182.7,368.5,207.2,95.4,1
-Leukerbad,CH,https://www.skiresort.com/en/ski-resort/leukerbad/,1411,2610,6.0,,65.0,CHF,3.1,0,68.25,46.3793158,7.6267416,130.9,115.6,158.0,145.6,356.6,225.9,115.6,1
-Bosco Gurin – Grossalp,CH,https://www.skiresort.com/en/ski-resort/bosco-gurin-grossalp/,1482,2331,30.0,,57.0,CHF,3.1,0,59.85,46.3167843,8.4918978,117.9,181.0,109.1,152.1,308.7,288.8,109.1,1
-Klewenalp/​Stockhütte – Beckenried/​Emmetten,CH,https://www.skiresort.com/en/ski-resort/klewenalp-stockhuette-beckenried-emmetten/,1199,1938,40.0,,61.0,CHF,3.1,0,64.05,46.930401,8.4790604,49.9,196.0,172.0,215.7,268.7,308.2,49.9,2
-Tschiertschen,CH,https://www.skiresort.com/en/ski-resort/tschiertschen/,1350,2381,32.0,,61.0,CHF,3.1,0,64.05,46.8173936,9.6066499,101.8,273.6,153.9,244.5,208.6,384.8,101.8,2
-Glacier 3000 – Les Diablerets,CH,https://www.skiresort.com/en/ski-resort/glacier-3000-les-diablerets/,1343,3016,28.0,,84.0,CHF,3.1,0,88.2,46.337787,7.229866,152.6,84.8,180.1,145.3,384.5,195.5,84.8,2
-Carì,CH,https://www.skiresort.com/en/ski-resort/cari/,1650,2280,20.0,,48.0,CHF,3.1,0,50.4,46.4933171,8.8212259,100.5,208.0,117.9,181.0,276.8,317.6,100.5,1
-Les Marécottes (Salvan),CH,https://www.skiresort.com/en/ski-resort/les-marecottes-salvan/,1110,2220,19.0,,54.0,CHF,3.1,0,56.7,46.1173009,7.0116983,182.2,67.6,183.8,127.7,412.1,172.8,67.6,1
-Wasserngrat – Gstaad,CH,https://www.skiresort.com/en/ski-resort/wasserngrat-gstaad/,1275,1940,10.0,,94.0,CHF,3.1,0,98.7,46.4571653,7.323793,137.9,94.9,181.6,156.8,371.3,206.7,94.9,2
-Airolo – Pesciüm,CH,https://www.skiresort.com/en/ski-resort/airolo-pesciuem/,1175,2250,10.0,,59.0,CHF,3.1,0,61.95,46.5290309,8.6086045,94.4,192.6,126.6,177.2,286.5,302.8,94.4,1
-Evolène,CH,https://www.skiresort.com/en/ski-resort/evolene/,1404,2632,3.0,,50.0,CHF,3.1,0,52.5,46.1129048,7.4958022,161.6,104.7,149.9,116.9,382.2,209.3,104.7,0
-Braunwald  (temporarily closed),CH,https://www.skiresort.com/en/ski-resort/braunwald/,1236,1901,2.5,,58.0,CHF,3.1,0,60.9,46.9392639,8.9984978,59.7,233.0,164.7,231.2,235.1,345.1,59.7,1
-Nax – Mont-Noble,CH,https://www.skiresort.com/en/ski-resort/nax-mont-noble/,1495,2640,35.0,,57.0,CHF,3.0,0,59.85,46.2267697,7.4250269,153.6,98.7,160.9,130.2,379.0,206.5,98.7,2
-Via Lattea – Sestriere/​Sauze d’Oulx/​San Sicario/​Claviere/​Montgenèvre,IT,https://www.skiresort.com/en/ski-resort/via-lattea-sestriere-sauze-doulx-san-sicario-claviere-montgenevre/,1538,2789,400.0,,66.0,EUR,4.2,0,66.0,37.4931117,15.0764605,1221.8,1217.3,1012.3,1043.6,1216.8,1251.1,1012.3,14
-Zermatt/​Breuil-Cervinia/​Valtournenche – Matterhorn,IT,https://www.skiresort.com/en/ski-resort/zermatt-breuil-cervinia-valtournenche-matterhorn/,1562,3899,38.0,,116.0,EUR,4.5,0,116.0,45.954152,7.6995036,170.8,123.2,127.9,98.3,381.2,222.8,98.3,4
-ski resort Zoncolan – Ravascletto/​Sutrio,IT,https://www.skiresort.com/en/ski-resort/zoncolan-ravascletto-sutrio/,900,1970,24.1,,44.0,EUR,3.8,0,44.0,46.5111283,12.9509255,348.2,523.4,313.0,438.4,208.0,630.5,208.0,1
-Gitschberg Jochtal,IT,https://www.skiresort.com/en/ski-resort/gitschberg-jochtal/,1307,2510,55.0,,73.0,EUR,4.3,0,73.0,46.8339065,11.6656657,244.0,428.2,244.0,364.7,144.8,537.8,144.8,3
-Kronplatz (Plan de Corones),IT,https://www.skiresort.com/en/ski-resort/kronplatz-plan-de-corones/,973,2275,125.0,,83.0,EUR,4.6,0,83.0,46.7387791,11.958311,268.3,449.2,256.2,378.9,157.8,558.1,157.8,5
-Racines-Giovo (Ratschings-Jaufen)/​Malga Calice (Kalcheralm),IT,https://www.skiresort.com/en/ski-resort/racines-giovo-ratschings-jaufen-malga-calice-kalcheralm/,1300,2100,28.1,,70.0,EUR,4.2,0,70.0,46.8855695,11.2845425,214.6,400.4,225.8,343.5,140.7,510.5,140.7,2
-Pfelders (Moos in Passeier),IT,https://www.skiresort.com/en/ski-resort/pfelders-moos-in-passeier/,1601,2502,18.0,,58.0,EUR,3.8,0,58.0,46.7952778,11.0895074,203.4,384.2,208.2,325.6,153.5,494.0,153.5,1
-Carezza,IT,https://www.skiresort.com/en/ski-resort/carezza/,1182,2337,40.0,,75.0,EUR,4.2,0,75.0,46.4103393,11.5867825,255.1,418.7,213.1,337.3,191.8,525.4,191.8,2
-Latemar – Obereggen/​Pampeago/​Predazzo,IT,https://www.skiresort.com/en/ski-resort/latemar-obereggen-pampeago-predazzo/,1540,2388,49.0,,71.0,EUR,4.5,0,71.0,46.3741228,11.5805109,256.5,418.1,210.8,335.2,195.8,524.6,195.8,2
-Madonna di Campiglio/​Pinzolo/​Folgàrida/​Marilleva,IT,https://www.skiresort.com/en/ski-resort/madonna-di-campiglio-pinzolo-folgarida-marilleva/,852,2504,155.0,,89.0,EUR,4.7,0,89.0,46.2269942,10.8270157,215.9,360.3,152.5,275.9,219.7,465.6,152.5,7
-Val Gardena (Gröden),IT,https://www.skiresort.com/en/ski-resort/val-gardena-groeden/,1236,2518,181.0,,83.0,EUR,4.7,0,83.0,46.5760331,11.6483076,251.9,424.1,226.5,349.6,173.4,532.1,173.4,7
-Pejo 3000,IT,https://www.skiresort.com/en/ski-resort/pejo-3000/,1400,3000,20.0,,60.0,EUR,3.7,0,60.0,46.3720357,10.6597382,196.0,347.5,152.0,272.4,208.0,454.3,152.0,1
-San Martino di Castrozza,IT,https://www.skiresort.com/en/ski-resort/san-martino-di-castrozza/,1404,2357,60.0,,73.0,EUR,4.1,0,73.0,46.2623377,11.802828,277.3,435.3,220.9,346.2,208.9,540.7,208.9,3
-Ponte di Legno/​Tonale/​Presena Glacier/​Temù (Pontedilegno-Tonale),IT,https://www.skiresort.com/en/ski-resort/ponte-di-legno-tonale-presena-glacier-temu-pontedilegno-tonale/,1121,3000,100.0,,66.0,EUR,4.2,0,66.0,46.258603,10.508662,194.6,335.8,135.0,256.0,223.9,441.4,135.0,4
-Paganella – Andalo,IT,https://www.skiresort.com/en/ski-resort/paganella-andalo/,1040,2125,2.0,,76.0,EUR,4.1,0,76.0,46.1432672,11.0374405,234.4,376.9,161.9,286.6,225.3,481.2,161.9,1
-Belpiano (Schöneben)/​Malga San Valentino (Haideralm),IT,https://www.skiresort.com/en/ski-resort/belpiano-schoeneben-malga-san-valentino-haideralm/,1460,2390,65.0,,70.0,EUR,4.2,0,70.0,44.4358031,9.358977,333.1,319.2,115.1,149.7,445.4,384.5,115.1,3
-Folgaria/​Fiorentini,IT,https://www.skiresort.com/en/ski-resort/folgaria-fiorentini/,1177,1824,74.0,,60.0,EUR,4.1,0,60.0,45.9025878,11.1866151,260.1,390.6,162.6,288.1,250.0,492.1,162.6,3
-Monte Bondone,IT,https://www.skiresort.com/en/ski-resort/monte-bondone/,1189,2090,2.2,,54.0,EUR,3.8,0,54.0,45.9880488,11.0317717,244.8,377.7,154.4,279.8,242.4,480.2,154.4,0
-Livigno,IT,https://www.skiresort.com/en/ski-resort/livigno/,1816,2798,115.0,,72.0,EUR,4.4,0,72.0,46.5381734,10.1359928,152.8,308.5,140.0,250.3,208.3,417.2,140.0,5
-Klausberg – Skiworld Ahrntal,IT,https://www.skiresort.com/en/ski-resort/klausberg-skiworld-ahrntal/,1050,2510,40.5,,77.0,EUR,4.3,0,77.0,46.9782788,11.9886577,264.2,454.8,273.3,394.0,132.2,564.9,132.2,2
-Alpe di Siusi (Seiser Alm),IT,https://www.skiresort.com/en/ski-resort/alpe-di-siusi-seiser-alm/,1227,2220,73.0,,83.0,EUR,4.3,0,83.0,46.5368918,11.6666616,254.9,425.3,225.4,348.9,177.8,533.0,177.8,4
-3 Zinnen Dolomites – Helm/​Stiergarten/​Rotwand/​Kreuzbergpass,IT,https://www.skiresort.com/en/ski-resort/3-zinnen-dolomites-helm-stiergarten-rotwand-kreuzbergpass/,1130,2225,86.4,,80.0,EUR,4.3,0,80.0,46.6892,12.3553,298.9,478.9,279.6,403.6,171.0,587.3,171.0,4
-Espace San Bernardo – La Rosière/​La Thuile,IT,https://www.skiresort.com/en/ski-resort/espace-san-bernardo-la-rosiere-la-thuile/,1190,2800,12.0,,59.0,EUR,4.3,0,59.0,43.4995096,-1.4910832,892.7,672.4,874.3,750.7,1134.7,560.2,560.2,1
-Alta Badia,IT,https://www.skiresort.com/en/ski-resort/alta-badia/,1324,2778,130.0,,,EUR,4.3,0,60.0,46.5646703,11.9102193,271.1,444.1,243.1,367.0,176.4,551.9,176.4,5
-Belvedere/​Col Rodella/​Ciampac/​Buffaure – Canazei/​Campitello/​Alba/​Pozza di Fassa,IT,https://www.skiresort.com/en/ski-resort/belvedere-col-rodella-ciampac-buffaure-canazei-campitello-alba-pozza-di-fassa/,1320,2485,55.2,,76.0,EUR,4.2,0,76.0,45.4218355,7.6637392,227.6,146.5,119.2,39.1,424.2,223.3,39.1,3
-Passo San Pellegrino/​Falcade,IT,https://www.skiresort.com/en/ski-resort/passo-san-pellegrino-falcade/,1190,2513,1.5,,71.0,EUR,4.2,0,71.0,46.3694965,11.8024279,272.0,435.2,225.8,350.6,197.0,541.5,197.0,1
-Speikboden – Skiworld Ahrntal,IT,https://www.skiresort.com/en/ski-resort/speikboden-skiworld-ahrntal/,950,2400,41.5,,77.0,EUR,4.2,0,77.0,46.9181799,11.8902641,258.3,446.4,263.3,384.2,137.3,556.3,137.3,2
-Arabba/​Marmolada,IT,https://www.skiresort.com/en/ski-resort/arabba-marmolada/,1446,3269,63.0,,75.0,EUR,4.1,0,75.0,46.4971763,11.8740902,271.2,441.0,237.1,361.3,183.5,548.3,183.5,3
-Cortina d'Ampezzo,IT,https://www.skiresort.com/en/ski-resort/cortina-dampezzo/,1217,2828,120.0,,80.0,EUR,4.1,0,80.0,46.5685125,12.1323186,286.8,461.0,258.2,382.6,179.1,568.8,179.1,5
-Alpe Lusia – Moena/​Bellamonte,IT,https://www.skiresort.com/en/ski-resort/alpe-lusia-moena-bellamonte/,1367,2340,27.5,,74.0,EUR,4.0,0,74.0,46.3390273,11.7065417,266.9,427.8,217.7,342.5,199.9,533.9,199.9,2
-Alagna Valsesia/​Gressoney-La-Trinité/​Champoluc/​Frachey (Monterosa Ski),IT,https://www.skiresort.com/en/ski-resort/alagna-valsesia-gressoney-la-trinite-champoluc-frachey-monterosa-ski/,1212,3275,5.0,,69.0,EUR,4.0,0,69.0,45.8512107,7.9371767,175.8,144.0,106.5,89.0,375.3,240.6,89.0,1
-Ladurns,IT,https://www.skiresort.com/en/ski-resort/ladurns/,1140,2030,1.0,,57.0,EUR,4.0,0,57.0,46.9422007,11.372585,219.4,408.0,235.0,352.6,133.6,518.3,133.6,0
-Civetta – Alleghe/​Selva di Cadore/​Palafavera/​Zoldo,IT,https://www.skiresort.com/en/ski-resort/civetta-alleghe-selva-di-cadore-palafavera-zoldo/,1000,2100,72.0,,70.0,EUR,4.0,0,70.0,46.358041,12.0574815,290.3,454.7,243.1,368.2,200.8,560.9,200.8,3
-Plose – Brixen (Bressanone),IT,https://www.skiresort.com/en/ski-resort/plose-brixen-bressanone/,1039,2505,42.5,,70.0,EUR,4.0,0,70.0,46.6881618,11.6993681,251.2,429.0,236.6,358.9,161.1,537.7,161.1,2
-Bormio – Cima Bianca,IT,https://www.skiresort.com/en/ski-resort/bormio-cima-bianca/,1200,3017,50.0,,60.0,EUR,4.0,0,60.0,46.4676705,10.3774659,172.2,326.3,144.5,260.2,206.5,434.2,144.5,2
-Schwemmalm,IT,https://www.skiresort.com/en/ski-resort/schwemmalm/,1505,2625,5.0,,58.0,EUR,3.9,0,58.0,46.5368976,10.9203699,203.3,368.3,179.1,299.0,184.6,476.4,179.1,0
-Meran 2000,IT,https://www.skiresort.com/en/ski-resort/meran-2000/,1609,2350,40.0,,62.5,EUR,3.9,0,62.5,46.6787736,11.2569389,219.9,395.3,208.9,329.2,163.8,504.2,163.8,2
-Rosskopf (Monte Cavallo) – Sterzing (Vipiteno),IT,https://www.skiresort.com/en/ski-resort/rosskopf-monte-cavallo-sterzing-vipiteno/,960,2120,20.0,,63.0,EUR,3.9,0,63.0,46.6655263,10.8241556,190.2,362.3,183.7,300.7,173.1,471.4,173.1,1
-Santa Caterina Valfurva,IT,https://www.skiresort.com/en/ski-resort/santa-caterina-valfurva/,1722,2880,20.5,,65.0,EUR,3.9,0,65.0,46.4121459,10.4951981,183.1,335.0,145.9,264.1,208.4,442.3,145.9,1
-Alpe Cermis – Cavalese,IT,https://www.skiresort.com/en/ski-resort/alpe-cermis-cavalese/,860,2250,7.5,,71.0,EUR,3.8,0,71.0,46.2505157,11.503404,257.8,412.3,199.3,324.3,209.6,517.6,199.3,1
-Aprica,IT,https://www.skiresort.com/en/ski-resort/aprica/,1162,2270,50.0,,57.0,EUR,3.7,0,57.0,46.1268281,10.1470677,185.1,308.4,104.6,224.6,248.3,412.6,104.6,2
-Val Senales Glacier (Schnalstaler Gletscher),IT,https://www.skiresort.com/en/ski-resort/val-senales-glacier-schnalstaler-gletscher/,2011,3212,42.0,,62.0,EUR,3.7,0,62.0,46.7753606,10.8050144,184.0,362.4,191.7,306.7,162.1,472.3,162.1,2
-Catinaccio/​Ciampedie – Vigo di Fassa/​Pera di Fassa,IT,https://www.skiresort.com/en/ski-resort/catinaccio-ciampedie-vigo-di-fassa-pera-di-fassa/,1322,2095,13.5,,76.0,EUR,3.7,0,76.0,46.4323435,11.6601737,259.1,424.4,219.2,343.4,189.4,531.3,189.4,1
-Sulden am Ortler (Solda all'Ortles),IT,https://www.skiresort.com/en/ski-resort/sulden-am-ortler-solda-allortles/,1900,3250,8.3,,63.0,EUR,3.7,0,63.0,46.5090706,10.5967875,183.4,343.4,159.1,276.6,195.5,451.5,159.1,1
-Bardonecchia,IT,https://www.skiresort.com/en/ski-resort/bardonecchia/,1312,2800,100.0,,49.0,EUR,3.6,0,49.0,45.078339,6.703205,292.1,132.6,199.3,77.2,504.2,164.5,77.2,3
-Reinswald (San Martino in Sarentino),IT,https://www.skiresort.com/en/ski-resort/reinswald-san-martino-in-sarentino/,1570,2460,22.0,,59.0,EUR,3.6,0,59.0,46.688936,11.416869,230.9,407.5,219.2,340.2,161.3,516.4,161.3,1
-Alto Sangro – Roccaraso/​Rivisondoli,IT,https://www.skiresort.com/en/ski-resort/alto-sangro-roccaraso-rivisondoli/,1309,2141,90.5,,60.0,EUR,3.6,0,60.0,41.8482907,14.0801642,754.6,797.7,562.3,627.9,726.0,859.4,562.3,3
-Mondolè Ski – Artesina/​Frabosa Soprana/​Prato Nevoso,IT,https://www.skiresort.com/en/ski-resort/mondole-ski-artesina-frabosa-soprana-prato-nevoso/,807,2085,105.0,,52.0,EUR,3.6,0,52.0,44.2464,7.7761,353.1,252.5,175.4,91.9,522.2,286.2,91.9,4
-Pila,IT,https://www.skiresort.com/en/ski-resort/pila/,1540,2740,70.0,,60.0,EUR,3.6,0,60.0,45.7699441,8.0810802,182.1,157.3,92.7,83.7,373.8,251.7,83.7,3
-Watles – Malles Venosta (Mals),IT,https://www.skiresort.com/en/ski-resort/watles-malles-venosta-mals/,1750,2520,4.5,,59.0,EUR,3.5,0,59.0,46.723421,10.4883873,164.4,337.7,172.1,284.2,177.2,447.5,164.4,1
-Lavarone,IT,https://www.skiresort.com/en/ski-resort/lavarone/,1174,1600,30.0,,50.0,EUR,3.4,0,50.0,45.9445551,11.2880019,263.2,397.8,171.4,297.0,244.6,500.0,171.4,1
-Cima Piazzi/​San Colombano – Isolaccia/​Oga,IT,https://www.skiresort.com/en/ski-resort/cima-piazzi-san-colombano-isolaccia-oga/,1342,2360,19.6,,60.0,EUR,3.3,0,60.0,46.4729508,10.3434355,169.8,323.8,143.3,258.4,207.1,431.7,143.3,1
-Valchiavenna – Madesimo/​Campodolcino,IT,https://www.skiresort.com/en/ski-resort/valchiavenna-madesimo-campodolcino/,1550,2948,36.0,,59.0,EUR,3.3,0,59.0,46.2279737,9.4326302,144.6,253.1,87.0,187.0,267.1,358.8,87.0,2
-Riserva Bianca – Limone Piemonte,IT,https://www.skiresort.com/en/ski-resort/riserva-bianca-limone-piemonte/,1046,2060,52.0,,48.0,EUR,3.3,0,48.0,44.2018075,7.5778873,360.9,249.4,189.4,97.0,535.0,276.9,97.0,2
-Cimone – Montecreto/​Sestola/​Le Polle,IT,https://www.skiresort.com/en/ski-resort/cimone-montecreto-sestola-le-polle/,900,1976,50.0,,55.0,EUR,3.3,0,55.0,45.97985,11.0630167,247.2,380.1,156.3,281.8,242.9,482.6,156.3,2
-Oclini,IT,https://www.skiresort.com/en/ski-resort/oclini/,1838,2223,7.0,,35.0,EUR,3.3,0,35.0,46.3473789,11.4525924,249.1,408.3,200.7,325.0,199.0,514.5,199.0,0
-Courmayeur – Chécrouit/​Val Veny,IT,https://www.skiresort.com/en/ski-resort/courmayeur-checrouit-val-veny/,1205,2755,41.5,,75.0,EUR,3.3,0,75.0,45.8316548,6.9461565,210.7,74.6,179.1,102.5,434.9,163.8,74.6,2
-San Domenico – Alpe Ciamporino,IT,https://www.skiresort.com/en/ski-resort/san-domenico-alpe-ciamporino/,1420,2500,32.6,,46.0,EUR,3.3,0,46.0,42.0238512,13.7507751,723.4,764.2,529.5,594.4,700.5,825.9,529.5,1
-Abetone/​Val di Luce,IT,https://www.skiresort.com/en/ski-resort/abetone-val-di-luce/,1240,1892,44.1,,53.0,EUR,3.2,0,53.0,44.1314375,10.6306384,395.6,420.5,186.8,255.4,451.2,490.7,186.8,2
-Kanin – Sella Nevea/​Bovec,IT,https://www.skiresort.com/en/ski-resort/kanin-sella-nevea-bovec/,1103,2292,30.0,,44.0,EUR,3.2,0,44.0,46.3601474,13.439029,389.0,560.7,343.4,468.9,242.1,666.8,242.1,1
-Lagorai/​Passo Brocon – Castello Tesino,IT,https://www.skiresort.com/en/ski-resort/lagorai-passo-brocon-castello-tesino/,1598,2050,10.4,,45.0,EUR,3.2,0,45.0,46.2467943,11.5034777,258.0,412.3,199.2,324.1,210.1,517.6,199.2,0
-Piani di Bobbio,IT,https://www.skiresort.com/en/ski-resort/piani-di-bobbio/,1340,1950,35.0,,47.0,EUR,3.1,0,47.0,45.9609435,9.495932,173.5,260.0,60.1,172.3,288.8,361.5,60.1,1
-Tarvisio – Monte Lussari,IT,https://www.skiresort.com/en/ski-resort/tarvisio-monte-lussari/,754,1752,23.1,,44.0,EUR,3.1,0,44.0,46.5052624,13.5783734,394.4,571.4,358.2,483.7,235.5,678.3,235.5,1
-Montecampione – Alpiaz/​Prato Secondino/​Plan di Montecampione,IT,https://www.skiresort.com/en/ski-resort/montecampione-alpiaz-prato-secondino-plan-di-montecampione/,1149,1841,30.0,,30.0,EUR,3.1,0,30.0,45.8281473,10.1855511,213.1,314.9,87.3,212.3,277.5,414.7,87.3,0
-Valmalenco – Alpe Palù,IT,https://www.skiresort.com/en/ski-resort/valmalenco-alpe-palu/,1527,2353,21.3,,58.0,EUR,3.1,0,58.0,46.2693684,9.8497654,158.3,285.1,103.1,214.5,245.3,391.2,103.1,1
-Colere,IT,https://www.skiresort.com/en/ski-resort/colere/,1060,2178,21.3,,48.0,EUR,3.1,0,48.0,45.9583225,10.0808099,196.6,304.9,88.3,211.0,267.4,406.7,88.3,1
-Campo Felice – Rocca di Cambio,IT,https://www.skiresort.com/en/ski-resort/campo-felice-rocca-di-cambio/,1411,1916,5.6,,45.0,EUR,3.1,0,45.0,42.2062548,13.4650464,693.6,733.1,498.7,563.4,675.5,795.1,498.7,0
-Macugnaga,IT,https://www.skiresort.com/en/ski-resort/macugnaga/,1347,2900,32.1,,34.0,EUR,3.1,0,34.0,45.9683785,7.9672651,162.6,143.1,110.2,102.2,364.7,243.5,102.2,0
-Padola – Ski Area Comelico,IT,https://www.skiresort.com/en/ski-resort/padola-ski-area-comelico/,1211,1943,8.3,,80.0,EUR,3.0,0,80.0,46.6018837,12.4793148,310.8,487.7,283.7,408.4,183.4,595.5,183.4,1
-Champorcher,IT,https://www.skiresort.com/en/ski-resort/champorcher/,1440,2500,13.6,,36.0,EUR,3.0,0,36.0,45.6042155,7.5720289,210.6,129.1,127.0,60.0,414.8,213.3,60.0,0
-Sangiacomo/​Cardini – Monte Alpet,IT,https://www.skiresort.com/en/ski-resort/sangiacomo-cardini-monte-alpet/,1098,1611,35.0,,24.0,EUR,3.0,0,24.0,44.2729277,7.8907328,348.8,254.6,167.4,90.1,514.8,291.8,90.1,0
-Monte Magnola – Ovindoli,IT,https://www.skiresort.com/en/ski-resort/monte-magnola-ovindoli/,1413,2056,21.6,,46.0,EUR,3.0,0,46.0,42.1418452,13.4591466,699.4,737.4,503.7,567.3,682.4,798.6,503.7,1
-Passo dello Stelvio (Stelvio Pass),IT,https://www.skiresort.com/en/ski-resort/passo-dello-stelvio-stelvio-pass/,2760,3450,9.0,,61.0,EUR,3.0,0,61.0,46.5289214,10.4540632,173.1,332.7,153.5,268.9,197.8,441.0,153.5,1
-Torgnon,IT,https://www.skiresort.com/en/ski-resort/torgnon/,1515,2246,20.0,,39.0,EUR,3.0,0,39.0,45.8239597,7.5657282,188.1,117.7,132.4,84.3,398.5,211.8,84.3,0
-Foppolo/​Carona (Brembo Ski),IT,https://www.skiresort.com/en/ski-resort/foppolo-carona-brembo-ski/,1635,2163,22.0,,40.0,EUR,3.0,0,40.0,46.0437409,9.7511844,174.6,278.6,77.8,193.8,270.7,381.6,77.8,0
-St. Anton/​St. Christoph/​Stuben/​Lech/​Zürs/​Warth/​Schröcken – Ski Arlberg,AT,https://www.skiresort.com/en/ski-resort/st-anton-st-christoph-stuben-lech-zuers-warth-schroecken-ski-arlberg/,1304,2811,301.0,,85.0,EUR,4.8,0,85.0,47.961005,15.2067363,503.1,713.0,536.0,658.7,270.1,824.7,270.1,11
-Pitztal Glacier (Pitztaler Gletscher),AT,https://www.skiresort.com/en/ski-resort/pitztal-glacier-pitztaler-gletscher/,2685,3440,41.0,,77.0,EUR,3.8,0,77.0,46.9096745,10.8776109,184.1,370.3,206.7,320.3,146.2,480.9,146.2,2
-ski resort Hoch-Imst – Imst,AT,https://www.skiresort.com/en/ski-resort/hoch-imst-imst/,1053,2026,10.3,,47.0,EUR,3.6,0,47.0,46.6863729,14.9526637,491.8,676.7,464.7,590.2,300.4,784.4,300.4,0
-Spieljoch – Fügen,AT,https://www.skiresort.com/en/ski-resort/spieljoch-fuegen/,610,2054,4.0,,80.0,EUR,4.0,0,80.0,47.3303239,11.7982143,245.4,448.4,288.2,404.0,90.9,560.0,90.9,1
-Lermoos – Grubigstein,AT,https://www.skiresort.com/en/ski-resort/lermoos-grubigstein/,1004,2100,1.7,,70.5,EUR,4.0,0,70.5,47.3989427,10.8877611,176.6,384.7,251.4,357.2,96.9,496.8,96.9,1
-Hochoetz – Oetz,AT,https://www.skiresort.com/en/ski-resort/hochoetz-oetz/,1410,2272,3.5,,66.5,EUR,4.0,0,66.5,47.2140297,10.9267459,180.8,381.5,235.9,345.1,113.6,493.2,113.6,1
-Damüls Mellau,AT,https://www.skiresort.com/en/ski-resort/damuels-mellau/,710,2050,17.7,,75.5,EUR,4.4,0,75.5,47.3461952,9.8888542,101.5,312.2,216.0,304.5,154.0,424.4,101.5,2
-KitzSki – Kitzbühel/​Kirchberg,AT,https://www.skiresort.com/en/ski-resort/kitzski-kitzbuehel-kirchberg/,800,2000,45.0,,83.0,EUR,4.9,0,83.0,47.3664103,12.3972359,290.3,493.2,324.3,443.2,105.0,604.6,105.0,3
-Sölden,AT,https://www.skiresort.com/en/ski-resort/soelden/,1350,3340,8.4,,86.5,EUR,4.7,0,86.5,46.9666319,11.0072845,191.9,381.2,217.8,331.9,136.9,491.9,136.9,2
-Mayrhofen – Penken/​Ahorn/​Rastkogel/​Eggalm (Mountopolis),AT,https://www.skiresort.com/en/ski-resort/mayrhofen-penken-ahorn-rastkogel-eggalm-mountopolis/,630,2500,8.7,,82.0,EUR,4.7,0,82.0,47.1671149,11.8641909,251.7,449.2,279.3,397.4,109.7,560.2,109.7,2
-Kaltenbach – Hochzillertal/​Hochfügen (SKi-optimal),AT,https://www.skiresort.com/en/ski-resort/kaltenbach-hochzillertal-hochfuegen-ski-optimal/,600,2378,4.5,,83.0,EUR,4.7,0,83.0,47.290809,11.8743861,251.3,453.0,289.2,406.0,96.4,564.4,96.4,1
-Zillertal Arena – Zell am Ziller/​Gerlos/​Königsleiten/​Hochkrimml,AT,https://www.skiresort.com/en/ski-resort/zillertal-arena-zell-am-ziller-gerlos-koenigsleiten-hochkrimml/,580,2500,3.0,,82.0,EUR,4.7,0,82.0,47.2437261,12.039186,264.1,463.9,294.9,413.2,104.9,575.1,104.9,1
-Nauders am Reschenpass – Bergkastel,AT,https://www.skiresort.com/en/ski-resort/nauders-am-reschenpass-bergkastel/,1400,2750,11.0,,65.0,EUR,4.2,0,65.0,46.8710182,10.5350048,161.0,344.0,187.6,297.5,161.1,454.6,161.0,1
-Ski Juwel Alpbachtal Wildschönau,AT,https://www.skiresort.com/en/ski-resort/ski-juwel-alpbachtal-wildschoenau/,830,2030,16.3,,71.5,EUR,4.3,0,71.5,47.3822531,11.9282532,255.0,459.3,299.2,415.3,87.6,571.0,87.6,1
-Sillian – Thurntaler (Hochpustertal),AT,https://www.skiresort.com/en/ski-resort/sillian-thurntaler-hochpustertal/,1100,2407,9.0,,74.0,EUR,4.0,0,74.0,46.7472874,12.4180291,301.8,484.1,286.8,410.7,166.6,592.9,166.6,1
-Wildkogel – Neukirchen/​Bramberg,AT,https://www.skiresort.com/en/ski-resort/wildkogel-neukirchen-bramberg/,820,2150,2.0,,72.0,EUR,4.4,0,72.0,47.2857538,12.2973967,283.2,483.9,312.8,432.0,108.6,595.1,108.6,1
-Steinplatte Winklmoosalm – Waidring/​Reit im Winkl,AT,https://www.skiresort.com/en/ski-resort/steinplatte-winklmoosalm-waidring-reit-im-winkl/,740,1860,4.0,,66.0,EUR,4.2,0,66.0,47.6366515,12.5754678,304.3,513.6,354.0,471.2,92.5,625.5,92.5,1
-Silvretta Montafon,AT,https://www.skiresort.com/en/ski-resort/silvretta-montafon/,700,2430,142.0,,77.0,EUR,4.6,0,77.0,47.0350334,9.9767786,114.9,307.0,184.8,281.0,171.6,418.7,114.9,6
-Obertauern,AT,https://www.skiresort.com/en/ski-resort/obertauern/,1630,2313,100.0,,72.0,EUR,4.4,0,72.0,47.2494362,13.5569603,378.3,576.7,389.4,512.8,177.6,687.2,177.6,4
-SkiWelt Wilder Kaiser-Brixental,AT,https://www.skiresort.com/en/ski-resort/skiwelt-wilder-kaiser-brixental/,620,1869,275.0,,79.5,EUR,4.8,0,79.5,47.4578352,12.2490297,279.1,484.8,322.5,439.7,90.3,596.5,90.3,10
-Ischgl/​Samnaun – Silvretta Arena,AT,https://www.skiresort.com/en/ski-resort/ischgl-samnaun-silvretta-arena/,1360,2872,15.0,,83.0,EUR,4.9,0,83.0,46.9693738,10.3395811,143.3,331.7,189.3,294.2,159.7,443.0,143.3,2
-Hochkönig – Maria Alm/​Dienten/​Mühlbach,AT,https://www.skiresort.com/en/ski-resort/hochkoenig-maria-alm-dienten-muehlbach/,800,1900,8.0,,81.0,EUR,4.6,0,81.0,47.4203341,13.0624483,340.3,543.4,367.8,488.9,136.2,654.7,136.2,2
-Zettersfeld – Lienz,AT,https://www.skiresort.com/en/ski-resort/zettersfeld-lienz/,1660,2278,2.7,,74.0,EUR,3.9,0,74.0,46.8639543,12.7894891,326.4,513.5,317.9,441.8,167.9,622.7,167.9,1
-St. Jakob im Defereggental – Brunnalm,AT,https://www.skiresort.com/en/ski-resort/st-jakob-im-defereggental-brunnalm/,1400,2683,1.6,,74.0,EUR,4.0,0,74.0,46.9189,12.3308,291.0,479.6,290.8,413.4,146.5,589.3,146.5,1
-Großglockner Resort Kals-Matrei,AT,https://www.skiresort.com/en/ski-resort/grossglockner-resort-kals-matrei/,933,2426,4.6,,74.0,EUR,4.2,0,74.0,47.0147602,12.6366196,312.0,504.0,316.2,438.9,147.6,614.0,147.6,1
-Biberwier – Marienberg,AT,https://www.skiresort.com/en/ski-resort/biberwier-marienberg/,1000,1820,1.3,,70.5,EUR,3.4,0,70.5,47.3823667,10.8915055,176.9,384.4,250.0,356.1,98.3,496.5,98.3,1
-Tauplitz – Bad Mitterndorf,AT,https://www.skiresort.com/en/ski-resort/tauplitz-bad-mitterndorf/,896,1965,2.0,,62.0,EUR,4.1,0,62.0,47.5607088,14.0120625,411.6,616.5,436.3,558.9,192.2,727.7,192.2,1
-Sonnenkopf – Klösterle,AT,https://www.skiresort.com/en/ski-resort/sonnenkopf-kloesterle/,1000,2300,4.0,,58.0,EUR,3.6,0,58.0,47.256394,10.116991,119.5,324.6,211.6,306.7,146.9,436.8,119.5,0
-Berwang/​Bichlbach/​Rinnen,AT,https://www.skiresort.com/en/ski-resort/berwang-bichlbach-rinnen/,1079,1743,9.0,,70.5,EUR,4.0,0,70.5,47.4131478,10.7417324,165.6,374.8,247.2,350.7,101.9,487.0,101.9,1
-Turracher Höhe,AT,https://www.skiresort.com/en/ski-resort/turracher-hoehe/,1400,2205,1.0,,72.5,EUR,4.3,0,72.5,46.9131659,13.8764531,406.7,596.3,395.0,520.0,219.4,705.3,219.4,1
-Hochficht,AT,https://www.skiresort.com/en/ski-resort/hochficht/,866,1338,28.0,,67.0,EUR,3.6,0,67.0,48.73658,13.92098,427.3,648.5,510.3,624.5,185.1,760.6,185.1,2
-Schlick 2000 – Fulpmes,AT,https://www.skiresort.com/en/ski-resort/schlick-2000-fulpmes/,1000,2240,2.7,,61.5,EUR,3.9,0,61.5,47.1517082,11.318956,211.0,408.6,248.9,363.2,111.1,519.9,111.1,1
-Gurgl – Obergurgl-Hochgurgl,AT,https://www.skiresort.com/en/ski-resort/gurgl-obergurgl-hochgurgl/,1793,3030,4.5,,58.0,EUR,4.5,0,58.0,47.359863,11.0849664,191.5,397.5,256.0,364.9,93.9,509.5,93.9,0
-Glungezer – Tulfes,AT,https://www.skiresort.com/en/ski-resort/glungezer-tulfes/,950,2304,23.0,,50.0,EUR,3.6,0,50.0,47.2075977,11.5283837,226.0,425.4,264.2,379.5,103.2,536.8,103.2,1
-Axamer Lizum,AT,https://www.skiresort.com/en/ski-resort/axamer-lizum/,1560,2340,40.7,,67.0,EUR,3.9,0,67.0,47.1943801,11.3030187,209.3,408.5,251.6,365.2,106.7,519.9,106.7,2
-Dorfgastein/​Großarltal,AT,https://www.skiresort.com/en/ski-resort/dorfgastein-grossarltal/,849,2033,1.5,,81.5,EUR,4.2,0,81.5,47.2383797,13.1599007,348.5,546.9,362.9,485.5,154.6,657.5,154.6,1
-Kitzsteinhorn/​Maiskogel – Kaprun,AT,https://www.skiresort.com/en/ski-resort/kitzsteinhorn-maiskogel-kaprun/,768,3029,8.9,,82.0,EUR,4.4,0,82.0,47.1880444,12.6874982,313.4,510.8,329.9,451.5,134.0,621.5,134.0,2
-Serfaus-Fiss-Ladis,AT,https://www.skiresort.com/en/ski-resort/serfaus-fiss-ladis/,1200,2828,28.0,,78.0,EUR,4.8,0,78.0,47.0375066,10.6103285,160.8,353.5,206.2,314.2,142.1,464.8,142.1,2
-Saalbach Hinterglemm Leogang Fieberbrunn (Skicircus),AT,https://www.skiresort.com/en/ski-resort/saalbach-hinterglemm-leogang-fieberbrunn-skicircus/,830,2096,270.0,,82.0,EUR,4.7,0,82.0,47.406831,12.6519221,309.4,512.9,342.1,461.7,113.8,624.3,113.8,10
-Schladming – Planai/​​Hochwurzen/​​Hauser Kaibling/​​Reiteralm (4-Berge-Skischaukel),AT,https://www.skiresort.com/en/ski-resort/schladming-planai-hochwurzen-hauser-kaibling-reiteralm-4-berge-skischaukel/,728,2015,4.0,,81.5,EUR,4.7,0,81.5,47.3940415,13.6867878,387.3,589.0,405.9,528.7,177.6,699.9,177.6,1
-Snow Space Salzburg – Flachau/​Wagrain/​St. Johann-Alpendorf,AT,https://www.skiresort.com/en/ski-resort/snow-space-salzburg-flachau-wagrain-st-johann-alpendorf/,740,1980,5.0,,81.0,EUR,4.5,0,81.0,47.32819,13.29974,358.4,559.0,377.1,499.5,156.7,669.9,156.7,1
-Bad Gastein/​Bad Hofgastein – Schlossalm/​Angertal/​Stubnerkogel,AT,https://www.skiresort.com/en/ski-resort/bad-gastein-bad-hofgastein-schlossalm-angertal-stubnerkogel/,860,2300,1.3,,81.5,EUR,4.4,0,81.5,47.1227888,13.1439673,348.5,543.7,355.3,478.5,162.4,653.9,162.4,1
-Schmittenhöhe – Zell am See,AT,https://www.skiresort.com/en/ski-resort/schmittenhoehe-zell-am-see/,760,2000,8.0,,82.0,EUR,4.4,0,82.0,47.3293614,12.7376171,316.1,517.4,342.0,462.7,124.5,628.6,124.5,2
-Nassfeld – Hermagor,AT,https://www.skiresort.com/en/ski-resort/nassfeld-hermagor/,600,2002,110.0,,73.0,EUR,4.4,0,73.0,47.0609079,13.0586253,342.9,536.4,346.3,469.7,162.9,646.4,162.9,5
-Stubai Glacier (Stubaier Gletscher),AT,https://www.skiresort.com/en/ski-resort/stubai-glacier-stubaier-gletscher/,1695,3210,30.6,,75.5,EUR,4.3,0,75.5,47.0108,11.1558,201.7,393.2,229.0,343.8,129.0,504.0,129.0,2
-Katschberg,AT,https://www.skiresort.com/en/ski-resort/katschberg/,1066,2220,2.0,,73.0,EUR,4.3,0,73.0,47.0591646,13.6156975,384.8,578.2,383.6,507.9,193.8,688.0,193.8,1
-See,AT,https://www.skiresort.com/en/ski-resort/see/,1040,2570,42.5,,73.0,EUR,4.2,0,73.0,47.0833333,10.4666667,149.0,344.2,205.0,309.9,143.8,455.7,143.8,2
-Kreischberg,AT,https://www.skiresort.com/en/ski-resort/kreischberg/,868,2118,42.5,,72.0,EUR,4.2,0,72.0,47.0773706,14.0571311,417.7,611.6,414.8,539.5,219.7,721.3,219.7,2
-Dachstein West – Gosau/​Russbach/​Annaberg,AT,https://www.skiresort.com/en/ski-resort/dachstein-west-gosau-russbach-annaberg/,745,1617,4.0,,73.0,EUR,4.1,0,73.0,47.5330404,13.4968889,372.9,578.0,401.9,523.4,157.8,689.3,157.8,1
-Kühtai,AT,https://www.skiresort.com/en/ski-resort/kuehtai/,1938,2520,1.4,,66.5,EUR,4.1,0,66.5,47.2136222,11.0234047,188.0,388.6,240.1,350.5,110.7,500.2,110.7,1
-Galtür – Silvapark,AT,https://www.skiresort.com/en/ski-resort/galtuer-silvapark/,1600,2300,6.0,,,EUR,4.1,0,73.0,46.9194552,10.1705889,133.3,318.0,178.6,281.2,171.8,429.1,133.3,1
-Hochzeiger – Jerzens,AT,https://www.skiresort.com/en/ski-resort/hochzeiger-jerzens/,1450,2488,54.0,,69.0,EUR,4.1,0,69.0,47.1455818,10.7952574,172.0,370.0,224.0,332.6,124.8,481.5,124.8,3
-Zauchensee/​Flachauwinkl,AT,https://www.skiresort.com/en/ski-resort/zauchensee-flachauwinkl/,1000,2176,3.5,,81.0,EUR,4.1,0,81.0,47.2869845,13.4630092,371.0,570.3,385.3,508.3,169.4,681.0,169.4,1
-Radstadt/​Altenmarkt,AT,https://www.skiresort.com/en/ski-resort/radstadt-altenmarkt/,850,1571,17.3,,81.0,EUR,4.0,0,81.0,47.3638448,13.4524716,369.8,571.0,389.0,511.5,164.0,682.0,164.0,2
-Fellhorn/​Kanzelwand – Oberstdorf/​Riezlern,AT,https://www.skiresort.com/en/ski-resort/fellhorn-kanzelwand-oberstdorf-riezlern/,920,1967,2.0,,68.7,EUR,4.0,0,68.7,47.3449986,10.2236908,126.7,335.6,223.6,319.5,134.3,447.8,126.7,1
-St. Johann in Tirol/​Oberndorf – Harschbichl,AT,https://www.skiresort.com/en/ski-resort/st-johann-in-tirol-oberndorf-harschbichl/,659,1604,40.0,,65.0,EUR,4.0,0,65.0,47.4981426,12.4201561,292.0,498.4,335.1,452.8,94.5,610.1,94.5,2
-Gerlitzen,AT,https://www.skiresort.com/en/ski-resort/gerlitzen/,1000,1911,12.0,,73.0,EUR,4.0,0,73.0,46.69476,13.9143318,414.1,597.6,389.2,514.6,237.6,705.6,237.6,1
-Ehrwalder Alm – Ehrwald,AT,https://www.skiresort.com/en/ski-resort/ehrwalder-alm-ehrwald/,1112,1923,27.5,,70.5,EUR,4.0,0,70.5,47.391752,10.9785479,183.5,391.0,254.4,361.5,94.2,503.0,94.2,2
-Hinterstoder – Höss,AT,https://www.skiresort.com/en/ski-resort/hinterstoder-hoess/,600,2000,39.9,,80.0,EUR,4.0,0,80.0,47.6998016,14.1554223,422.8,630.1,453.5,575.6,197.8,741.7,197.8,3
-Golm,AT,https://www.skiresort.com/en/ski-resort/golm/,650,2100,17.9,,74.0,EUR,4.0,0,74.0,47.0757062,9.8711095,105.8,300.6,186.7,279.5,174.1,412.5,105.8,2
-Almenwelt Lofer,AT,https://www.skiresort.com/en/ski-resort/almenwelt-lofer/,640,1670,46.0,,64.5,EUR,4.0,0,64.5,47.6001676,12.648441,309.5,517.8,355.5,473.4,99.3,629.7,99.3,2
-Hintertux Glacier (Hintertuxer Gletscher),AT,https://www.skiresort.com/en/ski-resort/hintertux-glacier-hintertuxer-gletscher/,1500,3250,64.0,,82.0,EUR,4.0,0,82.0,47.0658,11.6775,239.3,433.2,261.3,379.4,119.1,543.9,119.1,3
-Loser – Altaussee,AT,https://www.skiresort.com/en/ski-resort/loser-altaussee/,859,1770,34.0,,62.0,EUR,4.0,0,62.0,47.6607391,13.7710285,393.9,601.1,426.9,548.3,171.5,712.7,171.5,2
-Kappl,AT,https://www.skiresort.com/en/ski-resort/kappl/,1175,2690,9.0,,73.0,EUR,4.0,0,73.0,47.0633793,10.3755315,142.8,336.9,199.8,303.5,149.6,448.5,142.8,1
-Bergeralm – Steinach am Brenner,AT,https://www.skiresort.com/en/ski-resort/bergeralm-steinach-am-brenner/,1048,2180,1.0,,60.2,EUR,3.9,0,60.2,47.0691571,11.4488786,222.2,416.2,249.0,365.5,118.9,527.1,118.9,0
-Filzmoos,AT,https://www.skiresort.com/en/ski-resort/filzmoos/,970,1591,20.0,,70.0,EUR,3.9,0,70.0,47.451189,13.5137153,374.1,577.4,398.0,520.1,163.1,688.5,163.1,1
-Riesneralm – Donnersbachwald,AT,https://www.skiresort.com/en/ski-resort/riesneralm-donnersbachwald/,973,1820,2.2,,62.0,EUR,3.8,0,62.0,47.3753929,14.1195758,419.9,620.8,433.4,557.1,207.6,731.5,207.6,1
-Rauriser Hochalmbahnen – Rauris,AT,https://www.skiresort.com/en/ski-resort/rauriser-hochalmbahnen-rauris/,950,2175,5.0,,69.5,EUR,3.8,0,69.5,47.2289,12.9939,336.1,534.4,351.7,473.9,146.0,645.0,146.0,1
-Christlum – Achenkirch,AT,https://www.skiresort.com/en/ski-resort/christlum-achenkirch/,950,1800,27.0,,69.0,EUR,3.8,0,69.0,47.5074755,11.6790887,236.4,445.1,296.5,409.2,70.2,557.1,70.2,2
-Bad Kleinkirchheim,AT,https://www.skiresort.com/en/ski-resort/bad-kleinkirchheim/,1087,2055,4.5,,73.0,EUR,3.8,0,73.0,46.8144214,13.7983599,402.7,589.5,385.4,510.6,222.1,698.1,222.1,1
-Brandnertal – Brand/​Bürserberg,AT,https://www.skiresort.com/en/ski-resort/brandnertal-brand-buerserberg/,904,2000,13.0,,58.0,EUR,3.8,0,58.0,47.1166893,9.7529301,95.9,293.5,188.8,277.8,177.8,405.6,95.9,1
-Flachauwinkl/​Kleinarl (Shuttleberg),AT,https://www.skiresort.com/en/ski-resort/flachauwinkl-kleinarl-shuttleberg/,1000,1980,12.0,,81.0,EUR,3.7,0,81.0,47.2930993,13.3365766,361.4,561.1,377.5,500.1,161.2,671.8,161.2,2
-Ifen,AT,https://www.skiresort.com/en/ski-resort/ifen/,1270,2030,1.2,,72.9,EUR,3.7,0,72.9,47.35161,10.1236255,119.2,328.8,221.7,315.4,139.6,441.1,119.2,1
-Kaunertal Glacier (Kaunertaler Gletscher),AT,https://www.skiresort.com/en/ski-resort/kaunertal-glacier-kaunertaler-gletscher/,2150,3113,55.0,,77.0,EUR,3.7,0,77.0,46.8541825,10.7045488,173.7,356.3,193.6,306.1,156.9,466.7,156.9,3
-Grosseck/​Speiereck – Mauterndorf/​St. Michael,AT,https://www.skiresort.com/en/ski-resort/grosseck-speiereck-mauterndorf-st-michael/,1095,2400,50.0,,61.0,EUR,3.7,0,61.0,47.1217604,13.6440692,386.1,581.2,388.6,512.7,191.2,691.2,191.2,2
-Les 3 Vallées – Val Thorens/​Les Menuires/​Méribel/​Courchevel,FR,https://www.skiresort.com/en/ski-resort/les-3-vallees-val-thorens-les-menuires-meribel-courchevel/,1100,3230,50.0,,84.2,EUR,4.7,0,84.2,-12.7547431,45.2289412,7612.2,7630.0,7415.2,7456.1,7541.8,7661.2,7415.2,3
-Aiguille du Midi (Chamonix),FR,https://www.skiresort.com/en/ski-resort/aiguille-du-midi-chamonix/,1035,3842,24.0,,71.0,EUR,2.7,0,71.0,45.889136,6.9115759,207.0,68.9,183.2,109.3,433.2,161.4,68.9,2
-ski resort Les 7 Laux – Prapoutel/​Le Pleynet/​Pipay,FR,https://www.skiresort.com/en/ski-resort/les-7-laux-prapoutel-le-pleynet-pipay/,1350,2400,120.0,,43.0,EUR,3.8,0,43.0,45.2602174,6.0335914,304.1,105.3,247.6,131.3,530.1,108.9,105.3,4
-Tignes/​Val d'Isère,FR,https://www.skiresort.com/en/ski-resort/tignes-val-disere/,1550,3456,300.0,,75.0,EUR,4.7,0,75.0,45.4580331,6.9188357,247.0,102.5,177.1,74.0,463.1,165.6,74.0,11
-La Plagne (Paradiski),FR,https://www.skiresort.com/en/ski-resort/la-plagne-paradiski/,1207,3167,225.0,,70.0,EUR,4.4,0,70.0,45.5600705,6.7353359,244.8,85.1,191.6,92.2,466.6,149.4,85.1,8
-Serre Chevalier – Briançon/​Chantemerle/​Villeneuve-la-Salle/​Le Monêtier-les-Bains,FR,https://www.skiresort.com/en/ski-resort/serre-chevalier-briancon-chantemerle-villeneuve-la-salle-le-monetier-les-bains/,1200,2800,250.0,,68.0,EUR,4.4,0,68.0,44.9107381,6.5500282,314.2,147.3,215.8,91.1,525.9,164.2,91.1,9
-Espace San Bernardo – La Rosière/​La Thuile,FR,https://www.skiresort.com/en/ski-resort/espace-san-bernardo-la-rosiere-la-thuile/,1190,2800,12.0,,59.0,EUR,4.3,0,59.0,43.4995096,-1.4910832,892.7,672.4,874.3,750.7,1134.7,560.2,560.2,1
-Les 2 Alpes,FR,https://www.skiresort.com/en/ski-resort/les-2-alpes/,1280,3523,220.0,,66.0,EUR,4.3,0,66.0,44.9988811,6.1270741,323.2,134.1,245.4,122.8,543.4,131.9,122.8,8
-Les Portes du Soleil – Morzine/​Avoriaz/​Les Gets/​Châtel/​Morgins/​Champéry,FR,https://www.skiresort.com/en/ski-resort/les-portes-du-soleil-morzine-avoriaz-les-gets-chatel-morgins-champery/,985,2254,580.0,,73.0,EUR,4.3,0,73.0,46.2083547,6.6033664,196.6,35.4,216.8,152.0,432.9,145.2,35.4,20
-Via Lattea – Sestriere/​Sauze d’Oulx/​San Sicario/​Claviere/​Montgenèvre,FR,https://www.skiresort.com/en/ski-resort/via-lattea-sestriere-sauze-doulx-san-sicario-claviere-montgenevre/,1538,2789,400.0,,66.0,EUR,4.2,0,66.0,44.9328904,6.7275059,305.6,148.5,201.8,77.0,514.3,174.3,77.0,14
-Saint-Lary-Soulan,FR,https://www.skiresort.com/en/ski-resort/saint-lary-soulan/,1597,2515,105.0,,54.7,EUR,4.2,0,54.7,43.6977174,7.2753831,420.8,292.6,248.1,156.1,595.1,299.9,156.1,4
-Alpe d'Huez,FR,https://www.skiresort.com/en/ski-resort/alpe-dhuez/,1125,3330,250.0,,66.0,EUR,4.2,0,66.0,45.092401,6.0699443,317.3,123.8,247.6,127.0,539.9,121.9,121.9,9
-Le Grand Massif – Flaine/​Les Carroz/​Morillon/​Samoëns/​Sixt,FR,https://www.skiresort.com/en/ski-resort/le-grand-massif-flaine-les-carroz-morillon-samoens-sixt/,697,2480,265.0,,61.0,EUR,4.1,0,61.0,46.0270803,6.6965379,205.7,47.0,203.3,131.4,437.8,146.9,47.0,9
-Megève/​Saint-Gervais,FR,https://www.skiresort.com/en/ski-resort/megeve-saint-gervais/,850,2353,185.0,,65.0,EUR,4.1,0,65.0,45.845128,6.6856662,221.6,57.9,199.2,116.3,450.2,143.7,57.9,7
-Les Arcs/​Peisey-Vallandry (Paradiski),FR,https://www.skiresort.com/en/ski-resort/les-arcs-peisey-vallandry-paradiski/,1200,3226,200.0,,70.0,EUR,4.1,0,70.0,45.5759319,6.8133608,240.0,87.0,185.6,88.5,460.8,155.1,87.0,7
-Espace Diamant – Les Saisies/​Notre-Dame-de-Bellecombe/​Praz sur Arly/​Flumet/​Crest-Voland,FR,https://www.skiresort.com/en/ski-resort/espace-diamant-les-saisies-notre-dame-de-bellecombe-praz-sur-arly-flumet-crest-voland/,1000,2069,192.0,,50.0,EUR,4.1,0,50.0,45.78908,6.554098,232.9,56.0,208.1,119.2,462.1,133.3,56.0,6
-Peyragudes,FR,https://www.skiresort.com/en/ski-resort/peyragudes/,1600,2400,42.0,,49.5,EUR,4.0,0,49.5,42.7761884,0.4574178,814.5,590.3,757.9,632.4,1051.0,481.4,481.4,1
-Les Sybelles – Le Corbier/​La Toussuire/​Les Bottières/​St Sorlin/​St Jean d’Arves,FR,https://www.skiresort.com/en/ski-resort/les-sybelles-le-corbier-la-toussuire-les-bottieres-st-sorlin-st-jean-darves/,1100,2620,275.0,,60.5,EUR,4.0,0,60.5,45.2637202,6.254303,293.3,105.0,230.4,114.4,516.5,123.7,105.0,10
-Les Angles,FR,https://www.skiresort.com/en/ski-resort/les-angles/,1600,2376,50.0,,47.0,EUR,4.0,0,47.0,43.0835762,0.0062129,820.6,596.5,777.1,651.8,1059.6,485.6,485.6,2
-Val Cenis – Lanslevillard/​Lanslebourg/​Termignon,FR,https://www.skiresort.com/en/ski-resort/val-cenis-lanslevillard-lanslebourg-termignon/,1300,2800,125.0,,50.0,EUR,3.9,0,50.0,45.2763451,6.8649827,266.7,117.4,182.8,68.4,479.9,167.1,68.4,4
-Galibier Thabor – Valmeinier/​Valloire,FR,https://www.skiresort.com/en/ski-resort/galibier-thabor-valmeinier-valloire/,1430,2750,160.0,,54.9,EUR,3.9,0,54.9,45.1604887,6.4667961,293.5,118.8,215.6,96.3,511.5,143.8,96.3,6
-Vars/​Risoul – La Forêt Blanche,FR,https://www.skiresort.com/en/ski-resort/vars-risoul-la-foret-blanche/,1650,2750,185.0,,58.0,EUR,3.9,0,58.0,44.5880775,6.6632735,342.4,184.3,221.2,96.9,545.7,193.9,96.9,6
-Le Grand Domaine – Valmorel/​Doucy/​Celliers/​St François Longchamp,FR,https://www.skiresort.com/en/ski-resort/le-grand-domaine-valmorel-doucy-celliers-st-francois-longchamp/,1250,2514,7.0,,59.7,EUR,3.9,0,59.7,48.618833,-2.2673293,815.3,687.0,935.2,852.8,1022.9,623.2,623.2,1
-Les Contamines/​Hauteluce,FR,https://www.skiresort.com/en/ski-resort/les-contamines-hauteluce/,1164,2437,120.0,,54.5,EUR,3.8,0,54.5,45.7970821,6.6891987,225.6,61.9,197.9,112.2,453.1,143.8,61.9,4
-Espace Villard Corrençon – Villard-de-Lans/​Corrençon-en-Vercors,FR,https://www.skiresort.com/en/ski-resort/espace-villard-correncon-villard-de-lans-correncon-en-vercors/,1050,2050,125.0,,43.0,EUR,3.8,0,43.0,45.0747,5.5564,343.9,133.6,287.6,167.3,572.2,95.1,95.1,4
-La Clusaz/​Manigod,FR,https://www.skiresort.com/en/ski-resort/la-clusaz-manigod/,1050,2485,125.0,,54.5,EUR,3.8,0,54.5,45.883562,6.4196911,232.0,41.6,220.2,133.9,464.5,123.5,41.6,4
-Espace Lumière – Pra Loup/​Val d’Allos,FR,https://www.skiresort.com/en/ski-resort/espace-lumiere-pra-loup-val-dallos/,1608,2576,180.0,,48.5,EUR,3.8,0,48.5,48.8958073,2.1514829,503.2,423.3,654.2,597.4,699.3,402.7,402.7,6
-Dévoluy – Superdévoluy/​La Joue du Loup,FR,https://www.skiresort.com/en/ski-resort/devoluy-superdevoluy-la-joue-du-loup/,1500,2500,100.0,,46.0,EUR,3.7,0,46.0,44.684409,5.8984842,362.3,170.1,272.6,147.3,580.3,146.1,146.1,3
-Grand Tourmalet/​Pic du Midi – La Mongie/​Barèges,FR,https://www.skiresort.com/en/ski-resort/grand-tourmalet-pic-du-midi-la-mongie-bareges/,1250,2500,100.0,,53.0,EUR,3.7,0,53.0,42.9106386,0.1561427,823.3,599.0,773.7,648.2,1061.2,488.9,488.9,3
-Isola 2000,FR,https://www.skiresort.com/en/ski-resort/isola-2000/,1800,2603,120.0,,44.0,EUR,3.7,0,44.0,44.1869246,7.1454412,370.8,237.7,214.9,107.2,556.1,252.5,107.2,4
-Brévent/​Flégère (Chamonix),FR,https://www.skiresort.com/en/ski-resort/brevent-flegere-chamonix/,1030,2525,56.0,,74.0,EUR,3.7,0,74.0,45.9478946,6.8685739,203.8,62.8,188.1,116.6,432.0,158.8,62.8,3
-Les Houches/​Saint-Gervais – Prarion/​Bellevue (Chamonix),FR,https://www.skiresort.com/en/ski-resort/les-houches-saint-gervais-prarion-bellevue-chamonix/,1000,1900,55.0,,59.0,EUR,3.7,0,59.0,49.3564872,-1.2619004,756.3,654.5,896.6,826.2,950.3,607.0,607.0,2
-Les Orres,FR,https://www.skiresort.com/en/ski-resort/les-orres/,1550,2720,100.0,,44.5,EUR,3.6,0,44.5,44.5140024,6.5510313,353.6,190.6,232.9,108.9,557.8,193.4,108.9,3
-Orcières Merlette 1850,FR,https://www.skiresort.com/en/ski-resort/orcieres-merlette-1850/,1850,2725,100.0,,46.0,EUR,3.6,0,46.0,44.6960451,6.3229184,343.8,168.3,240.8,115.2,555.4,166.3,115.2,3
-Chamrousse,FR,https://www.skiresort.com/en/ski-resort/chamrousse/,1400,2250,15.0,,43.5,EUR,3.6,0,43.5,45.1108068,5.8748399,324.8,123.4,262.3,142.3,550.2,108.9,108.9,0
-Le Grand Bornand,FR,https://www.skiresort.com/en/ski-resort/le-grand-bornand/,1000,2100,90.0,,52.0,EUR,3.6,0,52.0,45.9418675,6.4271457,226.9,36.5,221.0,137.9,460.4,124.8,36.5,3
-Auron (Saint-Etienne-de-Tinée),FR,https://www.skiresort.com/en/ski-resort/auron-saint-etienne-de-tinee/,1600,2450,135.0,,44.0,EUR,3.6,0,44.0,44.2247543,6.9328021,372.0,228.6,225.1,111.3,563.0,237.7,111.3,4
-Les Portes du Mont-Blanc – Combloux/​Megève le Jaillet/​La Giettaz,FR,https://www.skiresort.com/en/ski-resort/les-portes-du-mont-blanc-combloux-megeve-le-jaillet-la-giettaz/,1020,1930,89.0,,52.5,EUR,3.6,0,52.5,43.869704,6.918043,409.9,266.6,252.4,146.8,595.3,267.1,146.8,3
-Ax 3 Domaines – Ax-les-Thermes,FR,https://www.skiresort.com/en/ski-resort/ax-3-domaines-ax-les-thermes/,1380,2346,80.0,,47.0,EUR,3.5,0,47.0,42.7005767,1.8152092,740.9,519.3,664.0,539.1,971.5,417.0,417.0,3
-Puy-Saint-Vincent,FR,https://www.skiresort.com/en/ski-resort/puy-saint-vincent/,1407,2677,75.0,,42.0,EUR,3.5,0,42.0,45.7715343,3.0839934,453.6,241.2,476.0,367.6,696.0,135.9,135.9,2
-Grands Montets – Argentière (Chamonix),FR,https://www.skiresort.com/en/ski-resort/grands-montets-argentiere-chamonix/,1252,2765,29.0,,74.0,EUR,3.5,0,74.0,45.9686915,6.9436408,198.4,67.1,183.2,115.5,425.9,164.8,67.1,2
-Valfréjus,FR,https://www.skiresort.com/en/ski-resort/valfrejus/,1550,2737,70.0,,43.0,EUR,3.5,0,43.0,45.161845,6.6572261,285.7,122.6,200.9,81.4,500.4,157.0,81.4,2
-Valberg/​Beuil les Launes,FR,https://www.skiresort.com/en/ski-resort/valberg-beuil-les-launes/,1412,2020,90.0,,37.0,EUR,3.4,0,37.0,44.0956228,6.9301384,385.7,242.5,234.4,123.8,574.5,248.2,123.8,2
-La Norma,FR,https://www.skiresort.com/en/ski-resort/la-norma/,1352,2746,65.0,,43.0,EUR,3.4,0,43.0,45.1912885,6.7126569,280.7,121.0,196.0,77.6,495.0,159.6,77.6,2
-Aussois,FR,https://www.skiresort.com/en/ski-resort/aussois/,1530,2705,55.0,,41.0,EUR,3.4,0,41.0,45.2275415,6.7413988,276.1,118.1,193.2,76.2,490.6,160.1,76.2,1
-Arêches (Beaufort),FR,https://www.skiresort.com/en/ski-resort/areches-beaufort/,1080,2300,50.0,,41.0,EUR,3.3,0,41.0,45.6629892,6.5663191,243.2,68.5,205.4,109.6,469.7,134.8,68.5,1
-Super Sauze,FR,https://www.skiresort.com/en/ski-resort/super-sauze/,1400,2450,65.0,,39.0,EUR,3.3,0,39.0,44.3578176,6.6855952,365.1,209.7,232.4,112.0,563.8,213.4,112.0,2
-Les Karellis,FR,https://www.skiresort.com/en/ski-resort/les-karellis/,1550,2482,60.0,,36.0,EUR,3.3,0,36.0,45.2285712,6.4064649,289.7,110.4,219.1,101.9,510.0,136.1,101.9,1
-Sainte-Foy-Tarentaise,FR,https://www.skiresort.com/en/ski-resort/sainte-foy-tarentaise/,1550,2620,43.0,,40.5,EUR,3.3,0,40.5,45.4401467,4.3873058,384.4,160.4,374.6,261.5,624.0,50.1,50.1,1
-Font-Romeu/​Bolquère Pyrénées 2000,FR,https://www.skiresort.com/en/ski-resort/font-romeu-bolquere-pyrenees-2000/,1717,2213,58.0,,49.5,EUR,3.3,0,49.5,46.8360097,6.8241395,143.2,87.4,237.6,207.4,385.5,193.8,87.4,2
-Praz de Lys/​Sommand (Taninges/​Mieussy),FR,https://www.skiresort.com/en/ski-resort/praz-de-lys-sommand-taninges-mieussy/,1240,1966,72.0,,36.0,EUR,3.3,0,36.0,46.1574674,6.5694854,202.3,33.2,217.2,148.9,438.1,141.0,33.2,2
-"Arosa Lenzerheide     The dream team of Switzerland    The sun-drenched winter sports area offers a variety of snow-sure kilometers of slopes. Thanks to the most modern transport facilities, you can quickly switch from one side of the valley to the other. View ski resort",CH,https://www.skiresort.com/en/ski-resort/arosa-lenzerheide/,1229,2865,225.0,,89.0,EUR,4.7,0,89.0,46.7833,9.68,108.6,278.3,151.5,245.0,207.5,389.1,108.6,9
-"Where snow is at home   Obertauern    The sunny, snow-sure, and vibrant winter sports resort of Obertauern awaits you. No matter where you stay, the slopes are always just a few steps away. View ski resort",AT,https://www.skiresort.com/en/ski-resort/obertauern/,1630,2313,100.0,,72.0,EUR,4.4,0,72.0,47.2486,13.5594,378.5,576.8,389.5,512.9,177.8,687.3,177.8,4
-St. Jean Montclar,FR,https://www.skiresort.com/en/ski-resort/st-jean-montclar/,1325,2450,50.0,,33.5,EUR,3.2,0,33.5,44.4117931,6.3509818,370.7,200.0,252.2,128.4,576.8,191.7,128.4,1
-Le Lioran,FR,https://www.skiresort.com/en/ski-resort/le-lioran/,1160,1820,60.0,,41.3,EUR,3.2,0,41.3,45.0906651,2.7533211,512.5,291.1,505.2,387.3,753.9,178.9,178.9,2
-Le Seignus,FR,https://www.skiresort.com/en/ski-resort/le-seignus/,1513,2426,50.0,,35.0,EUR,3.2,0,35.0,44.2290838,6.6068513,380.8,222.6,245.6,126.7,578.8,220.3,126.7,1
-Porté Puymorens,FR,https://www.skiresort.com/en/ski-resort/porte-puymorens/,1617,2470,50.0,,39.5,EUR,3.2,0,39.5,42.5488878,1.833462,752.3,531.4,671.4,546.8,981.7,430.2,430.2,1
-Le Lys – Cauterets,FR,https://www.skiresort.com/en/ski-resort/le-lys-cauterets/,1730,2415,36.0,,46.0,EUR,3.2,0,46.0,47.1293813,-0.5729125,688.1,522.5,772.0,676.4,916.7,441.2,441.2,1
-Lélex/​Crozet,FR,https://www.skiresort.com/en/ski-resort/lelex-crozet/,900,1680,19.5,,38.0,EUR,3.1,0,38.0,46.2950915,5.9541588,230.7,17.7,267.0,191.5,471.6,104.6,17.7,0
-Gourette (Eaux Bonnes),FR,https://www.skiresort.com/en/ski-resort/gourette-eaux-bonnes/,1350,2450,28.0,,44.0,EUR,3.1,0,44.0,42.9438107,-0.3291295,851.6,627.6,808.3,682.9,1090.8,516.5,516.5,1
-Alpe du Grand-Serre – La Morte,FR,https://www.skiresort.com/en/ski-resort/alpe-du-grand-serre-la-morte/,1367,2184,55.0,,36.0,EUR,3.1,0,36.0,45.0013049,5.8354324,336.4,135.9,267.7,145.7,560.5,115.3,115.3,1
-Hirmentaz/​Les Habères – Bellevaux/​Habère-Poche,FR,https://www.skiresort.com/en/ski-resort/hirmentaz-les-haberes-bellevaux-habere-poche/,920,1576,50.0,,35.0,EUR,3.1,0,35.0,46.2511455,6.5178067,198.5,29.3,224.7,159.7,436.1,140.7,29.3,1
-Piau-Engaly,FR,https://www.skiresort.com/en/ski-resort/piau-engaly/,1765,2528,33.0,,45.0,EUR,3.1,0,45.0,48.1847154,-0.6898353,695.2,561.0,809.5,726.8,909.3,498.0,498.0,1
-Luchon-Superbagnères,FR,https://www.skiresort.com/en/ski-resort/luchon-superbagneres/,1465,2125,32.0,,37.5,EUR,3.1,0,37.5,42.7910617,0.5912279,805.3,581.1,747.4,621.9,1041.4,472.6,472.6,1
-Balme/​Les Autannes – Vallorcine/​Le Tour,FR,https://www.skiresort.com/en/ski-resort/balme-les-autannes-vallorcine-le-tour/,1264,2250,29.0,,74.0,EUR,3.1,0,74.0,46.5114485,5.3834804,258.3,67.6,316.3,239.9,500.7,93.2,67.6,2
-Le Collet d'Allevard,FR,https://www.skiresort.com/en/ski-resort/le-collet-dallevard/,1450,2140,35.0,,29.0,EUR,3.1,0,29.0,45.3957311,6.1312659,287.6,89.9,238.8,127.1,514.7,108.8,89.9,0
-La Pierre Saint Martin,FR,https://www.skiresort.com/en/ski-resort/la-pierre-saint-martin/,1527,2153,44.0,,42.5,EUR,3.1,0,42.5,42.974205,-0.7395243,876.0,652.4,837.7,712.5,1116.0,540.7,540.7,1
-Les Brasses,FR,https://www.skiresort.com/en/ski-resort/les-brasses/,900,1500,37.0,,32.5,EUR,3.1,0,32.5,44.6153196,2.9182386,531.8,307.5,501.6,379.3,770.7,197.2,197.2,1
-Abriès,FR,https://www.skiresort.com/en/ski-resort/abries/,1450,2450,33.0,,38.9,EUR,3.0,0,38.9,44.8122221,6.9463074,310.6,167.0,190.3,65.0,512.2,196.1,65.0,1
-Pralognan la Vanoise,FR,https://www.skiresort.com/en/ski-resort/pralognan-la-vanoise/,1410,2355,26.0,,41.0,EUR,3.0,0,41.0,45.381809,6.7212822,262.1,101.9,192.9,83.2,480.3,152.8,83.2,1
-Formiguères,FR,https://www.skiresort.com/en/ski-resort/formigueres/,1730,2320,22.0,,39.5,EUR,3.0,0,39.5,42.6140573,2.1028547,732.2,512.1,648.8,524.4,960.6,412.4,412.4,0
-SuperBesse – Puy de Sancy,FR,https://www.skiresort.com/en/ski-resort/superbesse-puy-de-sancy/,1300,1850,30.0,,42.7,EUR,3.0,0,42.7,45.5148352,2.8446318,483.0,266.7,494.5,381.9,725.3,157.2,157.2,1
-Guzet,FR,https://www.skiresort.com/en/ski-resort/guzet/,1108,2050,40.0,,37.5,EUR,3.0,0,37.5,42.7758339,1.3042017,764.1,540.8,696.4,571.1,997.5,435.2,435.2,1
-Luz Ardiden,FR,https://www.skiresort.com/en/ski-resort/luz-ardiden/,1680,2500,22.4,,43.0,EUR,3.0,0,43.0,42.8850872,-0.058821,838.6,614.3,790.8,665.4,1076.9,503.9,503.9,0
-La Colmiane,FR,https://www.skiresort.com/en/ski-resort/la-colmiane/,1450,1800,30.0,,26.0,EUR,3.0,0,26.0,44.0708755,7.2226061,381.6,251.9,219.4,117.1,563.0,266.0,117.1,0
+resort_name,country,url,elevation_base_m,elevation_top_m,slope_km,lifts_count,rating_stars,price_day_eur,manually_added,latitude,longitude,dist_zurich_km,dist_geneva_km,dist_milan_km,dist_turin_km,dist_munich_km,dist_lyon_km,dist_nearest_city_km,hotels_4_5_star_10km
+Zermatt/Breuil-Cervinia/Valtournenche – Matterhorn,CH,https://www.skiresort.com/en/ski-resort/zermatt-breuil-cervinia-valtournenche-matterhorn/,1562.0,3899.0,38.0,12.0,4.5,121.8,False,,,,,,,,,,4
+ski resort Stoos – Fronalpstock/Klingenstock,CH,https://www.skiresort.com/en/ski-resort/stoos-fronalpstock-klingenstock/,1300.0,1935.0,35.0,12.0,3.8,60.9,False,,,,,,,,,,2
+Aletsch Arena – Riederalp/Bettmeralp/Fiesch Eggishorn,CH,https://www.skiresort.com/en/ski-resort/aletsch-arena-riederalp-bettmeralp-fiesch-eggishorn/,1845.0,2869.0,15.0,12.0,4.4,93.45,False,,,,,,,,,,2
+Arosa Lenzerheide,CH,https://www.skiresort.com/en/ski-resort/arosa-lenzerheide/,1229.0,2865.0,225.0,12.0,4.7,93.45,False,46.7833,9.68,108.6,278.3,151.5,245.0,207.5,389.1,108.6,9
+Scuol – Motta Naluns,CH,https://www.skiresort.com/en/ski-resort/ischgl-samnaun-silvretta-arena/,1250.0,2785.0,70.0,12.0,4.0,65.1,False,46.7972,10.2983,147.8,324.8,171.1,278.6,177.3,435.1,147.8,3
+Pizol – Bad Ragaz/Wangs,CH,https://www.skiresort.com/en/ski-resort/pizol-bad-ragaz-wangs/,509.0,2250.0,6.4,12.0,4.0,65.1,False,,,,,,,,,,1
+Flumserberg,CH,https://www.skiresort.com/en/ski-resort/flumserberg/,665.0,2222.0,6.0,12.0,4.2,79.8,False,,,,,,,,,,1
+Bellwald,CH,https://www.skiresort.com/en/ski-resort/bellwald/,1600.0,2558.0,20.0,12.0,3.8,80.85,False,,,,,,,,,,2
+Elm im Sernftal,CH,https://www.skiresort.com/en/ski-resort/elm-im-sernftal/,1020.0,2105.0,2.0,12.0,3.7,61.95,False,46.9189,9.1744,69.9,245.0,161.8,235.5,225.7,356.9,69.9,1
+Hohsaas – Saas-Grund,CH,https://www.skiresort.com/en/ski-resort/hohsaas-saas-grund/,1559.0,3200.0,5.0,12.0,3.8,65.1,False,,,,,,,,,,1
+Wildhaus – Gamserrugg (Toggenburg),CH,https://www.skiresort.com/en/ski-resort/wildhaus-gamserrugg-toggenburg/,1020.0,2076.0,12.0,12.0,3.9,66.15,False,,,,,,,,,,1
+St. Moritz – Corviglia,CH,https://www.skiresort.com/en/ski-resort/st-moritz-corviglia/,1772.0,3057.0,4.8,12.0,4.7,52.5,False,,,,,,,,,,0
+Laax/Flims/Falera,CH,https://www.skiresort.com/en/ski-resort/laax-flims-falera/,1100.0,3018.0,40.0,12.0,4.5,68.25,False,,,,,,,,,,2
+Adelboden/Lenk – Chuenisbärgli/Silleren/Hahnenmoos/Metsch,CH,https://www.skiresort.com/en/ski-resort/adelboden-lenk-chuenisbaergli-silleren-hahnenmoos-metsch/,1260.0,2200.0,86.0,12.0,4.4,76.65,False,,,,,,,,,,4
+Andermatt/Oberalp/Sedrun,CH,https://www.skiresort.com/en/ski-resort/andermatt-oberalp-sedrun/,1444.0,2600.0,70.0,12.0,4.4,96.6,False,,,,,,,,,,4
+4 Vallées – Verbier/La Tzoumaz/Nendaz/Veysonnaz/Thyon,CH,https://www.skiresort.com/en/ski-resort/4-vallees-verbier-la-tzoumaz-nendaz-veysonnaz-thyon/,1350.0,3330.0,412.0,12.0,4.3,98.7,False,,,,,,,,,,16
+Titlis – Engelberg,CH,https://www.skiresort.com/en/ski-resort/titlis-engelberg/,1003.0,3020.0,70.0,12.0,4.3,65.1,False,,,,,,,,,,3
+Kleine Scheidegg/Männlichen – Grindelwald/Wengen,CH,https://www.skiresort.com/en/ski-resort/kleine-scheidegg-maennlichen-grindelwald-wengen/,944.0,2400.0,102.0,12.0,4.2,87.15,False,,,,,,,,,,5
+Parsenn (Davos Klosters),CH,https://www.skiresort.com/en/ski-resort/parsenn-davos-klosters/,810.0,2844.0,6.3,12.0,4.2,91.35,False,,,,,,,,,,2
+Crans-Montana,CH,https://www.skiresort.com/en/ski-resort/crans-montana/,1510.0,2927.0,140.0,12.0,4.2,98.7,False,,,,,,,,,,7
+Grimentz/Zinal,CH,https://www.skiresort.com/en/ski-resort/grimentz-zinal/,1570.0,2900.0,115.0,12.0,4.2,76.65,False,,,,,,,,,,5
+Jakobshorn (Davos Klosters),CH,https://www.skiresort.com/en/ski-resort/jakobshorn-davos-klosters/,1535.0,2568.0,13.0,12.0,4.2,91.35,False,,,,,,,,,,2
+Obersaxen/Mundaun/Val Lumnezia,CH,https://www.skiresort.com/en/ski-resort/obersaxen-mundaun-val-lumnezia/,1201.0,2310.0,120.0,12.0,4.2,70.35,False,,,,,,,,,,5
+Belalp – Blatten,CH,https://www.skiresort.com/en/ski-resort/belalp-blatten/,1322.0,3118.0,6.7,12.0,4.1,80.85,False,,,,,,,,,,1
+Villars/Gryon/Les Diablerets,CH,https://www.skiresort.com/en/ski-resort/villars-gryon-les-diablerets/,1224.0,2120.0,16.0,12.0,4.1,72.45,False,,,,,,,,,,1
+Corvatsch/Furtschellas,CH,https://www.skiresort.com/en/ski-resort/corvatsch-furtschellas/,1797.0,3303.0,2.0,12.0,4.1,73.5,False,,,,,,,,,,1
+Rinderberg/Saanersloch/Horneggli – Zweisimmen/Saanenmöser/Schönried/St. Stephan,CH,https://www.skiresort.com/en/ski-resort/rinderberg-saanersloch-horneggli-zweisimmen-saanenmoeser-schoenried-st-stephan/,948.0,2011.0,105.0,12.0,4.0,98.7,False,,,,,,,,,,5
+First – Grindelwald,CH,https://www.skiresort.com/en/ski-resort/first-grindelwald/,1034.0,2500.0,4.0,12.0,4.0,87.15,False,,,,,,,,,,2
+Brigels/Waltensburg/Andiast,CH,https://www.skiresort.com/en/ski-resort/brigels-waltensburg-andiast/,1102.0,2418.0,40.0,12.0,4.0,68.25,False,,,,,,,,,,2
+Saas-Fee,CH,https://www.skiresort.com/en/ski-resort/saas-fee/,1800.0,3573.0,5.0,12.0,4.0,90.3,False,,,,,,,,,,2
+Hoch-Ybrig – Unteriberg/Oberiberg,CH,https://www.skiresort.com/en/ski-resort/hoch-ybrig-unteriberg-oberiberg/,1040.0,1831.0,5.0,12.0,3.8,65.1,False,,,,,,,,,,1
+Lauchernalp – Lötschental,CH,https://www.skiresort.com/en/ski-resort/lauchernalp-loetschental/,1403.0,3100.0,40.0,12.0,3.8,73.5,False,,,,,,,,,,2
+Madrisa (Davos Klosters),CH,https://www.skiresort.com/en/ski-resort/madrisa-davos-klosters/,1142.0,2602.0,4.0,12.0,3.8,76.65,False,,,,,,,,,,1
+Meiringen-Hasliberg,CH,https://www.skiresort.com/en/ski-resort/meiringen-hasliberg/,1065.0,2433.0,60.0,12.0,3.8,68.25,False,,,,,,,,,,3
+Schilthorn – Mürren/Lauterbrunnen,CH,https://www.skiresort.com/en/ski-resort/schilthorn-muerren-lauterbrunnen/,796.0,2970.0,3.0,12.0,3.7,87.15,False,,,,,,,,,,2
+Disentis,CH,https://www.skiresort.com/en/ski-resort/disentis/,1227.0,2833.0,60.0,12.0,3.7,67.2,False,,,,,,,,,,3
+Gemsstock – Andermatt,CH,https://www.skiresort.com/en/ski-resort/gemsstock-andermatt/,1444.0,2961.0,6.0,12.0,3.6,96.6,False,,,,,,,,,,2
+Grüsch Danusa,CH,https://www.skiresort.com/en/ski-resort/gruesch-danusa/,600.0,1800.0,30.6,12.0,3.6,66.15,False,,,,,,,,,,2
+Savognin,CH,https://www.skiresort.com/en/ski-resort/savognin/,1168.0,2713.0,73.5,12.0,3.6,79.8,False,,,,,,,,,,4
+Diavolezza/Lagalb,CH,https://www.skiresort.com/en/ski-resort/diavolezza-lagalb/,2093.0,3006.0,10.0,12.0,3.6,65.1,False,,,,,,,,,,1
+Zuoz – Pizzet/Albanas,CH,https://www.skiresort.com/en/ski-resort/zuoz-pizzet-albanas/,1720.0,2465.0,1.0,12.0,3.6,76.65,False,,,,,,,,,,1
+Splügen – Tambo,CH,https://www.skiresort.com/en/ski-resort/spluegen-tambo/,1484.0,2215.0,30.0,12.0,3.5,64.05,False,,,,,,,,,,2
+Grächen,CH,https://www.skiresort.com/en/ski-resort/graechen/,1619.0,2864.0,44.0,12.0,3.5,70.35,False,,,,,,,,,,2
+Rinerhorn (Davos Klosters),CH,https://www.skiresort.com/en/ski-resort/rinerhorn-davos-klosters/,1459.0,2490.0,6.0,12.0,3.5,72.45,False,,,,,,,,,,1
+Eggli/La Videmanette – Gstaad/Saanen/Rougemont,CH,https://www.skiresort.com/en/ski-resort/eggli-la-videmanette-gstaad-saanen-rougemont/,992.0,2151.0,53.0,12.0,3.5,98.7,False,,,,,,,,,,4
+Anzère,CH,https://www.skiresort.com/en/ski-resort/anzere/,1516.0,2420.0,6.0,12.0,3.4,75.6,False,,,,,,,,,,1
+Minschuns – Val Müstair-Tschierv,CH,https://www.skiresort.com/en/ski-resort/minschuns-val-muestair-tschierv/,2126.0,2673.0,7.0,12.0,3.3,44.1,False,,,,,,,,,,0
+Chäserrugg – Unterwasser/Alt St. Johann (Toggenburg),CH,https://www.skiresort.com/en/ski-resort/chaeserrugg-unterwasser-alt-st-johann-toggenburg/,900.0,2262.0,2.0,12.0,3.3,86.1,False,,,,,,,,,,2
+Bürchen/Törbel – Moosalp,CH,https://www.skiresort.com/en/ski-resort/buerchen-toerbel-moosalp/,1476.0,2532.0,25.0,12.0,3.3,55.65,False,,,,,,,,,,1
+Saint Luc/Chandolin (Anniviers),CH,https://www.skiresort.com/en/ski-resort/saint-luc-chandolin-anniviers/,1680.0,2980.0,60.0,12.0,3.3,71.4,False,,,,,,,,,,3
+Betelberg – Lenk,CH,https://www.skiresort.com/en/ski-resort/betelberg-lenk/,1083.0,2001.0,42.0,12.0,3.3,66.15,False,,,,,,,,,,2
+Leysin,CH,https://www.skiresort.com/en/ski-resort/leysin/,1250.0,2198.0,60.0,12.0,3.3,71.4,False,,,,,,,,,,3
+Melchsee-Frutt (Kerns),CH,https://www.skiresort.com/en/ski-resort/melchsee-frutt-kerns/,1080.0,2255.0,36.0,12.0,3.3,72.45,False,,,,,,,,,,2
+Charmey,CH,https://www.skiresort.com/en/ski-resort/charmey/,875.0,1626.0,30.0,12.0,3.3,51.45,False,,,,,,,,,,1
+Vercorin,CH,https://www.skiresort.com/en/ski-resort/vercorin/,1340.0,2374.0,35.0,12.0,3.2,68.25,False,,,,,,,,,,2
+Vals – Dachberg,CH,https://www.skiresort.com/en/ski-resort/vals-dachberg/,1286.0,2851.0,25.0,12.0,3.2,40.95,False,,,,,,,,,,0
+Sörenberg – Rothorn/Dorf,CH,https://www.skiresort.com/en/ski-resort/soerenberg-rothorn-dorf/,1110.0,2298.0,42.0,12.0,3.2,67.2,False,,,,,,,,,,2
+Mythenregion,CH,https://www.skiresort.com/en/ski-resort/mythenregion/,1070.0,1593.0,50.0,12.0,3.2,51.45,False,,,,,,,,,,2
+Ovronnaz,CH,https://www.skiresort.com/en/ski-resort/ovronnaz/,1400.0,2427.0,30.0,12.0,3.2,68.25,False,,,,,,,,,,2
+Nara – Leontica,CH,https://www.skiresort.com/en/ski-resort/nara-leontica/,925.0,2123.0,30.0,12.0,3.2,49.35,False,,,,,,,,,,1
+La Berra – La Roche,CH,https://www.skiresort.com/en/ski-resort/la-berra-la-roche/,1040.0,1636.0,25.0,12.0,3.1,51.45,False,,,,,,,,,,1
+Leukerbad,CH,https://www.skiresort.com/en/ski-resort/leukerbad/,1411.0,2610.0,6.0,12.0,3.1,68.25,False,,,,,,,,,,1
+Bosco Gurin – Grossalp,CH,https://www.skiresort.com/en/ski-resort/bosco-gurin-grossalp/,1482.0,2331.0,30.0,12.0,3.1,59.85,False,,,,,,,,,,1
+Klewenalp/Stockhütte – Beckenried/Emmetten,CH,https://www.skiresort.com/en/ski-resort/klewenalp-stockhuette-beckenried-emmetten/,1199.0,1938.0,40.0,12.0,3.1,64.05,False,,,,,,,,,,2
+Tschiertschen,CH,https://www.skiresort.com/en/ski-resort/tschiertschen/,1350.0,2381.0,32.0,12.0,3.1,64.05,False,,,,,,,,,,2
+Glacier 3000 – Les Diablerets,CH,https://www.skiresort.com/en/ski-resort/glacier-3000-les-diablerets/,1343.0,3016.0,28.0,12.0,3.1,88.2,False,,,,,,,,,,2
+Carì,CH,https://www.skiresort.com/en/ski-resort/cari/,1650.0,2280.0,20.0,12.0,3.1,50.4,False,,,,,,,,,,1
+Les Marécottes (Salvan),CH,https://www.skiresort.com/en/ski-resort/les-marecottes-salvan/,1110.0,2220.0,19.0,12.0,3.1,56.7,False,,,,,,,,,,1
+Wasserngrat – Gstaad,CH,https://www.skiresort.com/en/ski-resort/wasserngrat-gstaad/,1275.0,1940.0,10.0,12.0,3.1,98.7,False,,,,,,,,,,2
+Airolo – Pesciüm,CH,https://www.skiresort.com/en/ski-resort/airolo-pesciuem/,1175.0,2250.0,10.0,12.0,3.1,61.95,False,,,,,,,,,,1
+Evolène,CH,https://www.skiresort.com/en/ski-resort/evolene/,1404.0,2632.0,3.0,12.0,3.1,52.5,False,,,,,,,,,,0
+Braunwald (temporarily closed),CH,https://www.skiresort.com/en/ski-resort/braunwald/,1236.0,1901.0,2.5,12.0,3.1,60.9,False,,,,,,,,,,1
+Nax – Mont-Noble,CH,https://www.skiresort.com/en/ski-resort/nax-mont-noble/,1495.0,2640.0,35.0,12.0,3.0,59.85,False,,,,,,,,,,2
+Via Lattea – Sestriere/Sauze d'Oulx/San Sicario/Claviere/Montgenèvre,IT,https://www.skiresort.com/en/ski-resort/via-lattea-sestriere-sauze-doulx-san-sicario-claviere-montgenevre/,1538.0,2789.0,400.0,12.0,4.2,66.0,False,,,,,,,,,,14
+ski resort Zoncolan – Ravascletto/Sutrio,IT,https://www.skiresort.com/en/ski-resort/zoncolan-ravascletto-sutrio/,900.0,1970.0,24.1,12.0,3.8,44.0,False,,,,,,,,,,1
+Gitschberg Jochtal,IT,https://www.skiresort.com/en/ski-resort/gitschberg-jochtal/,1307.0,2510.0,55.0,12.0,4.3,73.0,False,,,,,,,,,,3
+Kronplatz (Plan de Corones),IT,https://www.skiresort.com/en/ski-resort/kronplatz-plan-de-corones/,973.0,2275.0,125.0,12.0,4.6,83.0,False,,,,,,,,,,5
+Racines-Giovo (Ratschings-Jaufen)/Malga Calice (Kalcheralm),IT,https://www.skiresort.com/en/ski-resort/racines-giovo-ratschings-jaufen-malga-calice-kalcheralm/,1300.0,2100.0,28.1,12.0,4.2,70.0,False,,,,,,,,,,2
+Pfelders (Moos in Passeier),IT,https://www.skiresort.com/en/ski-resort/pfelders-moos-in-passeier/,1601.0,2502.0,18.0,12.0,3.8,58.0,False,,,,,,,,,,1
+Carezza,IT,https://www.skiresort.com/en/ski-resort/carezza/,1182.0,2337.0,40.0,12.0,4.2,75.0,False,,,,,,,,,,2
+Latemar – Obereggen/Pampeago/Predazzo,IT,https://www.skiresort.com/en/ski-resort/latemar-obereggen-pampeago-predazzo/,1540.0,2388.0,49.0,12.0,4.5,71.0,False,,,,,,,,,,2
+Madonna di Campiglio/Pinzolo/Folgàrida/Marilleva,IT,https://www.skiresort.com/en/ski-resort/madonna-di-campiglio-pinzolo-folgarida-marilleva/,852.0,2504.0,155.0,12.0,4.7,89.0,False,,,,,,,,,,7
+Val Gardena (Gröden),IT,https://www.skiresort.com/en/ski-resort/val-gardena-groeden/,1236.0,2518.0,181.0,12.0,4.7,83.0,False,,,,,,,,,,7
+Pejo 3000,IT,https://www.skiresort.com/en/ski-resort/pejo-3000/,1400.0,3000.0,20.0,12.0,3.7,60.0,False,,,,,,,,,,1
+San Martino di Castrozza,IT,https://www.skiresort.com/en/ski-resort/san-martino-di-castrozza/,1404.0,2357.0,60.0,12.0,4.1,73.0,False,,,,,,,,,,3
+Ponte di Legno/Tonale/Presena Glacier/Temù (Pontedilegno-Tonale),IT,https://www.skiresort.com/en/ski-resort/ponte-di-legno-tonale-presena-glacier-temu-pontedilegno-tonale/,1121.0,3000.0,100.0,12.0,4.2,66.0,False,,,,,,,,,,4
+Paganella – Andalo,IT,https://www.skiresort.com/en/ski-resort/paganella-andalo/,1040.0,2125.0,2.0,12.0,4.1,76.0,False,,,,,,,,,,1
+Belpiano (Schöneben)/Malga San Valentino (Haideralm),IT,https://www.skiresort.com/en/ski-resort/belpiano-schoeneben-malga-san-valentino-haideralm/,1460.0,2390.0,65.0,12.0,4.2,70.0,False,,,,,,,,,,3
+Folgaria/Fiorentini,IT,https://www.skiresort.com/en/ski-resort/folgaria-fiorentini/,1177.0,1824.0,74.0,12.0,4.1,60.0,False,,,,,,,,,,3
+Monte Bondone,IT,https://www.skiresort.com/en/ski-resort/monte-bondone/,1189.0,2090.0,2.2,12.0,3.8,54.0,False,,,,,,,,,,0
+Livigno,IT,https://www.skiresort.com/en/ski-resort/livigno/,1816.0,2798.0,115.0,12.0,4.4,72.0,False,,,,,,,,,,5
+Klausberg – Skiworld Ahrntal,IT,https://www.skiresort.com/en/ski-resort/klausberg-skiworld-ahrntal/,1050.0,2510.0,40.5,12.0,4.3,77.0,False,,,,,,,,,,2
+Alpe di Siusi (Seiser Alm),IT,https://www.skiresort.com/en/ski-resort/alpe-di-siusi-seiser-alm/,1227.0,2220.0,73.0,12.0,4.3,83.0,False,,,,,,,,,,4
+3 Zinnen Dolomites – Helm/Stiergarten/Rotwand/Kreuzbergpass,IT,https://www.skiresort.com/en/ski-resort/3-zinnen-dolomites-helm-stiergarten-rotwand-kreuzbergpass/,1130.0,2225.0,86.4,12.0,4.3,80.0,False,46.6892,12.3553,298.9,478.9,279.6,403.6,171.0,587.3,171.0,4
+Pila – Aosta,IT,https://www.skiresort.com/en/ski-resort/espace-san-bernardo-la-rosiere-la-thuile/,1800.0,2750.0,70.0,12.0,4.1,53.0,False,45.7347,7.3089,205.5,104.1,149.4,79.6,420.0,191.9,79.6,2
+Alta Badia,IT,https://www.skiresort.com/en/ski-resort/alta-badia/,1324.0,2778.0,130.0,12.0,4.3,74.0,False,,,,,,,,,,5
+Belvedere/Col Rodella/Ciampac/Buffaure – Canazei/Campitello/Alba/Pozza di Fassa,IT,https://www.skiresort.com/en/ski-resort/belvedere-col-rodella-ciampac-buffaure-canazei-campitello-alba-pozza-di-fassa/,1320.0,2485.0,55.2,12.0,4.2,76.0,False,,,,,,,,,,3
+Passo San Pellegrino/Falcade,IT,https://www.skiresort.com/en/ski-resort/passo-san-pellegrino-falcade/,1190.0,2513.0,1.5,12.0,4.2,71.0,False,,,,,,,,,,1
+Speikboden – Skiworld Ahrntal,IT,https://www.skiresort.com/en/ski-resort/speikboden-skiworld-ahrntal/,950.0,2400.0,41.5,12.0,4.2,77.0,False,,,,,,,,,,2
+Arabba/Marmolada,IT,https://www.skiresort.com/en/ski-resort/arabba-marmolada/,1446.0,3269.0,63.0,12.0,4.1,75.0,False,,,,,,,,,,3
+Cortina d'Ampezzo,IT,https://www.skiresort.com/en/ski-resort/cortina-dampezzo/,1217.0,2828.0,120.0,12.0,4.1,80.0,False,,,,,,,,,,5
+Alpe Lusia – Moena/Bellamonte,IT,https://www.skiresort.com/en/ski-resort/alpe-lusia-moena-bellamonte/,1367.0,2340.0,27.5,12.0,4.0,74.0,False,,,,,,,,,,2
+Alagna Valsesia/Gressoney-La-Trinité/Champoluc/Frachey (Monterosa Ski),IT,https://www.skiresort.com/en/ski-resort/alagna-valsesia-gressoney-la-trinite-champoluc-frachey-monterosa-ski/,1212.0,3275.0,5.0,12.0,4.0,69.0,False,,,,,,,,,,1
+Ladurns,IT,https://www.skiresort.com/en/ski-resort/ladurns/,1140.0,2030.0,1.0,12.0,4.0,57.0,False,,,,,,,,,,0
+Civetta – Alleghe/Selva di Cadore/Palafavera/Zoldo,IT,https://www.skiresort.com/en/ski-resort/civetta-alleghe-selva-di-cadore-palafavera-zoldo/,1000.0,2100.0,72.0,12.0,4.0,70.0,False,,,,,,,,,,3
+Plose – Brixen (Bressanone),IT,https://www.skiresort.com/en/ski-resort/plose-brixen-bressanone/,1039.0,2505.0,42.5,12.0,4.0,70.0,False,,,,,,,,,,2
+Bormio – Cima Bianca,IT,https://www.skiresort.com/en/ski-resort/bormio-cima-bianca/,1200.0,3017.0,50.0,12.0,4.0,60.0,False,,,,,,,,,,2
+Schwemmalm,IT,https://www.skiresort.com/en/ski-resort/schwemmalm/,1505.0,2625.0,5.0,12.0,3.9,58.0,False,,,,,,,,,,0
+Meran 2000,IT,https://www.skiresort.com/en/ski-resort/meran-2000/,1609.0,2350.0,40.0,12.0,3.9,62.5,False,,,,,,,,,,2
+Rosskopf (Monte Cavallo) – Sterzing (Vipiteno),IT,https://www.skiresort.com/en/ski-resort/rosskopf-monte-cavallo-sterzing-vipiteno/,960.0,2120.0,20.0,12.0,3.9,63.0,False,,,,,,,,,,1
+Santa Caterina Valfurva,IT,https://www.skiresort.com/en/ski-resort/santa-caterina-valfurva/,1722.0,2880.0,20.5,12.0,3.9,65.0,False,,,,,,,,,,1
+Alpe Cermis – Cavalese,IT,https://www.skiresort.com/en/ski-resort/alpe-cermis-cavalese/,860.0,2250.0,7.5,12.0,3.8,71.0,False,,,,,,,,,,1
+Aprica,IT,https://www.skiresort.com/en/ski-resort/aprica/,1162.0,2270.0,50.0,12.0,3.7,57.0,False,,,,,,,,,,2
+Val Senales Glacier (Schnalstaler Gletscher),IT,https://www.skiresort.com/en/ski-resort/val-senales-glacier-schnalstaler-gletscher/,2011.0,3212.0,42.0,12.0,3.7,62.0,False,,,,,,,,,,2
+Catinaccio/Ciampedie – Vigo di Fassa/Pera di Fassa,IT,https://www.skiresort.com/en/ski-resort/catinaccio-ciampedie-vigo-di-fassa-pera-di-fassa/,1322.0,2095.0,13.5,12.0,3.7,76.0,False,,,,,,,,,,1
+Sulden am Ortler (Solda all'Ortles),IT,https://www.skiresort.com/en/ski-resort/sulden-am-ortler-solda-allortles/,1900.0,3250.0,8.3,12.0,3.7,63.0,False,,,,,,,,,,1
+Bardonecchia,IT,https://www.skiresort.com/en/ski-resort/bardonecchia/,1312.0,2800.0,100.0,12.0,3.6,49.0,False,,,,,,,,,,3
+Reinswald (San Martino in Sarentino),IT,https://www.skiresort.com/en/ski-resort/reinswald-san-martino-in-sarentino/,1570.0,2460.0,22.0,12.0,3.6,59.0,False,,,,,,,,,,1
+Alto Sangro – Roccaraso/Rivisondoli,IT,https://www.skiresort.com/en/ski-resort/alto-sangro-roccaraso-rivisondoli/,1309.0,2141.0,90.5,12.0,3.6,60.0,False,,,,,,,,,,3
+Mondolè Ski – Artesina/Frabosa Soprana/Prato Nevoso,IT,https://www.skiresort.com/en/ski-resort/mondole-ski-artesina-frabosa-soprana-prato-nevoso/,807.0,2085.0,105.0,12.0,3.6,52.0,False,44.2464,7.7761,353.1,252.5,175.4,91.9,522.2,286.2,91.9,4
+Watles – Malles Venosta (Mals),IT,https://www.skiresort.com/en/ski-resort/watles-malles-venosta-mals/,1750.0,2520.0,4.5,12.0,3.5,59.0,False,,,,,,,,,,1
+Lavarone,IT,https://www.skiresort.com/en/ski-resort/lavarone/,1174.0,1600.0,30.0,12.0,3.4,50.0,False,,,,,,,,,,1
+Cima Piazzi/San Colombano – Isolaccia/Oga,IT,https://www.skiresort.com/en/ski-resort/cima-piazzi-san-colombano-isolaccia-oga/,1342.0,2360.0,19.6,12.0,3.3,60.0,False,,,,,,,,,,1
+Valchiavenna – Madesimo/Campodolcino,IT,https://www.skiresort.com/en/ski-resort/valchiavenna-madesimo-campodolcino/,1550.0,2948.0,36.0,12.0,3.3,59.0,False,,,,,,,,,,2
+Riserva Bianca – Limone Piemonte,IT,https://www.skiresort.com/en/ski-resort/riserva-bianca-limone-piemonte/,1046.0,2060.0,52.0,12.0,3.3,48.0,False,,,,,,,,,,2
+Cimone – Montecreto/Sestola/Le Polle,IT,https://www.skiresort.com/en/ski-resort/cimone-montecreto-sestola-le-polle/,900.0,1976.0,50.0,12.0,3.3,55.0,False,,,,,,,,,,2
+Oclini,IT,https://www.skiresort.com/en/ski-resort/oclini/,1838.0,2223.0,7.0,12.0,3.3,35.0,False,,,,,,,,,,0
+Courmayeur – Chécrouit/Val Veny,IT,https://www.skiresort.com/en/ski-resort/courmayeur-checrouit-val-veny/,1205.0,2755.0,41.5,12.0,3.3,75.0,False,,,,,,,,,,2
+San Domenico – Alpe Ciamporino,IT,https://www.skiresort.com/en/ski-resort/san-domenico-alpe-ciamporino/,1420.0,2500.0,32.6,12.0,3.3,46.0,False,,,,,,,,,,1
+Abetone/Val di Luce,IT,https://www.skiresort.com/en/ski-resort/abetone-val-di-luce/,1240.0,1892.0,44.1,12.0,3.2,53.0,False,,,,,,,,,,2
+Kanin – Sella Nevea/Bovec,IT,https://www.skiresort.com/en/ski-resort/kanin-sella-nevea-bovec/,1103.0,2292.0,30.0,12.0,3.2,44.0,False,,,,,,,,,,1
+Lagorai/Passo Brocon – Castello Tesino,IT,https://www.skiresort.com/en/ski-resort/lagorai-passo-brocon-castello-tesino/,1598.0,2050.0,10.4,12.0,3.2,45.0,False,,,,,,,,,,0
+Piani di Bobbio,IT,https://www.skiresort.com/en/ski-resort/piani-di-bobbio/,1340.0,1950.0,35.0,12.0,3.1,47.0,False,,,,,,,,,,1
+Tarvisio – Monte Lussari,IT,https://www.skiresort.com/en/ski-resort/tarvisio-monte-lussari/,754.0,1752.0,23.1,12.0,3.1,44.0,False,,,,,,,,,,1
+Montecampione – Alpiaz/Prato Secondino/Plan di Montecampione,IT,https://www.skiresort.com/en/ski-resort/montecampione-alpiaz-prato-secondino-plan-di-montecampione/,1149.0,1841.0,30.0,12.0,3.1,30.0,False,,,,,,,,,,0
+Valmalenco – Alpe Palù,IT,https://www.skiresort.com/en/ski-resort/valmalenco-alpe-palu/,1527.0,2353.0,21.3,12.0,3.1,58.0,False,,,,,,,,,,1
+Colere,IT,https://www.skiresort.com/en/ski-resort/colere/,1060.0,2178.0,21.3,12.0,3.1,48.0,False,,,,,,,,,,1
+Campo Felice – Rocca di Cambio,IT,https://www.skiresort.com/en/ski-resort/campo-felice-rocca-di-cambio/,1411.0,1916.0,5.6,12.0,3.1,45.0,False,,,,,,,,,,0
+Macugnaga,IT,https://www.skiresort.com/en/ski-resort/macugnaga/,1347.0,2900.0,32.1,12.0,3.1,34.0,False,,,,,,,,,,0
+Padola – Ski Area Comelico,IT,https://www.skiresort.com/en/ski-resort/padola-ski-area-comelico/,1211.0,1943.0,8.3,12.0,3.0,80.0,False,,,,,,,,,,1
+Champorcher,IT,https://www.skiresort.com/en/ski-resort/champorcher/,1440.0,2500.0,13.6,12.0,3.0,36.0,False,,,,,,,,,,0
+Sangiacomo/Cardini – Monte Alpet,IT,https://www.skiresort.com/en/ski-resort/sangiacomo-cardini-monte-alpet/,1098.0,1611.0,35.0,12.0,3.0,24.0,False,,,,,,,,,,0
+Monte Magnola – Ovindoli,IT,https://www.skiresort.com/en/ski-resort/monte-magnola-ovindoli/,1413.0,2056.0,21.6,12.0,3.0,46.0,False,,,,,,,,,,1
+Passo dello Stelvio (Stelvio Pass),IT,https://www.skiresort.com/en/ski-resort/passo-dello-stelvio-stelvio-pass/,2760.0,3450.0,9.0,12.0,3.0,61.0,False,,,,,,,,,,1
+Torgnon,IT,https://www.skiresort.com/en/ski-resort/torgnon/,1515.0,2246.0,20.0,12.0,3.0,39.0,False,,,,,,,,,,0
+Foppolo/Carona (Brembo Ski),IT,https://www.skiresort.com/en/ski-resort/foppolo-carona-brembo-ski/,1635.0,2163.0,22.0,12.0,3.0,40.0,False,,,,,,,,,,0
+St. Anton/St. Christoph/Stuben/Lech/Zürs/Warth/Schröcken – Ski Arlberg,AT,https://www.skiresort.com/en/ski-resort/st-anton-st-christoph-stuben-lech-zuers-warth-schroecken-ski-arlberg/,1304.0,2811.0,301.0,,4.8,85.0,False,,,,,,,,,,11
+Pitztal Glacier (Pitztaler Gletscher),AT,https://www.skiresort.com/en/ski-resort/pitztal-glacier-pitztaler-gletscher/,2685.0,3440.0,41.0,,3.8,77.0,False,,,,,,,,,,2
+ski resort Hoch-Imst – Imst,AT,https://www.skiresort.com/en/ski-resort/hoch-imst-imst/,1053.0,2026.0,10.3,,3.6,47.0,False,,,,,,,,,,0
+Spieljoch – Fügen,AT,https://www.skiresort.com/en/ski-resort/spieljoch-fuegen/,610.0,2054.0,4.0,,4.0,80.0,False,,,,,,,,,,1
+Lermoos – Grubigstein,AT,https://www.skiresort.com/en/ski-resort/lermoos-grubigstein/,1004.0,2100.0,1.7,,4.0,70.5,False,,,,,,,,,,1
+Hochoetz – Oetz,AT,https://www.skiresort.com/en/ski-resort/hochoetz-oetz/,1410.0,2272.0,3.5,,4.0,66.5,False,,,,,,,,,,1
+Damüls Mellau,AT,https://www.skiresort.com/en/ski-resort/damuels-mellau/,710.0,2050.0,17.7,,4.4,75.5,False,,,,,,,,,,2
+KitzSki – Kitzbühel/Kirchberg,AT,https://www.skiresort.com/en/ski-resort/kitzski-kitzbuehel-kirchberg/,800.0,2000.0,45.0,,4.9,83.0,False,,,,,,,,,,3
+Sölden,AT,https://www.skiresort.com/en/ski-resort/soelden/,1350.0,3340.0,8.4,,4.7,86.5,False,,,,,,,,,,2
+Mayrhofen – Penken/Ahorn/Rastkogel/Eggalm (Mountopolis),AT,https://www.skiresort.com/en/ski-resort/mayrhofen-penken-ahorn-rastkogel-eggalm-mountopolis/,630.0,2500.0,8.7,,4.7,82.0,False,,,,,,,,,,2
+Kaltenbach – Hochzillertal/Hochfügen (SKi-optimal),AT,https://www.skiresort.com/en/ski-resort/kaltenbach-hochzillertal-hochfuegen-ski-optimal/,600.0,2378.0,4.5,,4.7,83.0,False,,,,,,,,,,1
+Zillertal Arena – Zell am Ziller/Gerlos/Königsleiten/Hochkrimml,AT,https://www.skiresort.com/en/ski-resort/zillertal-arena-zell-am-ziller-gerlos-koenigsleiten-hochkrimml/,580.0,2500.0,3.0,,4.7,82.0,False,,,,,,,,,,1
+Nauders am Reschenpass – Bergkastel,AT,https://www.skiresort.com/en/ski-resort/nauders-am-reschenpass-bergkastel/,1400.0,2750.0,11.0,,4.2,65.0,False,,,,,,,,,,1
+Ski Juwel Alpbachtal Wildschönau,AT,https://www.skiresort.com/en/ski-resort/ski-juwel-alpbachtal-wildschoenau/,830.0,2030.0,16.3,,4.3,71.5,False,,,,,,,,,,1
+Sillian – Thurntaler (Hochpustertal),AT,https://www.skiresort.com/en/ski-resort/sillian-thurntaler-hochpustertal/,1100.0,2407.0,9.0,,4.0,74.0,False,,,,,,,,,,1
+Wildkogel – Neukirchen/Bramberg,AT,https://www.skiresort.com/en/ski-resort/wildkogel-neukirchen-bramberg/,820.0,2150.0,2.0,,4.4,72.0,False,,,,,,,,,,1
+Steinplatte Winklmoosalm – Waidring/Reit im Winkl,AT,https://www.skiresort.com/en/ski-resort/steinplatte-winklmoosalm-waidring-reit-im-winkl/,740.0,1860.0,4.0,,4.2,66.0,False,,,,,,,,,,1
+Silvretta Montafon,AT,https://www.skiresort.com/en/ski-resort/silvretta-montafon/,700.0,2430.0,142.0,,4.6,77.0,False,,,,,,,,,,6
+Obertauern,AT,https://www.skiresort.com/en/ski-resort/obertauern/,1630.0,2313.0,100.0,,4.4,72.0,False,47.2486,13.5594,378.5,576.8,389.5,512.9,177.8,687.3,177.8,4
+SkiWelt Wilder Kaiser-Brixental,AT,https://www.skiresort.com/en/ski-resort/skiwelt-wilder-kaiser-brixental/,620.0,1869.0,275.0,,4.8,79.5,False,,,,,,,,,,10
+Hochkönig – Maria Alm/Dienten/Mühlbach,AT,https://www.skiresort.com/en/ski-resort/hochkoenig-maria-alm-dienten-muehlbach/,800.0,1900.0,8.0,,4.6,81.0,False,,,,,,,,,,2
+Zettersfeld – Lienz,AT,https://www.skiresort.com/en/ski-resort/zettersfeld-lienz/,1660.0,2278.0,2.7,,3.9,74.0,False,,,,,,,,,,1
+St. Jakob im Defereggental – Brunnalm,AT,https://www.skiresort.com/en/ski-resort/st-jakob-im-defereggental-brunnalm/,1400.0,2683.0,1.6,,4.0,74.0,False,,,,,,,,,,1
+Großglockner Resort Kals-Matrei,AT,https://www.skiresort.com/en/ski-resort/grossglockner-resort-kals-matrei/,933.0,2426.0,4.6,,4.2,74.0,False,,,,,,,,,,1
+Biberwier – Marienberg,AT,https://www.skiresort.com/en/ski-resort/biberwier-marienberg/,1000.0,1820.0,1.3,,3.4,70.5,False,,,,,,,,,,1
+Tauplitz – Bad Mitterndorf,AT,https://www.skiresort.com/en/ski-resort/tauplitz-bad-mitterndorf/,896.0,1965.0,2.0,,4.1,62.0,False,,,,,,,,,,1
+Sonnenkopf – Klösterle,AT,https://www.skiresort.com/en/ski-resort/sonnenkopf-kloesterle/,1000.0,2300.0,4.0,,3.6,58.0,False,,,,,,,,,,0
+Berwang/Bichlbach/Rinnen,AT,https://www.skiresort.com/en/ski-resort/berwang-bichlbach-rinnen/,1079.0,1743.0,9.0,,4.0,70.5,False,,,,,,,,,,1
+Turracher Höhe,AT,https://www.skiresort.com/en/ski-resort/turracher-hoehe/,1400.0,2205.0,1.0,,4.3,72.5,False,,,,,,,,,,1
+Hochficht,AT,https://www.skiresort.com/en/ski-resort/hochficht/,866.0,1338.0,28.0,,3.6,67.0,False,,,,,,,,,,2
+Schlick 2000 – Fulpmes,AT,https://www.skiresort.com/en/ski-resort/schlick-2000-fulpmes/,1000.0,2240.0,2.7,,3.9,61.5,False,,,,,,,,,,1
+Gurgl – Obergurgl-Hochgurgl,AT,https://www.skiresort.com/en/ski-resort/gurgl-obergurgl-hochgurgl/,1793.0,3030.0,4.5,,4.5,58.0,False,,,,,,,,,,0
+Glungezer – Tulfes,AT,https://www.skiresort.com/en/ski-resort/glungezer-tulfes/,950.0,2304.0,23.0,,3.6,50.0,False,,,,,,,,,,1
+Dorfgastein/Großarltal,AT,https://www.skiresort.com/en/ski-resort/dorfgastein-grossarltal/,849.0,2033.0,1.5,,4.2,81.5,False,,,,,,,,,,1
+Kitzsteinhorn/Maiskogel – Kaprun,AT,https://www.skiresort.com/en/ski-resort/kitzsteinhorn-maiskogel-kaprun/,768.0,3029.0,8.9,,4.4,82.0,False,,,,,,,,,,2
+Serfaus-Fiss-Ladis,AT,https://www.skiresort.com/en/ski-resort/serfaus-fiss-ladis/,1200.0,2828.0,28.0,,4.8,78.0,False,,,,,,,,,,2
+Saalbach Hinterglemm Leogang Fieberbrunn (Skicircus),AT,https://www.skiresort.com/en/ski-resort/saalbach-hinterglemm-leogang-fieberbrunn-skicircus/,830.0,2096.0,270.0,,4.7,82.0,False,,,,,,,,,,10
+Schladming – Planai/Hochwurzen/Hauser Kaibling/Reiteralm (4-Berge-Skischaukel),AT,https://www.skiresort.com/en/ski-resort/schladming-planai-hochwurzen-hauser-kaibling-reiteralm-4-berge-skischaukel/,728.0,2015.0,4.0,,4.7,81.5,False,,,,,,,,,,1
+Snow Space Salzburg – Flachau/Wagrain/St. Johann-Alpendorf,AT,https://www.skiresort.com/en/ski-resort/snow-space-salzburg-flachau-wagrain-st-johann-alpendorf/,740.0,1980.0,5.0,,4.5,81.0,False,,,,,,,,,,1
+Bad Gastein/Bad Hofgastein – Schlossalm/Angertal/Stubnerkogel,AT,https://www.skiresort.com/en/ski-resort/bad-gastein-bad-hofgastein-schlossalm-angertal-stubnerkogel/,860.0,2300.0,1.3,,4.4,81.5,False,,,,,,,,,,1
+Schmittenhöhe – Zell am See,AT,https://www.skiresort.com/en/ski-resort/schmittenhoehe-zell-am-see/,760.0,2000.0,8.0,,4.4,82.0,False,,,,,,,,,,2
+Nassfeld – Hermagor,AT,https://www.skiresort.com/en/ski-resort/nassfeld-hermagor/,600.0,2002.0,110.0,,4.4,73.0,False,,,,,,,,,,5
+Stubai Glacier (Stubaier Gletscher),AT,https://www.skiresort.com/en/ski-resort/stubai-glacier-stubaier-gletscher/,1695.0,3210.0,30.6,,4.3,75.5,False,,,,,,,,,,2
+Katschberg,AT,https://www.skiresort.com/en/ski-resort/katschberg/,1066.0,2220.0,2.0,,4.3,73.0,False,,,,,,,,,,1
+Kreischberg,AT,https://www.skiresort.com/en/ski-resort/kreischberg/,868.0,2118.0,42.5,,4.2,72.0,False,,,,,,,,,,2
+Dachstein West – Gosau/Russbach/Annaberg,AT,https://www.skiresort.com/en/ski-resort/dachstein-west-gosau-russbach-annaberg/,745.0,1617.0,4.0,,4.1,73.0,False,,,,,,,,,,1
+Kühtai,AT,https://www.skiresort.com/en/ski-resort/kuehtai/,1938.0,2520.0,1.4,,4.1,66.5,False,,,,,,,,,,1
+Galtür – Silvapark,AT,https://www.skiresort.com/en/ski-resort/galtuer-silvapark/,1600.0,2300.0,6.0,,4.1,56.5,False,,,,,,,,,,0
+Hochzeiger – Jerzens,AT,https://www.skiresort.com/en/ski-resort/hochzeiger-jerzens/,1450.0,2488.0,54.0,,4.1,69.0,False,,,,,,,,,,3
+Zauchensee/Flachauwinkl,AT,https://www.skiresort.com/en/ski-resort/zauchensee-flachauwinkl/,1000.0,2176.0,3.5,,4.1,81.0,False,,,,,,,,,,1
+Radstadt/Altenmarkt,AT,https://www.skiresort.com/en/ski-resort/radstadt-altenmarkt/,850.0,1571.0,17.3,,4.0,81.0,False,,,,,,,,,,2
+Fellhorn/Kanzelwand – Oberstdorf/Riezlern,AT,https://www.skiresort.com/en/ski-resort/fellhorn-kanzelwand-oberstdorf-riezlern/,920.0,1967.0,2.0,,4.0,68.7,False,,,,,,,,,,1
+St. Johann in Tirol/Oberndorf – Harschbichl,AT,https://www.skiresort.com/en/ski-resort/st-johann-in-tirol-oberndorf-harschbichl/,659.0,1604.0,40.0,,4.0,65.0,False,,,,,,,,,,2
+Gerlitzen,AT,https://www.skiresort.com/en/ski-resort/gerlitzen/,1000.0,1911.0,12.0,,4.0,73.0,False,,,,,,,,,,1
+Ehrwalder Alm – Ehrwald,AT,https://www.skiresort.com/en/ski-resort/ehrwalder-alm-ehrwald/,1112.0,1923.0,27.5,,4.0,70.5,False,,,,,,,,,,2
+Hinterstoder – Höss,AT,https://www.skiresort.com/en/ski-resort/hinterstoder-hoess/,600.0,2000.0,39.9,,4.0,80.0,False,,,,,,,,,,3
+Golm,AT,https://www.skiresort.com/en/ski-resort/golm/,650.0,2100.0,17.9,,4.0,74.0,False,,,,,,,,,,2
+Almenwelt Lofer,AT,https://www.skiresort.com/en/ski-resort/almenwelt-lofer/,640.0,1670.0,46.0,,4.0,64.5,False,,,,,,,,,,2
+Hintertux Glacier (Hintertuxer Gletscher),AT,https://www.skiresort.com/en/ski-resort/hintertux-glacier-hintertuxer-gletscher/,1500.0,3250.0,64.0,,4.0,82.0,False,,,,,,,,,,3
+Loser – Altaussee,AT,https://www.skiresort.com/en/ski-resort/loser-altaussee/,859.0,1770.0,34.0,,4.0,62.0,False,,,,,,,,,,2
+Kappl,AT,https://www.skiresort.com/en/ski-resort/kappl/,1175.0,2690.0,9.0,,4.0,73.0,False,,,,,,,,,,1
+Bergeralm – Steinach am Brenner,AT,https://www.skiresort.com/en/ski-resort/bergeralm-steinach-am-brenner/,1048.0,2180.0,1.0,,3.9,60.2,False,,,,,,,,,,0
+Filzmoos,AT,https://www.skiresort.com/en/ski-resort/filzmoos/,970.0,1591.0,20.0,,3.9,70.0,False,,,,,,,,,,1
+Riesneralm – Donnersbachwald,AT,https://www.skiresort.com/en/ski-resort/riesneralm-donnersbachwald/,973.0,1820.0,2.2,,3.8,62.0,False,,,,,,,,,,1
+Rauriser Hochalmbahnen – Rauris,AT,https://www.skiresort.com/en/ski-resort/rauriser-hochalmbahnen-rauris/,950.0,2175.0,5.0,,3.8,69.5,False,,,,,,,,,,1
+Christlum – Achenkirch,AT,https://www.skiresort.com/en/ski-resort/christlum-achenkirch/,950.0,1800.0,27.0,,3.8,69.0,False,,,,,,,,,,2
+Bad Kleinkirchheim,AT,https://www.skiresort.com/en/ski-resort/bad-kleinkirchheim/,1087.0,2055.0,4.5,,3.8,73.0,False,,,,,,,,,,1
+Brandnertal – Brand/Bürserberg,AT,https://www.skiresort.com/en/ski-resort/brandnertal-brand-buerserberg/,904.0,2000.0,13.0,,3.8,58.0,False,,,,,,,,,,1
+Flachauwinkl/Kleinarl (Shuttleberg),AT,https://www.skiresort.com/en/ski-resort/flachauwinkl-kleinarl-shuttleberg/,1000.0,1980.0,12.0,,3.7,81.0,False,,,,,,,,,,2
+Ifen,AT,https://www.skiresort.com/en/ski-resort/ifen/,1270.0,2030.0,1.2,,3.7,72.9,False,,,,,,,,,,1
+Kaunertal Glacier (Kaunertaler Gletscher),AT,https://www.skiresort.com/en/ski-resort/kaunertal-glacier-kaunertaler-gletscher/,2150.0,3113.0,55.0,,3.7,77.0,False,,,,,,,,,,3
+Grosseck/Speiereck – Mauterndorf/St. Michael,AT,https://www.skiresort.com/en/ski-resort/grosseck-speiereck-mauterndorf-st-michael/,1095.0,2400.0,50.0,,3.7,61.0,False,,,,,,,,,,2
+Les 3 Vallées – Val Thorens/Les Menuires/Méribel/Courchevel,FR,https://www.skiresort.com/en/ski-resort/les-3-vallees-val-thorens-les-menuires-meribel-courchevel/,1100.0,3230.0,50.0,,4.7,84.2,False,,,,,,,,,,3
+Aiguille du Midi (Chamonix),FR,https://www.skiresort.com/en/ski-resort/aiguille-du-midi-chamonix/,1035.0,3842.0,24.0,,2.7,71.0,False,,,,,,,,,,2
+ski resort Les 7 Laux – Prapoutel/Le Pleynet/Pipay,FR,https://www.skiresort.com/en/ski-resort/les-7-laux-prapoutel-le-pleynet-pipay/,1350.0,2400.0,120.0,,3.8,43.0,False,,,,,,,,,,4
+Tignes/Val d'Isère,FR,https://www.skiresort.com/en/ski-resort/tignes-val-disere/,1550.0,3456.0,300.0,,4.7,75.0,False,,,,,,,,,,11
+La Plagne (Paradiski),FR,https://www.skiresort.com/en/ski-resort/la-plagne-paradiski/,1207.0,3167.0,225.0,,4.4,70.0,False,,,,,,,,,,8
+Serre Chevalier – Briançon/Chantemerle/Villeneuve-la-Salle/Le Monêtier-les-Bains,FR,https://www.skiresort.com/en/ski-resort/serre-chevalier-briancon-chantemerle-villeneuve-la-salle-le-monetier-les-bains/,1200.0,2800.0,250.0,,4.4,68.0,False,,,,,,,,,,9
+Les 2 Alpes,FR,https://www.skiresort.com/en/ski-resort/les-2-alpes/,1280.0,3523.0,220.0,,4.3,66.0,False,,,,,,,,,,8
+Les Portes du Soleil – Morzine/Avoriaz/Les Gets/Châtel/Morgins/Champéry,FR,https://www.skiresort.com/en/ski-resort/les-portes-du-soleil-morzine-avoriaz-les-gets-chatel-morgins-champery/,985.0,2254.0,580.0,,4.3,73.0,False,46.1833,6.7833,188.5,49.3,202.9,142.3,422.7,157.6,49.3,20
+Saint-Lary-Soulan,FR,https://www.skiresort.com/en/ski-resort/saint-lary-soulan/,1597.0,2515.0,105.0,,4.2,54.7,False,,,,,,,,,,4
+Alpe d'Huez,FR,https://www.skiresort.com/en/ski-resort/alpe-dhuez/,1125.0,3330.0,250.0,,4.2,66.0,False,,,,,,,,,,9
+Le Grand Massif – Flaine/Les Carroz/Morillon/Samoëns/Sixt,FR,https://www.skiresort.com/en/ski-resort/le-grand-massif-flaine-les-carroz-morillon-samoens-sixt/,697.0,2480.0,265.0,,4.1,61.0,False,,,,,,,,,,9
+Megève/Saint-Gervais,FR,https://www.skiresort.com/en/ski-resort/megeve-saint-gervais/,850.0,2353.0,185.0,,4.1,65.0,False,,,,,,,,,,7
+Les Arcs/Peisey-Vallandry (Paradiski),FR,https://www.skiresort.com/en/ski-resort/les-arcs-peisey-vallandry-paradiski/,1200.0,3226.0,200.0,,4.1,70.0,False,,,,,,,,,,7
+Espace Diamant – Les Saisies/Notre-Dame-de-Bellecombe/Praz sur Arly/Flumet/Crest-Voland,FR,https://www.skiresort.com/en/ski-resort/espace-diamant-les-saisies-notre-dame-de-bellecombe-praz-sur-arly-flumet-crest-voland/,1000.0,2069.0,192.0,,4.1,50.0,False,,,,,,,,,,6
+Peyragudes,FR,https://www.skiresort.com/en/ski-resort/peyragudes/,1600.0,2400.0,42.0,,4.0,49.5,False,,,,,,,,,,1
+Les Sybelles – Le Corbier/La Toussuire/Les Bottières/St Sorlin/St Jean d'Arves,FR,https://www.skiresort.com/en/ski-resort/les-sybelles-le-corbier-la-toussuire-les-bottieres-st-sorlin-st-jean-darves/,1100.0,2620.0,275.0,,4.0,60.5,False,,,,,,,,,,10
+Les Angles,FR,https://www.skiresort.com/en/ski-resort/les-angles/,1600.0,2376.0,50.0,,4.0,47.0,False,,,,,,,,,,2
+Val Cenis – Lanslevillard/Lanslebourg/Termignon,FR,https://www.skiresort.com/en/ski-resort/val-cenis-lanslevillard-lanslebourg-termignon/,1300.0,2800.0,125.0,,3.9,50.0,False,,,,,,,,,,4
+Galibier Thabor – Valmeinier/Valloire,FR,https://www.skiresort.com/en/ski-resort/galibier-thabor-valmeinier-valloire/,1430.0,2750.0,160.0,,3.9,54.9,False,,,,,,,,,,6
+Vars/Risoul – La Forêt Blanche,FR,https://www.skiresort.com/en/ski-resort/vars-risoul-la-foret-blanche/,1650.0,2750.0,185.0,,3.9,58.0,False,,,,,,,,,,6
+Le Grand Domaine – Valmorel/Doucy/Celliers/St François Longchamp,FR,https://www.skiresort.com/en/ski-resort/le-grand-domaine-valmorel-doucy-celliers-st-francois-longchamp/,1250.0,2514.0,7.0,,3.9,59.7,False,,,,,,,,,,1
+Les Contamines/Hauteluce,FR,https://www.skiresort.com/en/ski-resort/les-contamines-hauteluce/,1164.0,2437.0,120.0,,3.8,54.5,False,,,,,,,,,,4
+Espace Villard Corrençon – Villard-de-Lans/Corrençon-en-Vercors,FR,https://www.skiresort.com/en/ski-resort/espace-villard-correncon-villard-de-lans-correncon-en-vercors/,1050.0,2050.0,125.0,,3.8,43.0,False,,,,,,,,,,4
+La Clusaz/Manigod,FR,https://www.skiresort.com/en/ski-resort/la-clusaz-manigod/,1050.0,2485.0,125.0,,3.8,54.5,False,,,,,,,,,,4
+Espace Lumière – Pra Loup/Val d'Allos,FR,https://www.skiresort.com/en/ski-resort/espace-lumiere-pra-loup-val-dallos/,1608.0,2576.0,180.0,,3.8,48.5,False,,,,,,,,,,6
+Dévoluy – Superdévoluy/La Joue du Loup,FR,https://www.skiresort.com/en/ski-resort/devoluy-superdevoluy-la-joue-du-loup/,1500.0,2500.0,100.0,,3.7,46.0,False,,,,,,,,,,3
+Grand Tourmalet/Pic du Midi – La Mongie/Barèges,FR,https://www.skiresort.com/en/ski-resort/grand-tourmalet-pic-du-midi-la-mongie-bareges/,1250.0,2500.0,100.0,,3.7,53.0,False,,,,,,,,,,3
+Isola 2000,FR,https://www.skiresort.com/en/ski-resort/isola-2000/,1800.0,2603.0,120.0,,3.7,44.0,False,,,,,,,,,,4
+Brévent/Flégère (Chamonix),FR,https://www.skiresort.com/en/ski-resort/brevent-flegere-chamonix/,1030.0,2525.0,56.0,,3.7,74.0,False,,,,,,,,,,3
+Les Houches/Saint-Gervais – Prarion/Bellevue (Chamonix),FR,https://www.skiresort.com/en/ski-resort/les-houches-saint-gervais-prarion-bellevue-chamonix/,1000.0,1900.0,55.0,,3.7,59.0,False,,,,,,,,,,2
+Les Orres,FR,https://www.skiresort.com/en/ski-resort/les-orres/,1550.0,2720.0,100.0,,3.6,44.5,False,,,,,,,,,,3
+Orcières Merlette 1850,FR,https://www.skiresort.com/en/ski-resort/orcieres-merlette-1850/,1850.0,2725.0,100.0,,3.6,46.0,False,,,,,,,,,,3
+Chamrousse,FR,https://www.skiresort.com/en/ski-resort/chamrousse/,1400.0,2250.0,15.0,,3.6,43.5,False,,,,,,,,,,0
+Le Grand Bornand,FR,https://www.skiresort.com/en/ski-resort/le-grand-bornand/,1000.0,2100.0,90.0,,3.6,52.0,False,,,,,,,,,,3
+Auron (Saint-Etienne-de-Tinée),FR,https://www.skiresort.com/en/ski-resort/auron-saint-etienne-de-tinee/,1600.0,2450.0,135.0,,3.6,44.0,False,,,,,,,,,,4
+Les Portes du Mont-Blanc – Combloux/Megève le Jaillet/La Giettaz,FR,https://www.skiresort.com/en/ski-resort/les-portes-du-mont-blanc-combloux-megeve-le-jaillet-la-giettaz/,1020.0,1930.0,89.0,,3.6,52.5,False,,,,,,,,,,3
+Ax 3 Domaines – Ax-les-Thermes,FR,https://www.skiresort.com/en/ski-resort/ax-3-domaines-ax-les-thermes/,1380.0,2346.0,80.0,,3.5,47.0,False,,,,,,,,,,3
+Puy-Saint-Vincent,FR,https://www.skiresort.com/en/ski-resort/puy-saint-vincent/,1407.0,2677.0,75.0,,3.5,42.0,False,,,,,,,,,,2
+Grands Montets – Argentière (Chamonix),FR,https://www.skiresort.com/en/ski-resort/grands-montets-argentiere-chamonix/,1252.0,2765.0,29.0,,3.5,74.0,False,,,,,,,,,,2
+Valfréjus,FR,https://www.skiresort.com/en/ski-resort/valfrejus/,1550.0,2737.0,70.0,,3.5,43.0,False,,,,,,,,,,2
+Valberg/Beuil les Launes,FR,https://www.skiresort.com/en/ski-resort/valberg-beuil-les-launes/,1412.0,2020.0,90.0,,3.4,37.0,False,,,,,,,,,,2
+La Norma,FR,https://www.skiresort.com/en/ski-resort/la-norma/,1352.0,2746.0,65.0,,3.4,43.0,False,,,,,,,,,,2
+Aussois,FR,https://www.skiresort.com/en/ski-resort/aussois/,1530.0,2705.0,55.0,,3.4,41.0,False,,,,,,,,,,1
+Arêches (Beaufort),FR,https://www.skiresort.com/en/ski-resort/areches-beaufort/,1080.0,2300.0,50.0,,3.3,41.0,False,,,,,,,,,,1
+Super Sauze,FR,https://www.skiresort.com/en/ski-resort/super-sauze/,1400.0,2450.0,65.0,,3.3,39.0,False,,,,,,,,,,2
+Les Karellis,FR,https://www.skiresort.com/en/ski-resort/les-karellis/,1550.0,2482.0,60.0,,3.3,36.0,False,,,,,,,,,,1
+Font-Romeu/Bolquère Pyrénées 2000,FR,https://www.skiresort.com/en/ski-resort/font-romeu-bolquere-pyrenees-2000/,1717.0,2213.0,58.0,,3.3,49.5,False,,,,,,,,,,2
+Praz de Lys/Sommand (Taninges/Mieussy),FR,https://www.skiresort.com/en/ski-resort/praz-de-lys-sommand-taninges-mieussy/,1240.0,1966.0,72.0,,3.3,36.0,False,,,,,,,,,,2
+St. Jean Montclar,FR,https://www.skiresort.com/en/ski-resort/st-jean-montclar/,1325.0,2450.0,50.0,,3.2,33.5,False,,,,,,,,,,1
+Le Lioran,FR,https://www.skiresort.com/en/ski-resort/le-lioran/,1160.0,1820.0,60.0,,3.2,41.3,False,,,,,,,,,,2
+Le Seignus,FR,https://www.skiresort.com/en/ski-resort/le-seignus/,1513.0,2426.0,50.0,,3.2,35.0,False,,,,,,,,,,1
+Porté Puymorens,FR,https://www.skiresort.com/en/ski-resort/porte-puymorens/,1617.0,2470.0,50.0,,3.2,39.5,False,,,,,,,,,,1
+Le Lys – Cauterets,FR,https://www.skiresort.com/en/ski-resort/le-lys-cauterets/,1730.0,2415.0,36.0,,3.2,46.0,False,,,,,,,,,,1
+Lélex/Crozet,FR,https://www.skiresort.com/en/ski-resort/lelex-crozet/,900.0,1680.0,19.5,,3.1,38.0,False,,,,,,,,,,0
+Gourette (Eaux Bonnes),FR,https://www.skiresort.com/en/ski-resort/gourette-eaux-bonnes/,1350.0,2450.0,28.0,,3.1,44.0,False,,,,,,,,,,1
+Alpe du Grand-Serre – La Morte,FR,https://www.skiresort.com/en/ski-resort/alpe-du-grand-serre-la-morte/,1367.0,2184.0,55.0,,3.1,36.0,False,,,,,,,,,,1
+Hirmentaz/Les Habères – Bellevaux/Habère-Poche,FR,https://www.skiresort.com/en/ski-resort/hirmentaz-les-haberes-bellevaux-habere-poche/,920.0,1576.0,50.0,,3.1,35.0,False,,,,,,,,,,1
+Piau-Engaly,FR,https://www.skiresort.com/en/ski-resort/piau-engaly/,1765.0,2528.0,33.0,,3.1,45.0,False,,,,,,,,,,1
+Luchon-Superbagnères,FR,https://www.skiresort.com/en/ski-resort/luchon-superbagneres/,1465.0,2125.0,32.0,,3.1,37.5,False,,,,,,,,,,1
+Balme/Les Autannes – Vallorcine/Le Tour,FR,https://www.skiresort.com/en/ski-resort/balme-les-autannes-vallorcine-le-tour/,1264.0,2250.0,29.0,,3.1,74.0,False,,,,,,,,,,2
+Le Collet d'Allevard,FR,https://www.skiresort.com/en/ski-resort/le-collet-dallevard/,1450.0,2140.0,35.0,,3.1,29.0,False,,,,,,,,,,0
+La Pierre Saint Martin,FR,https://www.skiresort.com/en/ski-resort/la-pierre-saint-martin/,1527.0,2153.0,44.0,,3.1,42.5,False,,,,,,,,,,1
+Les Brasses,FR,https://www.skiresort.com/en/ski-resort/les-brasses/,900.0,1500.0,37.0,,3.1,32.5,False,,,,,,,,,,1
+Abriès,FR,https://www.skiresort.com/en/ski-resort/abries/,1450.0,2450.0,33.0,,3.0,38.9,False,,,,,,,,,,1
+Pralognan la Vanoise,FR,https://www.skiresort.com/en/ski-resort/pralognan-la-vanoise/,1410.0,2355.0,26.0,,3.0,41.0,False,,,,,,,,,,1
+Formiguères,FR,https://www.skiresort.com/en/ski-resort/formigueres/,1730.0,2320.0,22.0,,3.0,39.5,False,,,,,,,,,,0
+SuperBesse – Puy de Sancy,FR,https://www.skiresort.com/en/ski-resort/superbesse-puy-de-sancy/,1300.0,1850.0,30.0,,3.0,42.7,False,,,,,,,,,,1
+Guzet,FR,https://www.skiresort.com/en/ski-resort/guzet/,1108.0,2050.0,40.0,,3.0,37.5,False,,,,,,,,,,1
+Luz Ardiden,FR,https://www.skiresort.com/en/ski-resort/luz-ardiden/,1680.0,2500.0,22.4,,3.0,43.0,False,,,,,,,,,,0
+La Colmiane,FR,https://www.skiresort.com/en/ski-resort/la-colmiane/,1450.0,1800.0,30.0,,3.0,26.0,False,,,,,,,,,,0
+Bergün,CH,,1255.0,2449.0,30.0,12.0,3.6500000000000004,69.3,True,,,,,,,,,,2
+Sauze d'Oulx,IT,,1308.0,2355.0,35.0,12.0,3.8,60.5,True,,,,,,,,,,2
+Ischgl,AT,,970.0,2118.0,9.0,,4.1,73.0,True,,,,,,,,,,1
+Westendorf,AT,,970.0,2118.0,9.0,,4.1,73.0,True,,,,,,,,,,1
+La Rosière,FR,,1352.0,2450.0,65.0,,3.6,46.0,True,45.6267,6.8489,233.8,84.3,183.2,90.1,455.1,157.1,84.3,2
+Le Grand-Bornand,FR,,1352.0,2450.0,65.0,,3.6,46.0,True,,,,,,,,,,2
+Kandersteg,CH,,1257.5,2457.0,30.0,12.0,3.625,68.775,True,,,,,,,,,,2
+Val di Fassa,IT,,1307.5,2354.0,35.0,12.0,3.8,60.25,True,,,,,,,,,,2
+Ellmau,AT,,970.0,2118.0,9.0,,4.1,73.0,True,,,,,,,,,,1
+Les Sept Laux,FR,,1352.0,2450.0,65.0,,3.6,46.0,True,,,,,,,,,,2
+Autrans,FR,,1352.0,2450.0,65.0,,3.6,46.0,True,,,,,,,,,,2
+Super Besse,FR,,1352.0,2450.0,65.0,,3.6,46.0,True,,,,,,,,,,2

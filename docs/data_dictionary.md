@@ -3,32 +3,31 @@
 One row per variable. Keep names in `snake_case`, units in the name when useful (`_m`, `_km`, `_eur`).
 Status: ✅ defined · 🔄 to be confirmed after the pilot test (step 1, 11 Nov 2026).
 
-## Table `resorts` (one row per ski resort) — owner: Lorenzo
+#### Table `resorts_features.csv` (`data/processed/resorts_features.csv`) — owner: Lorenzo
+**Status:** ✅ Finalized (300 resorts: 75 CH, 75 IT, 75 AT, 75 FR | 17 features)
 
-| Variable | Type | Unit | Source | Description |
-| --- | --- | --- | --- | --- |
-| `resort_id` | text | – | skiresort.com URL slug | Unique key, e.g. `zermatt-breuil-cervinia-valtournenche-matterhorn` ✅ |
-| `name` | text | – | skiresort.com | Resort name ✅ |
-| `country` | text | ISO code | skiresort.com | CH, IT, AT, FR ✅ |
-| `region` | text | – | skiresort.com | Canton / region / Land ✅ |
-| `cross_border` | boolean | – | derived | True if the resort spans two countries ✅ |
-| `elev_base_m` | integer | m a.s.l. | skiresort.com | Lowest point of the resort ✅ |
-| `elev_top_m` | integer | m a.s.l. | skiresort.com | Highest point of the resort ✅ |
-| `elev_band` | text | – | derived | `<1500`, `1500-2000`, `>2000` (from `elev_base_m`) ✅ |
-| `slopes_km` | float | km | skiresort.com | Total slope length ✅ |
-| `lifts_n` | integer | count | skiresort.com | Number of lifts ✅ |
-| `price_day_adult_local` | float | CHF or EUR | skiresort.com | Adult one-day pass, main season ✅ |
-| `price_currency` | text | – | skiresort.com | CHF or EUR ✅ |
-| `price_day_adult_eur` | float | EUR | derived | Price converted with ECB rate of collection date ✅ |
-| `snowmaking_pct` | float | % of slopes | skiresort.com | Share of slopes with snowmaking 🔄 (check if available) |
-| `rating_overall` | float | stars (1–5) | skiresort.com | Test report score 🔄 |
-| `rating_snow_reliability` | float | stars (1–5) | skiresort.com | Editorial snow reliability rating 🔄 |
-| `scraped_on` | date | – | – | Collection date ✅ |
-| `lat`, `lon` | float | degrees (WGS84) | Nominatim | Resort coordinates ✅ |
-| `dist_city_km` | float | km | derived | Straight-line distance to nearest large city (Milan, Turin, Zurich, Munich, Lyon, Vienna) ✅ |
-| `nearest_city` | text | – | derived | Name of that city ✅ |
-| `hotels_4_5_star_10km` | integer | count | OSM Overpass | 4–5 star hotels within 10 km 🔄 |
-| `cluster` | text | – | derived (k-means) | Prestige cluster ✅ |
+| Variable | Type | Unit | Description | Status |
+| :--- | :--- | :--- | :--- | :--- |
+| `resort_name` | string | – | Commercial resort name (cross-border duplicates replaced 1:1). | ✅ |
+| `country` | string | ISO 3166-1 | Country code (`CH`, `IT`, `AT`, `FR`). Exactly 75 resorts per nation. | ✅ |
+| `elevation_base_m` | integer | m a.s.l. | Valley station altitude above sea level. | ✅ |
+| `elevation_top_m` | integer | m a.s.l. | Mountain summit station altitude above sea level. | ✅ |
+| `slope_km` | float | km | Total length of groomed ski slopes. | ✅ |
+| `lifts_count` | integer | count | Total count of operational ski lifts. | ✅ |
+| `price_day_eur` | float | EUR (€) | Harmonized adult 1-day pass price (CHF converted at fixed 1.05 rate). | ✅ |
+| `rating_stars` | float | stars (1–5) | Editorial review rating score from skiresort.info. | ✅ |
+| `latitude` | float | deg (WGS84) | Geographic latitude (La Rosière set to Savoy, France: 45.6267 N). | ✅ |
+| `longitude` | float | deg (WGS84) | Geographic longitude (La Rosière set to Savoy, France: 6.8489 E). | ✅ |
+| `dist_nearest_city_km` | float | km | Great-circle distance to the nearest feeder metropolis. | ✅ |
+| `dist_zurich_km` | float | km | Geodesic distance to Zurich city center. | ✅ |
+| `dist_geneva_km` | float | km | Geodesic distance to Geneva city center. | ✅ |
+| `dist_milan_km` | float | km | Geodesic distance to Milan city center. | ✅ |
+| `dist_turin_km` | float | km | Geodesic distance to Turin city center. | ✅ |
+| `dist_munich_km` | float | km | Geodesic distance to Munich city center. | ✅ |
+| `dist_lyon_km` | float | km | Geodesic distance to Lyon city center. | ✅ |
+| `hotels_4_5_star_10km` | integer | count | Count of 4- and 5-star hotel accommodations within a 10 km radius. | ✅ |
+
+*Note: Removed non-informative columns `snow_cannons`, `currency`, and `price_day_raw`.*
 
 ## Table `snow_winters` (one row per resort × winter) — owner: Matthias
 
