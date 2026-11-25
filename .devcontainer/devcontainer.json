@@ -4,10 +4,15 @@
   "postCreateCommand": "python -m pip install -r requirements.txt",
   "customizations": {
     "vscode": {
-      "extensions": ["ms-python.python", "ms-toolsai.jupyter"]
+      "extensions": [
+        "ms-python.python",
+        "ms-toolsai.jupyter"
+      ]
     },
     "codespaces": {
-      "openFiles": ["notebooks/03.2_snow_analysis.ipynb"]
+      "openFiles": [
+        "notebooks/03.3_matthias_checkpoints.ipynb"
+      ]
     }
   }
 }

@@ -1,5 +1,7 @@
 # What is implemented, and what still needs data
 
+**25 November update:** the new [checkpoint report](matthias_checkpoint_report.md) covers the completed map, measured elevation regression, exploratory four-country model sample, station tests, ID crosswalk and database handover. The remaining text records the 22 November stage; its original coverage figures are historical. The new map additionally checks the study sample's source locations.
+
 The measured Swiss results, model checks and figures are on `main`. Open `notebooks/03.2_snow_analysis.ipynb` and choose **Run All**. Its default run uses saved tables, including the follow-up checks below, without internet access or a Copernicus account.
 
 ## Resort locations and duplicate areas

@@ -1,0 +1,6 @@
+comparison,method,n_station_units,statistic,p_value_nominal,unit,inference_note
+station_period_loss,Pearson,20,-0.186310311378953,0.4315870295266567,one station,nominal; neighbouring stations may be dependent
+station_period_loss,Spearman,20,-0.37410637320342915,0.10416965202376217,one station,nominal; neighbouring stations may be dependent
+station_mean_snow_days,Pearson,20,0.3450182695785129,0.13627475462267102,one station,nominal; neighbouring stations may be dependent
+station_mean_snow_days,Spearman,20,0.349134786570699,0.1313530112000567,one station,nominal; neighbouring stations may be dependent
+model_minus_observed_period_loss,paired_t_test,20,-4.779988771331064,0.00013019927618197982,one station,"nominal; tests mean paired error in period loss, not agreement"

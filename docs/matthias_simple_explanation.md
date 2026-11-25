@@ -1,5 +1,7 @@
 # Matthias's snow work: the simple version
 
+**The newer checkpoint work is in [this short group explanation](matthias_group_update.md)**, with a map, regressions, station checks and database handover. Open `notebooks/03.3_matthias_checkpoints.ipynb` for that complete saved-data workflow.
+
 **Our question:** do ski areas have fewer days with enough natural snow now than before? We define enough snow as at least 30 cm, and compare winters ending in 1986–1995 with those ending in 2016–2025.
 
 There are two sources of snow information: **measurements taken on the ground**, and **estimates from a computer weather model**. We checked whether those estimates agree with the measurements before using them for all the resorts.

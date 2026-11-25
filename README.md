@@ -4,6 +4,21 @@ Data Analytics project, ZHAW School of Management and Law, HS2026 (Dr. Mario Gel
 
 **Team:** Luca · Lorenzo · Matthias
 
+## Matthias's November 25 / December 2 checkpoints
+
+Open **[notebooks/03.3_matthias_checkpoints.ipynb](notebooks/03.3_matthias_checkpoints.ipynb)** and choose **Run All**. It uses saved inputs and shows the exploration, regressions, station checks, map and database handover. No API download is needed by default.
+
+Start with [the short group explanation](docs/matthias_group_update.md) or [the detailed checkpoint report](docs/matthias_checkpoint_report.md). The [interactive map](docs/ski_resorts_closures_map.html) opens after downloading the HTML file; its libraries and country outlines are bundled. A static version is included in the report.
+
+The measured result covers 20 Swiss stations. The four-country regression is a separate **24-area unvalidated model demonstration**, not a completed full-resort climate-risk result. This limitation is retained in the outputs and SQL tables.
+
+```bash
+python -m pip install -r requirements.txt
+python src/run_snow_checkpoints.py
+```
+
+The runner adds qualified checkpoint tables to the existing SQLite database while preserving the original team tables. The pilot-ID crosswalk fixes the mismatched source identifiers. The earlier notebook `03.2_snow_analysis.ipynb` retains the full validation details.
+
 ## Research question
 
 To what extent has natural snow reliability in Swiss, Italian, Austrian and French ski resorts declined between 1986–1995 and 2016–2025, how does this decline depend on elevation and country, and do day-pass prices reflect this climate risk once resort size, prestige and national price and wage levels are accounted for?
@@ -57,7 +72,7 @@ sci-alpi/
 
 ## How to run Matthias's results
 
-**Open [the snow notebook](notebooks/03.2_snow_analysis.ipynb) and choose Run All.** It uses saved data and shows the results under its cells. You do not need to run the scraping notebooks first.
+**Open [the checkpoint notebook](notebooks/03.3_matthias_checkpoints.ipynb) and choose Run All.** It uses saved data and shows the results under its cells. You do not need to run the scraping notebooks first.
 
 For an existing Codespace, run these commands once in its terminal:
 
@@ -66,14 +81,14 @@ git pull --ff-only origin main
 python -m pip install -r requirements.txt
 ```
 
-Then open `notebooks/03.2_snow_analysis.ipynb`, choose a Python kernel and **Run All**. The charts also appear in [the short explanation](docs/matthias_simple_explanation.md).
+Then open `notebooks/03.3_matthias_checkpoints.ipynb`, choose a Python kernel and **Run All**. The charts also appear in [the short explanation](docs/matthias_simple_explanation.md).
 
 New Codespaces install the requirements and Python/Jupyter extensions automatically. The notebook is selected as the opening file. The container configuration can also be applied to an existing Codespace with **Codespaces: Rebuild Container**.
 
 To rebuild the saved snow tables and figures from the terminal:
 
 ```bash
-python src/run_snow_analysis.py
+python src/run_snow_checkpoints.py
 ```
 
 The VS Code task **Snow: reproduce saved results** runs the same command. No API download is needed. Other team notebooks remain separate workflows; some make live downloads.

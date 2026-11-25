@@ -1,0 +1,5 @@
+source,test,group,n_reference_sites,groups,status,statistic,p_value_nominal
+measured_swiss_stations,one_way_anova,elevation_band,20,below_1500m:11;1500_to_below_2000m:8;at_least_2000m:1,insufficient_group_sizes,,
+measured_swiss_stations,one_way_anova,elevation_group_1500m,20,at_least_1500m:9;below_1500m:11,exploratory; assumptions and spatial dependence apply,10.313099332705455,0.00483962595271121
+unvalidated_era5_land_sample,one_way_anova,country,24,AT:6;CH:6;FR:6;IT:6,exploratory; assumptions and spatial dependence apply,5.1210280122587255,0.008625659808085781
+unvalidated_era5_land_sample,one_way_anova,elevation_band,24,below_1500m:15;1500_to_below_2000m:7;at_least_2000m:2,exploratory; assumptions and spatial dependence apply,1.3190475459344229,0.2886500273209646

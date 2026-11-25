@@ -174,3 +174,21 @@ The provider's `isElevationCorrectable` definition excludes snow depth. Changing
 | Snow table for all resorts | – | – | – | 🔄 Added when the snow indicator is agreed |
 
 The same schema exists in **PostgreSQL** (database `sci_alpi`, user `sci`, local development only), built by `notebooks/05.2_postgresql_database.ipynb`. Differences to SQLite: `BOOLEAN` flags in `resort_roster`, `DATE` in `fx_eur_chf_daily`, `DOUBLE PRECISION` instead of `REAL`, and two indexes on `resorts` (`resort_id`, `country`). Row counts are identical in both databases. Server setup: `bash src/setup_postgres_codespace.sh` ✅
+
+## Matthias's two checkpoint workflows (25 November 2026)
+
+| File/table | Unit and meaning |
+| --- | --- |
+| `checkpoint_resorts_24.csv` | Six named source areas per country, fixed before outcomes; reviewed lift-access coordinates, source-listed base height, source URL/hash. Convenience model sample, not a representative resort survey. |
+| `model_resort_winters_checkpoint.csv` | 480 area × winter rows; complete hourly ERA5-Land responses, ≥0.30 m counts at 06:00 UTC and daily maxima, returned grid, request URL and raw SHA-256. |
+| `model_resort_summary_checkpoint.csv` | 24 old/recent ten-winter means and differences; positive loss means fewer recent snow days. `source_type=unvalidated_era5_land_model`, `risk_class_validated=False`; no validated risk labels. |
+| `snow_checkpoint_regression_*.csv` | Measured Swiss elevation OLS and separate country/elevation model demonstrations; coefficients, nominal intervals/p-values, in-sample and five-fold errors, held-out predictions. One difference per site, not one independent row per winter. |
+| `snow_checkpoint_station_tests.csv`, `snow_checkpoint_station_uncertainty.csv` | Pearson/Spearman and paired change-error tests use n=20 station summaries. Bootstrap resamples whole stations; spatial dependence and unhomogenised histories remain. |
+| `snow_checkpoint_descriptive_statistics.csv`, `snow_checkpoint_anova.csv` | Exploratory distributions and nominal group tests. The three-band measured ANOVA is flagged insufficient because the ≥2,000 m group has one station; the 1,500 m split has 11/9 stations. |
+| `legambiente_closure_locations.csv` | All 184 source records retained; 181 municipality/locality matches and 3 unresolved. Decimal-degree coordinates are approximate, not individual lift GPS. Includes search query, aliases, OSM/source URL and response hash. |
+| `data/config/closure_query_aliases.csv` | Documented search variants or source-named parent municipalities. Source wording is preserved; mixed municipality records use the explicitly documented first representative municipality. |
+| `checkpoint_map_resort_locations.csv`, `checkpoint_map_coverage.csv` | Map overlay for 275 candidates, including the reviewed 24-area sample; coordinate provenance updated for changed points. Other geocodes still require individual review. |
+| `pilot_resort_id_crosswalk.csv`, `checkpoint_join_audit.csv` | All 10 pilot IDs resolve to 9 canonical areas; Zermatt/Cervinia remain separate gateways of one connected area. No records lost in documented joins. |
+| `alternative_station_coverage_audit.csv` | ECA&D endpoint-coverage screen only, not observations or a daily-completeness validation. No Italian station >1,000 m qualified for both target endpoints in the reviewed catalogue. |
+
+The SQLite additions use `checkpoint_` table names plus `pilot_resort_id_crosswalk`. Original eight team tables are preserved. Model-demonstration rows must not silently become validated risk, causal country effects or climate explanations for prices/closures. Full methods: `docs/matthias_checkpoint_report.md`.

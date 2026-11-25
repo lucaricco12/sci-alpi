@@ -30,3 +30,13 @@ Merged the measured-results and validation work in PR #1 into main at 98430e8d99
 The matched 1995/2021 screening compares 40 cases each for ERA5-Land and CERRA. CERRA improves errors but is not validated for full-period changes. The public CERRA winter-2025 probe is all missing, not zero snow. Prepared a direct CDS request plan and a credential-gated single-file downloader; authenticated retrieval remains untested. No resort risk classes or full-country conclusions were promoted.
 
 Validation: project and optional requirements installed in a fresh Python 3.12 environment; 20 unit tests passed; the saved-data runner passed; all nine notebook code cells passed in a fresh in-process Jupyter kernel with HTTP requests blocked. Standard TCP kernel startup is restricted in the execution workspace, so no live Codespaces UI/container claim is made. Original result figures were retained; original source inputs were preserved. Raw evidence was added to the existing archive with prior files preserved.
+
+## 2026-11-25 — Both Matthias checkpoints and canonical ID handover
+
+Added the 25 November EDA/map and 2 December SQ1/SQ2 analytical workflows. The measured elevation regression uses 20 Swiss station differences. A separate source-checked convenience sample has 24 distinct ski areas (six per country), 480 complete winters and 24 returned model grid points; it remains an unvalidated ERA5-Land demonstration. The original full-resort scientific scope is not marked complete.
+
+Geocoding preserves all 184 original closure records, with 181 approximate municipality/locality positions and three unresolved entries retained and unplotted. Twenty documented search aliases retain the source wording. The map includes 275 candidate areas, the model sample and optional Swiss measurements; source/elevation precision is explicit.
+
+ID joins: 10 historical pilot entries map to nine canonical source areas, with no lost entries. The 24-area model summary joins 24-to-24 to `resort_roster`. Zermatt/Cervinia gateway information remains separate; no independent-area double counting. New qualified SQLite tables and quality metadata were added; an independent comparison confirmed all eight original table contents unchanged. The existing PostgreSQL loader has not been extended or live-tested for the new tables.
+
+Validation: 480 retained responses rechecked against SHA-256 hashes, complete timestamps, units and counts; 33 tests passed; all nine new notebook code cells passed in a fresh in-process Jupyter kernel with HTTP requests blocked. Five plots were visually reviewed. Static HTML dependencies were checked, and a remote D3 colour-bar dependency was removed. Source inputs and team price/feature tables were preserved.
