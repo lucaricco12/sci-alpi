@@ -5,8 +5,24 @@
       "label": "Snow: reproduce saved results",
       "type": "process",
       "command": "python",
-      "args": ["src/run_snow_analysis.py"],
-      "options": {"cwd": "${workspaceFolder}"},
+      "args": [
+        "src/run_snow_analysis.py"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Snow: reproduce November 25 and December 2 checkpoints",
+      "type": "process",
+      "command": "python",
+      "args": [
+        "src/run_snow_checkpoints.py"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
       "problemMatcher": []
     }
   ]

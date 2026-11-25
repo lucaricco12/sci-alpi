@@ -1,0 +1,21 @@
+original_comune,region,query_name,basis
+La Magdaleine,Valle d’Aosta,La Magdeleine,spelling search variant; retain original source wording
+Colle del Sommeiller - Bardonecchia,Piemonte,Bardonecchia,municipality explicitly named in the source text
+Oggebio,Piemonte,Oggebbio,spelling search variant; retain original source wording
+"Desertetto, loc. di Valdieri",Piemonte,Valdieri,municipality explicitly named in the source text
+"Alta Valle Intelvi, loc. Lanzo Intelvi",Lombardia,Alta Valle Intelvi,first municipality explicitly named in the source text
+Brallo di Pergola,Lombardia,Brallo di Pregola,spelling search variant; retain original source wording
+Artogne e Piancamuno,Lombardia,Artogne,first of two municipalities explicitly named; approximate representative location only
+Villaminozzo,Emilia-Romagna,Villa Minozzo,spacing search variant; retain original source wording
+"Capannette di Pey, fraz. di Zerba",Emilia-Romagna,Zerba,parent municipality explicitly named in source
+"Loc. Doccia, Fiumalbo",Emilia-Romagna,Fiumalbo,parent municipality explicitly named in source
+"Coituro, loc. di Cittareale",Lazio,Cittareale,parent municipality explicitly named in source
+Piedimonte Matese - Loc. Bocca della Selva,Campania,Piedimonte Matese,parent municipality explicitly named in source
+"Loc. Campolaspierto, Volturara Irpina",Campania,Volturara Irpina,parent municipality explicitly named in source
+"Loc. Campitello Matese, San Massimo",Molise,San Massimo,parent municipality explicitly named in source
+"La Gioia, loc. di Caldirola",Piemonte,Caldirola,named locality explicitly present in source
+"Prato Spilla, loc. di Monchio delle Corti",Emilia-Romagna,Monchio delle Corti,parent municipality explicitly named in source
+"Campigna, fraz. di Santa Sofia",Emilia-Romagna,Santa Sofia,parent municipality explicitly named in source
+Campo staffi loc. di Filettino,Lazio,Filettino,parent municipality explicitly named in source
+"San Giacomo, loc. di Valle Castellana",Abruzzo,Valle Castellana,parent municipality explicitly named in source
+"Fontana dei Pastori, fraz. di Viggiano",Basilicata,Viggiano,parent municipality explicitly named in source

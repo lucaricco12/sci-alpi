@@ -1,0 +1,3 @@
+metric,estimate_days,ci95_low,ci95_high,resampling_unit,bootstrap_draws,seed
+mean_model_minus_observed_loss_days,-14.794999999999998,-20.815124999999995,-9.054500000000006,"whole station; exploratory, does not correct spatial dependence",5000,20261125
+mean_model_minus_observed_snow_days,54.21249999999999,37.647062500000004,70.62518749999998,"whole station; exploratory, does not correct spatial dependence",5000,20261125

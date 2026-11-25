@@ -1,0 +1,3 @@
+join,input_rows,output_rows,lost_rows,distinct_canonical_areas,note
+pilot entries to canonical area IDs,10,10,0,9,Zermatt and Cervinia remain two gateways of one connected area
+model reference areas to canonical roster,24,24,0,24,one summary per source area; unvalidated snow model

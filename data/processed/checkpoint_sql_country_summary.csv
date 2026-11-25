@@ -1,0 +1,5 @@
+country,n_reference_areas,mean_model_days_past,mean_model_days_recent,mean_model_loss,evidence_status
+AT,6,124.88333333333333,122.25,2.6333333333333306,unvalidated ERA5-Land model demonstration
+CH,6,129.5,131.43333333333334,-1.9333333333333371,unvalidated ERA5-Land model demonstration
+FR,6,127.81666666666666,132.73333333333332,-4.916666666666667,unvalidated ERA5-Land model demonstration
+IT,6,132.18333333333334,129.79999999999998,2.3833333333333377,unvalidated ERA5-Land model demonstration
