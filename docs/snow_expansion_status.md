@@ -1,5 +1,7 @@
 # What is implemented, and what still needs data
 
+**CERRA-Land follow-up, 25 November:** the new [setup and test guide](cerra_land_setup.md) distinguishes CERRA-Land from ordinary CERRA. Current metadata permits the original study periods; authenticated retrieval still needs the account owner's setup. The optional CERRA-Land script checks validity time, depth units and the documented recent-file packing issue and prepares a matched one-winter station screen. No real CERRA-Land snow file has yet been downloaded or promoted into the results. The earlier direct download plan below targets ordinary CERRA, not CERRA-Land.
+
 **25 November update:** the new [checkpoint report](matthias_checkpoint_report.md) covers the completed map, measured elevation regression, exploratory four-country model sample, station tests, ID crosswalk and database handover. The remaining text records the 22 November stage; its original coverage figures are historical. The new map additionally checks the study sample's source locations.
 
 The measured Swiss results, model checks and figures are on `main`. Open `notebooks/03.2_snow_analysis.ipynb` and choose **Run All**. Its default run uses saved tables, including the follow-up checks below, without internet access or a Copernicus account.

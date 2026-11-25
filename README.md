@@ -19,6 +19,8 @@ python src/run_snow_checkpoints.py
 
 The runner adds qualified checkpoint tables to the existing SQLite database while preserving the original team tables. The pilot-ID crosswalk fixes the mismatched source identifiers. The earlier notebook `03.2_snow_analysis.ipynb` retains the full validation details.
 
+**Next snow-data test:** [CERRA-Land account setup and small download](docs/cerra_land_setup.md). Its optional workflow checks the current request schema, forecast validity times, GRIB units and packing before a matched station screening. The code is prepared; actual CERRA-Land retrieval and validation remain pending account setup.
+
 ## Research question
 
 To what extent has natural snow reliability in Swiss, Italian, Austrian and French ski resorts declined between 1986–1995 and 2016–2025, how does this decline depend on elevation and country, and do day-pass prices reflect this climate risk once resort size, prestige and national price and wage levels are accounted for?

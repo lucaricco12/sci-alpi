@@ -40,3 +40,11 @@ Geocoding preserves all 184 original closure records, with 181 approximate munic
 ID joins: 10 historical pilot entries map to nine canonical source areas, with no lost entries. The 24-area model summary joins 24-to-24 to `resort_roster`. Zermatt/Cervinia gateway information remains separate; no independent-area double counting. New qualified SQLite tables and quality metadata were added; an independent comparison confirmed all eight original table contents unchanged. The existing PostgreSQL loader has not been extended or live-tested for the new tables.
 
 Validation: 480 retained responses rechecked against SHA-256 hashes, complete timestamps, units and counts; 33 tests passed; all nine new notebook code cells passed in a fresh in-process Jupyter kernel with HTTP requests blocked. Five plots were visually reviewed. Static HTML dependencies were checked, and a remote D3 colour-bar dependency was removed. Source inputs and team price/feature tables were preserved.
+
+## 2026-11-25 — Separate CERRA-Land candidate workflow
+
+Added `src/cerra_land.py`, optional GRIB/CDS requirements, `src/setup_cds.py`, English setup instructions and dated public CDS metadata snapshots. The original ordinary-CERRA code remains a separate workflow. Every date combination in the 100 CERRA-Land monthly requests passes the current public constraints, retaining the original study periods. Metadata availability is not successful snow-data retrieval.
+
+The opt-in recent-file probe checks one field valid at noon on 15 April 2025. The optional five-month winter run extracts the same 20 station coordinates at 06 UTC and compares complete seasonal counts against measurements and the same-winter ERA5-Land baseline. New downloads/receipts/audits/comparisons stay under ignored `data/raw/cerra_land/`; no new snow result, SQLite table or risk class is promoted. Nearest cells do not certify station/base elevation.
+
+Validation: 49 tests passed, including 16 CERRA-Land/setup tests and synthetic GRIB decoding on regular and Lambert grids. Optional ecCodes installed successfully (Python package 2.50.1, native library 2.50.0). Default request preparation/status ran with HTTP blocked and no raw caches. Authenticated retrieval, the provider's correction provenance for recent snow precision and full-period station accuracy remain unverified because account setup is pending.

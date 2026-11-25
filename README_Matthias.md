@@ -4,6 +4,8 @@
 
 **New to this project? Start with [the plain-English explanation](docs/matthias_simple_explanation.md).** It explains the question, the result from real measurements, why the weather estimates need care, and what is still needed for the four-country study.
 
+**CERRA-Land next step:** follow [the account setup and small download test](docs/cerra_land_setup.md). The correct CERRA-Land request plan, GRIB checks and one-winter station comparison are prepared. Actual authenticated retrieval and CERRA-Land validation are still pending. This is separate from ordinary CERRA and does not change the checkpoint results.
+
 ## Earlier workflow: model–station validation
 
 Open `notebooks/03.2_snow_analysis.ipynb`, select the Python kernel and **Run All**. It uses the committed station-model tables, so no API download is needed by default. Results appear below the code cells. The notebook rebuilds the validation tables, input audit, figures and findings report.
