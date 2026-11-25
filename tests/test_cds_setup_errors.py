@@ -31,7 +31,7 @@ class SetupReplacementTests(unittest.TestCase):
             path = Path(directory) / ".cdsapirc"
             save_token("old-test-only-value", path)
             save_token("new-test-only-value", path, replace=True)
-            self.assertIn('key: "new-test-only-value"', path.read_text())
+            self.assertIn('key: new-test-only-value\n', path.read_text())
             self.assertNotIn("old-test-only-value", path.read_text())
             self.assertEqual(stat.S_IMODE(path.stat().st_mode), 0o600)
             self.assertEqual(list(Path(directory).iterdir()), [path])
