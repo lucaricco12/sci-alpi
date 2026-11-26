@@ -63,7 +63,7 @@ def read_last_error(client):
     return "No failed/rejected CERRA-Land job was found among the latest ten failed jobs. No new request was submitted."
 
 
-def last_error_command():
+def last_error_command(queue=False, root=None):
     if not (os.environ.get("CDSAPI_KEY") or (Path.home() / ".cdsapirc").is_file()):
         raise RuntimeError("No private CDS configuration found. Keep your key private; configure it with src/setup_cds.py.")
     try:
@@ -77,6 +77,9 @@ def last_error_command():
     client = None
     try:
         client = cdsapi.Client(**options)
+        if queue:
+            from cerra_queue import read_queue
+            return read_queue(client, root, build_plan(root)["probe_request"])
         return read_last_error(client)
     except Exception as error:
         raise RuntimeError(retrieval_error(error, secret_values=(os.environ.get("CDSAPI_KEY"), getattr(client, "key", None)))) from None
@@ -299,13 +302,14 @@ def main():
     group.add_argument("--status", action="store_true", help="Check dependencies/config presence without reading or displaying a token.")
     group.add_argument("--probe", action="store_true", help="Download/check one full-grid field valid 15 April 2025 at noon UTC.")
     group.add_argument("--last-error", action="store_true", help="Read the latest existing failed CERRA-Land job without submitting or downloading.")
+    group.add_argument("--queue", action="store_true", help="Read active selections, flag exact duplicates and compare against the inspected probe cache; no cancellations or downloads.")
     group.add_argument("--download-winter", type=int, choices=WINTERS, help="After the probe, download five months at 06 UTC and screen 20 stations.")
     args = parser.parse_args()
     root = project_root(Path(__file__).resolve().parent)
-    if args.last_error:
-        print("Inspecting existing failed jobs only; no new download request is submitted.", flush=True)
+    if args.last_error or args.queue:
+        print("Inspecting existing jobs only; no new download request is submitted.", flush=True)
         try:
-            print(last_error_command())
+            print(last_error_command(queue=args.queue, root=root))
         except RuntimeError as error:
             parser.exit(2, str(error) + "\n")
         return

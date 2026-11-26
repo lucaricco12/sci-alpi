@@ -80,7 +80,20 @@ git pull --ff-only origin main
 python src/cerra_land.py --last-error
 ```
 
-This reads the ten latest failed/rejected jobs, filters for CERRA-Land, and reports the newest matching job's redacted server logs and error. It does not submit, download or delete anything. The diagnostic supports both HTTP errors and the official SDK's `ProcessingFailedError`. If there is no retained matching job, it says so. Report this output, or the failed job's Error details from Your Requests. No new API key or licence reset is indicated by HTTP 400 alone. The monthly failure's underlying cause has not yet been established.
+This reads the ten latest failed/rejected jobs, filters for CERRA-Land, and reports the newest matching job's redacted server logs and error. It does not submit, download or delete anything. The diagnostic supports both HTTP errors and the official SDK's `ProcessingFailedError`. If there is no retained matching job, it says so. Report this output, or the failed job's Error details from Your Requests. No new API key or licence reset is indicated by HTTP 400 alone. The retained queue-limit cause is documented below.
+
+### Queue-limit cause and a simple duplicate check
+
+The user's retained traceback now identifies **Maximum number queued requests for this dataset has been reached**. Their dashboard also shows global dataset/archive congestion and multiple Accepted requests. Similar dataset titles alone do not establish that those requests are duplicates.
+
+Use one read-only check instead of comparing several screenshots:
+
+```bash
+git pull --ff-only https://github.com/lucaricco12/sci-alpi.git main
+python src/cerra_land.py --queue
+```
+
+It lists active CERRA-Land requests, shows selected date/time fields, and flags identical **full recorded selections**, ignoring only dictionary/list order. It also checks whether a queued selection matches the configured one-field probe and a local cache whose receipt, inspection and response hash all agree. Missing selections or an unverified cache do not establish a completed duplicate. The report checks up to 50 active account jobs, filters for CERRA-Land and warns when that view may be incomplete. No job is submitted, cancelled, deleted or downloaded. Review the report before clearing any redundant queued probes; preserve useful winter requests.
 
 The installed GRIB reader is ECMWF's **ecCodes** Python package. Its Linux pip wheel installed successfully in our test environment, so this workflow does not require xarray/cfgrib. The default checkpoint notebook does not require these optional packages.
 
