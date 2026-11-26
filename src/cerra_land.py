@@ -15,17 +15,71 @@ import json
 import os
 from datetime import datetime, timezone
 from pathlib import Path
+from types import SimpleNamespace
 
 import numpy as np
 import pandas as pd
 from scipy.spatial import cKDTree
 
-from cds_errors import retrieval_error
+from cds_errors import provider_detail, retrieval_error
 from snow_validation import WINTERS, load_observations, project_root, season_dates
 
 DATASET = "reanalysis-cerra-land"
 API = "https://cds.climate.copernicus.eu/api"
 SNAPSHOT = "data/config/cerra_land_cds"
+
+
+def read_last_error(client):
+    """Read one existing failed CERRA-Land job; never submit or download."""
+    api = getattr(client, "client", None)
+    if api is None or not hasattr(api, "get_jobs"):
+        raise RuntimeError("This diagnostic needs the current CDS client. Install requirements-cerra-land.txt.")
+    jobs = api.get_jobs(limit=10, sortby="-created", status=["failed", "rejected"])
+    rows = jobs.json.get("jobs", [])
+    for job in rows:
+        process = job.get("processID")
+        if process and process != DATASET:
+            continue
+        job_id = job.get("jobID")
+        if not job_id:
+            continue
+        remote = api.get_remote(job_id)
+        metadata = remote.json
+        if metadata.get("processID") != DATASET or metadata.get("status") not in ("failed", "rejected"):
+            continue
+        print("Reading existing CERRA-Land job:", metadata.get("status"), "created", metadata.get("created", "unknown"), flush=True)
+        logs = metadata.get("metadata", {}).get("log", [])
+        if isinstance(logs, list) and logs:
+            excerpt = provider_detail(SimpleNamespace(json=lambda: {"context": {"server_log": logs[-5:]}}), (getattr(client, "key", None),))
+            print("Existing server log (redacted):", excerpt, flush=True)
+        try:
+            remote.get_results()
+        except Exception as error:
+            if type(error).__name__ == "ProcessingFailedError":
+                detail = provider_detail(SimpleNamespace(text=str(error)), (getattr(client, "key", None),))
+                return "Existing CERRA-Land job failed. Provider reason (redacted): " + detail
+            return retrieval_error(error, secret_values=(getattr(client, "key", None),))
+        return "This job now has results metadata available. No files were downloaded."
+    return "No failed/rejected CERRA-Land job was found among the latest ten failed jobs. No new request was submitted."
+
+
+def last_error_command():
+    if not (os.environ.get("CDSAPI_KEY") or (Path.home() / ".cdsapirc").is_file()):
+        raise RuntimeError("No private CDS configuration found. Keep your key private; configure it with src/setup_cds.py.")
+    try:
+        import cdsapi
+    except ImportError as error:
+        raise RuntimeError("Install requirements-cerra-land.txt first.") from error
+    options = {"url": API, "quiet": True, "debug": False, "progress": False,
+               "timeout": 30, "retry_max": 2, "sleep_max": 2}
+    if os.environ.get("CDSAPI_KEY"):
+        options["key"] = os.environ["CDSAPI_KEY"]
+    client = None
+    try:
+        client = cdsapi.Client(**options)
+        return read_last_error(client)
+    except Exception as error:
+        raise RuntimeError(retrieval_error(error, secret_values=(os.environ.get("CDSAPI_KEY"), getattr(client, "key", None)))) from None
 
 
 def request_for_dates(dates, valid_hour=6):
@@ -244,9 +298,17 @@ def main():
     group = parser.add_mutually_exclusive_group()
     group.add_argument("--status", action="store_true", help="Check dependencies/config presence without reading or displaying a token.")
     group.add_argument("--probe", action="store_true", help="Download/check one full-grid field valid 15 April 2025 at noon UTC.")
+    group.add_argument("--last-error", action="store_true", help="Read the latest existing failed CERRA-Land job without submitting or downloading.")
     group.add_argument("--download-winter", type=int, choices=WINTERS, help="After the probe, download five months at 06 UTC and screen 20 stations.")
     args = parser.parse_args()
     root = project_root(Path(__file__).resolve().parent)
+    if args.last_error:
+        print("Inspecting existing failed jobs only; no new download request is submitted.", flush=True)
+        try:
+            print(last_error_command())
+        except RuntimeError as error:
+            parser.exit(2, str(error) + "\n")
+        return
     plan = build_plan(root)
     if args.status:
         print("Private CDS configuration present:", bool(os.environ.get("CDSAPI_KEY") or (Path.home() / ".cdsapirc").is_file()))
