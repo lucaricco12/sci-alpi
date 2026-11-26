@@ -61,6 +61,12 @@ Fixed the setup writer to store an unquoted key value, matching the official cli
 
 Validation: 65 tests passed, including seven new format/repair checks using the actual provider parser and credential resolver. The original misread is reproduced before verifying repair. No published snow table, notebook or database was changed. Live authenticated retrieval and snow validation remain pending the subsequent Codespace probe.
 
+## 2026-11-26 — Preserve monthly request and expose a safe provider reason
+
+The user's one-field probe passed, then December 2024 returned HTTP 400. Public metadata permits the date/time combinations, and the size checker reports 31 fields versus a 90,000-field limit. Credential-free costing evidence is committed separately; it is not authenticated retrieval evidence. The request and original study periods were preserved.
+
+Updated HTTP 400/422 diagnostics to include a short redacted provider reason while removing known client keys, private fields, URLs and long identifiers. Generic HTTP 400 is no longer asserted to mean a bad selection. All 68 tests passed; no scientific table, notebook or database was changed. The exact provider rejection and successful winter retrieval remain unverified pending the next account-side result.
+
 # Integration Log
 
 | Date | Source | Joined to | Key | Before | After | Lost | Notes |

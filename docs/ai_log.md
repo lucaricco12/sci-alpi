@@ -188,6 +188,13 @@ Required for the final project: which AI tools we used, for which tasks, advanta
 * **Validation:** All 65 tests passed. New tests reproduce the original misread and verify fresh setup, replacement and legacy repair with the real `cdsapi.api.read_config` and `get_url_key_verify` functions, with HTTP blocked. Repair also preserves other fields, is idempotent and keeps owner-only permissions.
 * **Limits:** The format defect is reproduced and fixed. A live download still needs a retry in the account owner's Codespace; token validity, licence acceptance and CERRA-Land accuracy are not established by local configuration tests.
 
+## 2026-11-26 — Matthias: diagnose the first monthly CERRA-Land rejection
+
+* **Evidence:** The user's one-field probe passed file checks. The full-winter run reused it, then returned HTTP 400 for December 2024. The old wrapper hid the provider's reason and over-specifically called every HTTP 400 a selection failure.
+* **Checks:** Current public form/constraints still permit the requested dates and time/lead. Anonymous provider costing returned 31 fields against a 90,000-field limit; one-day/noon controls were also below the limit. This is not proof that the archive can fulfil the retrieval. No user credential was used for these checks.
+* **Change:** HTTP 400/422 can now show a bounded, redacted provider reason and uses neutral request-or-retrieval wording. The account key available to the client is used only for redaction; raw exceptions, private fields and signed URLs are not emitted. The same monthly request, scientific periods and measurement time remain unchanged.
+* **Validation/limits:** 68 tests passed, including known-secret, nested-field, URL, identifier and plain-text redaction checks. Published snow tables/database are untouched. Exact cause and an authenticated monthly retry remain pending the user's provider error details; no unsupported download fix or model validation is claimed.
+
 
 # AI Usage Log
 
