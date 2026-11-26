@@ -71,6 +71,10 @@ Updated HTTP 400/422 diagnostics to include a short redacted provider reason whi
 
 Corrected the diagnostic to keep the separate backend `traceback` alongside the generic `detail`. Long messages preserve their tail after redaction. Added `python src/cerra_land.py --last-error` to read recent existing failed/rejected CERRA-Land jobs and report redacted server logs and HTTP/SDK processing errors, without submitting or downloading anything. The actual backend cause is still unverified; no request settings or scientific outputs were changed. All 75 tests passed, including no-submission/no-download checks and preservation of detailed causes with private values removed.
 
+## 2026-11-26 — Read-only active queue and duplicate report
+
+The account-side traceback identified a queued-request limit. Added `--queue` to compare active CERRA-Land selections and flag exact repeated requests and verified matches to the cached, inspected one-field probe. It preserves distinct monthly selections and does not guess when metadata/cache evidence is absent. All 79 tests passed; submission, retrieval, cancellation and download methods are not called by the report. Actual queue cleanup remains pending review of the account-side report, and scientific results remain unchanged.
+
 # Integration Log
 
 | Date | Source | Joined to | Key | Before | After | Lost | Notes |

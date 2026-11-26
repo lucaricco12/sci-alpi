@@ -201,6 +201,12 @@ Required for the final project: which AI tools we used, for which tasks, advanta
 * **Changes:** Preserve all useful error fields and the tail of long traces. Added read-only `--last-error`, which inspects existing failed CERRA-Land jobs and prints redacted recent logs/error. It handles HTTP errors and the official `ProcessingFailedError` without submitting or downloading another job.
 * **Validation/limits:** 75 tests passed, including generic-detail-plus-traceback, trailing cause preservation, redacted server logs, SDK processing failure and assertions that submission/download methods are not called. The user's actual backend traceback is still needed; monthly settings and scientific results remain unchanged.
 
+## 2026-11-26 — Matthias: compare active queue selections automatically
+
+* **Evidence:** The retained rejection now reports the per-dataset queued-request limit. User screenshots show multiple Accepted jobs and global dataset/archive congestion, but not the selections needed to confirm duplicates. The user requested simpler guidance.
+* **Changes:** Added read-only `--queue` to list active CERRA-Land selections, compare complete recorded requests and identify matches to an integrity-checked, previously inspected probe cache. Missing request data and changed caches are handled conservatively. Only selected date/time fields are displayed, with private values redacted. No cancellation or submission is implemented.
+* **Validation/limits:** All 79 tests passed, covering exact duplicates, preserving a distinct winter request, missing metadata, altered cache and no-mutation assertions. Actual queued selections remain account-side evidence to inspect; no jobs or scientific outputs were changed here.
+
 
 # AI Usage Log
 
