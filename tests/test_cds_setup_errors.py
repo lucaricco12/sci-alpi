@@ -12,7 +12,7 @@ from unittest.mock import patch
 import requests
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
-from cds_errors import retrieval_error
+from cds_errors import provider_detail, retrieval_error
 from cerra_land import download_request, request_for_dates
 from setup_cds import save_token
 
@@ -59,6 +59,27 @@ class SetupReplacementTests(unittest.TestCase):
 
 
 class DownloadErrorTests(unittest.TestCase):
+    def test_actual_provider_reason_is_available_without_credentials_or_urls(self):
+        error = http_error(400, {"message": "No data found for requested date; synthetic-private-credential", "token": "nested-private-value", "download_url": "https://example.invalid/signed?secret=hidden"})
+        output = retrieval_error(error, secret_values=("synthetic-private-credential",))
+        self.assertIn("No data found for requested date", output)
+        self.assertNotIn("synthetic-private-credential", output)
+        self.assertNotIn("nested-private-value", output)
+        self.assertNotIn("https://", output)
+
+    def test_plain_text_errors_and_unlabelled_identifiers_are_redacted(self):
+        response = requests.Response()
+        response.status_code = 400
+        response._content = b'No data found. https://example.invalid/signed?key=hidden Bearer hidden-value 00000000-0000-4000-8000-000000000000'
+        output = provider_detail(response)
+        self.assertIn("No data found", output)
+        for private in ("https://", "hidden-value", "00000000-0000-4000-8000-000000000000"):
+            self.assertNotIn(private, output)
+
+    def test_large_provider_response_is_bounded(self):
+        output = provider_detail(http_error(400, "Repeated error text " * 200).response)
+        self.assertLessEqual(len(output), 800)
+
     def test_authentication_and_licence_have_different_instructions(self):
         authentication = retrieval_error(http_error(401, "Rejected token: test-only-private-value"))
         licence = retrieval_error(http_error(403, "required licences not accepted; test-only-private-value"))

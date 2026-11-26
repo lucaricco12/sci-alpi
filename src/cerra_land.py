@@ -119,10 +119,12 @@ def download_request(root, request):
         options["key"] = key
     folder.mkdir(parents=True, exist_ok=True)
     partial = target.with_suffix(".part")
+    client = None
     try:
-        cdsapi.Client(**options).retrieve(DATASET, request, str(partial))
+        client = cdsapi.Client(**options)
+        client.retrieve(DATASET, request, str(partial))
     except Exception as error:
-        raise RuntimeError(retrieval_error(error)) from None
+        raise RuntimeError(retrieval_error(error, secret_values=(key, getattr(client, "key", None)))) from None
     if not partial.is_file() or partial.stat().st_size == 0:
         raise ValueError("CDS returned no non-empty file.")
     partial.replace(target)
