@@ -195,6 +195,12 @@ Required for the final project: which AI tools we used, for which tasks, advanta
 * **Change:** HTTP 400/422 can now show a bounded, redacted provider reason and uses neutral request-or-retrieval wording. The account key available to the client is used only for redaction; raw exceptions, private fields and signed URLs are not emitted. The same monthly request, scientific periods and measurement time remain unchanged.
 * **Validation/limits:** 68 tests passed, including known-secret, nested-field, URL, identifier and plain-text redaction checks. Published snow tables/database are untouched. Exact cause and an authenticated monthly retry remain pending the user's provider error details; no unsupported download fix or model validation is claimed.
 
+## 2026-11-26 — Matthias: retain the backend traceback and inspect existing failure
+
+* **Finding:** The next error only showed `The job has been rejected`. The official SDK's error formatter explicitly uses separate `title`, `traceback` and `detail` fields; our first redacted summary retained only the generic detail. That diagnostic omission is corrected without assuming the monthly failure's cause.
+* **Changes:** Preserve all useful error fields and the tail of long traces. Added read-only `--last-error`, which inspects existing failed CERRA-Land jobs and prints redacted recent logs/error. It handles HTTP errors and the official `ProcessingFailedError` without submitting or downloading another job.
+* **Validation/limits:** 75 tests passed, including generic-detail-plus-traceback, trailing cause preservation, redacted server logs, SDK processing failure and assertions that submission/download methods are not called. The user's actual backend traceback is still needed; monthly settings and scientific results remain unchanged.
+
 
 # AI Usage Log
 

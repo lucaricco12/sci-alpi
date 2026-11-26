@@ -1,6 +1,6 @@
 # CERRA-Land: what is ready and what Matthias must do
 
-Checked on **25 November 2026**. The existing checkpoint results still use the original measured/model inputs. **No authenticated CERRA-Land snow file has been downloaded or validated by us yet.**
+Updated **26 November 2026**. The existing checkpoint results still use the original measured/model inputs. **The user's single-field CERRA-Land probe passed file checks in Codespaces. A complete winter and model accuracy remain unverified.**
 
 ## Repair HTTP 401 after using the earlier setup
 
@@ -24,9 +24,9 @@ python src/cerra_land.py --probe
 | Check ERA5-Land against 20 Swiss stations for all 20 study winters | Done: 400 matched station winters; about 54 extra snow days per winter in this selected sample |
 | Screen ordinary CERRA through Open-Meteo | Done for two winters (1995, 2021); this is **not CERRA-Land** |
 | Verify current CERRA-Land catalogue, form and date constraints | Done: all 100 monthly requests for our unchanged 20 study winters are permitted by the saved form/constraints |
-| Prepare a small recent-file test, GRIB inspection and one-winter station comparison | Done and tested locally using synthetic GRIB files; real service retrieval remains untested |
-| Create the account, accept the licence, configure the private token | Account owner's steps below |
-| Download real CERRA-Land, test its accuracy, rebuild resort risk classes | Pending; no risk classes are created by this new workflow |
+| Prepare a small recent-file test, GRIB inspection and one-winter station comparison | Code tests pass; the user's real one-field probe passed; the full-winter run is currently rejected |
+| Create the account, accept the licence, configure the private token | Setup worked for the user's successful one-field probe; retain it |
+| Download real CERRA-Land, test its accuracy, rebuild resort risk classes | One field checked; a complete winter, accuracy validation and risk conclusions remain pending |
 
 ## Current coverage and two corrections to the shared instructions
 
@@ -71,7 +71,16 @@ The command identifies HTTP authentication, licence, rate-limit and service fail
 
 The one-field probe passed in the user's Codespace, while the first winter month returned HTTP 400. The current public form/constraints permit the requested December dates and 03 UTC + 3-hour lead, and the public costing service returned HTTP 200 with cost **31 fields**, limit **90,000**, for the full month. One-day and noon alternatives were also under that size limit. These checks do not prove archive availability or successful authenticated retrieval; the costing response did not explicitly return a request-validity verdict. Public, credential-free results are retained in `data/config/cerra_land_cost_checks_20261126.json`.
 
-The monthly request and study periods were therefore preserved. To obtain the missing provider reason with the updated code, run `git pull --ff-only origin main`, then retry `python src/cerra_land.py --download-winter 2025`. Completed files are reused. If it fails, report only the final redacted error, or the failed job's error details from Your Requests. No new API key or licence reset is indicated by HTTP 400 alone.
+The monthly request and study periods were therefore preserved. The subsequent error excerpt only said **The job has been rejected**. The official CDS client exposes a separate `traceback` field; our initial summary selected `detail` alone and lost that cause. The summary now retains traceback/reason/detail together, with the same redaction and length bound. Long traces preserve their end, where the actual exception is commonly reported.
+
+Inspect the **existing** failure without resubmitting the winter download:
+
+```bash
+git pull --ff-only origin main
+python src/cerra_land.py --last-error
+```
+
+This reads the ten latest failed/rejected jobs, filters for CERRA-Land, and reports the newest matching job's redacted server logs and error. It does not submit, download or delete anything. The diagnostic supports both HTTP errors and the official SDK's `ProcessingFailedError`. If there is no retained matching job, it says so. Report this output, or the failed job's Error details from Your Requests. No new API key or licence reset is indicated by HTTP 400 alone. The monthly failure's underlying cause has not yet been established.
 
 The installed GRIB reader is ECMWF's **ecCodes** Python package. Its Linux pip wheel installed successfully in our test environment, so this workflow does not require xarray/cfgrib. The default checkpoint notebook does not require these optional packages.
 

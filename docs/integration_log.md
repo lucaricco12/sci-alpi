@@ -67,6 +67,10 @@ The user's one-field probe passed, then December 2024 returned HTTP 400. Public 
 
 Updated HTTP 400/422 diagnostics to include a short redacted provider reason while removing known client keys, private fields, URLs and long identifiers. Generic HTTP 400 is no longer asserted to mean a bad selection. All 68 tests passed; no scientific table, notebook or database was changed. The exact provider rejection and successful winter retrieval remain unverified pending the next account-side result.
 
+## 2026-11-26 — Read existing rejected-job traceback without resubmission
+
+Corrected the diagnostic to keep the separate backend `traceback` alongside the generic `detail`. Long messages preserve their tail after redaction. Added `python src/cerra_land.py --last-error` to read recent existing failed/rejected CERRA-Land jobs and report redacted server logs and HTTP/SDK processing errors, without submitting or downloading anything. The actual backend cause is still unverified; no request settings or scientific outputs were changed. All 75 tests passed, including no-submission/no-download checks and preservation of detailed causes with private values removed.
+
 # Integration Log
 
 | Date | Source | Joined to | Key | Before | After | Lost | Notes |

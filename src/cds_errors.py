@@ -17,7 +17,10 @@ def provider_detail(response, secret_values=()):
     except (AttributeError, ValueError, TypeError):
         payload = getattr(response, "text", "")
     if isinstance(payload, dict):
-        payload = next((payload[key] for key in ("detail", "message", "error", "reason", "title") if payload.get(key)), "")
+        # CDS often puts the real failure in traceback while detail only says
+        # "The job has been rejected". Preserve all useful error fields.
+        fields = ("traceback", "reason", "message", "errors", "error", "detail", "title", "context")
+        payload = {key: payload[key] for key in fields if payload.get(key)} or payload
 
     def clean(value):
         if isinstance(value, dict):
@@ -36,7 +39,9 @@ def provider_detail(response, secret_values=()):
     text = re.sub(r"\b(?:api[_ -]?key|token|password|secret|authorization)\s*[:=]\s*[^\s,;]+", "[private field removed]", text, flags=re.I)
     text = re.sub(r"\b[0-9a-f]{8}(?:-[0-9a-f]{4}){3}-[0-9a-f]{12}\b", "[identifier removed]", text, flags=re.I)
     text = re.sub(r"[A-Za-z0-9_+/=-]{24,}", "[long value removed]", text)
-    return " ".join(text.split())[:800]
+    text = " ".join(text.split())
+    # The exception cause is usually at the end of a long traceback.
+    return text if len(text) <= 800 else text[:160] + " ... " + text[-635:]
 
 
 def retrieval_error(error, secret_values=()):
