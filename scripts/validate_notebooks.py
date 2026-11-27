@@ -133,6 +133,24 @@ assert "unavailable" in overpass_source
 assert "centroid" not in overpass_source.lower()
 assert "proxy" not in overpass_source.lower()
 
+# Haversine must support one resort against a vector of hotel coordinates.
+spatial_tree = ast.parse("".join(nb23["cells"][1]["source"]))
+haversine_node = next(
+    node for node in spatial_tree.body
+    if isinstance(node, ast.FunctionDef) and node.name == "haversine_km"
+)
+spatial_namespace = {"np": np}
+exec(
+    compile(ast.Module(body=[haversine_node], type_ignores=[]), "haversine_helper", "exec"),
+    spatial_namespace,
+)
+distances = spatial_namespace["haversine_km"](
+    46.2, 6.1, np.array([46.3, 46.4]), np.array([6.2, 6.3])
+)
+assert distances.shape == (2,)
+assert np.isfinite(distances).all()
+assert np.all(distances > 0)
+
 print("PASS: all notebook code cells compile and have Markdown explanations.")
 print("PASS: EUR, CHF/EUR and snowmaking parser tests.")
 print("PASS: Alpine-only source filters for CH, IT, AT and FR.")
