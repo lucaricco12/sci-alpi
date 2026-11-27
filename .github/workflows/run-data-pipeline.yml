@@ -18,7 +18,7 @@ permissions:
 jobs:
   run-pipeline:
     runs-on: ubuntu-latest
-    timeout-minutes: 35
+    timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -42,6 +42,8 @@ jobs:
           git add data/processed/resorts_features.csv
           git add data/processed/resorts_geocoded_cache.csv
           git add data/processed/hotels_cache.csv
+          git add data/processed/resorts_feature_coverage.csv
+          git add data/processed/overpass_batch_log.csv
           if git diff --cached --quiet; then
             echo "No processed dataset changes to commit."
           else
@@ -59,6 +61,8 @@ jobs:
             data/processed/resorts_features.csv
             data/processed/resorts_geocoded_cache.csv
             data/processed/hotels_cache.csv
+            data/processed/resorts_feature_coverage.csv
+            data/processed/overpass_batch_log.csv
             notebooks/02.2_scraping.ipynb
             notebooks/02.3_features_spatial.ipynb
           if-no-files-found: warn
