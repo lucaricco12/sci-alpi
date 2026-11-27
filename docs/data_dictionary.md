@@ -14,13 +14,13 @@ Status: ✅ defined · 🔄 to be confirmed after the pilot test (step 1, 11 Nov
 | `url` | string | URL | Canonical Skiresort.com resort detail page; unique in the selected sample. |
 | `alpine_scope_verified` | boolean | – | True when discovered from a country-specific Alpine directory on Skiresort.com. |
 | `alpine_scope_source` | string | – | Alpine directory classification used to select the resort. |
-| `elevation_base_m`, `elevation_top_m` | float | m a.s.l. | Lower and upper ski-area elevations from the listing card. |
-| `slope_km` | float | km | Total marked slope length from the listing card. |
-| `lifts_count` | float | count | Number of ski lifts from the listing card. |
+| `elevation_base_m`, `elevation_top_m` | float | m a.s.l. | Lower and upper ski-area elevations from the listing card, filled from the resort detail page only when missing. |
+| `slope_km` | float | km | Total marked slope length from the listing card, filled from the resort detail page only when missing. |
+| `lifts_count` | float | count | Number of ski lifts from the listing card, filled from the resort detail page only when missing. |
 | `price_day_raw` | float | source currency | Adult day-ticket price as displayed by Skiresort.com. |
 | `currency` | string | ISO 4217 | Currency of `price_day_raw` (`EUR` or `CHF`). |
 | `price_day_eur` | float | EUR | EUR price displayed by the source. For CHF resorts, use only the source's explicitly stated approximate EUR value; no fixed FX conversion is applied. |
-| `price_method` | string | – | `source_eur`, `source_approx_eur`, or `chf_without_source_eur`. |
+| `price_method` | string | – | `source_eur`, `source_approx_eur`, `chf_without_source_eur`, `detail_source_eur`, or `detail_source_chf_without_source_eur`. |
 | `rating_stars` | float | stars | Overall Skiresort.com resort rating parsed from the resort detail page. |
 | `snow_cannons` | float | count | Number of snow cannons reported on the Skiresort.com snow-reliability page. Missing when the source does not publish it. |
 | `snowmaking_pct` | float | percent | Share of slopes with snowmaking capabilities, as reported by Skiresort.com. |
@@ -33,8 +33,8 @@ Status: ✅ defined · 🔄 to be confirmed after the pilot test (step 1, 11 Nov
 | `detail_page_url`, `snowmaking_page_url` | string | URL | Source pages used for resort rating, access-village and snowmaking enrichment. |
 | `detail_fetch_status`, `snowmaking_fetch_status` | string | – | Whether each source page was downloaded, read from cache, or unavailable. |
 | `detail_retrieved_at_utc` | datetime | UTC | Timestamp of detail-page enrichment. |
-| `price_imputed`, `manually_added` | boolean | – | Provenance flags. Both must remain false in this workflow. |
-| `observed_field_count` | integer | count | Number of non-missing listing values among base/top elevation, slope length, lifts and raw ticket price. |
+| `elevation_source`, `slope_source`, `lifts_source`, `price_source` | string | – | Field-level provenance: Skiresort listing card or Skiresort detail page. Detail values are used only to fill missing listing values. |\n| `price_imputed`, `manually_added` | boolean | – | Provenance flags. Both must remain false in this workflow. |
+| `observed_field_count` | integer | count | Number of non-missing values among base/top elevation, slope length, lifts and raw ticket price after listing/detail-page enrichment. |
 | `scrape_source`, `source_page` | string | URL / text | Listing and detail source provenance. |
 | `source_retrieved_at_utc` | datetime | UTC | Timestamp when the listing page was retrieved. |
 | `latitude`, `longitude` | float | decimal degrees | Validated WGS84 coordinate from Skiresort page metadata or a geocoder. |
