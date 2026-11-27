@@ -5,6 +5,7 @@ import unicodedata
 from pathlib import Path
 
 import numpy as np
+import pandas as pd
 
 ROOT = Path(__file__).resolve().parents[1]
 NOTEBOOK_22 = ROOT / "notebooks" / "02.2_scraping.ipynb"
