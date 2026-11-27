@@ -231,3 +231,12 @@ Required for the final project: which AI tools we used, for which tasks, advanta
 * **What Worked Well:** Vectorized Haversine spherical distance calculations for urban proximity metrics.
 * **Errors & Pitfalls:** Automated OSM Nominatim geocoding misplaced La Rosière near southwestern France.
 * **Human Verification & Resolution:** Manually overridden La Rosière coordinates to Savoy, French Alps (45.6267° N, 6.8489° E) and verified all distance calculations.
+
+
+## 2026-11-27 — Lorenzo: Alpine-only scraping and multi-source spatial enrichment (replacement workflow)
+
+* **Tool used:** ChatGPT with connected GitHub repository access and GitHub Actions.
+* **Task:** Replace the earlier general-country scrape with a strictly Alpine sample; enrich every selected resort with Skiresort detail-page ratings and snowmaking data; refresh coordinates using multiple geocoders; and make hotel-count retrieval resilient to public Overpass failures.
+* **What changed:** Candidate discovery now uses the dedicated Skiresort Alpine directories for Switzerland, Italy, Austria and France. Resort detail pages provide overall ratings and access villages; snow-reliability pages provide snow-cannon counts and snowmaking share when published. Coordinates are refreshed from explicit page metadata, Nominatim, Photon and Open-Meteo Geocoding, with country/bounds checks. Overpass hotel queries are split into small resort-radius batches with multiple endpoints and retries.
+* **What did not work / limitations:** The previous single broad Overpass bounding-box query returned HTTP 502 from both endpoints. The old geocoding cache also contained unverified coordinates and is no longer reused. Google Maps is not scraped: a compliant, reproducible Google geocoding workflow requires an authorized API key and billing/configuration; public OSM-derived geocoders are used instead. Some resorts may still have unpublished snowmaking values or unresolved geocodes; these remain missing.
+* **Human verification required:** Review the final 280 Alpine URLs and any unresolved source fields after the live run. Hotel counts are mapped OSM objects, not a verified count of distinct hotel businesses. Distances based on access-village coordinates are labelled accordingly and are not road distances.
