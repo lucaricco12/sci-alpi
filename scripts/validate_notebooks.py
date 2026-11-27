@@ -43,7 +43,7 @@ function_nodes = [
     }
 ]
 namespace = {
-    "np": np, "pd": pd, "re": re, "unicodedata": unicodedata,
+    "np": np, "pd": pd, "re": re, "json": json, "unicodedata": unicodedata,
     "BeautifulSoup": BeautifulSoup,
 }
 exec(
