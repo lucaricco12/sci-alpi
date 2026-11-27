@@ -5,46 +5,60 @@ Status: ✅ defined · 🔄 to be confirmed after the pilot test (step 1, 11 Nov
 
 #### Table `resorts_features.csv` (`data/processed/resorts_features.csv`) — owner: Lorenzo
 
-**Current scope:** 280 unique source URLs, 70 resorts per country (CH, IT, AT, FR). Values are taken from Skiresort.com listing cards; missing values are retained rather than filled with country averages. The table contains 31 columns.
+**Target scope for the rebuilt workflow:** 280 unique Alpine ski areas, 70 each in Switzerland, Italy, Austria and France. Resort discovery uses Skiresort.com's Alpine country directories, not general country ski-resort directories. Each selected resort is enriched from its detail page and snow-reliability page. The new pipeline refreshes coordinates rather than reusing the legacy geocoding cache.
 
 | Variable | Type | Unit | Source / definition |
 | :--- | :--- | :--- | :--- |
-| `resort_name` | string | – | Resort name as shown on the source listing. |
-| `country` | string | ISO 3166-1 alpha-2 | Analysis country code: `CH`, `IT`, `AT`, or `FR`. Cross-border areas are assigned once using documented slug rules. |
-| `url` | string | URL | Canonical Skiresort.com resort page. Unique within this sample. |
-| `elevation_base_m` | float | m a.s.l. | Base elevation reported on the listing card. |
-| `elevation_top_m` | float | m a.s.l. | Top elevation reported on the listing card. |
-| `slope_km` | float | km | Total ski slope length reported on the listing card. |
-| `lifts_count` | float | count | Number of ski lifts reported on the listing card. |
-| `price_day_raw` | float | source currency | Adult day-ticket price as displayed by the source. |
-| `currency` | string | ISO 4217 | Currency of `price_day_raw` (EUR or CHF). |
-| `price_day_eur` | float | EUR | EUR price shown by the source. For Swiss resorts this uses the explicitly displayed approximate EUR price when available; it is not converted using a fixed exchange-rate assumption. |
-| `rating_stars` | float | stars | Reserved compatibility field. Not supplied in the listing cards used for this extraction; currently missing. |
-| `snow_cannons` | float | count | Reserved compatibility field. Not supplied in the listing cards used for this extraction; currently missing. |
-| `price_method` | string | – | `source_eur` or `source_approx_eur`, identifying how the EUR price was displayed by the source. |
-| `price_imputed` | boolean | – | True only if a price was imputed. No price imputation is performed in this workflow. |
-| `manually_added` | boolean | – | True only for manually inserted resorts. No manually inserted resorts are used in this sample. |
-| `observed_field_count` | integer | count | Number of non-missing values among base elevation, top elevation, slope length, lift count and raw ticket price. |
-| `scrape_source` | string | – | Source listing from which the record was extracted. |
-| `source_page` | string | URL | Country listing page used to discover the resort. |
-| `source_retrieved_at_utc` | datetime | UTC | Timestamp when the source page was retrieved. |
-| `latitude`, `longitude` | float | decimal degrees | WGS84 resort point from the geocoding cache or Nominatim. Check `geocode_source` for provenance. |
-| `geocode_source` | string | – | Indicates Nominatim or a legacy cached coordinate. Legacy cache coordinates are explicitly marked as not independently revalidated. |
-| `dist_zurich_km` | float | km | Great-circle Haversine distance to Zurich city centre. |
-| `dist_geneva_km` | float | km | Great-circle Haversine distance to Geneva city centre. |
-| `dist_milan_km` | float | km | Great-circle Haversine distance to Milan city centre. |
-| `dist_turin_km` | float | km | Great-circle Haversine distance to Turin city centre. |
-| `dist_munich_km` | float | km | Great-circle Haversine distance to Munich city centre. |
-| `dist_lyon_km` | float | km | Great-circle Haversine distance to Lyon city centre. |
-| `dist_nearest_city_km` | float | km | Minimum of the six city distances above. These are straight-line distances, not road travel distances. |
-| `hotels_4_5_star_10km` | integer | count | Number of OSM-mapped 4- and 5-star hotel objects within 10 km of the resort coordinate. This is a point-radius proximity measure, not a resort-boundary count or a verified census of distinct hotel businesses; duplicate OSM representations may remain. |
-| `hotel_data_source` | string | – | OpenStreetMap Overpass when a hotel count could be calculated; missing when resort coordinates are unavailable. |
+| `resort_name` | string | – | Resort name as shown by Skiresort.com. |
+| `country` | string | ISO 3166-1 alpha-2 | Canonical analysis country: `CH`, `IT`, `AT`, or `FR`. Cross-border ski domains are assigned once using documented slug rules. |
+| `url` | string | URL | Canonical Skiresort.com resort detail page; unique in the selected sample. |
+| `alpine_scope_verified` | boolean | – | True when discovered from a country-specific Alpine directory on Skiresort.com. |
+| `alpine_scope_source` | string | – | Alpine directory classification used to select the resort. |
+| `elevation_base_m`, `elevation_top_m` | float | m a.s.l. | Lower and upper ski-area elevations from the listing card. |
+| `slope_km` | float | km | Total marked slope length from the listing card. |
+| `lifts_count` | float | count | Number of ski lifts from the listing card. |
+| `price_day_raw` | float | source currency | Adult day-ticket price as displayed by Skiresort.com. |
+| `currency` | string | ISO 4217 | Currency of `price_day_raw` (`EUR` or `CHF`). |
+| `price_day_eur` | float | EUR | EUR price displayed by the source. For CHF resorts, use only the source's explicitly stated approximate EUR value; no fixed FX conversion is applied. |
+| `price_method` | string | – | `source_eur`, `source_approx_eur`, or `chf_without_source_eur`. |
+| `rating_stars` | float | stars | Overall Skiresort.com resort rating parsed from the resort detail page. |
+| `snow_cannons` | float | count | Number of snow cannons reported on the Skiresort.com snow-reliability page. Missing when the source does not publish it. |
+| `snowmaking_pct` | float | percent | Share of slopes with snowmaking capabilities, as reported by Skiresort.com. |
+| `snow_reliability_stars` | float | stars | Skiresort.com snow-reliability evaluation. |
+| `access_villages` | string | – | Villages listed by Skiresort.com as serving the ski area. |
+| `nearest_access_village` | string | – | Closest listed village to the ski area, based on the source's stated distance. |
+| `nearest_village_distance_km` | float | km | Skiresort.com distance from the nearest listed village centre to the ski area. |
+| `source_latitude`, `source_longitude` | float | decimal degrees | Coordinates only when explicitly embedded in the Skiresort detail page. |
+| `source_coordinate_method` | string | – | Method used when Skiresort embeds a coordinate. |
+| `detail_page_url`, `snowmaking_page_url` | string | URL | Source pages used for resort rating, access-village and snowmaking enrichment. |
+| `detail_fetch_status`, `snowmaking_fetch_status` | string | – | Whether each source page was downloaded, read from cache, or unavailable. |
+| `detail_retrieved_at_utc` | datetime | UTC | Timestamp of detail-page enrichment. |
+| `price_imputed`, `manually_added` | boolean | – | Provenance flags. Both must remain false in this workflow. |
+| `observed_field_count` | integer | count | Number of non-missing listing values among base/top elevation, slope length, lifts and raw ticket price. |
+| `scrape_source`, `source_page` | string | URL / text | Listing and detail source provenance. |
+| `source_retrieved_at_utc` | datetime | UTC | Timestamp when the listing page was retrieved. |
+| `latitude`, `longitude` | float | decimal degrees | Validated WGS84 coordinate from Skiresort page metadata or a geocoder. |
+| `geocode_provider`, `geocode_source` | string | – | Provider used: Skiresort page metadata, Nominatim, Photon or Open-Meteo Geocoding. |
+| `geocode_display_name`, `geocode_query` | string | – | Returned place label and exact geocoding query. |
+| `geocode_osm_type`, `geocode_osm_id`, `geocode_class`, `geocode_type` | string | – | Available OSM result identifiers and classifications. |
+| `coordinate_reference` | string | – | Whether the point represents the resort page coordinate, resort-name geocode or nearest access-village point. |
+| `geocode_status` | string | – | `matched` or `not_found`; failed or unresolved results remain missing. |
+| `geocode_retrieved_at_utc` | datetime | UTC | Timestamp of the coordinate lookup. |
+| `dist_zurich_km`, `dist_geneva_km`, `dist_milan_km`, `dist_turin_km`, `dist_munich_km`, `dist_lyon_km` | float | km | Straight-line Haversine distance from the resort/access-village point to the city centre. Not road distance. |
+| `dist_nearest_city_km` | float | km | Minimum of the six city distances. |
+| `hotels_4_star_10km`, `hotels_5_star_10km`, `hotels_4_5_star_10km` | float | OSM objects | Mapped 4-star, 5-star and combined hotel objects within a 10 km Haversine radius. These are OSM objects, not an official count of unique hotel businesses. |
+| `hotel_query_status` | string | – | `success`, `unavailable` or `no_coordinates`. An unavailable query is not treated as zero hotels. |
+| `hotel_query_batch` | integer | batch ID | Small Overpass query batch used for the resort. |
+| `hotel_data_source` | string | – | OpenStreetMap Overpass when the batch completed successfully. |
 
 Supporting outputs:
-- `resorts_scrape_candidates.csv`: discovered listing candidates before the balanced 70-per-country selection.
-- `resorts_geocoded_cache.csv`: geocoding cache, including query/status and available OSM result metadata.
-- `hotels_cache.csv`: individual OSM hotel objects (node, way or relation), star tag, coordinates and retrieval timestamp. Counts reflect mapped objects and may include duplicate representations of the same establishment.
+- `resorts_scrape_candidates.csv`: all discovered Alpine listing candidates before balanced selection.
+- `resorts_geocoded_cache.csv`: fresh geocoding results, query/provider/status and returned place metadata; the previous legacy cache is not reused.
+- `hotels_cache.csv`: deduplicated OSM hotel objects (node, way or relation), star tag, coordinates and retrieval timestamp.
+- `resorts_feature_coverage.csv`: available-row counts and coverage percentages for each feature.
+- `overpass_batch_log.csv`: success/failure status, resort count and hotel-object count for each Overpass batch.
 
+**Missing-data rule:** a source field that is not published remains missing. A failed geocoding or Overpass request remains explicitly unavailable; it is never replaced with an Alpine centroid, an estimated hotel count, a country median or a slope/price proxy.
 
 ## Table `snow_winters` (one row per resort × winter) — owner: Matthias
 
