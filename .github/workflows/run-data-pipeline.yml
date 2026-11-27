@@ -1,14 +1,13 @@
 name: Run resort data pipeline
 
 on:
-  pull_request:
-    branches: [main]
+  push:
+    branches: ["lorenzo/data-quality-280-resorts"]
     paths:
       - ".github/workflows/run-data-pipeline.yml"
       - "notebooks/02.2_scraping.ipynb"
       - "notebooks/02.3_features_spatial.ipynb"
   workflow_dispatch:
-
 concurrency:
   group: ski-resort-data-pipeline-${{ github.event.pull_request.number || github.ref }}
   cancel-in-progress: true
