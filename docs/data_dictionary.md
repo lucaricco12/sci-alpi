@@ -37,13 +37,13 @@ Status: ✅ defined · 🔄 to be confirmed after the pilot test (step 1, 11 Nov
 | `dist_munich_km` | float | km | Great-circle Haversine distance to Munich city centre. |
 | `dist_lyon_km` | float | km | Great-circle Haversine distance to Lyon city centre. |
 | `dist_nearest_city_km` | float | km | Minimum of the six city distances above. These are straight-line distances, not road travel distances. |
-| `hotels_4_5_star_10km` | integer | count | Number of OSM-mapped 4- and 5-star hotels within 10 km of the resort coordinate. This is a point-radius proximity measure, not a resort-boundary count. |
+| `hotels_4_5_star_10km` | integer | count | Number of OSM-mapped 4- and 5-star hotel objects within 10 km of the resort coordinate. This is a point-radius proximity measure, not a resort-boundary count or a verified census of distinct hotel businesses; duplicate OSM representations may remain. |
 | `hotel_data_source` | string | – | OpenStreetMap Overpass when a hotel count could be calculated; missing when resort coordinates are unavailable. |
 
 Supporting outputs:
 - `resorts_scrape_candidates.csv`: discovered listing candidates before the balanced 70-per-country selection.
 - `resorts_geocoded_cache.csv`: geocoding cache, including query/status and available OSM result metadata.
-- `hotels_cache.csv`: individual OSM hotel objects (node, way or relation), star tag, coordinates and retrieval timestamp.
+- `hotels_cache.csv`: individual OSM hotel objects (node, way or relation), star tag, coordinates and retrieval timestamp. Counts reflect mapped objects and may include duplicate representations of the same establishment.
 
 
 ## Table `snow_winters` (one row per resort × winter) — owner: Matthias
