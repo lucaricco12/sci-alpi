@@ -4,30 +4,61 @@ One row per variable. Keep names in `snake_case`, units in the name when useful 
 Status: ✅ defined · 🔄 to be confirmed after the pilot test (step 1, 11 Nov 2026).
 
 #### Table `resorts_features.csv` (`data/processed/resorts_features.csv`) — owner: Lorenzo
-**Status:** ✅ Finalized (300 resorts: 75 CH, 75 IT, 75 AT, 75 FR | 17 features)
 
-| Variable | Type | Unit | Description | Status |
-| :--- | :--- | :--- | :--- | :--- |
-| `resort_name` | string | – | Commercial resort name (cross-border duplicates replaced 1:1). | ✅ |
-| `country` | string | ISO 3166-1 | Country code (`CH`, `IT`, `AT`, `FR`). Exactly 75 resorts per nation. | ✅ |
-| `elevation_base_m` | integer | m a.s.l. | Valley station altitude above sea level. | ✅ |
-| `elevation_top_m` | integer | m a.s.l. | Mountain summit station altitude above sea level. | ✅ |
-| `slope_km` | float | km | Total length of groomed ski slopes. | ✅ |
-| `lifts_count` | integer | count | Total count of operational ski lifts. | ✅ |
-| `price_day_eur` | float | EUR (€) | Harmonized adult 1-day pass price (CHF converted at fixed 1.05 rate). | ✅ |
-| `rating_stars` | float | stars (1–5) | Editorial review rating score from skiresort.info. | ✅ |
-| `latitude` | float | deg (WGS84) | Geographic latitude (La Rosière set to Savoy, France: 45.6267 N). | ✅ |
-| `longitude` | float | deg (WGS84) | Geographic longitude (La Rosière set to Savoy, France: 6.8489 E). | ✅ |
-| `dist_nearest_city_km` | float | km | Great-circle distance to the nearest feeder metropolis. | ✅ |
-| `dist_zurich_km` | float | km | Geodesic distance to Zurich city center. | ✅ |
-| `dist_geneva_km` | float | km | Geodesic distance to Geneva city center. | ✅ |
-| `dist_milan_km` | float | km | Geodesic distance to Milan city center. | ✅ |
-| `dist_turin_km` | float | km | Geodesic distance to Turin city center. | ✅ |
-| `dist_munich_km` | float | km | Geodesic distance to Munich city center. | ✅ |
-| `dist_lyon_km` | float | km | Geodesic distance to Lyon city center. | ✅ |
-| `hotels_4_5_star_10km` | integer | count | Count of 4- and 5-star hotel accommodations within a 10 km radius. | ✅ |
+**Target scope for the rebuilt workflow:** 280 unique Alpine ski areas, 70 each in Switzerland, Italy, Austria and France. Resort discovery uses Skiresort.com's Alpine country directories, not general country ski-resort directories. Each selected resort is enriched from its detail page and snow-reliability page. The new pipeline refreshes coordinates rather than reusing the legacy geocoding cache.
 
-*Note: Removed non-informative columns `snow_cannons`, `currency`, and `price_day_raw`.*
+| Variable | Type | Unit | Source / definition |
+| :--- | :--- | :--- | :--- |
+| `resort_name` | string | – | Resort name as shown by Skiresort.com. |
+| `country` | string | ISO 3166-1 alpha-2 | Canonical analysis country: `CH`, `IT`, `AT`, or `FR`. Cross-border ski domains are assigned once using documented slug rules. |
+| `url` | string | URL | Canonical Skiresort.com resort detail page; unique in the selected sample. |
+| `alpine_scope_verified` | boolean | – | True when discovered from a country-specific Alpine directory on Skiresort.com. |
+| `alpine_scope_source` | string | – | Alpine directory classification used to select the resort. |
+| `elevation_base_m`, `elevation_top_m` | float | m a.s.l. | Lower and upper ski-area elevations from the listing card, filled from the resort detail page only when missing. |
+| `slope_km` | float | km | Total marked slope length from the listing card, filled from the resort detail page only when missing. |
+| `lifts_count` | float | count | Number of ski lifts from the listing card, filled from the resort detail page only when missing. |
+| `price_day_raw` | float | source currency | Adult day-ticket price as displayed by Skiresort.com. |
+| `currency` | string | ISO 4217 | Currency of `price_day_raw` (`EUR` or `CHF`). |
+| `price_day_eur` | float | EUR | EUR price displayed by the source. For CHF resorts, use only the source's explicitly stated approximate EUR value; no fixed FX conversion is applied. |
+| `price_method` | string | – | `source_eur`, `source_approx_eur`, `chf_without_source_eur`, `detail_source_eur`, or `detail_source_chf_without_source_eur`. |
+| `rating_stars` | float | stars | Overall Skiresort.com resort rating parsed from the resort detail page. |
+| `snow_cannons` | float | count | Number of snow cannons reported on the Skiresort.com snow-reliability page. Missing when the source does not publish it. |
+| `snowmaking_pct` | float | percent | Share of slopes with snowmaking capabilities, as reported by Skiresort.com. |
+| `snow_reliability_stars` | float | stars | Skiresort.com snow-reliability evaluation. |
+| `access_villages` | string | – | Villages listed by Skiresort.com as serving the ski area. |
+| `nearest_access_village` | string | – | Closest listed village to the ski area, based on the source's stated distance. |
+| `nearest_village_distance_km` | float | km | Skiresort.com distance from the nearest listed village centre to the ski area. |
+| `source_latitude`, `source_longitude` | float | decimal degrees | Coordinates only when explicitly embedded in the Skiresort detail page. |
+| `source_coordinate_method` | string | – | Method used when Skiresort embeds a coordinate. |
+| `detail_page_url`, `snowmaking_page_url` | string | URL | Source pages used for resort rating, access-village and snowmaking enrichment. |
+| `detail_fetch_status`, `snowmaking_fetch_status` | string | – | Whether each source page was downloaded, read from cache, or unavailable. |
+| `detail_retrieved_at_utc` | datetime | UTC | Timestamp of detail-page enrichment. |
+| `elevation_source`, `slope_source`, `lifts_source`, `price_source` | string | – | Field-level provenance: Skiresort listing card or Skiresort detail page. Detail values are used only to fill missing listing values. |\n| `price_imputed`, `manually_added` | boolean | – | Provenance flags. Both must remain false in this workflow. |
+| `observed_field_count` | integer | count | Number of non-missing values among base/top elevation, slope length, lifts and raw ticket price after listing/detail-page enrichment. |
+| `scrape_source`, `source_page` | string | URL / text | Listing and detail source provenance. |
+| `source_retrieved_at_utc` | datetime | UTC | Timestamp when the listing page was retrieved. |
+| `latitude`, `longitude` | float | decimal degrees | Validated WGS84 coordinate from Skiresort page metadata or a geocoder. |
+| `geocode_provider`, `geocode_source` | string | – | Provider used: Skiresort page metadata, Nominatim, Photon or Open-Meteo Geocoding. |
+| `geocode_display_name`, `geocode_query` | string | – | Returned place label and exact geocoding query. |
+| `geocode_osm_type`, `geocode_osm_id`, `geocode_class`, `geocode_type` | string | – | Available OSM result identifiers and classifications. |
+| `coordinate_reference` | string | – | Whether the point represents the resort page coordinate, resort-name geocode or nearest access-village point. |
+| `geocode_status` | string | – | `matched` or `not_found`; failed or unresolved results remain missing. |
+| `geocode_retrieved_at_utc` | datetime | UTC | Timestamp of the coordinate lookup. |
+| `dist_zurich_km`, `dist_geneva_km`, `dist_milan_km`, `dist_turin_km`, `dist_munich_km`, `dist_lyon_km` | float | km | Straight-line Haversine distance from the resort/access-village point to the city centre. Not road distance. |
+| `dist_nearest_city_km` | float | km | Minimum of the six city distances. |
+| `hotels_4_star_10km`, `hotels_5_star_10km`, `hotels_4_5_star_10km` | float | OSM objects | Mapped 4-star, 5-star and combined hotel objects within a 10 km Haversine radius. These are OSM objects, not an official count of unique hotel businesses. |
+| `hotel_query_status` | string | – | `success`, `unavailable` or `no_coordinates`. An unavailable query is not treated as zero hotels. |
+| `hotel_query_batch` | integer | batch ID | Small Overpass query batch used for the resort. |
+| `hotel_data_source` | string | – | OpenStreetMap Overpass when the batch completed successfully. |
+
+Supporting outputs:
+- `resorts_scrape_candidates.csv`: all discovered Alpine listing candidates before balanced selection.
+- `resorts_geocoded_cache.csv`: fresh geocoding results, query/provider/status and returned place metadata; the previous legacy cache is not reused.
+- `hotels_cache.csv`: deduplicated OSM hotel objects (node, way or relation), star tag, coordinates and retrieval timestamp.
+- `resorts_feature_coverage.csv`: available-row counts and coverage percentages for each feature.
+- `overpass_batch_log.csv`: success/failure status, resort count and hotel-object count for each Overpass batch.
+
+**Missing-data rule:** a source field that is not published remains missing. A failed geocoding or Overpass request remains explicitly unavailable; it is never replaced with an Alpine centroid, an estimated hotel count, a country median or a slope/price proxy.
 
 ## Table `snow_winters` (one row per resort × winter) — owner: Matthias
 
@@ -77,31 +108,6 @@ Status: ✅ defined · 🔄 to be confirmed after the pilot test (step 1, 11 Nov
 | `source_page` | integer | page | Legambiente | PDF page where the entry appears ✅ |
 | `lat`, `lon` | float | degrees | Nominatim | Geocoded location 🔄 (next step) |
 | `matched` | boolean | – | derived | True if geocoding succeeded 🔄 (next step) |
-
-#### Table resorts_features (`data/processed/resorts_features.csv`) — 300 Alpine Ski Resorts
-Status: source feature table contains 300 rows and 22 columns, with 293 distinct source URLs. Lift counts are missing and the coordinate/identity review is pending. See `data/processed/snow_resort_input_review.csv`; this table is not yet an approved unique-area climate sample.
-
-The listed fields below describe the intended feature meanings. The current source data include duplicate/cross-border records, filled prices and suspect coordinates; a populated field does not establish verified provenance.
-
-| Variable | Type | Unit | Source | Description | Status |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| `resort_name` | text / string | – | `skiresort.info` | Full registered commercial name of the ski resort. | ✅ |
-| `country` | text / string | ISO 3166-1 alpha-2 | `skiresort.info` | Alpine nation code (`CH`, `IT`, `AT`, `FR`). Exactly 75 resorts per country. | ✅ |
-| `elevation_base_m` | integer | m a.s.l. | `skiresort.info` | Valley / bottom lift elevation station above sea level. | ✅ |
-| `elevation_top_m` | integer | m a.s.l. | `skiresort.info` | Highest skiable mountain summit elevation station above sea level. | ✅ |
-| `slope_km` | float | km | `skiresort.info` | Total length of groomed ski slopes / pistes. | ✅ |
-| `price_day_eur` | float | EUR (€) | `skiresort.info` + ECB | Harmonized adult 1-day pass price in main season (converted from CHF at 1.05 rate). | ✅ |
-| `rating_stars` | float | stars (1.0–5.0) | `skiresort.info` | Overall editorial and test evaluation score. | ✅ |
-| `latitude` | float | decimal degrees | OSM Nominatim API | Geographic latitude (WGS84 coordinate reference system). | ✅ |
-| `longitude` | float | decimal degrees | OSM Nominatim API | Geographic longitude (WGS84 coordinate reference system). | ✅ |
-| `dist_nearest_city_km` | float | km | Derived (Haversine) | Great-circle distance to the closest major feeder metropolis (min of the 6 hubs). | ✅ |
-| `dist_zurich_km` | float | km | Derived (Haversine) | Geodesic distance to Zurich city center (47.3769° N, 8.5417° E). | ✅ |
-| `dist_geneva_km` | float | km | Derived (Haversine) | Geodesic distance to Geneva city center (46.2044° N, 6.1432° E). | ✅ |
-| `dist_milan_km` | float | km | Derived (Haversine) | Geodesic distance to Milan city center (45.4642° N, 9.1900° E). | ✅ |
-| `dist_turin_km` | float | km | Derived (Haversine) | Geodesic distance to Turin city center (45.0703° N, 7.6869° E). | ✅ |
-| `dist_munich_km` | float | km | Derived (Haversine) | Geodesic distance to Munich city center (48.1351° N, 11.5820° E). | ✅ |
-| `dist_lyon_km` | float | km | Derived (Haversine) | Geodesic distance to Lyon city center (45.7640° N, 4.8357° E). | ✅ |
-| `hotels_4_5_star_10km` | integer | count | OSM Overpass API | Number of 4- and 5-star hotels within a 10 km radial buffer (luxury/prestige proxy). | ✅ |
 
 ## Matched snow validation — owner: Matthias
 
