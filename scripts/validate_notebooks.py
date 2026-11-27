@@ -39,7 +39,7 @@ function_nodes = [
     if isinstance(node, ast.FunctionDef)
     and node.name in {
         "normalise_text", "to_number", "parse_listing_card",
-        "extract_villages", "parse_detail_page", "parse_snowmaking_page",
+        "extract_villages", "extract_page_coordinates", "parse_detail_page", "parse_snowmaking_page",
     }
 ]
 namespace = {
