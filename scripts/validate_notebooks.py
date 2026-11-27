@@ -71,6 +71,8 @@ sample_chf = parse_card(
 assert sample_chf["price_day_raw"] == 89
 assert sample_chf["currency"] == "CHF"
 assert sample_chf["price_day_eur"] == 94
+assert namespace["to_number"]("2,426") == 2426
+assert namespace["to_number"]("69,50") == 69.5
 
 snow = namespace["parse_snowmaking_page"](
     "Artificial snow-making 1200 Snow cannons 95 % of the slopes have snow-making capabilities"
@@ -91,6 +93,21 @@ detail = namespace["parse_detail_page"](
 assert detail["rating_stars"] == 4.2
 assert detail["nearest_access_village"] == "Grossdorf"
 assert detail["nearest_village_distance_km"] == 0.2
+
+detail_metrics = namespace["parse_detail_page"](
+    "<html><body>Test report 4.2 stars "
+    "Elevation info 933 m - 2,426 m (Difference 1,493 m) "
+    "Ski slopes Total: 40 km Easy 8.5 km Intermediate 25.5 km Difficult 6 km "
+    "Ski lifts Total: 12 3 5 4 "
+    "Ski pass prices Day ticket Main season Adults Children € 74,- € 37,- "
+    "Feedback for the Skiresort Team</body></html>"
+)
+assert detail_metrics["detail_elevation_base_m"] == 933
+assert detail_metrics["detail_elevation_top_m"] == 2426
+assert detail_metrics["detail_slope_km"] == 40
+assert detail_metrics["detail_lifts_count"] == 12
+assert detail_metrics["detail_price_day_raw"] == 74
+assert detail_metrics["detail_price_day_eur"] == 74
 
 # Alpine directory scope must be explicit for the four countries in this project.
 setup_source = "".join(nb22["cells"][1]["source"])
