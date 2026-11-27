@@ -61,6 +61,13 @@ assert r'["stars"~"^(4|5)(\.0)?$"]' in overpass_source
 assert 'out center tags;' in overpass_source
 assert r'\"tourism\"' not in overpass_source
 
+# pandas nullable string assignment must work with the NumPy 2 runtime used in CI.
+hotel_counts = pd.Series([0.0, np.nan], dtype="float64")
+hotel_source = pd.Series(pd.NA, index=hotel_counts.index, dtype="string")
+hotel_source.loc[hotel_counts.notna()] = "OpenStreetMap Overpass"
+assert hotel_source.iloc[0] == "OpenStreetMap Overpass"
+assert pd.isna(hotel_source.iloc[1])
+
 print("PASS: all notebook code cells compile.")
 print("PASS: EUR and CHF/EUR Skiresort parser smoke tests.")
 print("PASS: Overpass query quoting, hotel types and star filter.")
