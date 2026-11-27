@@ -1,0 +1,44 @@
+name: Run resort data pipeline
+
+on:
+  push:
+    branches: ["lorenzo/data-quality-280-resorts"]
+    paths:
+      - ".github/workflows/run-data-pipeline.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  run-pipeline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install notebook runtime
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install numpy pandas requests beautifulsoup4 matplotlib jupyter nbconvert ipykernel
+      - name: Execute 02.2 scraping
+        run: jupyter nbconvert --to notebook --execute --inplace --ExecutePreprocessor.timeout=1800 notebooks/02.2_scraping.ipynb
+      - name: Execute 02.3 spatial features and EDA
+        run: jupyter nbconvert --to notebook --execute --inplace --ExecutePreprocessor.timeout=1800 notebooks/02.3_features_spatial.ipynb
+      - name: Upload generated datasets and executed notebooks
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ski-resort-pipeline-results
+          path: |
+            data/processed/resorts_scrape_candidates.csv
+            data/processed/resorts_clean.csv
+            data/processed/resorts_features.csv
+            data/processed/resorts_geocoded_cache.csv
+            data/processed/hotels_cache.csv
+            notebooks/02.2_scraping.ipynb
+            notebooks/02.3_features_spatial.ipynb
+          if-no-files-found: warn
+          retention-days: 7
