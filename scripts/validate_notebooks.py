@@ -39,7 +39,7 @@ function_nodes = [
     if isinstance(node, ast.FunctionDef)
     and node.name in {
         "normalise_text", "to_number", "parse_listing_card",
-        "extract_villages", "parse_snowmaking_page",
+        "extract_villages", "parse_detail_page", "parse_snowmaking_page",
     }
 ]
 namespace = {
@@ -77,6 +77,20 @@ snow = namespace["parse_snowmaking_page"](
 )
 assert snow["snow_cannons"] == 1200
 assert snow["snowmaking_pct"] == 95
+snow_thousands = namespace["parse_snowmaking_page"](
+    "Artificial snow-making 1,200 Snow cannons 95 % of the slopes have snow-making capabilities"
+)
+assert snow_thousands["snow_cannons"] == 1200
+
+detail = namespace["parse_detail_page"](
+    "<html><body>Test report 4.2 stars "
+    "Towns/villages at the ski resort (distance from town center): "
+    "Matrei in Osttirol (1.3 km) Kals am Grossglockner (1.7 km) "
+    "Grossdorf (0.2 km) Feedback for the Skiresort Team</body></html>"
+)
+assert detail["rating_stars"] == 4.2
+assert detail["nearest_access_village"] == "Grossdorf"
+assert detail["nearest_village_distance_km"] == 0.2
 
 # Alpine directory scope must be explicit for the four countries in this project.
 setup_source = "".join(nb22["cells"][1]["source"])
