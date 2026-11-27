@@ -1,5 +1,10 @@
+import ast
 import json
+import re
+import unicodedata
 from pathlib import Path
+
+import numpy as np
 
 ROOT = Path(__file__).resolve().parents[1]
 NOTEBOOK_22 = ROOT / "notebooks" / "02.2_scraping.ipynb"
@@ -27,8 +32,14 @@ setup_cell = next(
     if cell.get("cell_type") == "code"
     and "def parse_listing_card" in "".join(cell.get("source", []))
 )
-namespace = {}
-exec("".join(setup_cell["source"]), namespace)
+setup_tree = ast.parse("".join(setup_cell["source"]))
+function_nodes = [
+    node for node in setup_tree.body
+    if isinstance(node, ast.FunctionDef)
+    and node.name in {"normalise_text", "to_number", "parse_listing_card"}
+]
+namespace = {"np": np, "re": re, "unicodedata": unicodedata}
+exec(compile(ast.Module(body=function_nodes, type_ignores=[]), "02.2_parser_functions", "exec"), namespace)
 smoke_cell = next(
     cell for cell in nb22["cells"]
     if cell.get("cell_type") == "code"
