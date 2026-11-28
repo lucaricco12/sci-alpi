@@ -1,0 +1,16 @@
+{
+  "provisional": true,
+  "features_used": [
+    "elevation_top_m",
+    "vertical_drop_m",
+    "rating_stars"
+  ],
+  "excluded_not_verified": [
+    "slope_km (not verified)",
+    "lifts_count (empty)",
+    "hotels_4_5_star_10km (not measured)"
+  ],
+  "n_areas": 269,
+  "k": 2,
+  "seed": 42
+}

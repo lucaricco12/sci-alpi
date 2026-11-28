@@ -1,0 +1,8 @@
+{
+  "provisional": true,
+  "risk_class": "altitude proxy: midpoint altitude below 1500 m (not days with snow)",
+  "replace_with": "snow-risk class from SQ1 once the snow data for all places are decided",
+  "n_closed_alpine": 116,
+  "n_operating": 69,
+  "threshold_m": 1500
+}
