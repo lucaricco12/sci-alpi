@@ -4,6 +4,35 @@ Data Analytics project, ZHAW School of Management and Law, HS2026 (Dr. Mario Gel
 
 **Team:** Luca · Lorenzo · Matthias
 
+## Where the project stands (28 November 2026)
+
+| Part | Notebook / script | Status |
+| --- | --- | --- |
+| Country statistics (Eurostat, ECB rates) | `01_country_stats` | ✅ done |
+| Resort data (scraping, repair) | `02.4_resort_data_repair` (`02.2`, `02.3` are the first, **legacy** versions) | ✅ repaired, **slope length, lifts, hotels and coordinate verification still need the Codespace scripts** |
+| Closed Italian lifts | `04_legambiente_closures` | ✅ done |
+| Snow: measured stations, model checks, map | `03.3_matthias_checkpoints`, `src/run_snow_checkpoints.py` | ✅ 20 Swiss stations; 🔄 snow for all resorts pending (method not yet decided) |
+| SQLite / PostgreSQL | `05_sqlite_database`, `05.2_postgresql_database` | ✅ |
+| SQ4 affordability, ANOVA, correlations | `05.3_affordability_and_tests` | ✅ |
+| Price EDA | `06_price_eda` | ✅ |
+| SQ3 K-means + regression | `07_clustering_and_regression` | 🔄 **provisional** until slope, lifts and hotels are verified |
+| SQ5 chi-squared (Italian closures) | `08_closures_chi_squared` | 🔄 **provisional** (risk class = altitude proxy, not days with snow) |
+| SQ1/SQ2 climate regression and station check | Matthias's checkpoint notebook | ✅ for 20 Swiss stations; four-country result pending |
+
+**Why "provisional":** an audit on 27–28 November found that the resort table contained invented rows, a fabricated hotel column, lost and wrong coordinates and an artefact lift count. It was repaired (see `docs/integration_log.md`, `data/processed/resorts_repair_audit.csv`). Variables that cannot be verified yet are left **empty or flagged** (`data/processed/data_status.json`), and every notebook reads these flags. *Missing is better than invented.*
+
+### To do in the Codespace (the sites are not reachable from the AI workspace)
+
+```bash
+python src/reparse_skiresort.py --download   # real slope length, ski routes, lifts (--download is needed if the cached pages of Lorenzo's Codespace are not there)
+python src/fetch_hotels_overpass.py          # real 4-5 star hotel counts from OpenStreetMap
+python src/verify_resort_coordinates.py      # independent check of all 293 positions (about 6 minutes)
+```
+
+Then run the notebooks in this order with **Run All**: `02.4` → `05` → `05.2` → `05.3` → `06` → `07` → `08`. Every notebook ends with "All checks passed." Run `python -m pytest` before and after.
+
+Still to decide as a group: the snow method for all resorts (Matiu et al. 2021 stations or CERRA-Land), one EUR/CHF rate, the canonical country of cross-border areas, and the six areas flagged as outside the Alps.
+
 ## Matthias's November 25 / December 2 checkpoints
 
 Open **[notebooks/03.3_matthias_checkpoints.ipynb](notebooks/03.3_matthias_checkpoints.ipynb)** and choose **Run All**. It uses saved inputs and shows the exploration, regressions, station checks, map and database handover. No API download is needed by default.
@@ -31,9 +60,9 @@ To what extent has natural snow reliability in Swiss, Italian, Austrian and Fren
 | --- | --- | --- |
 | SQ1 Climate | How many days with ≥ 30 cm of natural snow has a typical winter lost? Is the loss larger below 1,500 m and in Italy? | Difference between periods per resort; ANOVA by country and elevation band; linear regression of the loss on elevation × country |
 | SQ2 Data quality | Does the ERA5-Land reanalysis (Open-Meteo) show the same trend as MeteoSwiss station measurements? | Correlation with p-value, bias, RMSE |
-| SQ3 Prices | Holding size, elevation and prestige cluster constant, are resorts with less reliable snow cheaper? | K-means (prestige clusters) + OLS regression of log price, compared across clusters |
+| SQ3 Prices | Holding size, elevation and prestige cluster constant, are resorts with less reliable snow cheaper? | K-means (prestige clusters) + OLS regression of the log price relative to the national price level, compared across clusters; 5-fold cross-validation |
 | SQ4 Affordability | How many working hours does a day pass cost a local skier and a cross-border skier? | "Working hours per ski pass" index; 4 × 4 matrix country of origin × destination; EUR/CHF exchange rate |
-| SQ5 Closures (Italy) | Do the ski facilities closed according to Legambiente fall into the "at risk" group? | Chi-squared test: status × snow-risk class |
+| SQ5 Closures (Italy) | Do the ski facilities closed according to Legambiente fall into the "at risk" group? | Chi-squared test: closed facility / operating area × risk class (altitude proxy until the snow-risk class exists), plus status × risk class |
 
 ## Definitions
 
@@ -55,7 +84,7 @@ To what extent has natural snow reliability in Swiss, Italian, Austrian and Fren
 | MeteoSwiss Open Data | CSV download | Measured daily snow depth at Swiss stations |
 | Eurostat (`prc_ppp_ind`, `earn_nt_net`) | Web API | Price level index, average net earnings |
 | Frankfurter (ECB rates) | Web API | EUR/CHF exchange rate |
-| OSM Overpass | Web API | 4–5 star hotels near each resort |
+| OSM Overpass | Web API | 4–5 star hotels near each resort (**script ready, to be run in the Codespace**) |
 | Legambiente, Nevediversa 2026 | PDF report | Closed ski facilities in Italy |
 
 ## Repository structure
@@ -64,13 +93,17 @@ To what extent has natural snow reliability in Swiss, Italian, Austrian and Fren
 sci-alpi/
 ├── data/
 │   ├── raw/          # raw HTML and API responses (not pushed to GitHub)
-│   └── processed/    # cleaned CSV files
-├── db/               # SQLite database
-├── notebooks/        # 01_country_stats … 06_models
-├── docs/             # ai_log.md, data_dictionary.md, integration_log.md
+│   └── processed/    # CSV files, audit files, data_status.json, test results (sq3_*, sq5_*)
+├── db/               # SQLite database sci_alpi.db (rebuilt by notebook 05)
+├── notebooks/        # 01 … 08, see the table at the top
+├── src/              # scripts: scraping parser, hotel download, coordinate verification, Matthias's snow workflow
+├── tests/            # python -m pytest (107 tests, include data-integrity tests)
+├── docs/             # ai_log.md, data_dictionary.md, integration_log.md, figures/, Matthias's reports
 ├── requirements.txt
 └── README.md
 ```
+
+**Notes.** `src/run_snow_checkpoints.py` rebuilds both checkpoints (notebook `03.3`); `src/run_snow_analysis.py` rebuilds the earlier model–station validation (notebook `03.2`). Notebooks `02.2` and `02.3` are kept as the first, legacy versions (their outputs have the suffix `_legacy_quota75`); the current resort tables come from `02.4`. Never join resort tables by name (the names contain invisible characters): use `resort_id`.
 
 ## How to run Matthias's results
 

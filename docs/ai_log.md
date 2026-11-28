@@ -208,7 +208,7 @@ Required for the final project: which AI tools we used, for which tasks, advanta
 * **Validation/limits:** All 79 tests passed, covering exact duplicates, preserving a distinct winter request, missing metadata, altered cache and no-mutation assertions. Actual queued selections remain account-side evidence to inspect; no jobs or scientific outputs were changed here.
 
 
-# AI Usage Log
+## Earlier entries of Lorenzo (Gemini Notebook, format of his first entries)
 
 ---
 
@@ -219,7 +219,7 @@ Required for the final project: which AI tools we used, for which tasks, advanta
 * **Target Objective:** Clean scraped ski resort data, harmonize currencies to EUR, impute missing adult ticket prices, and resolve cross-border resort overlap while strictly maintaining 75 resorts per country.
 * **What Worked Well:** Automated parsing of structural slope metrics and country sample balancing.
 * **Errors & Pitfalls:** Cross-border resort overlap (`La Thuile / La Rosière` and `Ischgl / Samnaun`) caused national quota imbalances.
-* **Human Verification & Resolution:** Implemented 1:1 resort replacements (`Pila – Aosta` for IT, `Scuol – Motta Naluns` for CH) to lock national sample sizes at 75 resorts each (300 total). Imputed verified official 1-day adult pass prices for Alta Badia (€74.00) and Galtür (€56.50).
+* **Human Verification & Resolution:** Implemented 1:1 resort replacements (`Pila – Aosta` for IT, `Scuol – Motta Naluns` for CH) to lock national sample sizes at 75 resorts each (300 total). **Correction found on 28 Nov 2026 (audit, see the entry below):** the 75-per-country quota created invented rows (national medians) and dropped real resorts; the repair is in notebook `02.4`. Original text: Imputed verified official 1-day adult pass prices for Alta Badia (€74.00) and Galtür (€56.50).
 
 ---
 
@@ -231,3 +231,19 @@ Required for the final project: which AI tools we used, for which tasks, advanta
 * **What Worked Well:** Vectorized Haversine spherical distance calculations for urban proximity metrics.
 * **Errors & Pitfalls:** Automated OSM Nominatim geocoding misplaced La Rosière near southwestern France.
 * **Human Verification & Resolution:** Manually overridden La Rosière coordinates to Savoy, French Alps (45.6267° N, 6.8489° E) and verified all distance calculations.
+* **Correction found on 28 Nov 2026 (audit):** the coordinates were merged by name and were lost for 291 of 300 rows; 14 more were more than 50 km off; the "4–5 star hotels within 10 km" column was a formula of slope and price, not an Overpass count. Details in `docs/integration_log.md` and `data/processed/resorts_repair_audit.csv`.
+
+## 2026-11-27/28 – Luca: audit and repair of the whole repository, new notebooks `02.4`, `06`, `07`, `08`
+
+* **Tool used:** Claude (Claude Code session connected to the GitHub repository; the AI workspace has no access to skiresort.com, Overpass, Nominatim or Zenodo).
+* **Task:** Luca asked for a complete check and "to fix everything, including Lorenzo's part, write all missing code and bring everything up to date". The assistant (1) audited the data and the notebooks, (2) repaired the resort tables (`02.4`), (3) adapted `05`, `05.2`, `05.3` to the repaired tables, (4) wrote `06` (price EDA), `07` (K-means + OLS regression, SQ3), `08` (chi-squared test, SQ5), (5) wrote `src/skiresort_parser.py`, `src/reparse_skiresort.py`, `src/fetch_hotels_overpass.py` and `src/verify_resort_coordinates.py` for the steps that need the internet, with unit tests, (6) updated the documentation.
+* **What worked:** Searching for impossible values instead of trusting the tests: the hotel counts were a formula of slope and price, the lift count was 12 for every Swiss and Italian row, the coordinate merge by name lost 291 rows, two geocoders agreed on the same wrong place for several resorts. Re-computing every result a second way (pandas against SQL, by hand against scipy). Putting honesty flags in the data (`slope_status`, `hotels_status`, `coordinate_check`, `price_source`) that the notebooks read, so that results are marked PROVISIONAL automatically. 107 passing tests (58 before the audit), including `tests/test_resort_data_integrity.py` that protects against the errors found.
+* **What did not work / limits:** The 58 existing tests had passed while the data were wrong: tests of code do not test data. The hotel counts, the corrected slope and lift values and the verification of all coordinates could not be produced in the AI workspace because the sites are blocked; they are scripts for the Codespace. Positions of 226 areas still rest on name-based geocoding, which is not independent proof; 20 positions were corrected by hand-reading the geography and are approximate. The SQ5 result uses an altitude proxy, not days with snow, and depends on how a single lift is compared with a whole ski area (reported with sensitivity checks).
+* **Human verification:** To be completed by Luca (a notebook that has not been run by a human in the Codespace is not verified): pull the repository, run `python -m pytest`, run the three scripts above, re-run notebooks `02.4`, `05`, `05.2`, `05.3`, `06`, `07`, `08` with Run All, check that each prints "All checks passed.", and read the interpretation texts. Also check Sainte-Foy-Tarentaise and the 20 approximate corrections on a map.
+
+## Draft of the summary for the presentation (from the log so far, Luca to confirm and complete)
+
+* **Tools used:** Claude (research question, plan, notebooks 01, 04, 05, 05.2, 05.3, 06, 07, 08, repair 02.4, scripts and tests; Matthias's snow workflow), Gemini Notebook (Lorenzo's scraping, harmonisation and spatial features).
+* **Advantages:** fast first versions of scrapers, APIs and SQL; unit tests and re-computation of results in a second way; step-by-step explanations for a team with little programming experience.
+* **Disadvantages:** AI-written code can look finished while the data are wrong (fabricated hotel counts, lost coordinates, invented rows); passing tests gave false confidence; some facts (table names, rate limits, website changes) had to be checked by hand.
+* **Where AI did not work:** the first Eurostat table was wrong; the 75-per-country quota and the name-based merge corrupted the resort table; geocoders agreed on wrong places; CERRA-Land requests were rejected by the provider queue.

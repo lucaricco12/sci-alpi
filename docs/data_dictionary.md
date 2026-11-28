@@ -3,31 +3,48 @@
 One row per variable. Keep names in `snake_case`, units in the name when useful (`_m`, `_km`, `_eur`).
 Status: ✅ defined · 🔄 to be confirmed after the pilot test (step 1, 11 Nov 2026).
 
-#### Table `resorts_features.csv` (`data/processed/resorts_features.csv`) — owner: Lorenzo
-**Status:** ✅ Finalized (300 resorts: 75 CH, 75 IT, 75 AT, 75 FR | 17 features)
+#### Table `resorts_features.csv` (`data/processed/resorts_features.csv`) — owner: Lorenzo (scraping), repaired by Luca in notebook `02.4`
+**Status:** ✅ repaired on 28 November 2026 · **293 ski areas** (one row per Skiresort URL; AT 75, IT 74, CH 73, FR 71) · 36 columns · `resorts_clean.csv` holds the first 21 columns (no coordinates, distances, hotels).
 
-| Variable | Type | Unit | Description | Status |
-| :--- | :--- | :--- | :--- | :--- |
-| `resort_name` | string | – | Commercial resort name (cross-border duplicates replaced 1:1). | ✅ |
-| `country` | string | ISO 3166-1 | Country code (`CH`, `IT`, `AT`, `FR`). Exactly 75 resorts per nation. | ✅ |
-| `elevation_base_m` | integer | m a.s.l. | Valley station altitude above sea level. | ✅ |
-| `elevation_top_m` | integer | m a.s.l. | Mountain summit station altitude above sea level. | ✅ |
-| `slope_km` | float | km | Total length of groomed ski slopes. | ✅ |
-| `lifts_count` | integer | count | Total count of operational ski lifts. | ✅ |
-| `price_day_eur` | float | EUR (€) | Harmonized adult 1-day pass price (CHF converted at fixed 1.05 rate). | ✅ |
-| `rating_stars` | float | stars (1–5) | Editorial review rating score from skiresort.info. | ✅ |
-| `latitude` | float | deg (WGS84) | Geographic latitude (La Rosière set to Savoy, France: 45.6267 N). | ✅ |
-| `longitude` | float | deg (WGS84) | Geographic longitude (La Rosière set to Savoy, France: 6.8489 E). | ✅ |
-| `dist_nearest_city_km` | float | km | Great-circle distance to the nearest feeder metropolis. | ✅ |
-| `dist_zurich_km` | float | km | Geodesic distance to Zurich city center. | ✅ |
-| `dist_geneva_km` | float | km | Geodesic distance to Geneva city center. | ✅ |
-| `dist_milan_km` | float | km | Geodesic distance to Milan city center. | ✅ |
-| `dist_turin_km` | float | km | Geodesic distance to Turin city center. | ✅ |
-| `dist_munich_km` | float | km | Geodesic distance to Munich city center. | ✅ |
-| `dist_lyon_km` | float | km | Geodesic distance to Lyon city center. | ✅ |
-| `hotels_4_5_star_10km` | integer | count | Count of 4- and 5-star hotel accommodations within a 10 km radius. | ✅ |
+The first version had 300 rows with 12 rows added by hand (every number = national median), a fabricated hotel column, an artefact lift count and a lost-coordinate merge. What was wrong and how it was repaired is in `docs/integration_log.md` and in `data/processed/resorts_repair_audit.csv`. The status columns say which variables are verified; **a populated value is not proof of a verified value**.
 
-*Note: Removed non-informative columns `snow_cannons`, `currency`, and `price_day_raw`.*
+| Variable | Type | Unit | Source | Description | Status |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| `resort_id` | text | – | Skiresort URL | Last part of the Skiresort URL (stable key; names contain invisible characters, never join on names). | ✅ |
+| `resort_name` | text | – | skiresort.com | Commercial name. | ✅ |
+| `country` | text | ISO 3166-1 | skiresort.com | `CH`, `AT`, `FR`, `IT`; the country of the listing. The 75-per-country quota is **not** kept (it removed real resorts and created cross-border duplicates). | ✅ |
+| `country_memberships` | text | – | Matthias's roster | Countries of cross-border systems, separated by `;` (for example `FR;IT`). | ✅ |
+| `cross_border` | boolean | – | derived | True if `country_memberships` has more than one country. | ✅ |
+| `url` | text | – | skiresort.com | Source page. | ✅ |
+| `elevation_base_m`, `elevation_top_m` | integer | m a.s.l. | skiresort.com | Lowest and highest lift station. | ✅ |
+| `slope_km` | float | km | skiresort.com | **Slope length.** The first parser took the *ski-routes* figure; this value is only used when `slope_status = reparsed`. | 🔄 until `python src/reparse_skiresort.py` is run |
+| `ski_routes_km` | float | km | skiresort.com | Ski routes (all runs including unprepared); filled by the re-parse. | 🔄 |
+| `slope_status` | text | – | derived | `unverified_old_parser` or `reparsed`. | ✅ |
+| `lifts_count` | integer | count | skiresort.com | Number of lifts; the first version had 12 for every CH and IT row (artefact), now empty until re-parsed. | 🔄 |
+| `rating_stars` | float | 1–5 | skiresort.com | Editorial rating. | ✅ |
+| `price_day_raw` | float | currency of the listing | skiresort.com | Adult day pass as scraped. | ✅ |
+| `currency` | text | – | skiresort.com | `EUR` or `CHF`. | ✅ |
+| `price_day_eur` | float | EUR | derived | CHF converted with a fixed 1.05 (a single rate for the group is still to be decided; the 2025 average rate gives +1.6 %). | ✅ |
+| `price_source` | text | – | derived | `scraped` (291) or `manual_entry` (2, official price typed by hand). | ✅ |
+| `in_alpine_candidate_set` | boolean | – | Matthias's roster | 275 areas in his Alpine candidate set. | ✅ |
+| `in_alpine_analysis_set` | boolean | – | derived | **269 areas used for analysis**: candidate set without the 6 areas that are outside the Alps by geography. | ✅ |
+| `scope_decision` | text | – | Matthias's roster | His scope decision. | ✅ |
+| `alps_review_flag` | text | – | derived | Reason when an area is outside the Alps by geography (Hochficht, Abetone, Lelex-Crozet, Saint-Lary-Soulan, Font-Romeu, Cimone); empty otherwise. | ✅ |
+| `latitude`, `longitude` | float | deg (WGS84) | Nominatim + review | Position, joined by `resort_id`. See `coordinate_check` for how reliable it is. | 🔄 |
+| `coordinate_method` | text | – | derived | `source_first_listed_lift_access` (Skiresort access point), geocoding method, or `manual_correction_approximate`. | ✅ |
+| `coordinate_check` | text | – | derived | `verified_access_point` (compared with the source page), `access_point_within_15km_review`, `manual_correction` (20 approximate corrections), `geocoders_agree_not_independent` (two name-based geocoders agree; **not** independent proof), `two_geocodes_differ_review`, `single_geocode_only`. | ✅ |
+| `geocode_difference_km` | float | km | derived | Distance between the two geocoding runs. | ✅ |
+| `nearest_other_resort_km` | float | km | derived | Distance to the nearest other resort of the table (isolation screen: every analysis area has one within 40 km). | ✅ |
+| `dist_zurich_km`, `dist_geneva_km`, `dist_milan_km`, `dist_turin_km`, `dist_munich_km`, `dist_lyon_km` | float | km | derived | Great-circle distance to the city centre. | ✅ |
+| `dist_nearest_city_km` | float | km | derived | Minimum of the six. | ✅ |
+| `hotels_4_5_star_10km` | integer | count | OpenStreetMap Overpass | 4- and 5-star hotels within 10 km. **Empty until `python src/fetch_hotels_overpass.py` is run**; the first version was a formula of slope and price, not a count. | 🔄 |
+| `hotels_status` | text | – | derived | `not_measured` or `openstreetmap_overpass`. | ✅ |
+
+`data/processed/data_status.json` stores the set of `slope_status` and `hotels_status` values. The notebooks read it and mark every result as **PROVISIONAL** while a variable is unverified. `tests/test_resort_data_integrity.py` checks that the flags match the columns.
+
+Other files of the repair: `resorts_repair_audit.csv` (every removed, changed or flagged item with the reason, columns `item`, `action`, `reason`), `resorts_scraped_before_quota.csv` (original scrape before the quota), `resorts_features_25nov_before_repair.csv` (the faulty version, kept as evidence), `resort_coordinate_verification.csv` (created by `src/verify_resort_coordinates.py`; one row per resort with the distance to the nearest access point of the source page and the status `confirmed` ≤ 5 km, `review` 5–15 km, `mismatch` > 15 km).
+
+*Removed columns: `snow_cannons` (0 for every resort, parsing failure).*
 
 ## Table `snow_winters` (one row per resort × winter) — owner: Matthias
 
@@ -73,35 +90,12 @@ Status: ✅ defined · 🔄 to be confirmed after the pilot test (step 1, 11 Nov
 | `province` | text | – | Legambiente | Province code (e.g. `TO`, `VCO`); empty for 2 rows ✅ |
 | `region` | text | – | Legambiente | Italian region ✅ |
 | `status` | text | – | Legambiente | `dismesso` (dismissed) or `chiuso temporaneamente` (temporarily closed) ✅ |
-| `altitude_text`, `facility_type`, `year_built`, `year_closed` | text | – | Legambiente | Free text as written in the report; not cleaned yet ✅ |
+| `altitude_text`, `facility_type`, `year_built`, `year_closed` | text | – | Legambiente | Free text as written in the report. `altitude_text` is parsed to numbers in notebook `08` (lower and upper station; the dot in `3.486 m` is a thousands separator); the others are not cleaned (`year_closed` has entries like "anni '90", "n.d.") ✅ |
 | `source_page` | integer | page | Legambiente | PDF page where the entry appears ✅ |
-| `lat`, `lon` | float | degrees | Nominatim | Geocoded location 🔄 (next step) |
-| `matched` | boolean | – | derived | True if geocoding succeeded 🔄 (next step) |
+| `latitude`, `longitude`, `geocode_status`, … | float / text | degrees | Nominatim (Matthias) | Not in this table: the municipality-level positions (181 of 184; 3 unresolved) are in `data/processed/legambiente_closure_locations.csv` and the SQL table `checkpoint_closure_locations`. They are approximate (municipality, not the lift) ✅ |
 
-#### Table resorts_features (`data/processed/resorts_features.csv`) — 300 Alpine Ski Resorts
-Status: source feature table contains 300 rows and 22 columns, with 293 distinct source URLs. Lift counts are missing and the coordinate/identity review is pending. See `data/processed/snow_resort_input_review.csv`; this table is not yet an approved unique-area climate sample.
-
-The listed fields below describe the intended feature meanings. The current source data include duplicate/cross-border records, filled prices and suspect coordinates; a populated field does not establish verified provenance.
-
-| Variable | Type | Unit | Source | Description | Status |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| `resort_name` | text / string | – | `skiresort.info` | Full registered commercial name of the ski resort. | ✅ |
-| `country` | text / string | ISO 3166-1 alpha-2 | `skiresort.info` | Alpine nation code (`CH`, `IT`, `AT`, `FR`). Exactly 75 resorts per country. | ✅ |
-| `elevation_base_m` | integer | m a.s.l. | `skiresort.info` | Valley / bottom lift elevation station above sea level. | ✅ |
-| `elevation_top_m` | integer | m a.s.l. | `skiresort.info` | Highest skiable mountain summit elevation station above sea level. | ✅ |
-| `slope_km` | float | km | `skiresort.info` | Total length of groomed ski slopes / pistes. | ✅ |
-| `price_day_eur` | float | EUR (€) | `skiresort.info` + ECB | Harmonized adult 1-day pass price in main season (converted from CHF at 1.05 rate). | ✅ |
-| `rating_stars` | float | stars (1.0–5.0) | `skiresort.info` | Overall editorial and test evaluation score. | ✅ |
-| `latitude` | float | decimal degrees | OSM Nominatim API | Geographic latitude (WGS84 coordinate reference system). | ✅ |
-| `longitude` | float | decimal degrees | OSM Nominatim API | Geographic longitude (WGS84 coordinate reference system). | ✅ |
-| `dist_nearest_city_km` | float | km | Derived (Haversine) | Great-circle distance to the closest major feeder metropolis (min of the 6 hubs). | ✅ |
-| `dist_zurich_km` | float | km | Derived (Haversine) | Geodesic distance to Zurich city center (47.3769° N, 8.5417° E). | ✅ |
-| `dist_geneva_km` | float | km | Derived (Haversine) | Geodesic distance to Geneva city center (46.2044° N, 6.1432° E). | ✅ |
-| `dist_milan_km` | float | km | Derived (Haversine) | Geodesic distance to Milan city center (45.4642° N, 9.1900° E). | ✅ |
-| `dist_turin_km` | float | km | Derived (Haversine) | Geodesic distance to Turin city center (45.0703° N, 7.6869° E). | ✅ |
-| `dist_munich_km` | float | km | Derived (Haversine) | Geodesic distance to Munich city center (48.1351° N, 11.5820° E). | ✅ |
-| `dist_lyon_km` | float | km | Derived (Haversine) | Geodesic distance to Lyon city center (45.7640° N, 4.8357° E). | ✅ |
-| `hotels_4_5_star_10km` | integer | count | OSM Overpass API | Number of 4- and 5-star hotels within a 10 km radial buffer (luxury/prestige proxy). | ✅ |
+#### Table resorts_features
+The single, current description of `resorts_features.csv` is at the top of this file (repaired version of 28 November 2026).
 
 ## Matched snow validation — owner: Matthias
 
@@ -163,7 +157,7 @@ The provider's `isElevationCorrectable` definition excludes snow depth. Changing
 | Table | Rows | Primary key | Foreign key | Content |
 | --- | ---: | --- | --- | --- |
 | `resort_roster` | 293 | `resort_id` | – | One row per ski area (Matthias's roster); cross-border systems have `country_for_analysis = 'cross_border'` ✅ |
-| `resorts` | 300 | `row_id` | `resort_id` → `resort_roster` | Scraped resort features and prices (same columns as `resorts_features.csv`, plus `row_id`, `resort_id`) ✅ |
+| `resorts` | 293 | `resort_id` | `resort_id` → `resort_roster` | Repaired resort features and prices (the columns of `resorts_features.csv`, see the top of this file); notebook `05` rebuilds it from the CSV ✅ |
 | `closures` | 184 | `closure_id` | – | Legambiente closed facilities (see table `closures` above) ✅ |
 | `country_stats` | 123 | `country`, `year` | – | Price level index and net earnings ✅ |
 | `fx_eur_chf_daily` | 4,098 | `date` | – | CHF per 1 EUR ✅ |
@@ -191,3 +185,12 @@ The same schema exists in **PostgreSQL** (database `sci_alpi`, user `sci`, local
 | `alternative_station_coverage_audit.csv` | ECA&D endpoint-coverage screen only, not observations or a daily-completeness validation. No Italian station >1,000 m qualified for both target endpoints in the reviewed catalogue. |
 
 The SQLite additions use `checkpoint_` table names plus `pilot_resort_id_crosswalk`. Original eight team tables are preserved. Model-demonstration rows must not silently become validated risk, causal country effects or climate explanations for prices/closures. Full methods: `docs/matthias_checkpoint_report.md`.
+
+## Result files of Luca's notebooks (28 November 2026)
+
+| File | Notebook | Content |
+| --- | --- | --- |
+| `sq3_cluster_and_model_results.csv`, `sq3_model_comparison.csv`, `sq3_regression_coefficients.csv` | `07` | K-means groups and OLS models for the price (SQ3), with R², RMSE (5-fold cross-validation), robust standard errors. **PROVISIONAL** while slope length, lifts and hotels are unverified. |
+| `sq3_status.json` | `07` | Features used, features excluded because unverified, sample size, seed. |
+| `sq5_chi_squared_results.csv` | `08` | One row per chi-squared test of SQ5 (main test A, status test B, sensitivity rows): counts, chi², p-value (also Yates and Fisher), odds ratio with 95 % CI, Cramér's V, smallest expected count. |
+| `sq5_status.json` | `08` | States that the risk class is an altitude proxy, not days with snow (**PROVISIONAL**). |
