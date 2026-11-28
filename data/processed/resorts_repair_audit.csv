@@ -1,0 +1,50 @@
+item,action,reason
+Bergün,removed,"added by hand, all numbers are the national median"
+Sauze d'Oulx,removed,"added by hand, all numbers are the national median"
+Ischgl,removed,"added by hand, all numbers are the national median"
+Westendorf,removed,"added by hand, all numbers are the national median"
+La Rosière,removed,"added by hand, all numbers are the national median"
+Le Grand-Bornand,removed,"added by hand, all numbers are the national median"
+Kandersteg,removed,"added by hand, all numbers are the national median"
+Val di Fassa,removed,"added by hand, all numbers are the national median"
+Ellmau,removed,"added by hand, all numbers are the national median"
+Les Sept Laux,removed,"added by hand, all numbers are the national median"
+Autrans,removed,"added by hand, all numbers are the national median"
+Super Besse,removed,"added by hand, all numbers are the national median"
+Scuol – Motta Naluns (ischgl-samnaun-silvretta-arena),replaced,hand-typed numbers under the URL of another resort; original scraped row restored
+Pila – Aosta (espace-san-bernardo-la-rosiere-la-thuile),replaced,hand-typed numbers under the URL of another resort; original scraped row restored
+scuol-motta-naluns,restored,real resort dropped by the 75-per-country quota
+pila,restored,real resort dropped by the 75-per-country quota
+axamer-lizum,restored,real resort dropped by the 75-per-country quota
+see,restored,real resort dropped by the 75-per-country quota
+sainte-foy-tarentaise,restored,real resort dropped by the 75-per-country quota
+hotels_4_5_star_10km,cleared,"values were a formula of slope and price, not counts"
+lifts_count,cleared,artefact: 12 for every Swiss and Italian row
+snow_cannons,dropped,0 for every resort (parsing failure)
+slope_km,flagged,ski-routes figure taken instead of slope length; re-parse needed
+sainte-foy-tarentaise coordinates,corrected,"geocode was near Saint-Etienne (4.39 E); village is in Tarentaise, approximate value, verify"
+rosskopf-monte-cavallo-sterzing-vipiteno coordinates,corrected,first geocode 51 km away in the Passeier valley; second geocode is at Sterzing
+nara-leontica coordinates,corrected,"geocoded in Zurich (47.38 N); the ski area is above Leontica, Blenio valley (Ticino); snow-forecast.com gives 46.46 N 8.92 E"
+st-anton-st-christoph-stuben-lech-zuers-warth-schroecken-ski-arlberg coordinates,corrected,geocoded in Lower Austria (15.2 E); St. Anton am Arlberg is at 47.13 N 10.27 E
+hoch-imst-imst coordinates,corrected,geocoded in Carinthia (14.95 E); Imst is in Tyrol at 47.24 N 10.74 E
+belpiano-schoeneben-malga-san-valentino-haideralm coordinates,corrected,"geocoded near Genoa (44.4 N); Schoeneben/Haideralm is at the Reschen pass, South Tyrol"
+balme-les-autannes-vallorcine-le-tour coordinates,corrected,geocoded in the Jura plain (5.38 E); Vallorcine is near Chamonix
+les-portes-du-mont-blanc-combloux-megeve-le-jaillet-la-giettaz coordinates,corrected,geocoded in Provence (43.87 N); Megeve is at 45.86 N 6.62 E
+saint-lary-soulan coordinates,corrected,geocoded near Nice (7.28 E); Saint-Lary-Soulan is in the Pyrenees
+font-romeu-bolquere-pyrenees-2000 coordinates,corrected,geocoded in Switzerland (6.82 E); Font-Romeu is in the Pyrenees
+belvedere-col-rodella-ciampac-buffaure-canazei-campitello-alba-pozza-di-fassa coordinates,corrected,geocoded in Piedmont (7.66 E); Canazei is in the Dolomites (Val di Fassa)
+pila coordinates,corrected,geocoded in Piedmont (8.08 E); Pila is above Aosta
+cimone-montecreto-sestola-le-polle coordinates,corrected,geocoded near Trento (45.98 N); Monte Cimone / Sestola is in the Emilian Apennines
+gurgl-obergurgl-hochgurgl coordinates,corrected,geocoded near Seefeld (47.36 N); Obergurgl/Hochgurgl is in the Oetztal at 46.87 N 11.03 E
+nassfeld-hermagor coordinates,corrected,geocoded near Bad Gastein (47.06 N); Nassfeld is on the Italian border at 46.57 N 13.28 E
+eggli-la-videmanette-gstaad-saanen-rougemont coordinates,corrected,geocoded in Glarus (8.98 E); the ski area is at Gstaad/Saanen
+saas-fee coordinates,corrected,"geocoded in the Praettigau (9.81 E, Saas im Praettigau); Saas-Fee is in the Valais"
+first-grindelwald coordinates,corrected,geocoded near Kandersteg (7.64 E); Grindelwald is at 46.62 N 8.04 E
+lagorai-passo-brocon-castello-tesino coordinates,corrected,geocoded next to Alpe Cermis; Passo Brocon / Castello Tesino is 25 km south-east
+valchiavenna-madesimo-campodolcino coordinates,corrected,geocoded near Lake Como (46.23 N); Madesimo/Campodolcino are in the upper Valchiavenna
+hochficht scope,flagged,"Hochficht (Upper Austria, 48.7 N) is in the Bohemian Forest, not in the Alps; left out of the analysis set"
+abetone-val-di-luce scope,flagged,"Abetone is in the Tuscan-Emilian Apennines, not in the Alps (same rule as the 3 Apennine areas already excluded); left out of the analysis set"
+lelex-crozet scope,flagged,"Lelex-Crozet is in the Jura, not in the Alps; left out of the analysis set"
+saint-lary-soulan scope,flagged,"Saint-Lary-Soulan is in the Pyrenees, not in the Alps (same rule as the 13 Pyrenees areas already excluded); left out of the analysis set"
+font-romeu-bolquere-pyrenees-2000 scope,flagged,"Font-Romeu is in the Pyrenees, not in the Alps (same rule as the 13 Pyrenees areas already excluded); left out of the analysis set"
+cimone-montecreto-sestola-le-polle scope,flagged,"Monte Cimone/Sestola is in the Emilian Apennines, not in the Alps; left out of the analysis set"
