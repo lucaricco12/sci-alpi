@@ -23,13 +23,18 @@ Data Analytics project, ZHAW School of Management and Law, HS2026 (Dr. Mario Gel
 
 ### To do in the Codespace (the sites are not reachable from the AI workspace)
 
+The order matters: the hotel counts are computed around the stored coordinates, so the coordinates are verified first.
+
 ```bash
-python src/reparse_skiresort.py --download   # real slope length, ski routes, lifts (--download is needed if the cached pages of Lorenzo's Codespace are not there)
-python src/fetch_hotels_overpass.py          # real 4-5 star hotel counts from OpenStreetMap
-python src/verify_resort_coordinates.py      # independent check of all 293 positions (about 6 minutes)
+python src/verify_resort_coordinates.py      # 1. independent check of all 293 positions (about 6 minutes)
+# 2. run notebook 02.4 (Run All): it applies the verification
+python src/fetch_hotels_overpass.py          # 3. real 4-5 star hotel counts from OpenStreetMap
+python src/reparse_skiresort.py --download   # 4. real slope length, ski routes, lifts (--download is needed if the cached pages of Lorenzo's Codespace are not there)
+# 5. run notebook 02.4 again: it merges hotels and slope data
+bash src/setup_postgres_codespace.sh         # 6. once, before notebook 05.2
 ```
 
-Then run the notebooks in this order with **Run All**: `02.4` → `05` → `05.2` → `05.3` → `06` → `07` → `08`. Every notebook ends with "All checks passed." Run `python -m pytest` before and after.
+Then run the notebooks in this order with **Run All**: `05` → `05.2` → `05.3` → `06` → `07` → `08`. Every notebook ends with "All checks passed." Run `python -m pytest` before and after.
 
 Still to decide as a group: the snow method for all resorts (Matiu et al. 2021 stations or CERRA-Land), one EUR/CHF rate, the canonical country of cross-border areas, and the six areas flagged as outside the Alps.
 
