@@ -9,29 +9,29 @@ Data Analytics project, ZHAW School of Management and Law, HS2026 (Dr. Mario Gel
 | Part | Notebook / script | Status |
 | --- | --- | --- |
 | Country statistics (Eurostat, ECB rates) | `01_country_stats` | ✅ done |
-| Resort data (scraping, repair) | `02.4_resort_data_repair` (`02.2`, `02.3` are the first, **legacy** versions) | ✅ repaired, **slope length, lifts, hotels and coordinate verification still need the Codespace scripts** |
+| Resort data (scraping, repair) | `02.4_resort_data_repair` (`02.2`, `02.3` are the first, **legacy** versions) | ✅ repaired and verified (293 positions checked, slope/lifts re-parsed, hotels counted in OpenStreetMap as a lower bound; one cable-car area without verified slope length) |
 | Closed Italian lifts | `04_legambiente_closures` | ✅ done |
 | Snow: measured stations, model checks, map | `03.3_matthias_checkpoints`, `src/run_snow_checkpoints.py` | ✅ 20 Swiss stations; 🔄 snow for all resorts pending (method not yet decided) |
 | SQLite / PostgreSQL | `05_sqlite_database`, `05.2_postgresql_database` | ✅ |
 | SQ4 affordability, ANOVA, correlations | `05.3_affordability_and_tests` | ✅ |
 | Price EDA | `06_price_eda` | ✅ |
-| SQ3 K-means + regression | `07_clustering_and_regression` | 🔄 **provisional** until slope, lifts and hotels are verified |
+| SQ3 K-means + regression | `07_clustering_and_regression` | ✅ all features verified (K-means with 6 features, 2 groups; OLS + 5-fold CV); one area (Aiguille du Midi) left out because slope and lifts are missing; snow/climate risk is not in the model |
 | SQ5 chi-squared (Italian closures) | `08_closures_chi_squared` | 🔄 **provisional** (risk class = altitude proxy, not days with snow) |
 | SQ1/SQ2 climate regression and station check | Matthias's checkpoint notebook | ✅ for 20 Swiss stations; four-country result pending |
 
-**Why "provisional":** an audit on 27–28 November found that the resort table contained invented rows, a fabricated hotel column, lost and wrong coordinates and an artefact lift count. It was repaired (see `docs/integration_log.md`, `data/processed/resorts_repair_audit.csv`). Variables that cannot be verified yet are left **empty or flagged** (`data/processed/data_status.json`), and every notebook reads these flags. *Missing is better than invented.*
+**Why some parts are still "provisional":** an audit on 27–28 November found that the resort table contained invented rows, a fabricated hotel column, lost and wrong coordinates and an artefact lift count. It was repaired (see `docs/integration_log.md`, `data/processed/resorts_repair_audit.csv`) and, on 28 November, the Codespace steps were run: all 293 positions were checked against the source pages, hotels were counted, slope length and lifts were parsed again. Anything that cannot be verified is left **empty or flagged** (`data/processed/data_status.json`), and every notebook reads these flags. *Missing is better than invented.*
 
-### To do in the Codespace (the sites are not reachable from the AI workspace)
+### Nothing more is required in the Codespace
 
-The order matters: the hotel counts are computed around the stored coordinates, so the coordinates are verified first.
+The data steps are done and their results are in the repository. To work on the latest version: `git pull --ff-only origin main` (if Git complains about local changes: `git stash`, then pull). The commands below are only needed to **repeat** the whole chain from scratch (for example after Matthias or Lorenzo change the input data); the order matters, because the hotel counts are computed around the stored coordinates.
 
 ```bash
 python src/verify_resort_coordinates.py      # 1. independent check of all 293 positions (about 6 minutes)
 # 2. run notebook 02.4 (Run All): it applies the verification
-python src/fetch_hotels_overpass.py          # 3. real 4-5 star hotel counts from OpenStreetMap
-python src/reparse_skiresort.py --download   # 4. real slope length, ski routes, lifts (--download is needed if the cached pages of Lorenzo's Codespace are not there)
+python src/fetch_hotels_overpass.py          # 3. 4-5 star hotel counts from OpenStreetMap
+python src/reparse_skiresort.py --download   # 4. slope length, ski routes, lifts
 # 5. run notebook 02.4 again: it merges hotels and slope data
-bash src/setup_postgres_codespace.sh         # 6. once, before notebook 05.2
+bash src/setup_postgres_codespace.sh         # 6. once, before notebook 05.2 (PostgreSQL)
 ```
 
 Then run the notebooks in this order with **Run All**: `05` → `05.2` → `05.3` → `06` → `07` → `08`. Every notebook ends with "All checks passed." Run `python -m pytest` before and after.
@@ -89,7 +89,7 @@ To what extent has natural snow reliability in Swiss, Italian, Austrian and Fren
 | MeteoSwiss Open Data | CSV download | Measured daily snow depth at Swiss stations |
 | Eurostat (`prc_ppp_ind`, `earn_nt_net`) | Web API | Price level index, average net earnings |
 | Frankfurter (ECB rates) | Web API | EUR/CHF exchange rate |
-| OSM Overpass | Web API | 4–5 star hotels near each resort (**script ready, to be run in the Codespace**) |
+| OSM Overpass | Web API | 4–5 star hotels near each resort (run on 28 November; lower bound because hotels without a star tag are not counted) |
 | Legambiente, Nevediversa 2026 | PDF report | Closed ski facilities in Italy |
 
 ## Repository structure

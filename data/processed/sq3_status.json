@@ -1,16 +1,18 @@
 {
-  "provisional": true,
+  "provisional": false,
   "features_used": [
     "elevation_top_m",
     "vertical_drop_m",
-    "rating_stars"
+    "rating_stars",
+    "slope_km",
+    "lifts_count",
+    "hotels_4_5_star_10km"
   ],
-  "excluded_not_verified": [
-    "slope_km (not verified)",
-    "lifts_count (empty)",
-    "hotels_4_5_star_10km (not measured)"
+  "excluded_not_verified": [],
+  "n_areas": 268,
+  "left_out_missing_feature": [
+    "aiguille-du-midi-chamonix"
   ],
-  "n_areas": 269,
   "k": 2,
   "seed": 42
 }

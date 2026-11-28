@@ -17,10 +17,10 @@ The first version had 300 rows with 12 rows added by hand (every number = nation
 | `cross_border` | boolean | – | derived | True if `country_memberships` has more than one country. | ✅ |
 | `url` | text | – | skiresort.com | Source page. | ✅ |
 | `elevation_base_m`, `elevation_top_m` | integer | m a.s.l. | skiresort.com | Lowest and highest lift station. | ✅ |
-| `slope_km` | float | km | skiresort.com | **Slope length.** The first parser took the *ski-routes* figure; this value is only used when `slope_status = reparsed`. | 🔄 until `python src/reparse_skiresort.py` is run |
-| `ski_routes_km` | float | km | skiresort.com | Ski routes (all runs including unprepared); filled by the re-parse. | 🔄 |
+| `slope_km` | float | km | skiresort.com | **Slope length.** The first parser took the *ski-routes* figure; this value is only used when `slope_status = reparsed`. Re-parsed on 28 November for 292 areas; Aiguille du Midi (cable car, no slope figure on the page) keeps the old value flagged `unverified_old_parser` and is left out of the models. | ✅ |
+| `ski_routes_km` | float | km | skiresort.com | Ski routes (all runs including unprepared); filled by the re-parse (empty for 200 areas whose page gives no separate figure). | ✅ |
 | `slope_status` | text | – | derived | `unverified_old_parser` or `reparsed`. | ✅ |
-| `lifts_count` | integer | count | skiresort.com | Number of lifts; the first version had 12 for every CH and IT row (artefact), now empty until re-parsed. | 🔄 |
+| `lifts_count` | integer | count | skiresort.com | Number of lifts; the first version had 12 for every CH and IT row (artefact), now the re-parsed count (median 13, maximum 163); empty for Aiguille du Midi. | ✅ |
 | `rating_stars` | float | 1–5 | skiresort.com | Editorial rating. | ✅ |
 | `price_day_raw` | float | currency of the listing | skiresort.com | Adult day pass as scraped. | ✅ |
 | `currency` | text | – | skiresort.com | `EUR` or `CHF`. | ✅ |
@@ -37,10 +37,10 @@ The first version had 300 rows with 12 rows added by hand (every number = nation
 | `nearest_other_resort_km` | float | km | derived | Distance to the nearest other resort of the table (isolation screen: every analysis area has one within 40 km). | ✅ |
 | `dist_zurich_km`, `dist_geneva_km`, `dist_milan_km`, `dist_turin_km`, `dist_munich_km`, `dist_lyon_km` | float | km | derived | Great-circle distance to the city centre. | ✅ |
 | `dist_nearest_city_km` | float | km | derived | Minimum of the six. | ✅ |
-| `hotels_4_5_star_10km` | integer | count | OpenStreetMap Overpass | 4- and 5-star hotels within 10 km. **Empty until `python src/fetch_hotels_overpass.py` is run**; the first version was a formula of slope and price, not a count. | 🔄 |
+| `hotels_4_5_star_10km` | integer | count | OpenStreetMap Overpass | 4- and 5-star hotels within 10 km. Counted on 28 November (median 2, maximum 82). It is a **lower bound**: OpenStreetMap hotels without a star tag are not counted. The first version was a formula of slope and price, not a count. | ✅ |
 | `hotels_status` | text | – | derived | `not_measured` or `openstreetmap_overpass`. | ✅ |
 
-`data/processed/data_status.json` stores the set of `slope_status` and `hotels_status` values. The notebooks read it and mark every result as **PROVISIONAL** while a variable is unverified. `tests/test_resort_data_integrity.py` checks that the flags match the columns.
+`data/processed/data_status.json` stores the set of `slope_status` and `hotels_status` values. The notebooks read it and mark a result as **PROVISIONAL** when a variable they use is unverified; a single unverified area is left out of the analysis instead. `tests/test_resort_data_integrity.py` checks that the flags match the columns.
 
 Other files of the repair: `resorts_repair_audit.csv` (every removed, changed or flagged item with the reason, columns `item`, `action`, `reason`), `resorts_scraped_before_quota.csv` (original scrape before the quota), `resorts_features_25nov_before_repair.csv` (the faulty version, kept as evidence), `resort_coordinate_verification.csv` (created by `src/verify_resort_coordinates.py`; one row per resort with the distance to the nearest access point of the source page and the status `confirmed` ≤ 5 km, `review` 5–7 km, `mismatch` > 7 km).
 
@@ -190,7 +190,7 @@ The SQLite additions use `checkpoint_` table names plus `pilot_resort_id_crosswa
 
 | File | Notebook | Content |
 | --- | --- | --- |
-| `sq3_cluster_and_model_results.csv`, `sq3_model_comparison.csv`, `sq3_regression_coefficients.csv` | `07` | K-means groups and OLS models for the price (SQ3), with R², RMSE (5-fold cross-validation), robust standard errors. **PROVISIONAL** while slope length, lifts and hotels are unverified. |
+| `sq3_cluster_and_model_results.csv`, `sq3_model_comparison.csv`, `sq3_regression_coefficients.csv` | `07` | K-means groups and OLS models for the price (SQ3), with R², RMSE (5-fold cross-validation), robust standard errors. Features: top elevation, vertical drop, rating, slope length, lifts, 4–5 star hotels; Aiguille du Midi is left out (missing slope length and lifts). Not PROVISIONAL, but the model contains no snow or climate variable. |
 | `sq3_status.json` | `07` | Features used, features excluded because unverified, sample size, seed. |
 | `sq5_chi_squared_results.csv` | `08` | One row per chi-squared test of SQ5 (main test A, status test B, sensitivity rows): counts, chi², p-value (also Yates and Fisher), odds ratio with 95 % CI, Cramér's V, smallest expected count. |
 | `sq5_status.json` | `08` | States that the risk class is an altitude proxy, not days with snow (**PROVISIONAL**). |

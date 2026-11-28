@@ -1,8 +1,9 @@
 {
   "slope_status": [
+    "reparsed",
     "unverified_old_parser"
   ],
   "hotels_status": [
-    "not_measured"
+    "openstreetmap_overpass"
   ]
 }
