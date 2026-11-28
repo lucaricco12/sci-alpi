@@ -23,8 +23,13 @@ Nothing is overwritten silently: the notebook documents every change.
 
 Status of a resort:
     confirmed  the nearest access point is at most 5 km from the stored position
-    review     between 5 and 15 km (large areas can be that wide; look at the map)
-    mismatch   more than 15 km: the stored position is probably wrong
+    review     between 5 and 7 km (village against lift base; look at the map if in doubt)
+    mismatch   more than 7 km: the stored position is probably wrong
+
+Why 7 km: in the first run on all 293 resorts the median distance was 0.9 km and 75 % were within
+2.1 km. Above 5 km the cases fell into two groups: 8 between 5.1 and 6.3 km (a village geocoded
+instead of the lift base) and 3 at 8.5, 14.9 and 42.7 km, which are clearly wrong positions (Pizol,
+Sonnenkopf geocoded in the Lech area, Hoch-Ybrig geocoded in Obwalden). 7 km lies in the gap.
 """
 from __future__ import annotations
 
@@ -41,7 +46,7 @@ from resort_review import fetch_evidence  # noqa: E402
 from snow_validation import RateLimiter, distance_km  # noqa: E402
 
 CONFIRMED_KM = 5.0
-MISMATCH_KM = 15.0
+MISMATCH_KM = 7.0
 COUNTRY_CODES = {"Switzerland": "CH", "Austria": "AT", "France": "FR", "Italy": "IT",
                  "Germany": "DE", "Slovenia": "SI", "Liechtenstein": "LI"}
 OUTPUT = "data/processed/resort_coordinate_verification.csv"

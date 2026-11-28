@@ -38,8 +38,8 @@ class VerifyTests(unittest.TestCase):
         self.assertEqual(vrc.classify(0.0), "confirmed")
         self.assertEqual(vrc.classify(5.0), "confirmed")
         self.assertEqual(vrc.classify(5.1), "review")
-        self.assertEqual(vrc.classify(15.0), "review")
-        self.assertEqual(vrc.classify(15.1), "mismatch")
+        self.assertEqual(vrc.classify(7.0), "review")
+        self.assertEqual(vrc.classify(7.1), "mismatch")
 
     def test_verify_one_uses_the_nearest_access_point_not_the_first(self):
         row = pd.DataFrame([{"resort_id": "a", "country_memberships": "CH;IT", "latitude": 46.0, "longitude": 8.0}]).itertuples(index=False).__next__()

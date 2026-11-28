@@ -32,7 +32,7 @@ The first version had 300 rows with 12 rows added by hand (every number = nation
 | `alps_review_flag` | text | – | derived | Reason when an area is outside the Alps by geography (Hochficht, Abetone, Lelex-Crozet, Saint-Lary-Soulan, Font-Romeu, Cimone); empty otherwise. | ✅ |
 | `latitude`, `longitude` | float | deg (WGS84) | Nominatim + review | Position, joined by `resort_id`. See `coordinate_check` for how reliable it is. | 🔄 |
 | `coordinate_method` | text | – | derived | `source_first_listed_lift_access` (Skiresort access point), geocoding method, or `manual_correction_approximate`. | ✅ |
-| `coordinate_check` | text | – | derived | `verified_access_point` (compared with the source page), `access_point_within_15km_review`, `manual_correction` (20 approximate corrections), `geocoders_agree_not_independent` (two name-based geocoders agree; **not** independent proof), `two_geocodes_differ_review`, `single_geocode_only`. | ✅ |
+| `coordinate_check` | text | – | derived | `verified_access_point` (compared with the source page), `access_point_within_7km_review`, `manual_correction` (20 approximate corrections), `geocoders_agree_not_independent` (two name-based geocoders agree; **not** independent proof), `two_geocodes_differ_review`, `single_geocode_only`. | ✅ |
 | `geocode_difference_km` | float | km | derived | Distance between the two geocoding runs. | ✅ |
 | `nearest_other_resort_km` | float | km | derived | Distance to the nearest other resort of the table (isolation screen: every analysis area has one within 40 km). | ✅ |
 | `dist_zurich_km`, `dist_geneva_km`, `dist_milan_km`, `dist_turin_km`, `dist_munich_km`, `dist_lyon_km` | float | km | derived | Great-circle distance to the city centre. | ✅ |
@@ -42,7 +42,7 @@ The first version had 300 rows with 12 rows added by hand (every number = nation
 
 `data/processed/data_status.json` stores the set of `slope_status` and `hotels_status` values. The notebooks read it and mark every result as **PROVISIONAL** while a variable is unverified. `tests/test_resort_data_integrity.py` checks that the flags match the columns.
 
-Other files of the repair: `resorts_repair_audit.csv` (every removed, changed or flagged item with the reason, columns `item`, `action`, `reason`), `resorts_scraped_before_quota.csv` (original scrape before the quota), `resorts_features_25nov_before_repair.csv` (the faulty version, kept as evidence), `resort_coordinate_verification.csv` (created by `src/verify_resort_coordinates.py`; one row per resort with the distance to the nearest access point of the source page and the status `confirmed` ≤ 5 km, `review` 5–15 km, `mismatch` > 15 km).
+Other files of the repair: `resorts_repair_audit.csv` (every removed, changed or flagged item with the reason, columns `item`, `action`, `reason`), `resorts_scraped_before_quota.csv` (original scrape before the quota), `resorts_features_25nov_before_repair.csv` (the faulty version, kept as evidence), `resort_coordinate_verification.csv` (created by `src/verify_resort_coordinates.py`; one row per resort with the distance to the nearest access point of the source page and the status `confirmed` ≤ 5 km, `review` 5–7 km, `mismatch` > 7 km).
 
 *Removed columns: `snow_cannons` (0 for every resort, parsing failure).*
 

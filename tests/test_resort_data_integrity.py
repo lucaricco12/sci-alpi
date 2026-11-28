@@ -107,7 +107,7 @@ class ResortDataIntegrity(unittest.TestCase):
 
     def test_coordinate_check_uses_only_honest_labels(self):
         allowed = {"verified_access_point", "manual_correction", "geocoders_agree_not_independent",
-                   "two_geocodes_differ_review", "single_geocode_only", "access_point_within_15km_review"}
+                   "two_geocodes_differ_review", "single_geocode_only", "access_point_within_7km_review"}
         self.assertTrue(set(self.features["coordinate_check"].unique()) <= allowed)
         self.assertNotIn("two_geocodes_agree_5km", set(self.features["coordinate_check"]))
 

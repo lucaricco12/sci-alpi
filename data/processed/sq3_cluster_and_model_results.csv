@@ -1,270 +1,270 @@
 resort_id,resort_name,country,cluster,price_day_eur,price_relative,fitted_log,residual_log
-3-zinnen-dolomites-helm-stiergarten-rotwand-kreuzbergpass,3 Zinnen Dolomites – Helm/Stiergarten/Rotwand/Kreuzbergpass,IT,1,80.0,81.54943934760449,4.014518060876689,0.3866913932139662
-4-vallees-verbier-la-tzoumaz-nendaz-veysonnaz-thyon,4 Vallées – Verbier/La Tzoumaz/Nendaz/Veysonnaz/Thyon,CH,2,98.7,53.55398806294085,3.924639499537719,0.056050768214030544
-abries,Abriès,FR,1,38.9,36.05189990732159,3.617459979627787,-0.032500415279383965
-adelboden-lenk-chuenisbaergli-silleren-hahnenmoos-metsch,Adelboden/Lenk – Chuenisbärgli/Silleren/Hahnenmoos/Metsch,CH,1,76.65,41.58979924036896,3.834515485359792,-0.10666055872965519
-aiguille-du-midi-chamonix,Aiguille du Midi (Chamonix),FR,2,71.0,65.80166821130676,3.922871749221697,0.2637734415436208
-airolo-pesciuem,Airolo – Pesciüm,CH,1,61.95,33.61367335865437,3.8018381002178137,-0.2869051708303485
-alagna-valsesia-gressoney-la-trinite-champoluc-frachey-monterosa-ski,Alagna Valsesia/Gressoney-La-Trinité/Champoluc/Frachey (Monterosa Ski),IT,2,69.0,70.33639143730888,3.974072638287579,0.2792166857264542
-aletsch-arena-riederalp-bettmeralp-fiesch-eggishorn,Aletsch Arena – Riederalp/Bettmeralp/Fiesch Eggishorn,CH,2,93.45,50.70537167661421,3.9288085853973826,-0.0027767301834971114
-almenwelt-lofer,Almenwelt Lofer,AT,1,64.5,53.884711779448615,3.9293117952695664,0.057535001956324106
-alpe-cermis-cavalese,Alpe Cermis – Cavalese,IT,1,71.0,72.37512742099898,4.122541233985933,0.15932146247215684
-alpe-dhuez,Alpe d'Huez,FR,2,66.0,61.16774791473587,4.0996849247840945,0.013935130966333809
-alpe-di-siusi-seiser-alm,Alpe di Siusi (Seiser Alm),IT,1,83.0,84.60754332313965,4.007898684701728,0.43012474251164345
-alpe-du-grand-serre-la-morte,Alpe du Grand-Serre – La Morte,FR,1,36.0,33.364226135310474,3.8307830312405238,-0.32329877906041116
-alpe-lusia-moena-bellamonte,Alpe Lusia – Moena/Bellamonte,IT,1,74.0,75.43323139653415,4.019187407445217,0.3040605051757268
-alta-badia,Alta Badia,IT,2,74.0,75.43323139653415,4.18524137971374,0.13800653290720355
-andermatt-oberalp-sedrun,Andermatt/Oberalp/Sedrun,CH,2,96.6,52.414541508410196,3.901171249604351,0.05801281292643479
-anzere,Anzère,CH,1,75.6,41.02007596310363,3.741286964524157,-0.027225360026356338
-aprica,Aprica,IT,1,57.0,58.103975535168196,3.839643545038386,0.2225905422129384
-arabba-marmolada,Arabba/Marmolada,IT,2,75.0,76.45259938837921,4.1736340349154455,0.16303689803763888
-areches-beaufort,Arêches (Beaufort),FR,1,41.0,37.99814643188137,3.711593523072603,-0.07405614264429294
-arosa-lenzerheide,Arosa Lenzerheide,CH,2,93.45,50.70537167661421,4.013539002781777,-0.08750714756789169
-auron-saint-etienne-de-tinee,Auron (Saint-Etienne-de-Tinée),FR,1,44.0,40.77849860982391,3.770723351365148,-0.06256840372288419
-aussois,Aussois,FR,1,41.0,37.99814643188137,3.655418746491708,-0.017881366063397852
-axamer-lizum,Axamer Lizum,AT,1,67.0,55.97326649958229,3.7645075218293838,0.26036667098574595
-bad-gastein-bad-hofgastein-schlossalm-angertal-stubnerkogel,Bad Gastein/Bad Hofgastein – Schlossalm/Angertal/Stubnerkogel,AT,2,81.5,68.08688387635756,4.2524594794913835,-0.031674885820402565
-bad-kleinkirchheim,Bad Kleinkirchheim,AT,1,73.0,60.985797827903085,4.1128909602511925,-0.002249945678637566
-balme-les-autannes-vallorcine-le-tour,Balme/Les Autannes – Vallorcine/Le Tour,FR,1,74.0,68.58202038924931,3.6488373559657585,0.5791930509624139
-bardonecchia,Bardonecchia,IT,2,49.0,49.94903160040775,3.904785306851783,0.006217810675617663
-belalp-blatten,Belalp – Blatten,CH,2,80.85,43.86869234943027,4.053461869979112,-0.2722609626436827
-bellwald,Bellwald,CH,1,80.85,43.86869234943027,3.766389379257271,0.014811528078158442
-belpiano-schoeneben-malga-san-valentino-haideralm,Belpiano (Schöneben)/Malga San Valentino (Haideralm),IT,1,70.0,71.35575942915392,3.928487384415757,0.33919067705037564
-belvedere-col-rodella-ciampac-buffaure-canazei-campitello-alba-pozza-di-fassa,Belvedere/Col Rodella/Ciampac/Buffaure – Canazei/Campitello/Alba/Pozza di Fassa,IT,2,76.0,77.47196738022426,4.201621660364328,0.14829449933877736
-bergeralm-steinach-am-brenner,Bergeralm – Steinach am Brenner,AT,1,60.2,50.292397660818715,3.9069865018090293,0.010867423929910025
-berwang-bichlbach-rinnen,Berwang/Bichlbach/Rinnen,AT,1,70.5,58.89724310776942,3.8477781216506868,0.22801616159170024
-betelberg-lenk,Betelberg – Lenk,CH,1,66.15,35.89256646771568,3.8459451143023684,-0.26541490242908994
-biberwier-marienberg,Biberwier – Marienberg,AT,1,70.5,58.89724310776942,3.8517282658046677,0.22406601743771937
-bormio-cima-bianca,Bormio – Cima Bianca,IT,2,60.0,61.162079510703364,4.142474984209727,-0.028947602570852382
-bosco-gurin-grossalp,Bosco Gurin – Grossalp,CH,1,59.85,32.47422680412371,3.7881822410884487,-0.307735487772153
-brandnertal-brand-buerserberg,Brandnertal – Brand/Bürserberg,AT,1,58.0,48.45446950710108,3.8630301534591296,0.017594430511453485
-braunwald,Braunwald  (temporarily closed),CH,1,60.9,33.043950081389035,3.632397935758449,-0.13455943973028406
-brevent-flegere-chamonix,Brévent/Flégère (Chamonix),FR,2,74.0,68.58202038924931,3.892162235288382,0.33586817163979044
-brigels-waltensburg-andiast,Brigels/Waltensburg/Andiast,CH,2,68.25,37.03201302224633,3.94624228129166,-0.3344595259142773
-buerchen-toerbel-moosalp,Bürchen/Törbel – Moosalp,CH,1,55.65,30.195333695062395,3.8465168170709116,-0.4388294180370442
-carezza,Carezza,IT,1,75.0,76.45259938837921,4.043113686056579,0.29355724689650575
-cari,Carì,CH,1,50.4,27.34671730873575,3.7254819960189995,-0.41688549962936294
-catinaccio-ciampedie-vigo-di-fassa-pera-di-fassa,Catinaccio/Ciampedie – Vigo di Fassa/Pera di Fassa,IT,1,76.0,77.47196738022426,4.0099787385812835,0.3399374211218218
-chaeserrugg-unterwasser-alt-st-johann-toggenburg,Chäserrugg – Unterwasser/Alt St. Johann (Toggenburg),CH,1,86.1,46.71730873575691,3.7210809759807897,0.12303375676520911
-champorcher,Champorcher,IT,1,36.0,36.69724770642202,3.5921138561788992,0.010587901693984936
-chamrousse,Chamrousse,FR,1,43.5,40.31510658016682,3.804436483526563,-0.1077102317079226
-charmey,Charmey,CH,1,51.45,27.916440586001084,3.8495359155005557,-0.5203201319081834
-christlum-achenkirch,Christlum – Achenkirch,AT,1,69.0,57.64411027568922,3.746751678884682,0.3075363991367417
-cima-piazzi-san-colombano-isolaccia-oga,Cima Piazzi/San Colombano – Isolaccia/Oga,IT,1,60.0,61.162079510703364,3.910364362076733,0.20316301956214167
-civetta-alleghe-selva-di-cadore-palafavera-zoldo,Civetta – Alleghe/Selva di Cadore/Palafavera/Zoldo,IT,1,70.0,71.35575942915392,4.096284733855583,0.17139332761054948
-colere,Colere,IT,1,48.0,48.92966360856269,3.802643460082269,0.087740370242396
-cortina-dampezzo,Cortina d'Ampezzo,IT,2,80.0,81.54943934760449,4.212471730057907,0.18873772403274813
-corvatsch-furtschellas,Corvatsch/Furtschellas,CH,2,73.5,39.88062940857297,3.9542363689915887,-0.2683456414604839
-courmayeur-checrouit-val-veny,Courmayeur – Chécrouit/Val Veny,IT,2,75.0,76.45259938837921,3.9150853074286993,0.42158562552438505
-crans-montana,Crans-Montana,CH,2,98.7,53.55398806294085,3.9614061639481863,0.01928410380356338
-dachstein-west-gosau-russbach-annaberg,Dachstein West – Gosau/Russbach/Annaberg,AT,1,73.0,60.985797827903085,4.0662781901456615,0.04436282442689343
-damuels-mellau,Damüls Mellau,AT,2,75.5,63.07435254803676,4.122422552566284,0.02189167711285922
-devoluy-superdevoluy-la-joue-du-loup,Dévoluy – Superdévoluy/La Joue du Loup,FR,1,46.0,42.63206672845227,3.8844601162517436,-0.13185340603864626
-diavolezza-lagalb,Diavolezza/Lagalb,CH,1,65.1,35.32284319045034,3.70455686992757,-0.14002699940073304
-disentis,Disentis,CH,2,67.2,36.46228974498101,3.9275664374457544,-0.331287868604337
-dorfgastein-grossarltal,Dorfgastein/Großarltal,AT,1,81.5,68.08688387635756,4.037851871519862,0.18293272215111855
-eggli-la-videmanette-gstaad-saanen-rougemont,Eggli/La Videmanette – Gstaad/Saanen/Rougemont,CH,1,98.7,53.55398806294085,3.831069642369589,0.1496206253821608
-ehrwalder-alm-ehrwald,Ehrwalder Alm – Ehrwald,AT,1,70.5,58.89724310776942,3.8140826225510738,0.26171166069131324
-elm-im-sernftal,Elm im Sernftal,CH,1,61.95,33.61367335865437,3.730873527188673,-0.2159405978012079
-espace-diamant-les-saisies-notre-dame-de-bellecombe-praz-sur-arly-flumet-crest-voland,Espace Diamant – Les Saisies/Notre-Dame-de-Bellecombe/Praz sur Arly/Flumet/Crest-Voland,FR,1,50.0,46.33920296570899,3.659080947460735,0.17690737169141357
-espace-lumiere-pra-loup-val-dallos,Espace Lumière – Pra Loup/Val d’Allos,FR,1,48.5,44.94902687673772,3.7829421242800816,0.022586987387358093
-espace-san-bernardo-la-rosiere-la-thuile,Espace San Bernardo – La Rosière/La Thuile,IT,2,59.0,60.142711518858306,3.96326029405457,0.13345996926792303
-espace-villard-correncon-villard-de-lans-correncon-en-vercors,Espace Villard Corrençon – Villard-de-Lans/Corrençon-en-Vercors,FR,1,43.0,39.85171455050973,3.8301030218736583,-0.14493759245609317
-evolene,Evolène,CH,1,52.5,28.48616386326641,3.7901468616437803,-0.4407283707338885
-fellhorn-kanzelwand-oberstdorf-riezlern,Fellhorn/Kanzelwand – Oberstdorf/Riezlern,AT,1,68.7,57.393483709273184,3.955094142920693,0.0948366297317742
-filzmoos,Filzmoos,AT,1,70.0,58.47953216374269,4.031264895545267,0.03741191992825588
-first-grindelwald,First – Grindelwald,CH,2,87.15,47.28703201302224,4.023555938109508,-0.16731984483116458
-flachauwinkl-kleinarl-shuttleberg,Flachauwinkl/Kleinarl (Shuttleberg),AT,1,81.0,67.66917293233082,4.021076495243981,0.1935542328526214
-flumserberg,Flumserberg,CH,2,79.8,43.298969072164944,3.9759235449211556,-0.20779471915307868
-folgaria-fiorentini,Folgaria/Fiorentini,IT,1,60.0,61.162079510703364,3.987595763538,0.1259316181008745
-foppolo-carona-brembo-ski,Foppolo/Carona (Brembo Ski),IT,1,40.0,40.774719673802245,3.6409155900871686,0.06714668344354191
-galibier-thabor-valmeinier-valloire,Galibier Thabor – Valmeinier/Valloire,FR,2,54.9,50.88044485634847,3.9561804186805887,-0.0267017564411014
-galtuer-silvapark,Galtür – Silvapark,AT,1,56.5,47.20133667502088,3.8324793086281965,0.02194290294836243
-gemsstock-andermatt,Gemsstock – Andermatt,CH,2,96.6,52.414541508410196,3.9157600270228596,0.043424035507926284
-gerlitzen,Gerlitzen,AT,1,73.0,60.985797827903085,4.1539000357843125,-0.04325902121175762
-gitschberg-jochtal,Gitschberg Jochtal,IT,2,73.0,74.4138634046891,4.121155516013773,0.18848674455139225
-glacier-3000-les-diablerets,Glacier 3000 – Les Diablerets,CH,2,88.2,47.85675529028757,3.9305509819713307,-0.062338697646271424
-glungezer-tulfes,Glungezer – Tulfes,AT,1,50.0,41.77109440267335,3.8786774273490834,-0.14647284849677344
-golm,Golm,AT,1,74.0,61.82121971595655,3.9489614955872034,0.17528517104112984
-graechen,Grächen,CH,2,70.35,38.17145957677699,4.008760701104684,-0.36667259623197257
-grands-montets-argentiere-chamonix,Grands Montets – Argentière (Chamonix),FR,2,74.0,68.58202038924931,3.869131482948054,0.3588989239801186
-grimentz-zinal,Grimentz/Zinal,CH,2,76.65,41.58979924036896,3.9790664276160843,-0.25121150098594747
-grosseck-speiereck-mauterndorf-st-michael,Grosseck/Speiereck – Mauterndorf/St. Michael,AT,1,61.0,50.96073517126148,4.059952836289406,-0.12889739869193084
-grossglockner-resort-kals-matrei,Großglockner Resort Kals-Matrei,AT,2,74.0,61.82121971595655,4.20471340547391,-0.08046673884557709
-gruesch-danusa,Grüsch Danusa,CH,1,66.15,35.89256646771568,3.9209458259074474,-0.340415614034169
-gurgl-obergurgl-hochgurgl,Gurgl – Obergurgl-Hochgurgl,AT,2,58.0,48.45446950710108,4.025559375642558,-0.1449347916719752
-hinterstoder-hoess,Hinterstoder – Höss,AT,1,80.0,66.83375104427736,4.173484380249863,0.028723827848182282
-hintertux-glacier-hintertuxer-gletscher,Hintertux Glacier (Hintertuxer Gletscher),AT,2,82.0,68.50459482038428,4.0145224887213065,0.21237833196710998
-hirmentaz-les-haberes-bellevaux-habere-poche,Hirmentaz/Les Habères – Bellevaux/Habère-Poche,FR,1,35.0,32.437442075996294,3.453770645511948,0.025542729701468314
-hoch-imst-imst,ski resort Hoch-Imst – Imst,AT,1,47.0,39.264828738512946,3.9039354372605852,-0.23360626212636282
-hoch-ybrig-unteriberg-oberiberg,Hoch-Ybrig – Unteriberg/Oberiberg,CH,1,65.1,35.32284319045034,3.6628601393215754,-0.09833026879473827
-hochkoenig-maria-alm-dienten-muehlbach,Hochkönig – Maria Alm/Dienten/Mühlbach,AT,1,81.0,67.66917293233082,4.004554991568415,0.21007573652818756
-hochoetz-oetz,Hochoetz – Oetz,AT,1,66.5,55.55555555555555,3.8168443592494983,0.20053916183647402
-hochzeiger-jerzens,Hochzeiger – Jerzens,AT,1,69.0,57.64411027568922,3.840802571123884,0.21348550689753987
-hohsaas-saas-grund,Hohsaas – Saas-Grund,CH,2,65.1,35.32284319045034,4.003523313472392,-0.4389934429455553
-ifen,Ifen,AT,1,72.9,60.902255639097746,3.8621431047376364,0.24712710770113988
-ischgl-samnaun-silvretta-arena,Ischgl/Samnaun – Silvretta Arena,AT,2,83.0,69.34001670843776,4.095013573329364,0.14400860789139713
-isola-2000,Isola 2000,FR,1,44.0,40.77849860982391,3.7166960935575717,-0.008541145915307968
-jakobshorn-davos-klosters,Jakobshorn (Davos Klosters),CH,2,91.35,49.56592512208355,4.009037062322907,-0.10573345818657787
-kaltenbach-hochzillertal-hochfuegen-ski-optimal,Kaltenbach – Hochzillertal/Hochfügen (SKi-optimal),AT,2,83.0,69.34001670843776,4.127419218700597,0.11160296252016444
-kanin-sella-nevea-bovec,Kanin – Sella Nevea/Bovec,IT,1,44.0,44.852191641182465,4.1391178308952,-0.3357453775601651
-kappl,Kappl,AT,2,73.0,60.985797827903085,4.1435702036576885,-0.03292918908513354
-katschberg,Katschberg,AT,1,73.0,60.985797827903085,4.0705478759512586,0.040093138621296376
-kaunertal-glacier-kaunertaler-gletscher,Kaunertal Glacier (Kaunertaler Gletscher),AT,2,77.0,64.32748538011695,3.975073283967064,0.18891371131078394
-kitzski-kitzbuehel-kirchberg,KitzSki – Kitzbühel/Kirchberg,AT,2,83.0,69.34001670843776,4.115500208769703,0.12352197245105856
-kitzsteinhorn-maiskogel-kaprun,Kitzsteinhorn/Maiskogel – Kaprun,AT,2,82.0,68.50459482038428,4.2055877433379205,0.021313077350495924
-klausberg-skiworld-ahrntal,Klausberg – Skiworld Ahrntal,IT,2,77.0,78.49133537206932,4.142898253906617,0.22008998736384022
-kleine-scheidegg-maennlichen-grindelwald-wengen,Kleine Scheidegg/Männlichen – Grindelwald/Wengen,CH,2,87.15,47.28703201302224,4.063625855658974,-0.20738976238063023
-klewenalp-stockhuette-beckenried-emmetten,Klewenalp/Stockhütte – Beckenried/Emmetten,CH,1,64.05,34.75311991318502,3.5786232645317275,-0.030353914876670718
-kreischberg,Kreischberg,AT,1,72.0,60.150375939849624,4.154259619944798,-0.05741192750457902
-kronplatz-plan-de-corones,Kronplatz (Plan de Corones),IT,2,83.0,84.60754332313965,4.219356692923401,0.21866673428997085
-kuehtai,Kühtai,AT,1,66.5,55.55555555555555,3.699283966091862,0.31809955499411036
-la-berra-la-roche,La Berra – La Roche,CH,1,51.45,27.916440586001084,3.8332402192812696,-0.5040244356888972
-la-clusaz-manigod,La Clusaz/Manigod,FR,2,54.5,50.5097312326228,3.747033998276143,0.17513201711705761
-la-colmiane,La Colmiane,FR,1,26.0,24.096385542168676,3.8189984291197385,-0.6369365773742541
-la-norma,La Norma,FR,2,43.0,39.85171455050973,3.898319365455881,-0.2131539360383159
-la-plagne-paradiski,La Plagne (Paradiski),FR,2,70.0,64.87488415199259,3.9597602715743,0.2127002841990615
-laax-flims-falera,Laax/Flims/Falera,CH,2,68.25,37.03201302224633,3.951083337126427,-0.3393005817490442
-ladurns,Ladurns,IT,1,57.0,58.103975535168196,3.9279554793808575,0.13427860787046697
-lagorai-passo-brocon-castello-tesino,Lagorai/Passo Brocon – Castello Tesino,IT,1,45.0,45.87155963302752,3.9740177742625344,-0.14817246507544057
-latemar-obereggen-pampeago-predazzo,Latemar – Obereggen/Pampeago/Predazzo,IT,1,71.0,72.37512742099898,3.9764742318454807,0.30538846461260905
-lauchernalp-loetschental,Lauchernalp – Lötschental,CH,2,73.5,39.88062940857297,4.042449263047919,-0.35655853551681416
-lavarone,Lavarone,IT,1,50.0,50.9683995922528,4.00625913098671,-0.07505330614179018
-le-collet-dallevard,Le Collet d'Allevard,FR,1,29.0,26.876737720111215,3.7284972159495844,-0.437236072239108
-le-grand-bornand,Le Grand Bornand,FR,1,52.0,48.19277108433735,3.5125291391948794,0.3626798931105504
-le-grand-domaine-valmorel-doucy-celliers-st-francois-longchamp,Le Grand Domaine – Valmorel/Doucy/Celliers/St François Longchamp,FR,2,59.7,55.329008341056536,3.954110845210348,0.05918648891221068
-le-grand-massif-flaine-les-carroz-morillon-samoens-sixt,Le Grand Massif – Flaine/Les Carroz/Morillon/Samoëns/Sixt,FR,2,61.0,56.53382761816497,3.8614974416506267,0.17334173624668692
-le-seignus,Le Seignus,FR,1,35.0,32.437442075996294,3.833005123461872,-0.3536917482484556
-lermoos-grubigstein,Lermoos – Grubigstein,AT,1,70.5,58.89724310776942,3.845993469486853,0.22980081375553407
-les-2-alpes,Les 2 Alpes,FR,2,66.0,61.16774791473587,4.070291489575827,0.043328566174601235
-les-3-vallees-val-thorens-les-menuires-meribel-courchevel,Les 3 Vallées – Val Thorens/Les Menuires/Méribel/Courchevel,FR,2,84.2,78.03521779425394,4.0110774357159125,0.3460827992563713
-les-7-laux-prapoutel-le-pleynet-pipay,ski resort Les 7 Laux – Prapoutel/Le Pleynet/Pipay,FR,1,43.0,39.85171455050973,3.8032210381472145,-0.11805560872964938
-les-arcs-peisey-vallandry-paradiski,Les Arcs/Peisey-Vallandry (Paradiski),FR,2,70.0,64.87488415199259,3.968761561406921,0.20369899436644046
-les-brasses,Les Brasses,FR,1,32.5,30.120481927710845,3.403548733238167,0.0016566698215272346
-les-contamines-hauteluce,Les Contamines/Hauteluce,FR,1,54.5,50.5097312326228,3.6596116343051186,0.26255438108808216
-les-houches-saint-gervais-prarion-bellevue-chamonix,Les Houches/Saint-Gervais – Prarion/Bellevue (Chamonix),FR,1,59.0,54.68025949953661,3.6832728303575832,0.3182299272721387
-les-karellis,Les Karellis,FR,1,36.0,33.364226135310474,3.750806910579684,-0.24332265839957135
-les-marecottes-salvan,Les Marécottes (Salvan),CH,1,56.7,30.765056972327724,3.700888786597642,-0.2745092545516221
-les-orres,Les Orres,FR,1,44.5,41.241890639481,3.7735539322300657,-0.0540994293338688
-les-portes-du-mont-blanc-combloux-megeve-le-jaillet-la-giettaz,Les Portes du Mont-Blanc – Combloux/Megève le Jaillet/La Giettaz,FR,1,52.5,48.65616311399444,3.6367573399966666,0.24802114332491376
-les-portes-du-soleil-morzine-avoriaz-les-gets-chatel-morgins-champery,Les Portes du Soleil – Morzine/Avoriaz/Les Gets/Châtel/Morgins/Champéry,FR,2,73.0,67.65523632993512,3.7478429597135747,0.4665817951588185
-les-sybelles-le-corbier-la-toussuire-les-bottieres-st-sorlin-st-jean-darves,Les Sybelles – Le Corbier/La Toussuire/Les Bottières/St Sorlin/St Jean d’Arves,FR,2,60.5,56.07043558850788,4.053735106176707,-0.02712642741590887
-leukerbad,Leukerbad,CH,1,68.25,37.03201302224633,3.8226138318588765,-0.2108310764814938
-leysin,Leysin,CH,1,71.4,38.74118285404232,3.678089495369561,-0.02118630471170846
-livigno,Livigno,IT,2,72.0,73.39449541284404,4.004818759601855,0.29103017883097415
-loser-altaussee,Loser – Altaussee,AT,1,62.0,51.79615705931495,4.071312184967437,-0.12399622649818154
-macugnaga,Macugnaga,IT,2,34.0,34.65851172273191,3.993627782476325,-0.44808443844338974
-madonna-di-campiglio-pinzolo-folgarida-marilleva,Madonna di Campiglio/Pinzolo/Folgàrida/Marilleva,IT,2,89.0,90.72375127420999,4.232571638043331,0.27524755110558274
-madrisa-davos-klosters,Madrisa (Davos Klosters),CH,2,76.65,41.58979924036896,4.07204116498099,-0.3441862383508534
-mayrhofen-penken-ahorn-rastkogel-eggalm-mountopolis,Mayrhofen – Penken/Ahorn/Rastkogel/Eggalm (Mountopolis),AT,2,82.0,68.50459482038428,4.165492883308766,0.061407937379650335
-megeve-saint-gervais,Megève/Saint-Gervais,FR,2,65.0,60.24096385542169,3.9014071998978985,0.19694538372174142
-meiringen-hasliberg,Meiringen-Hasliberg,CH,2,68.25,37.03201302224633,3.954305493573618,-0.34252273819623547
-melchsee-frutt-kerns,Melchsee-Frutt (Kerns),CH,1,72.45,39.31090613130765,3.721446842645013,-0.049944852566008
-meran-2000,Meran 2000,IT,1,62.5,63.710499490316,3.901171521446496,0.25317785471263354
-minschuns-val-muestair-tschierv,Minschuns – Val Müstair-Tschierv,CH,1,44.1,23.928377645143787,3.7832521879987424,-0.6081870842336285
-mondole-ski-artesina-frabosa-soprana-prato-nevoso,Mondolè Ski – Artesina/Frabosa Soprana/Prato Nevoso,IT,1,52.0,53.00713557594292,3.8684138193462614,0.10201271865193995
-monte-bondone,Monte Bondone,IT,1,54.0,55.04587155963303,3.9674082125001195,0.04075865348092922
-montecampione-alpiaz-prato-secondino-plan-di-montecampione,Montecampione – Alpiaz/Prato Secondino/Plan di Montecampione,IT,1,30.0,30.581039755351682,3.7804202352348213,-0.36004003415589203
-mythenregion,Mythenregion,CH,1,51.45,27.916440586001084,3.541246320467628,-0.21203053687525575
-nara-leontica,Nara – Leontica,CH,1,49.35,26.776994031470426,3.8926669418918256,-0.6051238547000213
-nassfeld-hermagor,Nassfeld – Hermagor,AT,2,73.0,60.985797827903085,4.403641261182354,-0.2930002466097994
-nauders-am-reschenpass-bergkastel,Nauders am Reschenpass – Bergkastel,AT,2,65.0,54.30242272347535,4.138317954013969,-0.14374911069416818
-nax-mont-noble,Nax – Mont-Noble,CH,1,59.85,32.47422680412371,3.751206220923339,-0.2707594676070433
-obersaxen-mundaun-val-lumnezia,Obersaxen/Mundaun/Val Lumnezia,CH,1,70.35,38.17145957677699,3.7520080053167417,-0.1099199004440301
-obertauern,Obertauern,AT,1,72.0,60.150375939849624,3.920469690119544,0.17637800232067535
-oclini,Oclini,IT,1,35.0,35.67787971457696,3.920671238614588,-0.34614035770840035
-orcieres-merlette-1850,Orcières Merlette 1850,FR,1,46.0,42.63206672845227,3.731044140797902,0.0215625694151953
-ovronnaz,Ovronnaz,CH,1,68.25,37.03201302224633,3.695404541940167,-0.08362178656278418
-padola-ski-area-comelico,Padola – Ski Area Comelico,IT,1,80.0,81.54943934760449,4.021810084322629,0.37939936976802624
-paganella-andalo,Paganella – Andalo,IT,1,76.0,77.47196738022426,4.014324687893113,0.33559147180999194
-parsenn-davos-klosters,Parsenn (Davos Klosters),CH,2,91.35,49.56592512208355,4.143096368080569,-0.23979276394423943
-passo-dello-stelvio-stelvio-pass,Passo dello Stelvio (Stelvio Pass),IT,1,61.0,62.18144750254842,3.6419633854806603,0.48809329810942526
-passo-san-pellegrino-falcade,Passo San Pellegrino/Falcade,IT,2,71.0,72.37512742099898,4.250645435550659,0.0312172609074306
-pejo-3000,Pejo 3000,IT,2,60.0,61.162079510703364,4.11862298485198,-0.005095603213105093
-pfelders-moos-in-passeier,Pfelders (Moos in Passeier),IT,1,58.0,59.123343527013255,3.880582565164933,0.1990432647982603
-piani-di-bobbio,Piani di Bobbio,IT,1,47.0,47.91029561671763,3.6132723807521883,0.2560580403746444
-pila,Pila,IT,2,60.0,61.162079510703364,3.852480075974958,0.2610473056639169
-pitztal-glacier-pitztaler-gletscher,Pitztal Glacier (Pitztaler Gletscher),AT,2,77.0,64.32748538011695,3.8407422074014335,0.32324478787641464
-pizol-bad-ragaz-wangs,Pizol – Bad Ragaz/Wangs,CH,2,65.1,35.32284319045034,4.078001189887438,-0.5134713193606006
-plose-brixen-bressanone,Plose – Brixen (Bressanone),IT,2,70.0,71.35575942915392,4.212854552688966,0.05482350877716691
-ponte-di-legno-tonale-presena-glacier-temu-pontedilegno-tonale,Ponte di Legno/Tonale/Presena Glacier/Temù (Pontedilegno-Tonale),IT,2,66.0,67.2782874617737,4.135456388124255,0.07338117331894445
-pralognan-la-vanoise,Pralognan la Vanoise,FR,1,41.0,37.99814643188137,3.7102150887497563,-0.07267770832144604
-praz-de-lys-sommand-taninges-mieussy,Praz de Lys/Sommand (Taninges/Mieussy),FR,1,36.0,33.364226135310474,3.430672385320907,0.07681186685920549
-puy-saint-vincent,Puy-Saint-Vincent,FR,1,42.0,38.92493049119555,3.768976919724068,-0.10734198771669723
-racines-giovo-ratschings-jaufen-malga-calice-kalcheralm,Racines-Giovo (Ratschings-Jaufen)/Malga Calice (Kalcheralm),IT,1,70.0,71.35575942915392,3.912742385909463,0.3549356755566695
-radstadt-altenmarkt,Radstadt/Altenmarkt,AT,1,81.0,67.66917293233082,4.0578550214488205,0.15677570664778173
-rauriser-hochalmbahnen-rauris,Rauriser Hochalmbahnen – Rauris,AT,1,69.5,58.06182121971595,3.997461711627628,0.0640466143672822
-reinswald-san-martino-in-sarentino,Reinswald (San Martino in Sarentino),IT,1,59.0,60.142711518858306,3.9039351285255037,0.19278513479698933
-riesneralm-donnersbachwald,Riesneralm – Donnersbachwald,AT,1,62.0,51.79615705931495,4.113246109809255,-0.16593015134
-rinderberg-saanersloch-horneggli-zweisimmen-saanenmoeser-schoenried-st-stephan,Rinderberg/Saanersloch/Horneggli – Zweisimmen/Saanenmöser/Schönried/St. Stephan,CH,1,98.7,53.55398806294085,3.8652093423451643,0.11548092540658539
-rinerhorn-davos-klosters,Rinerhorn (Davos Klosters),CH,1,72.45,39.31090613130765,3.8246642408980493,-0.15316225081904422
-riserva-bianca-limone-piemonte,Riserva Bianca – Limone Piemonte,IT,1,48.0,48.92966360856269,3.837699505464347,0.05268432486031793
-rosskopf-monte-cavallo-sterzing-vipiteno,Rosskopf (Monte Cavallo) – Sterzing (Vipiteno),IT,1,63.0,64.22018348623854,3.9726176488858,0.189699896922507
-saalbach-hinterglemm-leogang-fieberbrunn-skicircus,Saalbach Hinterglemm Leogang Fieberbrunn (Skicircus),AT,2,82.0,68.50459482038428,4.136879122008494,0.09002169867992205
-saas-fee,Saas-Fee,CH,2,90.3,48.99620184481822,3.9469591235096604,-0.05521634177440715
-saint-luc-chandolin-anniviers,Saint Luc/Chandolin (Anniviers),CH,2,71.4,38.74118285404232,3.9555009056832704,-0.298597715025418
-sainte-foy-tarentaise,Sainte-Foy-Tarentaise,FR,1,40.5,37.53475440222428,3.6887196278615586,-0.06345234002506261
-san-domenico-alpe-ciamporino,San Domenico – Alpe Ciamporino,IT,1,46.0,46.89092762487258,3.8242966681199073,0.023527547785961556
-san-martino-di-castrozza,San Martino di Castrozza,IT,1,73.0,74.4138634046891,4.026647553974454,0.2829947065907108
-sangiacomo-cardini-monte-alpet,Sangiacomo/Cardini – Monte Alpet,IT,1,24.0,24.464831804281346,3.801729112693521,-0.6044924629288015
-santa-caterina-valfurva,Santa Caterina Valfurva,IT,2,65.0,66.25891946992864,4.038304908371325,0.1552651809410861
-savognin,Savognin,CH,2,79.8,43.298969072164944,4.079989011814531,-0.31186018604645405
-schilthorn-muerren-lauterbrunnen,Schilthorn – Mürren/Lauterbrunnen,CH,2,87.15,47.28703201302224,4.118598696855931,-0.262362603577587
-schladming-planai-hochwurzen-hauser-kaibling-reiteralm-4-berge-skischaukel,Schladming – Planai/Hochwurzen/Hauser Kaibling/Reiteralm (4-Berge-Skischaukel),AT,2,81.5,68.08688387635756,4.3102692741727475,-0.08948468050176661
-schlick-2000-fulpmes,Schlick 2000 – Fulpmes,AT,1,61.5,51.37844611528822,3.893637766412528,0.04558098182410797
-schmittenhoehe-zell-am-see,Schmittenhöhe – Zell am See,AT,1,82.0,68.50459482038428,3.982038289301879,0.24486253138653735
-schwemmalm,Schwemmalm,IT,2,58.0,59.123343527013255,4.153177231568631,-0.07355140160543794
-scuol-motta-naluns,Scuol – Motta Naluns,CH,2,72.45,39.31090613130765,4.140143466882679,-0.4686414768036742
-see,See,AT,2,73.0,60.985797827903085,4.1737537574254,-0.0631127428528453
-serfaus-fiss-ladis,Serfaus-Fiss-Ladis,AT,2,78.0,65.16290726817043,4.136740655196361,0.04014974491739487
-serre-chevalier-briancon-chantemerle-villeneuve-la-salle-le-monetier-les-bains,Serre Chevalier – Briançon/Chantemerle/Villeneuve-la-Salle/Le Monêtier-les-Bains,FR,2,68.0,63.02131603336423,3.984528017067563,0.15894500183254623
-sillian-thurntaler-hochpustertal,Sillian – Thurntaler (Hochpustertal),AT,2,74.0,61.82121971595655,4.211789469563407,-0.087542802935074
-silvretta-montafon,Silvretta Montafon,AT,2,77.0,64.32748538011695,4.1669375726149385,-0.0029505773370903654
-ski-juwel-alpbachtal-wildschoenau,Ski Juwel Alpbachtal Wildschönau,AT,1,71.5,59.73266499582289,3.8472716716057014,0.24260735151842416
-skiwelt-wilder-kaiser-brixental,SkiWelt Wilder Kaiser-Brixental,AT,2,79.5,66.41604010025063,4.1009206462601675,0.0950179488242826
-snow-space-salzburg-flachau-wagrain-st-johann-alpendorf,Snow Space Salzburg – Flachau/Wagrain/St. Johann-Alpendorf,AT,1,81.0,67.66917293233082,4.064912577151655,0.14971815094494723
-soelden,Sölden,AT,2,86.5,72.26399331662489,4.093094102724939,0.1872318846370593
-soerenberg-rothorn-dorf,Sörenberg – Rothorn/Dorf,CH,1,67.2,36.46228974498101,3.7253199199799316,-0.12904135113851423
-sonnenkopf-kloesterle,Sonnenkopf – Klösterle,AT,1,58.0,48.45446950710108,3.918592307222258,-0.03796772325167508
-speikboden-skiworld-ahrntal,Speikboden – Skiworld Ahrntal,IT,2,77.0,78.49133537206932,4.176446491791723,0.18654174947873425
-spieljoch-fuegen,Spieljoch – Fügen,AT,1,80.0,66.83375104427736,3.9052269226364547,0.2969812854615905
-spluegen-tambo,Splügen – Tambo,CH,1,64.05,34.75311991318502,3.7912052234491096,-0.2429358737940528
-st-anton-st-christoph-stuben-lech-zuers-warth-schroecken-ski-arlberg,St. Anton/St. Christoph/Stuben/Lech/Zürs/Warth/Schröcken – Ski Arlberg,AT,2,85.0,71.0108604845447,4.0934408572683685,0.16939197264611217
-st-jakob-im-defereggental-brunnalm,St. Jakob im Defereggental – Brunnalm,AT,2,74.0,61.82121971595655,4.1060045668908485,0.018242099737484807
-st-jean-montclar,St. Jean Montclar,FR,1,33.5,31.047265987025025,3.876274588786818,-0.44076383623179494
-st-johann-in-tirol-oberndorf-harschbichl,St. Johann in Tirol/Oberndorf – Harschbichl,AT,1,65.0,54.30242272347535,3.9084365745673963,0.08613226875240443
-st-moritz-corviglia,St. Moritz – Corviglia,CH,2,52.5,28.48616386326641,3.976170118163937,-0.6267516272540452
-steinplatte-winklmoosalm-waidring-reit-im-winkl,Steinplatte Winklmoosalm – Waidring/Reit im Winkl,AT,1,66.0,55.13784461152882,3.8844360978245147,0.12540021762607445
-stoos-fronalpstock-klingenstock,ski resort Stoos – Fronalpstock/Klingenstock,CH,1,60.9,33.043950081389035,3.525471130193271,-0.027632634165105863
-stubai-glacier-stubaier-gletscher,Stubai Glacier (Stubaier Gletscher),AT,2,75.5,63.07435254803676,4.001713786103588,0.1426004435755548
-sulden-am-ortler-solda-allortles,Sulden am Ortler (Solda all'Ortles),IT,2,63.0,64.22018348623854,4.03131158548164,0.13100596032666711
-super-sauze,Super Sauze,FR,1,39.0,36.144578313253014,3.814046671670365,-0.22651971181671593
-tarvisio-monte-lussari,Tarvisio – Monte Lussari,IT,1,44.0,44.852191641182465,4.201507888757701,-0.3981354354226654
-tauplitz-bad-mitterndorf,Tauplitz – Bad Mitterndorf,AT,1,62.0,51.79615705931495,4.102709707504834,-0.155393749035579
-tignes-val-disere,Tignes/Val d'Isère,FR,2,75.0,69.50880444856348,3.841290585459816,0.4001628418004963
-titlis-engelberg,Titlis – Engelberg,CH,2,65.1,35.32284319045034,3.9234444245024034,-0.35891455397556626
-torgnon,Torgnon,IT,1,39.0,39.75535168195719,3.6930942886522837,-0.010349823105863187
-tschiertschen,Tschiertschen,CH,1,64.05,34.75311991318502,3.791647485354712,-0.24337813569965538
-turracher-hoehe,Turracher Höhe,AT,1,72.5,60.568086883876354,4.044261666905285,0.05950646837950746
-val-cenis-lanslevillard-lanslebourg-termignon,Val Cenis – Lanslevillard/Lanslebourg/Termignon,FR,2,50.0,46.33920296570899,3.8658189063767563,-0.02983058722460763
-val-gardena-groeden,Val Gardena (Gröden),IT,2,83.0,84.60754332313965,4.197486285173067,0.24053714204030463
-val-senales-glacier-schnalstaler-gletscher,Val Senales Glacier (Schnalstaler Gletscher),IT,2,62.0,63.200815494393474,4.014854310370176,0.13146289409168954
-valberg-beuil-les-launes,Valberg/Beuil les Launes,FR,1,37.0,34.291010194624654,3.845871677161867,-0.3109884507936398
-valchiavenna-madesimo-campodolcino,Valchiavenna – Madesimo/Campodolcino,IT,2,59.0,60.142711518858306,3.9710494464279935,0.12567081689449955
-valfrejus,Valfréjus,FR,1,43.0,39.85171455050973,3.6739028301857686,0.01126259923179651
-valmalenco-alpe-palu,Valmalenco – Alpe Palù,IT,1,58.0,59.123343527013255,3.7595506230388103,0.32007520692438307
-vals-dachberg,Vals – Dachberg,CH,2,40.95,22.2192078133478,3.9897163741299693,-0.8887592425185771
-vars-risoul-la-foret-blanche,Vars/Risoul – La Forêt Blanche,FR,2,58.0,53.75347544022243,3.9130125959850193,0.07139572828540253
-vercorin,Vercorin,CH,1,68.25,37.03201302224633,3.810443090181905,-0.19866033480452217
-via-lattea-sestriere-sauze-doulx-san-sicario-claviere-montgenevre,Via Lattea – Sestriere/Sauze d’Oulx/San Sicario/Claviere/Montgenèvre,IT,2,66.0,67.2782874617737,3.799888529450385,0.4089490319928144
-villars-gryon-les-diablerets,Villars/Gryon/Les Diablerets,CH,1,72.45,39.31090613130765,3.715712581905227,-0.04421059182622189
-wasserngrat-gstaad,Wasserngrat – Gstaad,CH,1,98.7,53.55398806294085,3.783058396294746,0.19763187145700378
-watles-malles-venosta-mals,Watles – Malles Venosta (Mals),IT,1,59.0,60.142711518858306,3.8733937682230373,0.2233264950994558
-wildhaus-gamserrugg-toggenburg,Wildhaus – Gamserrugg (Toggenburg),CH,1,66.15,35.89256646771568,3.700681648644163,-0.12015143677088469
-wildkogel-neukirchen-bramberg,Wildkogel – Neukirchen/Bramberg,AT,2,72.0,60.150375939849624,4.122924500942638,-0.026076808502418558
-zauchensee-flachauwinkl,Zauchensee/Flachauwinkl,AT,1,81.0,67.66917293233082,4.038064308855125,0.1765664192414773
-zermatt-breuil-cervinia-valtournenche-matterhorn,Zermatt/Breuil-Cervinia/Valtournenche – Matterhorn,CH,2,121.8,66.08790016277807,3.9776428107426227,0.21334286584548767
-zettersfeld-lienz,Zettersfeld – Lienz,AT,1,74.0,61.82121971595655,3.8991358876406976,0.22511077898763565
-zillertal-arena-zell-am-ziller-gerlos-koenigsleiten-hochkrimml,Zillertal Arena – Zell am Ziller/Gerlos/Königsleiten/Hochkrimml,AT,2,82.0,68.50459482038428,4.1604683865130525,0.06643243417536393
-zoncolan-ravascletto-sutrio,ski resort Zoncolan – Ravascletto/Sutrio,IT,1,44.0,44.852191641182465,4.128934673603501,-0.3255622202684658
-zuoz-pizzet-albanas,Zuoz – Pizzet/Albanas,CH,1,76.65,41.58979924036896,3.8193890160862956,-0.09153408945615871
+3-zinnen-dolomites-helm-stiergarten-rotwand-kreuzbergpass,3 Zinnen Dolomites – Helm/Stiergarten/Rotwand/Kreuzbergpass,IT,1,80.0,81.54943934760449,4.014698010136934,0.3865114439537214
+4-vallees-verbier-la-tzoumaz-nendaz-veysonnaz-thyon,4 Vallées – Verbier/La Tzoumaz/Nendaz/Veysonnaz/Thyon,CH,2,98.7,53.55398806294085,3.924932025156249,0.05575824259550055
+abries,Abriès,FR,1,38.9,36.05189990732159,3.6185161455965718,-0.033556581248168627
+adelboden-lenk-chuenisbaergli-silleren-hahnenmoos-metsch,Adelboden/Lenk – Chuenisbärgli/Silleren/Hahnenmoos/Metsch,CH,1,76.65,41.58979924036896,3.8351106227352707,-0.10725569610513386
+aiguille-du-midi-chamonix,Aiguille du Midi (Chamonix),FR,2,71.0,65.80166821130676,3.9235453789354886,0.2630998118298291
+airolo-pesciuem,Airolo – Pesciüm,CH,1,61.95,33.61367335865437,3.802638069918542,-0.2877051405310769
+alagna-valsesia-gressoney-la-trinite-champoluc-frachey-monterosa-ski,Alagna Valsesia/Gressoney-La-Trinité/Champoluc/Frachey (Monterosa Ski),IT,2,69.0,70.33639143730888,3.9743730912330633,0.2789162327809698
+aletsch-arena-riederalp-bettmeralp-fiesch-eggishorn,Aletsch Arena – Riederalp/Bettmeralp/Fiesch Eggishorn,CH,2,93.45,50.70537167661421,3.9284978265483597,-0.0024659713344741263
+almenwelt-lofer,Almenwelt Lofer,AT,1,64.5,53.884711779448615,3.930345753947658,0.056501043278232466
+alpe-cermis-cavalese,Alpe Cermis – Cavalese,IT,1,71.0,72.37512742099898,4.122700880953308,0.15916181550478203
+alpe-dhuez,Alpe d'Huez,FR,2,66.0,61.16774791473587,4.099691211528153,0.013928844222275139
+alpe-di-siusi-seiser-alm,Alpe di Siusi (Seiser Alm),IT,1,83.0,84.60754332313965,4.007983969222505,0.4300394579908664
+alpe-du-grand-serre-la-morte,Alpe du Grand-Serre – La Morte,FR,1,36.0,33.364226135310474,3.8312624387626704,-0.32377818658255775
+alpe-lusia-moena-bellamonte,Alpe Lusia – Moena/Bellamonte,IT,1,74.0,75.43323139653415,4.0190700439285445,0.30417786869239904
+alta-badia,Alta Badia,IT,2,74.0,75.43323139653415,4.184739442674121,0.13850846994682264
+andermatt-oberalp-sedrun,Andermatt/Oberalp/Sedrun,CH,2,96.6,52.414541508410196,3.901426055542552,0.057758006988233745
+anzere,Anzère,CH,1,75.6,41.02007596310363,3.741872231217269,-0.027810626719468434
+aprica,Aprica,IT,1,57.0,58.103975535168196,3.8403392629782904,0.22189482427303409
+arabba-marmolada,Arabba/Marmolada,IT,2,75.0,76.45259938837921,4.173023430567818,0.16364750238526593
+areches-beaufort,Arêches (Beaufort),FR,1,41.0,37.99814643188137,3.7127925900189314,-0.07525520959062115
+arosa-lenzerheide,Arosa Lenzerheide,CH,2,93.45,50.70537167661421,4.013694180645193,-0.08766232543130759
+auron-saint-etienne-de-tinee,Auron (Saint-Etienne-de-Tinée),FR,1,44.0,40.77849860982391,3.7711152436767303,-0.06296029603446662
+aussois,Aussois,FR,1,41.0,37.99814643188137,3.656259311746441,-0.018721931318130824
+axamer-lizum,Axamer Lizum,AT,1,67.0,55.97326649958229,3.764966785929022,0.2599074068861076
+bad-gastein-bad-hofgastein-schlossalm-angertal-stubnerkogel,Bad Gastein/Bad Hofgastein – Schlossalm/Angertal/Stubnerkogel,AT,2,81.5,68.08688387635756,4.252297753506503,-0.03151315983552205
+bad-kleinkirchheim,Bad Kleinkirchheim,AT,1,73.0,60.985797827903085,4.112810572637967,-0.0021695580654119695
+balme-les-autannes-vallorcine-le-tour,Balme/Les Autannes – Vallorcine/Le Tour,FR,1,74.0,68.58202038924931,3.650015860676505,0.5780145462516675
+bardonecchia,Bardonecchia,IT,2,49.0,49.94903160040775,3.905186019629366,0.005817097898034529
+belalp-blatten,Belalp – Blatten,CH,2,80.85,43.86869234943027,4.053379728817623,-0.2721788214821932
+bellwald,Bellwald,CH,1,80.85,43.86869234943027,3.7667949994295813,0.01440590790584828
+belpiano-schoeneben-malga-san-valentino-haideralm,Belpiano (Schöneben)/Malga San Valentino (Haideralm),IT,1,70.0,71.35575942915392,3.928546450001821,0.3391316114643117
+belvedere-col-rodella-ciampac-buffaure-canazei-campitello-alba-pozza-di-fassa,Belvedere/Col Rodella/Ciampac/Buffaure – Canazei/Campitello/Alba/Pozza di Fassa,IT,2,76.0,77.47196738022426,4.201072607084559,0.14884355261854587
+bergeralm-steinach-am-brenner,Bergeralm – Steinach am Brenner,AT,1,60.2,50.292397660818715,3.90760480782517,0.010249117913769368
+berwang-bichlbach-rinnen,Berwang/Bichlbach/Rinnen,AT,1,70.5,58.89724310776942,3.8485470158314934,0.22724726741089363
+betelberg-lenk,Betelberg – Lenk,CH,1,66.15,35.89256646771568,3.8467150462214597,-0.2661848343481812
+biberwier-marienberg,Biberwier – Marienberg,AT,1,70.5,58.89724310776942,3.8525788221059085,0.2232154611364785
+bormio-cima-bianca,Bormio – Cima Bianca,IT,2,60.0,61.162079510703364,4.14225632750877,-0.028728945869895384
+bosco-gurin-grossalp,Bosco Gurin – Grossalp,CH,1,59.85,32.47422680412371,3.788659497619771,-0.30821274430347545
+brandnertal-brand-buerserberg,Brandnertal – Brand/Bürserberg,AT,1,58.0,48.45446950710108,3.8639593505617684,0.01666523340881465
+braunwald,Braunwald  (temporarily closed),CH,1,60.9,33.043950081389035,3.6336618905476716,-0.13582339451950665
+brevent-flegere-chamonix,Brévent/Flégère (Chamonix),FR,2,74.0,68.58202038924931,3.8929390978092084,0.335091309118964
+brigels-waltensburg-andiast,Brigels/Waltensburg/Andiast,CH,2,68.25,37.03201302224633,3.9467620155600303,-0.33497926018264756
+buerchen-toerbel-moosalp,Bürchen/Törbel – Moosalp,CH,1,55.65,30.195333695062395,3.84681645124927,-0.43912905221540255
+carezza,Carezza,IT,1,75.0,76.45259938837921,4.04314107056237,0.29352986239071477
+cari,Carì,CH,1,50.4,27.34671730873575,3.7259575864384957,-0.41736109004885913
+catinaccio-ciampedie-vigo-di-fassa-pera-di-fassa,Catinaccio/Ciampedie – Vigo di Fassa/Pera di Fassa,IT,1,76.0,77.47196738022426,4.009944187066823,0.339971972636282
+chaeserrugg-unterwasser-alt-st-johann-toggenburg,Chäserrugg – Unterwasser/Alt St. Johann (Toggenburg),CH,1,86.1,46.71730873575691,3.722464565550807,0.12165016719519173
+champorcher,Champorcher,IT,1,36.0,36.69724770642202,3.5932622268030845,0.009439531069799667
+chamrousse,Chamrousse,FR,1,43.5,40.31510658016682,3.8049600051710946,-0.108233753352454
+charmey,Charmey,CH,1,51.45,27.916440586001084,3.850542425892682,-0.5213266423003096
+christlum-achenkirch,Christlum – Achenkirch,AT,1,69.0,57.64411027568922,3.747994352551414,0.30629372547000955
+cima-piazzi-san-colombano-isolaccia-oga,Cima Piazzi/San Colombano – Isolaccia/Oga,IT,1,60.0,61.162079510703364,3.9106214976224583,0.2029058840164164
+civetta-alleghe-selva-di-cadore-palafavera-zoldo,Civetta – Alleghe/Selva di Cadore/Palafavera/Zoldo,IT,1,70.0,71.35575942915392,4.096360657314271,0.17131740415186147
+colere,Colere,IT,1,48.0,48.92966360856269,3.803577967838566,0.086805862486099
+cortina-dampezzo,Cortina d'Ampezzo,IT,2,80.0,81.54943934760449,4.2120110932632295,0.18919836082742592
+corvatsch-furtschellas,Corvatsch/Furtschellas,CH,2,73.5,39.88062940857297,3.9539022873847034,-0.2680115598535986
+courmayeur-checrouit-val-veny,Courmayeur – Chécrouit/Val Veny,IT,2,75.0,76.45259938837921,3.9155809473500334,0.421089985603051
+crans-montana,Crans-Montana,CH,2,98.7,53.55398806294085,3.9613914985539966,0.019298769197753085
+dachstein-west-gosau-russbach-annaberg,Dachstein West – Gosau/Russbach/Annaberg,AT,1,73.0,60.985797827903085,4.066753139391011,0.04388787518154391
+damuels-mellau,Damüls Mellau,AT,2,75.5,63.07435254803676,4.122851530452818,0.02146269922632449
+devoluy-superdevoluy-la-joue-du-loup,Dévoluy – Superdévoluy/La Joue du Loup,FR,1,46.0,42.63206672845227,3.8846109551089683,-0.13200424489587093
+diavolezza-lagalb,Diavolezza/Lagalb,CH,1,65.1,35.32284319045034,3.7045706499042703,-0.1400407793774332
+disentis,Disentis,CH,2,67.2,36.46228974498101,3.9279963176478354,-0.331717748806418
+dorfgastein-grossarltal,Dorfgastein/Großarltal,AT,1,81.5,68.08688387635756,4.038292884986591,0.18249170868439002
+eggli-la-videmanette-gstaad-saanen-rougemont,Eggli/La Videmanette – Gstaad/Saanen/Rougemont,CH,1,98.7,53.55398806294085,3.8319951715084204,0.14869509624332933
+ehrwalder-alm-ehrwald,Ehrwalder Alm – Ehrwald,AT,1,70.5,58.89724310776942,3.8149189086646906,0.2608753745776964
+elm-im-sernftal,Elm im Sernftal,CH,1,61.95,33.61367335865437,3.7320830494170636,-0.21715012002959844
+espace-diamant-les-saisies-notre-dame-de-bellecombe-praz-sur-arly-flumet-crest-voland,Espace Diamant – Les Saisies/Notre-Dame-de-Bellecombe/Praz sur Arly/Flumet/Crest-Voland,FR,1,50.0,46.33920296570899,3.6605417143240118,0.1754466048281369
+espace-lumiere-pra-loup-val-dallos,Espace Lumière – Pra Loup/Val d’Allos,FR,1,48.5,44.94902687673772,3.7832857769885333,0.02224333467890638
+espace-san-bernardo-la-rosiere-la-thuile,Espace San Bernardo – La Rosière/La Thuile,IT,2,59.0,60.142711518858306,3.9636212208387667,0.1330990424837264
+espace-villard-correncon-villard-de-lans-correncon-en-vercors,Espace Villard Corrençon – Villard-de-Lans/Corrençon-en-Vercors,FR,1,43.0,39.85171455050973,3.8309624722276943,-0.14579704281012917
+evolene,Evolène,CH,1,52.5,28.48616386326641,3.790710877364849,-0.44129238645495716
+fellhorn-kanzelwand-oberstdorf-riezlern,Fellhorn/Kanzelwand – Oberstdorf/Riezlern,AT,1,68.7,57.393483709273184,3.9557126539932654,0.09421811865920171
+filzmoos,Filzmoos,AT,1,70.0,58.47953216374269,4.031582531759569,0.0370942837139534
+first-grindelwald,First – Grindelwald,CH,2,87.15,47.28703201302224,4.023911842638859,-0.16767574936051544
+flachauwinkl-kleinarl-shuttleberg,Flachauwinkl/Kleinarl (Shuttleberg),AT,1,81.0,67.66917293233082,4.021390640869203,0.19324008722739894
+flumserberg,Flumserberg,CH,2,79.8,43.298969072164944,3.9768702020871114,-0.20874137631903444
+folgaria-fiorentini,Folgaria/Fiorentini,IT,1,60.0,61.162079510703364,3.9878049615083517,0.12572242013052293
+foppolo-carona-brembo-ski,Foppolo/Carona (Brembo Ski),IT,1,40.0,40.774719673802245,3.641676925855295,0.06638534767541548
+galibier-thabor-valmeinier-valloire,Galibier Thabor – Valmeinier/Valloire,FR,2,54.9,50.88044485634847,3.956277672123759,-0.02679900988427164
+galtuer-silvapark,Galtür – Silvapark,AT,1,56.5,47.20133667502088,3.832675588887068,0.021746622689490902
+gemsstock-andermatt,Gemsstock – Andermatt,CH,2,96.6,52.414541508410196,3.9159686229948667,0.04321543953591922
+gerlitzen,Gerlitzen,AT,1,73.0,60.985797827903085,4.153793462719955,-0.04315244814740016
+gitschberg-jochtal,Gitschberg Jochtal,IT,2,73.0,74.4138634046891,4.120876836343112,0.1887654242220531
+glacier-3000-les-diablerets,Glacier 3000 – Les Diablerets,CH,2,88.2,47.85675529028757,3.93083312751357,-0.06262084318851091
+glungezer-tulfes,Glungezer – Tulfes,AT,1,50.0,41.77109440267335,3.879502226083481,-0.1472976472311709
+golm,Golm,AT,1,74.0,61.82121971595655,3.9499212930355205,0.17432537359281275
+graechen,Grächen,CH,2,70.35,38.17145957677699,4.008466103607142,-0.3663779987344302
+grands-montets-argentiere-chamonix,Grands Montets – Argentière (Chamonix),FR,2,74.0,68.58202038924931,3.8697166539596166,0.35831375296855583
+grimentz-zinal,Grimentz/Zinal,CH,2,76.65,41.58979924036896,3.9789242986068847,-0.25106937197674783
+grosseck-speiereck-mauterndorf-st-michael,Grosseck/Speiereck – Mauterndorf/St. Michael,AT,1,61.0,50.96073517126148,4.060030593605186,-0.1289751560077108
+grossglockner-resort-kals-matrei,Großglockner Resort Kals-Matrei,AT,2,74.0,61.82121971595655,4.204615893488952,-0.08036922686061843
+gruesch-danusa,Grüsch Danusa,CH,1,66.15,35.89256646771568,3.9220539669435173,-0.3415237550702388
+gurgl-obergurgl-hochgurgl,Gurgl – Obergurgl-Hochgurgl,AT,2,58.0,48.45446950710108,4.025004146659244,-0.1443795626886608
+hinterstoder-hoess,Hinterstoder – Höss,AT,1,80.0,66.83375104427736,4.173792605177544,0.028415602920500938
+hintertux-glacier-hintertuxer-gletscher,Hintertux Glacier (Hintertuxer Gletscher),AT,2,82.0,68.50459482038428,4.0143514981039825,0.21254932258443393
+hirmentaz-les-haberes-bellevaux-habere-poche,Hirmentaz/Les Habères – Bellevaux/Habère-Poche,FR,1,35.0,32.437442075996294,3.4559770992340497,0.023336275979366494
+hoch-imst-imst,ski resort Hoch-Imst – Imst,AT,1,47.0,39.264828738512946,3.904557447133784,-0.23422827199956142
+hoch-ybrig-unteriberg-oberiberg,Hoch-Ybrig – Unteriberg/Oberiberg,CH,1,65.1,35.32284319045034,3.573833907332971,-0.009304036806133897
+hochkoenig-maria-alm-dienten-muehlbach,Hochkönig – Maria Alm/Dienten/Mühlbach,AT,1,81.0,67.66917293233082,4.005159884782844,0.20947084331375798
+hochoetz-oetz,Hochoetz – Oetz,AT,1,66.5,55.55555555555555,3.8173166581504687,0.20006686293550358
+hochzeiger-jerzens,Hochzeiger – Jerzens,AT,1,69.0,57.64411027568922,3.841151299224055,0.2131367787973688
+hohsaas-saas-grund,Hohsaas – Saas-Grund,CH,2,65.1,35.32284319045034,4.003316830118335,-0.4387869595914977
+ifen,Ifen,AT,1,72.9,60.902255639097746,3.862638810817214,0.2466314016215625
+ischgl-samnaun-silvretta-arena,Ischgl/Samnaun – Silvretta Arena,AT,2,83.0,69.34001670843776,4.094754518123386,0.14426766309737538
+isola-2000,Isola 2000,FR,1,44.0,40.77849860982391,3.717020701548295,-0.00886575390603106
+jakobshorn-davos-klosters,Jakobshorn (Davos Klosters),CH,2,91.35,49.56592512208355,4.008841724049472,-0.1055381199131431
+kaltenbach-hochzillertal-hochfuegen-ski-optimal,Kaltenbach – Hochzillertal/Hochfügen (SKi-optimal),AT,2,83.0,69.34001670843776,4.127963498283379,0.11105868293738208
+kanin-sella-nevea-bovec,Kanin – Sella Nevea/Bovec,IT,1,44.0,44.852191641182465,4.138935296387682,-0.33556284305264716
+kappl,Kappl,AT,2,73.0,60.985797827903085,4.143377879811947,-0.03273686523939201
+katschberg,Katschberg,AT,1,73.0,60.985797827903085,4.0706266437470076,0.040014370825547374
+kaunertal-glacier-kaunertaler-gletscher,Kaunertal Glacier (Kaunertaler Gletscher),AT,2,77.0,64.32748538011695,3.9742523976828767,0.18973459759497135
+kitzski-kitzbuehel-kirchberg,KitzSki – Kitzbühel/Kirchberg,AT,2,83.0,69.34001670843776,4.115843826116874,0.12317835510388697
+kitzsteinhorn-maiskogel-kaprun,Kitzsteinhorn/Maiskogel – Kaprun,AT,2,82.0,68.50459482038428,4.2056841548483455,0.02121666584007098
+klausberg-skiworld-ahrntal,Klausberg – Skiworld Ahrntal,IT,2,77.0,78.49133537206932,4.14285706828158,0.22013117298887774
+kleine-scheidegg-maennlichen-grindelwald-wengen,Kleine Scheidegg/Männlichen – Grindelwald/Wengen,CH,2,87.15,47.28703201302224,4.063962125756651,-0.20772603247830768
+klewenalp-stockhuette-beckenried-emmetten,Klewenalp/Stockhütte – Beckenried/Emmetten,CH,1,64.05,34.75311991318502,3.5801016575491285,-0.031832307894071654
+kreischberg,Kreischberg,AT,1,72.0,60.150375939849624,4.154309262266387,-0.05746156982616757
+kronplatz-plan-de-corones,Kronplatz (Plan de Corones),IT,2,83.0,84.60754332313965,4.2191651151695195,0.2188583120438521
+kuehtai,Kühtai,AT,1,66.5,55.55555555555555,3.6994992201722727,0.31788430091369957
+la-berra-la-roche,La Berra – La Roche,CH,1,51.45,27.916440586001084,3.8341016533451056,-0.5048858697527332
+la-clusaz-manigod,La Clusaz/Manigod,FR,2,54.5,50.5097312326228,3.7482467130531187,0.17391930234008202
+la-colmiane,La Colmiane,FR,1,26.0,24.096385542168676,3.819416221860214,-0.6373543701147297
+la-norma,La Norma,FR,2,43.0,39.85171455050973,3.8986928759667614,-0.2135274465491963
+la-plagne-paradiski,La Plagne (Paradiski),FR,2,70.0,64.87488415199259,3.9601120193475787,0.21234853642578289
+laax-flims-falera,Laax/Flims/Falera,CH,2,68.25,37.03201302224633,3.951590121502995,-0.33980736612561246
+ladurns,Ladurns,IT,1,57.0,58.103975535168196,3.9283976949138615,0.13383639233746303
+lagorai-passo-brocon-castello-tesino,Lagorai/Passo Brocon – Castello Tesino,IT,1,45.0,45.87155963302752,3.9737681154555022,-0.14792280626840837
+latemar-obereggen-pampeago-predazzo,Latemar – Obereggen/Pampeago/Predazzo,IT,1,71.0,72.37512742099898,3.9762859327628695,0.30557676369522024
+lauchernalp-loetschental,Lauchernalp – Lötschental,CH,2,73.5,39.88062940857297,4.0423054459663765,-0.3564147184352717
+lavarone,Lavarone,IT,1,50.0,50.9683995922528,4.006412788958778,-0.07520696411385819
+le-collet-dallevard,Le Collet d'Allevard,FR,1,29.0,26.876737720111215,3.7292016713678913,-0.43794052765741487
+le-grand-bornand,Le Grand Bornand,FR,1,52.0,48.19277108433735,3.514454109048668,0.36075492325676173
+le-grand-domaine-valmorel-doucy-celliers-st-francois-longchamp,Le Grand Domaine – Valmorel/Doucy/Celliers/St François Longchamp,FR,2,59.7,55.329008341056536,3.9544292281691313,0.058868105953427285
+le-grand-massif-flaine-les-carroz-morillon-samoens-sixt,Le Grand Massif – Flaine/Les Carroz/Morillon/Samoëns/Sixt,FR,2,61.0,56.53382761816497,3.8627683970925832,0.17207078080473037
+le-seignus,Le Seignus,FR,1,35.0,32.437442075996294,3.8333034490359505,-0.35399007382253433
+lermoos-grubigstein,Lermoos – Grubigstein,AT,1,70.5,58.89724310776942,3.8468574224466083,0.22893686079577868
+les-2-alpes,Les 2 Alpes,FR,2,66.0,61.16774791473587,4.0702061078777,0.04341394787272801
+les-3-vallees-val-thorens-les-menuires-meribel-courchevel,Les 3 Vallées – Val Thorens/Les Menuires/Méribel/Courchevel,FR,2,84.2,78.03521779425394,4.011394188728775,0.3457660462435088
+les-7-laux-prapoutel-le-pleynet-pipay,ski resort Les 7 Laux – Prapoutel/Le Pleynet/Pipay,FR,1,43.0,39.85171455050973,3.8038080136438217,-0.11864258422625662
+les-arcs-peisey-vallandry-paradiski,Les Arcs/Peisey-Vallandry (Paradiski),FR,2,70.0,64.87488415199259,3.9690931421360673,0.20336741363729427
+les-brasses,Les Brasses,FR,1,32.5,30.120481927710845,3.4059381064857055,-0.000732703426011394
+les-contamines-hauteluce,Les Contamines/Hauteluce,FR,1,54.5,50.5097312326228,3.6608752193344802,0.2612907960587205
+les-houches-saint-gervais-prarion-bellevue-chamonix,Les Houches/Saint-Gervais – Prarion/Bellevue (Chamonix),FR,1,59.0,54.68025949953661,3.684656969409032,0.3168457882206899
+les-karellis,Les Karellis,FR,1,36.0,33.364226135310474,3.7513214921638793,-0.24383723998376672
+les-marecottes-salvan,Les Marécottes (Salvan),CH,1,56.7,30.765056972327724,3.7020859984502064,-0.2757064664041864
+les-orres,Les Orres,FR,1,44.5,41.241890639481,3.7739964626017906,-0.05454195970559361
+les-portes-du-mont-blanc-combloux-megeve-le-jaillet-la-giettaz,Les Portes du Mont-Blanc – Combloux/Megève le Jaillet/La Giettaz,FR,1,52.5,48.65616311399444,3.6382649753365026,0.24651350798507776
+les-portes-du-soleil-morzine-avoriaz-les-gets-chatel-morgins-champery,Les Portes du Soleil – Morzine/Avoriaz/Les Gets/Châtel/Morgins/Champéry,FR,2,73.0,67.65523632993512,3.749130597210439,0.46529415766195426
+les-sybelles-le-corbier-la-toussuire-les-bottieres-st-sorlin-st-jean-darves,Les Sybelles – Le Corbier/La Toussuire/Les Bottières/St Sorlin/St Jean d’Arves,FR,2,60.5,56.07043558850788,4.053916740978266,-0.027308062217468176
+leukerbad,Leukerbad,CH,1,68.25,37.03201302224633,3.8230666638713764,-0.2112839084939937
+leysin,Leysin,CH,1,71.4,38.74118285404232,3.6791920330009886,-0.022288842343136217
+livigno,Livigno,IT,2,72.0,73.39449541284404,4.004301808732616,0.2915471297002137
+loser-altaussee,Loser – Altaussee,AT,1,62.0,51.79615705931495,4.071635292074312,-0.12431933360505676
+macugnaga,Macugnaga,IT,2,34.0,34.65851172273191,3.9937053638794264,-0.44816201984649107
+madonna-di-campiglio-pinzolo-folgarida-marilleva,Madonna di Campiglio/Pinzolo/Folgàrida/Marilleva,IT,2,89.0,90.72375127420999,4.232482443443373,0.2753367457055411
+madrisa-davos-klosters,Madrisa (Davos Klosters),CH,2,76.65,41.58979924036896,4.072114748024807,-0.3442598213946706
+mayrhofen-penken-ahorn-rastkogel-eggalm-mountopolis,Mayrhofen – Penken/Ahorn/Rastkogel/Eggalm (Mountopolis),AT,2,82.0,68.50459482038428,4.165880802166478,0.061020018521938724
+megeve-saint-gervais,Megève/Saint-Gervais,FR,2,65.0,60.24096385542169,3.9023693531243286,0.1959832304953113
+meiringen-hasliberg,Meiringen-Hasliberg,CH,2,68.25,37.03201302224633,3.9548437945159955,-0.34306103913861286
+melchsee-frutt-kerns,Melchsee-Frutt (Kerns),CH,1,72.45,39.31090613130765,3.7226146991923295,-0.05111270911332433
+meran-2000,Meran 2000,IT,1,62.5,63.710499490316,3.9011394903496766,0.2532098858094529
+minschuns-val-muestair-tschierv,Minschuns – Val Müstair-Tschierv,CH,1,44.1,23.928377645143787,3.7829773618891633,-0.6079122581240495
+mondole-ski-artesina-frabosa-soprana-prato-nevoso,Mondolè Ski – Artesina/Frabosa Soprana/Prato Nevoso,IT,1,52.0,53.00713557594292,3.8694415953018657,0.10098494269633562
+monte-bondone,Monte Bondone,IT,1,54.0,55.04587155963303,3.967667049614724,0.040499816366324826
+montecampione-alpiaz-prato-secondino-plan-di-montecampione,Montecampione – Alpiaz/Prato Secondino/Plan di Montecampione,IT,1,30.0,30.581039755351682,3.7813190400854273,-0.36093883900649804
+mythenregion,Mythenregion,CH,1,51.45,27.916440586001084,3.5429968831239553,-0.21378109953158297
+nara-leontica,Nara – Leontica,CH,1,49.35,26.776994031470426,3.8934772307895997,-0.6059341435977954
+nassfeld-hermagor,Nassfeld – Hermagor,AT,2,73.0,60.985797827903085,4.4033106071857935,-0.29266959261323855
+nauders-am-reschenpass-bergkastel,Nauders am Reschenpass – Bergkastel,AT,2,65.0,54.30242272347535,4.13787404899929,-0.14330520567948923
+nax-mont-noble,Nax – Mont-Noble,CH,1,59.85,32.47422680412371,3.751785102012109,-0.2713383486958132
+obersaxen-mundaun-val-lumnezia,Obersaxen/Mundaun/Val Lumnezia,CH,1,70.35,38.17145957677699,3.752934817847533,-0.1108467129748214
+obertauern,Obertauern,AT,1,72.0,60.150375939849624,3.920351498405671,0.1764961940345482
+oclini,Oclini,IT,1,35.0,35.67787971457696,3.9203044561564604,-0.34577357525027264
+orcieres-merlette-1850,Orcières Merlette 1850,FR,1,46.0,42.63206672845227,3.7312636974078033,0.021343012805294048
+ovronnaz,Ovronnaz,CH,1,68.25,37.03201302224633,3.6962734223622156,-0.08449066698483287
+padola-ski-area-comelico,Padola – Ski Area Comelico,IT,1,80.0,81.54943934760449,4.021870377728885,0.3793390763617701
+paganella-andalo,Paganella – Andalo,IT,1,76.0,77.47196738022426,4.014612536732315,0.3353036229707902
+parsenn-davos-klosters,Parsenn (Davos Klosters),CH,2,91.35,49.56592512208355,4.143340653781631,-0.2400370496453017
+passo-dello-stelvio-stelvio-pass,Passo dello Stelvio (Stelvio Pass),IT,1,61.0,62.18144750254842,3.6413803139827756,0.48867636960731
+passo-san-pellegrino-falcade,Passo San Pellegrino/Falcade,IT,2,71.0,72.37512742099898,4.250096069628886,0.03176662682920384
+pejo-3000,Pejo 3000,IT,2,60.0,61.162079510703364,4.118241463670645,-0.0047140820317705945
+pfelders-moos-in-passeier,Pfelders (Moos in Passeier),IT,1,58.0,59.123343527013255,3.8806252862349297,0.1990005437282636
+piani-di-bobbio,Piani di Bobbio,IT,1,47.0,47.91029561671763,3.6144729395852764,0.2548574815415563
+pila,Pila,IT,2,60.0,61.162079510703364,3.8527746717102502,0.2607527099286244
+pitztal-glacier-pitztaler-gletscher,Pitztal Glacier (Pitztaler Gletscher),AT,2,77.0,64.32748538011695,3.8397090529022773,0.32427794237557084
+pizol-bad-ragaz-wangs,Pizol – Bad Ragaz/Wangs,CH,2,65.1,35.32284319045034,4.072707985206248,-0.5081781146794113
+plose-brixen-bressanone,Plose – Brixen (Bressanone),IT,2,70.0,71.35575942915392,4.212604893285835,0.055073168180297394
+ponte-di-legno-tonale-presena-glacier-temu-pontedilegno-tonale,Ponte di Legno/Tonale/Presena Glacier/Temù (Pontedilegno-Tonale),IT,2,66.0,67.2782874617737,4.135354137038757,0.07348342440444267
+pralognan-la-vanoise,Pralognan la Vanoise,FR,1,41.0,37.99814643188137,3.711025135965318,-0.0734877555370077
+praz-de-lys-sommand-taninges-mieussy,Praz de Lys/Sommand (Taninges/Mieussy),FR,1,36.0,33.364226135310474,3.4325705376666447,0.07491371451346795
+puy-saint-vincent,Puy-Saint-Vincent,FR,1,42.0,38.92493049119555,3.7696044150204155,-0.10796948301304488
+racines-giovo-ratschings-jaufen-malga-calice-kalcheralm,Racines-Giovo (Ratschings-Jaufen)/Malga Calice (Kalcheralm),IT,1,70.0,71.35575942915392,3.9130420563617245,0.3546360051044082
+radstadt-altenmarkt,Radstadt/Altenmarkt,AT,1,81.0,67.66917293233082,4.058231482840783,0.1563992452558196
+rauriser-hochalmbahnen-rauris,Rauriser Hochalmbahnen – Rauris,AT,1,69.5,58.06182121971595,3.9979102610298582,0.06359806496505183
+reinswald-san-martino-in-sarentino,Reinswald (San Martino in Sarentino),IT,1,59.0,60.142711518858306,3.903940834764264,0.19277942855822916
+riesneralm-donnersbachwald,Riesneralm – Donnersbachwald,AT,1,62.0,51.79615705931495,4.113300494214613,-0.16598453574535776
+rinderberg-saanersloch-horneggli-zweisimmen-saanenmoeser-schoenried-st-stephan,Rinderberg/Saanersloch/Horneggli – Zweisimmen/Saanenmöser/Schönried/St. Stephan,CH,1,98.7,53.55398806294085,3.8660791854085863,0.11461108234316342
+rinerhorn-davos-klosters,Rinerhorn (Davos Klosters),CH,1,72.45,39.31090613130765,3.825053358467403,-0.15355136838839778
+riserva-bianca-limone-piemonte,Riserva Bianca – Limone Piemonte,IT,1,48.0,48.92966360856269,3.838539662263681,0.0518441680609838
+rosskopf-monte-cavallo-sterzing-vipiteno,Rosskopf (Monte Cavallo) – Sterzing (Vipiteno),IT,1,63.0,64.22018348623854,3.973132971094592,0.18918457471371486
+saalbach-hinterglemm-leogang-fieberbrunn-skicircus,Saalbach Hinterglemm Leogang Fieberbrunn (Skicircus),AT,2,82.0,68.50459482038428,4.13711925927126,0.08978156141715665
+saas-fee,Saas-Fee,CH,2,90.3,48.99620184481822,3.9466445163490214,-0.05490173461376813
+saint-luc-chandolin-anniviers,Saint Luc/Chandolin (Anniviers),CH,2,71.4,38.74118285404232,3.9553022918460288,-0.29839910118817636
+sainte-foy-tarentaise,Sainte-Foy-Tarentaise,FR,1,40.5,37.53475440222428,3.689430870972156,-0.06416358313565995
+san-domenico-alpe-ciamporino,San Domenico – Alpe Ciamporino,IT,1,46.0,46.89092762487258,3.8247334410399834,0.02309077486588551
+san-martino-di-castrozza,San Martino di Castrozza,IT,1,73.0,74.4138634046891,4.026462453530141,0.2831798070350242
+sangiacomo-cardini-monte-alpet,Sangiacomo/Cardini – Monte Alpet,IT,1,24.0,24.464831804281346,3.802621217660984,-0.6053845678962646
+santa-caterina-valfurva,Santa Caterina Valfurva,IT,2,65.0,66.25891946992864,4.03779394547843,0.15577614383398064
+savognin,Savognin,CH,2,79.8,43.298969072164944,4.080006426003627,-0.3118776002355501
+schilthorn-muerren-lauterbrunnen,Schilthorn – Mürren/Lauterbrunnen,CH,2,87.15,47.28703201302224,4.118937268053391,-0.2627011747750472
+schladming-planai-hochwurzen-hauser-kaibling-reiteralm-4-berge-skischaukel,Schladming – Planai/Hochwurzen/Hauser Kaibling/Reiteralm (4-Berge-Skischaukel),AT,2,81.5,68.08688387635756,4.310081789977958,-0.08929719630697708
+schlick-2000-fulpmes,Schlick 2000 – Fulpmes,AT,1,61.5,51.37844611528822,3.894355574331178,0.04486317390545791
+schmittenhoehe-zell-am-see,Schmittenhöhe – Zell am See,AT,1,82.0,68.50459482038428,3.9827621873340697,0.2441386333543467
+schwemmalm,Schwemmalm,IT,2,58.0,59.123343527013255,4.152561091530166,-0.07293526156697272
+scuol-motta-naluns,Scuol – Motta Naluns,CH,2,72.45,39.31090613130765,4.139872591337355,-0.4683706012583495
+see,See,AT,2,73.0,60.985797827903085,4.173626757749487,-0.06298574317693184
+serfaus-fiss-ladis,Serfaus-Fiss-Ladis,AT,2,78.0,65.16290726817043,4.136540161987947,0.04035023812580896
+serre-chevalier-briancon-chantemerle-villeneuve-la-salle-le-monetier-les-bains,Serre Chevalier – Briançon/Chantemerle/Villeneuve-la-Salle/Le Monêtier-les-Bains,FR,2,68.0,63.02131603336423,3.984809657533576,0.15866336136653336
+sillian-thurntaler-hochpustertal,Sillian – Thurntaler (Hochpustertal),AT,2,74.0,61.82121971595655,4.211470467020291,-0.08722380039195787
+silvretta-montafon,Silvretta Montafon,AT,2,77.0,64.32748538011695,4.167237469919143,-0.0032504746412946872
+ski-juwel-alpbachtal-wildschoenau,Ski Juwel Alpbachtal Wildschönau,AT,1,71.5,59.73266499582289,3.8483389975274185,0.24154002559670706
+skiwelt-wilder-kaiser-brixental,SkiWelt Wilder Kaiser-Brixental,AT,2,79.5,66.41604010025063,4.101525018524998,0.09441357655945204
+snow-space-salzburg-flachau-wagrain-st-johann-alpendorf,Snow Space Salzburg – Flachau/Wagrain/St. Johann-Alpendorf,AT,1,81.0,67.66917293233082,4.065397812370217,0.14923291572638497
+soelden,Sölden,AT,2,86.5,72.26399331662489,4.092853048229444,0.18747293913255358
+soerenberg-rothorn-dorf,Sörenberg – Rothorn/Dorf,CH,1,67.2,36.46228974498101,3.7264397461945307,-0.13016117735311328
+sonnenkopf-kloesterle,Sonnenkopf – Klösterle,AT,1,58.0,48.45446950710108,3.9137610261960836,-0.033136442225500495
+speikboden-skiworld-ahrntal,Speikboden – Skiworld Ahrntal,IT,2,77.0,78.49133537206932,4.176418249947021,0.1865699913234362
+spieljoch-fuegen,Spieljoch – Fügen,AT,1,80.0,66.83375104427736,3.9063729325278804,0.29583527557016476
+spluegen-tambo,Splügen – Tambo,CH,1,64.05,34.75311991318502,3.791670520523854,-0.2434011708687973
+st-anton-st-christoph-stuben-lech-zuers-warth-schroecken-ski-arlberg,St. Anton/St. Christoph/Stuben/Lech/Zürs/Warth/Schröcken – Ski Arlberg,AT,2,85.0,71.0108604845447,4.093253540041011,0.16957928987346982
+st-jakob-im-defereggental-brunnalm,St. Jakob im Defereggental – Brunnalm,AT,2,74.0,61.82121971595655,4.105663014560273,0.018583652068060452
+st-jean-montclar,St. Jean Montclar,FR,1,33.5,31.047265987025025,3.8766599690569157,-0.44114921650189265
+st-johann-in-tirol-oberndorf-harschbichl,St. Johann in Tirol/Oberndorf – Harschbichl,AT,1,65.0,54.30242272347535,3.909514006034172,0.08505483728562879
+st-moritz-corviglia,St. Moritz – Corviglia,CH,2,52.5,28.48616386326641,3.975796363349767,-0.6263778724398752
+steinplatte-winklmoosalm-waidring-reit-im-winkl,Steinplatte Winklmoosalm – Waidring/Reit im Winkl,AT,1,66.0,55.13784461152882,3.8854929924610806,0.12434332298950856
+stoos-fronalpstock-klingenstock,ski resort Stoos – Fronalpstock/Klingenstock,CH,1,60.9,33.043950081389035,3.5269974827122357,-0.029158986684070687
+stubai-glacier-stubaier-gletscher,Stubai Glacier (Stubaier Gletscher),AT,2,75.5,63.07435254803676,4.001350911745845,0.1429633179332983
+sulden-am-ortler-solda-allortles,Sulden am Ortler (Solda all'Ortles),IT,2,63.0,64.22018348623854,4.030610583962985,0.13170696184532193
+super-sauze,Super Sauze,FR,1,39.0,36.144578313253014,3.8145397530349126,-0.22701279318126355
+tarvisio-monte-lussari,Tarvisio – Monte Lussari,IT,1,44.0,44.852191641182465,4.201543769098531,-0.3981713157634954
+tauplitz-bad-mitterndorf,Tauplitz – Bad Mitterndorf,AT,1,62.0,51.79615705931495,4.102889256023049,-0.155573297553794
+tignes-val-disere,Tignes/Val d'Isère,FR,2,75.0,69.50880444856348,3.8416087031312998,0.3998447241290126
+titlis-engelberg,Titlis – Engelberg,CH,2,65.1,35.32284319045034,3.924154386780429,-0.35962451625359204
+torgnon,Torgnon,IT,1,39.0,39.75535168195719,3.693833397770098,-0.01108893222367735
+tschiertschen,Tschiertschen,CH,1,64.05,34.75311991318502,3.7922711200906747,-0.24400177043561788
+turracher-hoehe,Turracher Höhe,AT,1,72.5,60.568086883876354,4.044025542055913,0.0597425932288802
+val-cenis-lanslevillard-lanslebourg-termignon,Val Cenis – Lanslevillard/Lanslebourg/Termignon,FR,2,50.0,46.33920296570899,3.8663573502071378,-0.030369031054989115
+val-gardena-groeden,Val Gardena (Gröden),IT,2,83.0,84.60754332313965,4.197050465296632,0.24097296191673934
+val-senales-glacier-schnalstaler-gletscher,Val Senales Glacier (Schnalstaler Gletscher),IT,2,62.0,63.200815494393474,4.014073116566433,0.13224408789543318
+valberg-beuil-les-launes,Valberg/Beuil les Launes,FR,1,37.0,34.291010194624654,3.8462496478489427,-0.3113664214807157
+valchiavenna-madesimo-campodolcino,Valchiavenna – Madesimo/Campodolcino,IT,2,59.0,60.142711518858306,3.9709565527853243,0.12576371053716873
+valfrejus,Valfréjus,FR,1,43.0,39.85171455050973,3.674661005516939,0.010504423900626225
+valmalenco-alpe-palu,Valmalenco – Alpe Palù,IT,1,58.0,59.123343527013255,3.760064926712308,0.31956090325088526
+vals-dachberg,Vals – Dachberg,CH,2,40.95,22.2192078133478,3.9898790617144733,-0.8889219301030811
+vars-risoul-la-foret-blanche,Vars/Risoul – La Forêt Blanche,FR,2,58.0,53.75347544022243,3.912984326265323,0.0714239980050988
+vercorin,Vercorin,CH,1,68.25,37.03201302224633,3.8110191106074383,-0.19923635523005556
+via-lattea-sestriere-sauze-doulx-san-sicario-claviere-montgenevre,Via Lattea – Sestriere/Sauze d’Oulx/San Sicario/Claviere/Montgenèvre,IT,2,66.0,67.2782874617737,3.800352093115863,0.40848546832733623
+villars-gryon-les-diablerets,Villars/Gryon/Les Diablerets,CH,1,72.45,39.31090613130765,3.7167269424170706,-0.04522495233806545
+wasserngrat-gstaad,Wasserngrat – Gstaad,CH,1,98.7,53.55398806294085,3.7837986428699244,0.19689162488182532
+watles-malles-venosta-mals,Watles – Malles Venosta (Mals),IT,1,59.0,60.142711518858306,3.87328164010958,0.22343862321291308
+wildhaus-gamserrugg-toggenburg,Wildhaus – Gamserrugg (Toggenburg),CH,1,66.15,35.89256646771568,3.7019868036762387,-0.1214565918029602
+wildkogel-neukirchen-bramberg,Wildkogel – Neukirchen/Bramberg,AT,2,72.0,60.150375939849624,4.123220760266292,-0.026373067826072294
+zauchensee-flachauwinkl,Zauchensee/Flachauwinkl,AT,1,81.0,67.66917293233082,4.0383246455647575,0.17630608253184477
+zermatt-breuil-cervinia-valtournenche-matterhorn,Zermatt/Breuil-Cervinia/Valtournenche – Matterhorn,CH,2,121.8,66.08790016277807,3.97751472766964,0.21347094891847052
+zettersfeld-lienz,Zettersfeld – Lienz,AT,1,74.0,61.82121971595655,3.899049508409625,0.22519715821870845
+zillertal-arena-zell-am-ziller-gerlos-koenigsleiten-hochkrimml,Zillertal Arena – Zell am Ziller/Gerlos/Königsleiten/Hochkrimml,AT,2,82.0,68.50459482038428,4.160931824396784,0.06596899629163211
+zoncolan-ravascletto-sutrio,ski resort Zoncolan – Ravascletto/Sutrio,IT,1,44.0,44.852191641182465,4.129026386202718,-0.32565393286768307
+zuoz-pizzet-albanas,Zuoz – Pizzet/Albanas,CH,1,76.65,41.58979924036896,3.8194837104326385,-0.09162878380250161

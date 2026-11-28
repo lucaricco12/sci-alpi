@@ -48,3 +48,8 @@ lelex-crozet scope,flagged,"Lelex-Crozet is in the Jura, not in the Alps; left o
 saint-lary-soulan scope,flagged,"Saint-Lary-Soulan is in the Pyrenees, not in the Alps (same rule as the 13 Pyrenees areas already excluded); left out of the analysis set"
 font-romeu-bolquere-pyrenees-2000 scope,flagged,"Font-Romeu is in the Pyrenees, not in the Alps (same rule as the 13 Pyrenees areas already excluded); left out of the analysis set"
 cimone-montecreto-sestola-le-polle scope,flagged,"Monte Cimone/Sestola is in the Emilian Apennines, not in the Alps; left out of the analysis set"
+fellhorn-kanzelwand-oberstdorf-riezlern coordinates (verification),flagged,"the source page lists DE, the table says AT; decide the canonical country"
+hoch-ybrig-unteriberg-oberiberg coordinates (verification),replaced,"stored position 42.7 km from the nearest access point; replaced by the first listed lift-access point (47.02013, 8.80893)"
+kanin-sella-nevea-bovec coordinates (verification),flagged,"the source page lists SI, the table says IT; decide the canonical country"
+pizol-bad-ragaz-wangs coordinates (verification),replaced,"stored position 8.48 km from the nearest access point; replaced by the first listed lift-access point (47.02883, 9.43211)"
+sonnenkopf-kloesterle coordinates (verification),replaced,"stored position 14.93 km from the nearest access point; replaced by the first listed lift-access point (47.12860, 10.05621)"
